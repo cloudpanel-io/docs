@@ -2,17 +2,16 @@ module.exports = {
   title: 'CloudPanel CE | Documentation',
   tagline: 'CloudPanel CE | Documentation',
   url: 'https://github.com/cloudpanel-io/docs/tree/master/docs/cloudpanel-ce',
-  //baseUrl: '/',
   baseUrl: '/docs/cloudpanel-ce/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'CloudPanel',
   projectName: 'CloudPanelCE',
   themeConfig: {
     disableDarkMode: true,
     navbar: {
-      title: 'CloudPanel CE',
+      //title: 'CloudPanel CE',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'CloudPanel CE | Documentation',
         src: 'img/logo.svg',
       },
       links: [
