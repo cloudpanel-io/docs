@@ -84,6 +84,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/cloudpanel-io/docs/tree/master/cloudpanel-ce',
