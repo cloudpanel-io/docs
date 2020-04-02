@@ -9,14 +9,13 @@ module.exports = {
   themeConfig: {
     disableDarkMode: true,
     navbar: {
-      //title: 'CloudPanel CE',
       logo: {
         alt: 'CloudPanel CE | Documentation',
         src: 'img/logo.svg',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'doc1',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -36,11 +35,11 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/doc1',
+              to: 'doc1',
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2',
+              to: 'doc2',
             },
           ],
         },
