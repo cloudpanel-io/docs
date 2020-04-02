@@ -2,7 +2,8 @@ module.exports = {
   title: 'CloudPanel CE | Documentation',
   tagline: 'CloudPanel CE | Documentation',
   url: 'https://github.com/cloudpanel-io/docs/tree/master/docs/cloudpanel-ce',
-  baseUrl: '/',
+  //baseUrl: '/',
+  baseUrl: '/docs/cloudpanel-ce/',
   favicon: 'img/favicon.ico',
   organizationName: 'CloudPanel',
   projectName: 'CloudPanelCE',
@@ -85,7 +86,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/cloudpanel-io/docs/tree/master/cloudpanel-ce',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
