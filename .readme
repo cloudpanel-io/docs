@@ -41,11 +41,11 @@
 
   // Start Yarn
   - cd /home/cloudpanel/htdocs/cloudpanel-ce-docusaurus.clp/
-  - yarn run start
+  - yarn start
   - Open: https://cloudpanel-ce-docusaurus.clp/
 
 # Build
 
   // Build Documentation
   - cd /home/cloudpanel/htdocs/cloudpanel-ce-docusaurus.clp/
-  - yarn run build
+  - yarn build
