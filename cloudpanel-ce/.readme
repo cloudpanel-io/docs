@@ -10,7 +10,7 @@
  - npm install -g npx
 
  // Setup Domains
- - cloudpanel-ce-docusaurus.clp && cloudpanel-docs.clp
+ - cloudpanel-docs.clp
  - Forward all traffic to port 3000
 
    location / {
@@ -31,21 +31,21 @@
    }
 
  // Install Docusaurus - https://v2.docusaurus.io/docs/installation
- - rm -rf /home/cloudpanel/htdocs/cloudpanel-ce-docusaurus.clp/
+ - rm -rf /home/cloudpanel/htdocs/cloudpanel-docs.clp/
  - cd /home/cloudpanel/htdocs/
- - npx @docusaurus/init@next init cloudpanel-ce-docusaurus.clp classic
- - Copy files from docker to git and start syncing: cd /tmp/ && docker cp cloudpanel-docusaurus:/home/cloudpanel/htdocs/cloudpanel-ce-docusaurus.clp/ cloudpanel-ce-docusaurus
+ - npx @docusaurus/init@next init cloudpanel-docs.clp classic
+ - Copy files from docker to git and start syncing: cd /tmp/ && docker cp cloudpanel-docusaurus:/home/cloudpanel/htdocs/cloudpanel-docs.clp/ cloudpanel-docs
 
 
 # Development
 
   // Start Yarn
-  - cd /home/cloudpanel/htdocs/cloudpanel-ce-docusaurus.clp/
+  - cd /home/cloudpanel/htdocs/cloudpanel-docs.clp/
   - yarn start
-  - Open: https://cloudpanel-ce-docusaurus.clp/
+  - Open: https://cloudpanel-docs.clp/
 
 # Build
 
   // Build Documentation
-  - cd /home/cloudpanel/htdocs/cloudpanel-ce-docusaurus.clp/
+  - cd /home/cloudpanel/htdocs/cloudpanel-docs.clp/
   - yarn build
