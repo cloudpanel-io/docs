@@ -19,6 +19,13 @@ module.exports = {
           ]
         }
       ],
-    }
+    },
+    {
+      type: 'category',
+      label: 'Frontend Area',
+      items: [
+        'domains',
+      ],
+    },
   ]
 };

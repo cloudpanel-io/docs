@@ -8,12 +8,14 @@ module.exports = {
   projectName: 'CloudPanelCE',
   themeConfig: {
     disableDarkMode: true,
+    //sidebarCollapsible: true,
     navbar: {
       logo: {
         alt: 'CloudPanel CE | Documentation',
         src: 'img/logo.svg',
       },
       links: [
+        /*
         {
           to: 'doc1',
           activeBasePath: 'docs',
@@ -25,6 +27,7 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+         */
       ],
     },
     footer: {
