@@ -25,6 +25,21 @@ module.exports = {
       label: 'Frontend Area',
       items: [
         'domains',
+        'security',
+        'users',
+        'databases',
+        'cron-jobs',
+        'services',
+        {
+          type: 'category',
+          label: 'Cloud Features',
+          items: [
+            'cloud-features-aws',
+            'cloud-features-digital-ocean',
+            'cloud-features-google-cloud',
+            'cloud-features-microsoft-azure',
+          ]
+        }
       ],
     },
   ]
