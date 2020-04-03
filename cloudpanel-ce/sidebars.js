@@ -63,5 +63,29 @@ module.exports = {
         }
       ],
     },
+    {
+      type: 'category',
+      label: 'CloudPanel CLI',
+      items: [
+        'cloudpanel-cli-commands',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Applications',
+      items: [
+        'application-drupal',
+        'application-magento',
+        'application-wordpress',
+        'application-wo-commerce',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'guides-test',
+      ],
+    },
   ]
 };
