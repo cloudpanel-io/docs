@@ -38,18 +38,18 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'classic',
       links: [
         {
-          title: 'Docs',
+          title: 'Company',
           items: [
             {
-              label: 'Style Guide',
-              to: 'doc1',
+              label: 'Contact',
+              href: '#',
             },
             {
-              label: 'Second Doc',
-              to: 'doc2',
+              label: 'Imprint',
+              to: '#',
             },
           ],
         },
@@ -58,11 +58,11 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/cloudpanel',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.cloudpanel.io',
             },
           ],
         },
@@ -71,20 +71,20 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              href: 'https://www.cloudpanel.io/blog/'
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/cloudpanel-io',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/cloudpanel_io',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} cloudpanel.io`,
     },
   },
   presets: [

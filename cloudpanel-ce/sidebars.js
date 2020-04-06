@@ -2,12 +2,19 @@ module.exports = {
   sidebar: [
     {
       type: 'category',
+      label: 'CloudPanel CE',
+      items: [
+        'introduction',
+        'requirements',
+        'technology-stack',
+        'changelog',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Getting Started',
       items: [
         'style-guide',
-        'changelog',
-        'requirements',
-        'technology-stack',
         {
           type: 'category',
           label: 'Installation',
