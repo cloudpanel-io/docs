@@ -4,6 +4,7 @@ module.exports = {
       type: 'category',
       label: 'CloudPanel CE',
       items: [
+        'style-guide',
         'introduction',
         'requirements',
         'technology-stack',
@@ -14,7 +15,6 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'style-guide',
         {
           type: 'category',
           label: 'Installation',
@@ -92,7 +92,20 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       items: [
-        'guides-test',
+        {
+          type: 'category',
+          label: 'NGINX',
+          items: [
+            'guide-nginx-rewrites',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'PHP-FPM',
+          items: [
+            'guide-php-fpm-configuration',
+          ],
+        },
       ],
     },
   ]
