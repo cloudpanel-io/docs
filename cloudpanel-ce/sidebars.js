@@ -5,6 +5,7 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'style-guide',
+        'changelog',
         'requirements',
         'technology-stack',
         {

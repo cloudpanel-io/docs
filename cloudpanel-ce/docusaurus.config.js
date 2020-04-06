@@ -8,7 +8,14 @@ module.exports = {
   projectName: 'CloudPanelCE',
   themeConfig: {
     disableDarkMode: true,
-    //sidebarCollapsible: true,
+    /*
+    algolia: {
+      appId: 'MTBF0OPI8S',
+      apiKey: 'd2ce345b6ba76e388b14242cb4a93f66',
+      indexName: 'cloudpanel-ce',
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
+    */
     navbar: {
       logo: {
         alt: 'CloudPanel CE | Documentation',
