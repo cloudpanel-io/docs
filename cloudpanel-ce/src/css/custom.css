@@ -12,6 +12,11 @@
   --ifm-navbar-padding-horizontal: 10px;
 }
 
+.markdown {
+  --ifm-heading-vertical-rhythm-bottom: 0.4;
+  --ifm-h3-vertical-rhythm-top: 1;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
