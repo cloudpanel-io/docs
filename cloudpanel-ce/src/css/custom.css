@@ -16,6 +16,8 @@
   --ifm-heading-vertical-rhythm-bottom: 1;
   --ifm-h3-vertical-rhythm-top: 1;
   --ifm-h2-vertical-rhythm-top: 1.5;
+  --ifm-hr-border-color: #ededed;
+  --ifm-hr-border-width: 1px;
 }
 
 .docusaurus-highlight-code-line {
@@ -36,4 +38,8 @@
 .navbar .navbar__logo {
   width: 110px;
   height: auto;
+}
+
+img.border {
+  border: 2px solid #ededed;
 }
