@@ -29,6 +29,10 @@
   border-top: 1px solid #0078d4;
 }
 
+.navbar .navbar__toggle {
+  display: none;
+}
+
 .navbar .navbar__logo {
   width: 110px;
   height: auto;
