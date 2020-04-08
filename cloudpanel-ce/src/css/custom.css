@@ -13,7 +13,7 @@
 }
 
 .markdown {
-  --ifm-heading-vertical-rhythm-bottom: 0.4;
+  --ifm-heading-vertical-rhythm-bottom: 1;
   --ifm-h3-vertical-rhythm-top: 1;
   --ifm-h2-vertical-rhythm-top: 1.5;
 }

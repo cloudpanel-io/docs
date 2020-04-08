@@ -8,4 +8,4 @@ The only requirement for running the CloudPanel CE is to use [Debian 10 (Buster)
 
 ## Supported Operating System
 
-- [Debian 10](https://wiki.debian.org/DebianBuster)
+- [Debian 10 (Buster)](https://wiki.debian.org/DebianBuster)

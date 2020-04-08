@@ -8,34 +8,17 @@ module.exports = {
   projectName: 'CloudPanelCE',
   themeConfig: {
     disableDarkMode: true,
-    /*
     algolia: {
       appId: 'MTBF0OPI8S',
       apiKey: 'd2ce345b6ba76e388b14242cb4a93f66',
       indexName: 'cloudpanel-ce',
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
-    */
     navbar: {
       logo: {
         alt: 'CloudPanel CE | Documentation',
         src: 'img/logo.svg',
       },
-      links: [
-        /*
-        {
-          to: 'doc1',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/cloudpanel-io/docs/tree/master/docs/cloudpanel-ce',
-          label: 'GitHub',
-          position: 'right',
-        },
-         */
-      ],
     },
     footer: {
       style: 'classic',
