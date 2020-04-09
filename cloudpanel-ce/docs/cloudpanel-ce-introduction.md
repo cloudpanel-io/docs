@@ -4,6 +4,8 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## What is CloudPanel?
 
 CloudPanel is a modern server control panel with lightweight components for PHP applications with specific features for all major clouds.
@@ -11,7 +13,9 @@ It has been developed with more than ten years of Magento hosting experience in 
 
 With CloudPanel, you can run your favorite PHP application in any cloud or dedicated server within minutes.
 
-### Benefits
+<img alt="CloudPanel" src={useBaseUrl('img/v1/cloudpanel.png')} />
+
+## Benefits
 
 - Free
 - Easy to use
@@ -75,5 +79,36 @@ For each cloud, we have implemented features to use them without the need to log
 #### Digital Ocean
 
 - [Droplet](#link)
+- [Firewalls](#link)
+- [Domains](#link)
+- [Snapshots](#link)
+
+#### Google Cloud
+
+- [Instance](#link)
+- [Firewall Rules](#link)
+- [DNS](#link)
+- [Snapshots](#link)
+
 
 ### Admin Area
+
+#### Users
+
+- [Users](#link)
+
+#### Vhost Templates
+
+- [Vhost Templates](#link)
+
+#### Database Servers
+
+- [Database Servers](#link)
+
+#### Action Log
+
+- [Action Log](#link)
+
+#### Settings
+
+- [Proftpd Settings](#link)

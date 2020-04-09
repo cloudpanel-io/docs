@@ -4,7 +4,7 @@ title: Technology Stack
 sidebar_label: Technology Stack
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The technology stack of CloudPanel consists of modern and lightweight components for maximum performance for PHP applications.
 
@@ -23,4 +23,4 @@ The technology stack of CloudPanel consists of modern and lightweight components
 - [Node.js 12](https://nodejs.org)
 - [Yarn 1.22](https://yarnpkg.com)
 
-<img class="border" alt="CloudPanel Technology Stack" src={useBaseUrl('img/technology_stack.png')} />
+<img class="border" alt="CloudPanel Technology Stack" src={useBaseUrl('img/v1/technology_stack.png')} />
