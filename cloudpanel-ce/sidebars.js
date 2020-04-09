@@ -15,6 +15,7 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       items: [
+        'getting-started',
         {
           type: 'category',
           label: 'Installation',
