@@ -42,6 +42,38 @@ In this section we will provide an overview about the frontend, cloud and admin 
 - [IP Blocking](#link)
 - [Bots Blocking](#link)
 
+#### Users
+
+- [SSH Users](#link)
+- [FTP Users](#link)
+
+#### Databases
+
+- [Databases](#link)
+- [phpMyAdmin](#link)
+
+#### Cron Jobs
+
+- [Cron Jobs](#link)
+- [Settings](#link)
+
+#### Services
+
+- [Services](#link)
+
 ### Cloud Features
+
+For each cloud, we have implemented features to use them without the need to login to the cloud provider.
+
+#### Amazon Web Services
+
+- [Instance](#link)
+- [Security Group](#link)
+- [Route 53](#link)
+- [Backups (AMIs)](#link)
+
+#### Digital Ocean
+
+- [Droplet](#link)
 
 ### Admin Area
