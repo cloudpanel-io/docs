@@ -21,7 +21,7 @@ With CloudPanel, you can run your favorite PHP application in any cloud or dedic
 - Easy to use
 - Modern
 - Secure (free SSL/TLS certificates)
-- [High Performance](technology-stack)
+- High Performance
 - Ready to go within 1 minute
 - Supports all major clouds
 - Available in more than ten languages

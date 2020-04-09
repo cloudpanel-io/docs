@@ -4,8 +4,8 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
-For using CloudPanel, a server with the Debian 10 is needed.
-For all major clouds like Amazon Web Services, Digital Ocean, Google Cloud, and Microsoft Azure, we have prepared an image for a quick launch.
+For using CloudPanel, the only requirement is the operating system Debian 10.
+For all common clouds like Amazon Web Services, Digital Ocean, Google Cloud, and Microsoft Azure, we have prepared an image for a quick launch.
 
 - [Installation on Amazon Web Services](#link)
 - [Installation on Digital Ocean](#link)
