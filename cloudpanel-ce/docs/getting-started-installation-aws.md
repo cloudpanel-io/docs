@@ -74,6 +74,18 @@ When you select **Create a new key pair** enter a **key pair name** and **Downlo
 
 Click on the button **Launch Instance** to get your instance up and running.
 
-## Allocate Elastic IP Address
+## Create Elastic IP Address
 
-adsffsdf
+Having a static IP (Elastic IP Address) is needed for running web applications. <br />
+The steps for creating one are the following ones:
+
+1) To create an **Elastic IP Address** click in the left navigation on **Network & Security** --> **Elastic IPs**
+
+2) Click on button **Allocate Elastic IP address** to create an **Elastic IP Address**
+
+3) Select the allocated IP address and associate it to your launched instance
+
+## Access CloudPanel
+
+You can now access the CloudPanel: **https://yourElasticIpAddress:8443**
+
