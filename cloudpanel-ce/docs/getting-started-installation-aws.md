@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 On this page, we explain step by step how to run CloudPanel on an EC2 instance on Amazon Web Services.
 
-##  Launching an EC2 Instance
+## Launching an EC2 Instance
 
 ### Choose AMI
 
@@ -73,3 +73,7 @@ When you select **Create a new key pair** enter a **key pair name** and **Downlo
 <img class="border" src={useBaseUrl('img/v1/getting_started/aws_installation/create_key_pair.png')} />
 
 Click on the button **Launch Instance** to get your instance up and running.
+
+## Allocate Elastic IP Address
+
+adsffsdf
