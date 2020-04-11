@@ -12,7 +12,7 @@ On this page, we explain step by step how to run CloudPanel on an EC2 instance o
 
 ### Choose AMI
 
-1) Open the [AWS Management Console](https://console.aws.amazon.com/ec2/) <br />
+1) Login into the [AWS Management Console](https://console.aws.amazon.com/ec2/) <br />
 
 2) Click on the **AMI ID** to launch CloudPanel in your desired AWS Region.
 
@@ -21,20 +21,21 @@ On this page, we explain step by step how to run CloudPanel on an EC2 instance o
 | US East (N.Virginia)      | [ami-0ddf302af2476aada](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0ddf302af2476aada) |
 | US East (Ohio)            | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-88888888) |
 | US West (N. California)   | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-88888888) |
-| US West (Oregon)          | ami-88888888 |
-| Asia Pacific (Hong Kong)  | ami-88888888 |
-| Asia Pacific (Mumbai)     | ami-88888888 |
-| Asia Pacific (Seoul)      | ami-88888888 |
-| Asia Pacific (Singapore)  | ami-88888888 |
-| Asia Pacific (Sydney)     | ami-88888888 |
-| Asia Pacific (Tokyo)      | ami-88888888 |
-| Canada (Central)          | ami-88888888 |
-| Europe (Frankfurt)        | ami-88888888 |
-| Europe (Ireland)          | ami-88888888 |
-| Europe (London)           | ami-88888888 |
-| Europe (Stockholm)        | ami-88888888 |
-| Middle East (Bahrain)     | ami-88888888 |
-| South America (Sáo Paulo) | ami-88888888 |
+| US West (Oregon)          | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-88888888) |
+| Asia Pacific (Hong Kong)  | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-east-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Asia Pacific (Mumbai)     | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Asia Pacific (Seoul)      | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Asia Pacific (Singapore)  | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Asia Pacific (Sydney)     | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-88888888) |
+| Asia Pacific (Tokyo)      | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Canada (Central)          | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Europe (Frankfurt)        | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Europe (Ireland)          | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Europe (London)           | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-88888888) |
+| Europe (Paris)            | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-88888888) |
+| Europe (Stockholm)        | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-88888888) |
+| Middle East (Bahrain)     | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-88888888) |
+| South America (Sáo Paulo) | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-88888888) |
 
 ### Choose Instance Type
 
