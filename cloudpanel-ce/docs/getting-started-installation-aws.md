@@ -41,9 +41,9 @@ On this page, we explain step by step how to run CloudPanel on an EC2 instance o
 
 Choose your instance type and click on the button **Next: Configure Instance Details** 
 
-### Configure Instance 
+### Configure Instance
 
-Select your network (VPC) and subnet and click on the button **Next: Add Storage**
+Select your network (VPC) and click on the button **Next: Add Storage**
 
 ### Add Storage
 
@@ -83,7 +83,9 @@ Having a static IP (Elastic IP Address) is needed for running web applications. 
 
 2) Click on button **Allocate Elastic IP address** to create an **Elastic IP Address**
 
-3) Select the allocated IP address and associate it to your launched instance
+3) Select the **Allocated IP Address** and **Associate** it to your launched instance
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/aws_installation/associate_eip.png')} />
 
 ## Access CloudPanel
 
