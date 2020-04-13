@@ -8,8 +8,7 @@
   ## Build Docusaurus
 
     // Build Documentation
-    - cd /home/cloudpanel/htdocs/cloudpanel-docs.clp/
-    - yarn build
+    - cd /home/cloudpanel/htdocs/cloudpanel-docs.clp/cloudpanel-ce/ && yarn build
 
   ## Building Docusaurus Image
 
