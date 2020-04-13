@@ -100,3 +100,9 @@ With your previously created private key you can connect to the instance via SSH
 ```bash
 ssh -i path_to_your_private_key.pem admin@yourElasticIpAddress
 ```
+
+With the following command you can become **root**.
+
+```bash
+sudo su root
+```
