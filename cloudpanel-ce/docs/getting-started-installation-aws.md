@@ -89,10 +89,14 @@ Having a static IP (Elastic IP Address) is needed for running web applications. 
 
 You can now access the CloudPanel: **https://yourElasticIpAddress:8443**
 
+<img class="border" src={useBaseUrl('img/v1/getting_started/ignore_self_signed_certificate.png')} />
+
+Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to CloudPanel.
+
 ### SSH Access
 
 With your previously created private key you can connect to the instance via SSH.
 
-:::tip SSH Access
-ssh -i path_to_your_private_key.pem admin@elasticIpAddress
+:::tip Log in via SSH
+ssh -i path_to_your_private_key.pem admin@yourElasticIpAddress
 :::
