@@ -100,3 +100,7 @@ With your previously created private key you can connect to the instance via SSH
 :::tip Log in via SSH
 ssh -i path_to_your_private_key.pem admin@yourElasticIpAddress
 :::
+
+```bash
+ sdfsdfsdf
+```
