@@ -14,6 +14,9 @@ module.exports = {
       indexName: 'cloudpanel-ce',
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+    },
     navbar: {
       logo: {
         alt: 'CloudPanel CE | Documentation',
