@@ -105,3 +105,11 @@ To start the **CloudPanel** installation, execute the following command:
 ```bash
 curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=do bash
 ```
+
+## Access CloudPanel
+
+You can now access the CloudPanel: **https://yourFloatingIpAddress:8443**
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/ignore_self_signed_certificate.png')} />
+
+Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to CloudPanel.
