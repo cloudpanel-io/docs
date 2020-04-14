@@ -4,4 +4,71 @@ title: Google Cloud
 sidebar_label: Google Cloud
 ---
 
-Hello World
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+On this page, we explain step by step how to run CloudPanel on the [Google Cloud](https://cloud.google.com).
+
+## Launching a VM Instance
+
+1) Login into the [Google Cloud Console](https://console.cloud.google.com/)
+
+2) Click in the left navigation on **Compute Engine** --> **VM instances** and click on the button **Create**
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vm_instance.png')} />
+
+### Name and Region
+
+Enter the **Name** of the instance and select a **Region** to deploy
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vm_name_region.png')} />
+
+### Machine Configuration
+
+Select the **Machine Family**, **Series** and **Machine Type** 
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/machine_configuration.png')} />
+
+### Boot Disk
+
+Use **Debian 10 (Buster)** as **Boot disk** image
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/boot_disk_image.png')} />
+
+### Firewall
+
+1) Allow **HTTP** and **HTTPS** Traffic
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/allow_http_https_traffic.png')} /> <br /> <br />
+
+2) Click on the tab **Security** and enter your public SSH key
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/public_ssh_key.png')} /> <br /> <br />
+
+### Networking
+
+Click on the tab **Networking** and click on the default Network interface <br />
+and select **Create IP address** to create a static IP address.
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/networking_create_static_ip_address.png')} /> <br /> <br />
+
+### Create
+
+Click on the button **Create** to launch the VM Instance
+
+## CloudPanel Installation
+
+### SSH Login
+
+For installing the CloudPanel, we first need to login with **SSH**. <br />
+
+```bash
+ssh -i path_to_your_private_key admin@staticIpAddress
+```
+
+The **static IP Address** can be found on the VM instances overview, it's called **External IP**.
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/static_ip.png')} /> <br /> <br />
+
+### Installer
+
+

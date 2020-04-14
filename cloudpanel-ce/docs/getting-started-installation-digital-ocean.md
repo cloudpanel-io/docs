@@ -42,7 +42,7 @@ Enter a **hostname** and click on the button **Create Droplet** to launch your *
 
 ## Assigning a Floating IP
 
-A **Floating IP** (static ip) is highly recommended to have the same IP after changing the Droplet size.
+A **Floating IP** (static ip) is highly recommended to have the same IP after changing the size of your Droplet.
 
 To create a **Floating IP**, do the following steps:
 
