@@ -94,7 +94,7 @@ Digital Ocean will email you the One-time password.
 
 ### Installer
 
-Before we run the installer, we need to update the sources and install some packages.
+Before we run the installer, we need to update the sources and install required packages.
 
 ```bash
 apt update && apt -y install curl wget sudo

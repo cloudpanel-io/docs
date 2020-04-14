@@ -71,4 +71,26 @@ The **static IP Address** can be found on the VM instances overview, it's called
 
 ### Installer
 
+Before running the installer, we need to switch the user to **root** to install the required packages.
 
+```bash
+sudo su root
+```
+
+```bash
+apt update && apt -y install curl wget sudo
+```
+
+To start the **CloudPanel** installation, execute the following command:
+
+```bash
+curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=gce bash
+```
+
+## Access CloudPanel
+
+You can now access the CloudPanel: **https://yourStaticIpAddress:8443**
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/ignore_self_signed_certificate.png')} />
+
+Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to CloudPanel.
