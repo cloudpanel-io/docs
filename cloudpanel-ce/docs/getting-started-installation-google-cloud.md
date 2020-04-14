@@ -40,20 +40,43 @@ Use **Debian 10 (Buster)** as **Boot disk** image
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/allow_http_https_traffic.png')} /> <br /> <br />
 
-2) Click on the tab **Security** and enter your public SSH key
+2) Click on the tab **Security** and enter your [Public SSH Key](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys)
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/public_ssh_key.png')} /> <br /> <br />
 
 ### Networking
 
-Click on the tab **Networking** and click on the default Network interface <br />
-and select **Create IP address** to create a static IP address.
+In the **Networking** section we will add a **Network Tag** and create a **Static IP Address** for our instance.
 
-<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/networking_create_static_ip_address.png')} /> <br /> <br />
+1) In the field **Network tags** add the tag: **cloudpanel** <br />
+The **Network Tag** is needed for assigning firewall rules to our instance.
+
+2) In the **Network interface** settings click on **External IP** --> **Create IP address** to create a static IP address
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/networking_network_tag_static_ip_address.png')} /> <br /> <br />
 
 ### Create
 
 Click on the button **Create** to launch the VM Instance
+
+## Firewall Rules
+
+For accessing the **CloudPanel** later, we need to create a firewall rule.
+
+1) Click in the left navigation on **Neworking** --> **VPC Network** --> **Firewall Rules**
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vpc_network_firewall_rules.png')} />
+
+2) Click on the button **CREATE FIREWALL RULE** and create the following rule:
+
+**Name:** allow-cloudpanel <br />
+**Targets:** Specified target tags <br />
+**Target tags:** cloudpanel <br />
+**Source filter:** IP ranges <br />
+**Source IP ranges:** 0.0.0.0/0 or **your IP** if you have a fixed IP <br />
+**Protocols and ports:** tcp: 8443 <br />
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/cloudpanel_firewall_rule.png')} />
 
 ## CloudPanel Installation
 

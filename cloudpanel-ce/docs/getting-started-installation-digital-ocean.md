@@ -30,7 +30,8 @@ Choose the **datacenter** where you want to run your **Droplet**
 
 ### Authentication Method
 
-Select your **Authentication Method**, **SSH key** or **One-time password**
+Select your **Authentication Method**, **SSH key** or **One-time password** <br />
+How to create an SSH Key, is explained on the site: [How-to Add SSH Keys to New or Existing Droplets](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/)
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/do_installation/create_droplet_4.png')} />
 
