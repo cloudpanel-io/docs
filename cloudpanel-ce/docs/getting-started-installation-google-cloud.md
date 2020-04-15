@@ -85,7 +85,17 @@ For accessing the **CloudPanel** later, we need to create a firewall rule.
 For installing the CloudPanel, we first need to login with **SSH**. <br />
 
 ```bash
-ssh -i path_to_your_private_key admin@staticIpAddress
+ssh -i path_to_your_private_key username@staticIpAddress
+```
+
+The **username** can be found at the end of your **Public SSH Key**. <br />
+In the following example, the **username** would be **john**.
+
+```bash
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjC22YtN9qsN/F1piw5FHtG3RqXjHhI5CdHIpmN
+pQ1LeXRmODsfzv4pntYeGw0dfBFidlmxujNLyd8FMZ8Yida5zcciWkLvqAAkTlwCAWNg/kdJI0R4B
+wuSgYUjxgOU5LPYkm4MixSOvC+jI27Ge0nKMiqUaJoSrYfNJqraMNuikNrwQn+I7w3var2aebhQtR
+77Lx1dHoAF/pP9DIFYfzFZ7CsQc8pBXj3 john@macbook
 ```
 
 The **static IP Address** can be found on the VM instances overview, it's called **External IP**.
