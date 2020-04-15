@@ -18,7 +18,7 @@ On this page, we explain step by step how to run CloudPanel on an EC2 instance o
 
 | AWS Region|  AMI ID |
 | :---  | :--- |
-| US East (N.Virginia)      | [ami-0ddf302af2476aada](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0ddf302af2476aada) |
+| US East (N.Virginia)      | [ami-0e37079b4c05ea4bf](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0e37079b4c05ea4bf) |
 | US East (Ohio)            | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-88888888) |
 | US West (N. California)   | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-88888888) |
 | US West (Oregon)          | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-88888888) |
