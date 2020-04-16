@@ -69,9 +69,66 @@ For web applications, a **Static IP Address** is needed. <br />
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/create_static_ip_1.png')} /> <br /><br />
 
-2) Change the Assignment from **Dynamic** to **Static** and click on the button **Save**.
+2) Change the **Assignment** from **Dynamic** to **Static** and click on the button **Save**.
 
-<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/create_static_ip_2.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/create_static_ip_2.png')} />
+
+## Firewall
+
+To access the **CloudPanel** after the installation, we need to create an inbound port rule to allow access to the port **8443**.
+
+1) Click in the left navigation on **Settings** --> **Networking** and click on the button **Add inbound port rule**.
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/create_cloudpanel_inbound_port.png')} /> <br /><br />
+
+2) As **Source** select **Any** or better **IP Addresses** to restrict the **CloudPanel** access to specific IPs.
+
+Click on the button **Add** to create the **security rule**.
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/cloudpanel_inbound_port_rule.png')} />
+
+## CloudPanel Installation
+
+### SSH Login
+
+For installing the CloudPanel, we first need to login with **SSH**. <br />
+
+```bash
+ssh -i path_to_your_private_key cloudpanel@staticIpAddress
+```
+
+The **static IP Address** can be found on the instance overview, it's called **Public IP address**.
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/instance_overview_public_ip_address.png')} />
+
+### Installer
+
+Before running the installer, we need to switch the user to **root** to install the required packages.
+
+```bash
+sudo su root
+```
+
+```bash
+apt update && apt -y install curl wget sudo
+```
+
+To start the **CloudPanel** installation, execute the following command:
+
+```bash
+curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=msa bash
+```
+
+## Access CloudPanel
+
+You can now access the CloudPanel: **https://yourStaticIpAddress:8443**
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/ignore_self_signed_certificate.png')} />
+
+Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to CloudPanel.
+
+
+
 
 
 
