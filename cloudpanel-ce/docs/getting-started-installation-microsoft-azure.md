@@ -75,7 +75,7 @@ For web applications, a **Static IP Address** is needed. <br />
 
 ## Firewall
 
-To access the **CloudPanel** after the installation, we need to create an inbound port rule to allow access to the port **8443**.
+To access the **CloudPanel** after the installation, we need to create an inbound port rule for the port **8443**.
 
 1) Click in the left navigation on **Settings** --> **Networking** and click on the button **Add inbound port rule**.
 
