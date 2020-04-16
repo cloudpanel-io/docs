@@ -60,3 +60,19 @@ Select the latest **VM generation** to benefit from the newest developments and 
 Click on the button **Create** to launch your virtual machine.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/final_create_virtual_machine.png')} />
+
+## Static IP Address
+
+For web applications, a **Static IP Address** is needed. <br />
+
+1) To make your assigned **Public IP Address** static, click on the **IP**.
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/create_static_ip_1.png')} /> <br /><br />
+
+2) Change the Assignment from **Dynamic** to **Static** and click on the button **Save**.
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/create_static_ip_2.png')} /> <br /><br />
+
+
+
+
