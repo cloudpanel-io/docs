@@ -122,7 +122,7 @@ curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=gce bash
 
 ## Access CloudPanel
 
-You can now access the CloudPanel: **https://yourStaticIpAddress:8443**
+You can now access the CloudPanel via Browser: **https://yourStaticIpAddress:8443**
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/ignore_self_signed_certificate.png')} />
 

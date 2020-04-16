@@ -61,8 +61,8 @@ Click on button **Add Tag** and enter **Name** as Key and in **Value** enter the
 
 | Type | Protocol | Port Range  | Source  | Comment         |
 | :--- | :---     | :---        |  :---   | :---            |
-| Custom TCP Rule | TCP | 8443 | Your IP | CloudPanel Port  |
-| SSH             | TCP | 22   | Your IP |                  |
+| Custom TCP Rule | TCP | 8443 | Your IP/32 | CloudPanel Port  |
+| SSH             | TCP | 22   | Your IP/32 |                  |
 | HTTP            | TCP | 80   | Anywhere (0.0.0.0/0, ::/0) ||
 | HTTPS           | TCP | 443  | Anywhere (0.0.0.0/0, ::/0) ||
 
@@ -89,7 +89,7 @@ Having a static IP (Elastic IP Address) is needed for running web applications. 
 
 ## Access CloudPanel
 
-You can now access the CloudPanel: **https://yourElasticIpAddress:8443**
+You can now access the CloudPanel via Browser: **https://yourElasticIpAddress:8443**
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/ignore_self_signed_certificate.png')} />
 
