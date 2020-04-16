@@ -15,13 +15,13 @@ For the installation, you need an empty server with [Debian 10 (Buster)](require
 
 For installing the CloudPanel, we first need to login with **SSH**.
 
-If you are using a private key to login, the SSH command would be the following one:
+If you are using a **private key** to login, the SSH command would be:
 
 ```bash
 ssh -i path_to_your_private_key root@serverIP
 ```
 
-If you are using a password to login, the SSH command would be the following one:
+If you are using a **password** to login, the SSH command would be:
 
 ```bash
 ssh root@serverIP
