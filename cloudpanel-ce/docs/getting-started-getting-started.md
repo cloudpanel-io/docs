@@ -10,5 +10,5 @@ For all common clouds like Amazon Web Services, Digital Ocean, Google Cloud, and
 - [Installation on Amazon Web Services](installation-aws)
 - [Installation on Digital Ocean](installation-digital-ocean)
 - [Installation on Google Cloud](installation-google-cloud)
-- [Installation on Microsoft Azure](#link)
-- [Installation on Other](#link)
+- [Installation on Microsoft Azure](installation-microsoft-azure)
+- [Installation on Other](#)
