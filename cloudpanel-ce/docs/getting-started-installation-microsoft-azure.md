@@ -25,7 +25,7 @@ and select the size of your instance.
 
 ### Administrator account
 
-As **Authentication type** select **SSH Public Key** (Recommended) or **Password**. <br />
+As **Authentication type** select **SSH Public Key** (recommended) or **Password**. <br />
 
 On the following site, you can learn how to create an **SSH Public Key**: <br /> 
 [https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys)
@@ -45,6 +45,18 @@ Select the inbound ports: **HTTP**, **HTTPS** and **SSH** and click on the butto
 
 ### Disks
 
-Select **Standard SSD** as OS disk type and click on the button **Next: Networking >**
+Select **Standard SSD** as OS disk type and continue to **Advanced**
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/disks.png')} />
+
+### Advanced
+
+Select the latest **VM generation** to benefit from the newest developments and continue to **Review + create**
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/vm_generation.png')} />
+
+### Review + create
+
+Click on the button **Create** to launch your virtual machine.
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/final_create_virtual_machine.png')} />
