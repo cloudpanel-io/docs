@@ -6,7 +6,7 @@ sidebar_label: Digital Ocean
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to run CloudPanel on [Digital Ocean](https://www.digitalocean.com/).
+On this page, we explain step by step how to run **CloudPanel** on [Digital Ocean](https://www.digitalocean.com/).
 
 ## Launching a Droplet
 

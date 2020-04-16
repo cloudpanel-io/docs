@@ -6,7 +6,7 @@ sidebar_label: Amazon Web Services
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to run CloudPanel on an EC2 instance on [Amazon Web Services](https://aws.amazon.com/).
+On this page, we explain step by step how to run **CloudPanel** on an EC2 instance on [Amazon Web Services](https://aws.amazon.com/).
 
 ## Launching an EC2 Instance
 

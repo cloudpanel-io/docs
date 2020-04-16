@@ -6,7 +6,7 @@ sidebar_label: Google Cloud
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to run CloudPanel on the [Google Cloud](https://cloud.google.com).
+On this page, we explain step by step how to run **CloudPanel** on the [Google Cloud](https://cloud.google.com).
 
 ## Launching a VM Instance
 

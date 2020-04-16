@@ -6,7 +6,7 @@ sidebar_label: Microsoft Azure
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to run CloudPanel on the [Microsoft Azure](https://azure.microsoft.com/).
+On this page, we explain step by step how to run **CloudPanel** on the [Microsoft Azure](https://azure.microsoft.com/).
 
 ## Launching a Virtual Machine
 
