@@ -94,7 +94,7 @@ Click on the button **Add** to create the **security rule**.
 For installing the CloudPanel, we first need to login with **SSH**. <br />
 
 ```bash
-ssh -i path_to_your_private_key cloudpanel@staticIpAddress
+ssh -i path_to_your_private_key azure@staticIpAddress
 ```
 
 The **static IP Address** can be found on the instance overview, it's called **Public IP address**.
