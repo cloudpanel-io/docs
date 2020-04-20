@@ -19,7 +19,7 @@ and the **PHP Version** for your application.
 
 When you click on the button **Add Domain**, the following things will be created by **CloudPanel**:
 
-- The document root directory: **/home/cloudpanel/htdocs/www.domain.com**
+- The Document Root Directory: **/home/cloudpanel/htdocs/www.domain.com**
 - Vhost file for NGINX: **/etc/nginx/sites-enabled/domain.com.conf**
 - NGINX Access and Error Log file: 
   - /home/cloudpanel/logs/domain.com/nginx/access.log
@@ -36,7 +36,7 @@ Furthermore **http** requests are redirected to **https**.
 ### Deleting a Domain
 
 When you delete a domain, only the vhost and the NGINX and PHP log directories will be deleted, <br />
-**NOT** the **Document Root Directory**.
+**NOT** the Document Root Directory.
 
 ## Settings
 
