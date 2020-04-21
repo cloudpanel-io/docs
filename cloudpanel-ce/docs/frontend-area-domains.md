@@ -85,7 +85,7 @@ them in the **Additional configuration directives**.
 
 :::important Tips
 Keep the **memory_limit** and **max_execution** values as low as possible to keep the server stable. <br />
-In the [PHP FPM Error Log](#php-fpm), you find all error messages of processes that run out of memory or exceeded
+In the [PHP Error Log](#logs), you find all error messages of processes that run out of memory or exceeded
 the **max_execution_time**.
 :::
 
@@ -101,8 +101,23 @@ of a project or for test/staging environments.
 
 ## Logs
 
-### NGINX
+In the **Log Viewer** you can check the **NGINX** Access and Error Logs and the **PHP-FPM** Error Log.
 
-### PHP-FPM
+<img class="border" src={useBaseUrl('img/v1/domains/nginx_access_log.png')} /> <br /><br />
+
+Developers who prefer the command line can find the logs in the following directories:
+
+**NGINX** 
+  - Access Log: **/home/cloudpanel/logs/domain.com/nginx/access.log**
+  - Error Logs: **/home/cloudpanel/logs/domain.com/nginx/error.log**
+
+**PHP FPM**
+  - Error Log: **/home/cloudpanel/logs/domain.com/php/error.log**
+
+To see the last 100 lines of your **PHP Error Log**, you can use the **tail** command with the follow option.
+
+```bash
+tail -f /home/cloudpanel/logs/domain.com/php/error.log -n100
+```
 
 ## SSL Certificates
