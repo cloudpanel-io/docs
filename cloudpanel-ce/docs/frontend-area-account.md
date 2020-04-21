@@ -5,3 +5,34 @@ sidebar_label: Account
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+## Account Information
+
+To make changes on your account, click on your name in the top right header.
+
+<img class="border" src={useBaseUrl('img/v1/account/header_account_menu.png')} /> <br /> <br />
+
+In the account area, you can change personal information like **E-Mail**, **First Name**, **Last Name**, **Password**
+and, the **Timezone**. The **Timezone** is important to see the right times in the monitoring graphs on the dashboard.
+
+<img class="border" src={useBaseUrl('img/v1/account/account_information.png')} /> 
+
+## Two-Factor Authentication
+
+**Two-Factor Authentication** adds an extra layer of security to your account. <br />
+Whenever you sign in, you’ll need to enter both your password and also a security code.
+
+### Enable 2-FA
+
+To enable **Two-Factor Authentication** click in your account on the tab **Security** and click on the button <br />
+**Enable Two-Factor Authentication**.
+
+<img class="border" src={useBaseUrl('img/v1/account/enable_two_factor_authentication.png')} /> <br /> <br />
+
+Open an app like [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en) or [Duo](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app)
+and scan the QR code and enter one **authentication code** to finish the process.
+
+<img class="border" src={useBaseUrl('img/v1/account/connect_app_two_factor_authentication.png')} />
+
+### Disable 2-FA
+
