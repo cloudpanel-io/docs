@@ -48,7 +48,7 @@ In the settings of your domain, you can change the **Document Root** for your do
 
 In the **Vhost Editor** you can make changes on the NGINX vhost.
 
-<img class="border" src={useBaseUrl('img/v1/domains/vhost.png')} />
+<img class="border" src={useBaseUrl('img/v1/domains/vhost.png')} /> <br /> <br />
 
 In our example, we have entered the domain **www.domain.com**. 
 
@@ -101,7 +101,7 @@ of a project or for test/staging environments.
 
 ## Logs
 
-In the **Log Viewer** you can check the **NGINX** Access and Error Logs and the **PHP-FPM** Error Log.
+In the **Log Viewer** you can check the **NGINX** Access and Error Logs and the **PHP** Error Log.
 
 <img class="border" src={useBaseUrl('img/v1/domains/nginx_access_log.png')} /> <br /><br />
 
@@ -111,13 +111,42 @@ Developers who prefer the command line can find the logs in the following direct
   - Access Log: **/home/cloudpanel/logs/domain.com/nginx/access.log**
   - Error Logs: **/home/cloudpanel/logs/domain.com/nginx/error.log**
 
-**PHP FPM**
+**PHP**
   - Error Log: **/home/cloudpanel/logs/domain.com/php/error.log**
 
-To see the last 100 lines of your **PHP Error Log**, you can use the **tail** command with the follow option.
+To see the last 100 lines of your **PHP Error Log**, you can use the **tail** command with the **follow** option.
 
 ```bash
 tail -f /home/cloudpanel/logs/domain.com/php/error.log -n100
 ```
 
 ## SSL Certificates
+
+When you add a domain, a self-signed certificate will be automatically created.
+
+<img class="border" src={useBaseUrl('img/v1/domains/ssl_certificates_overview.png')} /> <br /> <br />
+
+On this page, you can import an existing SSL/TLS certificate or issue a free auto-renewing **Let's Encrypt**.
+
+### Let's Encrypt
+
+To issue a free **Let's Encrypt** certificate click on button **Actions** and select **New Let's Encrypt Certificate**.
+
+<img class="border" src={useBaseUrl('img/v1/domains/new_lets_encrypt_certificate.png')} /> <br /> <br />
+
+The **Domain Names** are pre filled. Add extra **Domain Names** if you have added Domain Aliases.
+
+To issue the certificate, click on the button **Create and Install** and wait some seconds until it's installed.
+
+### Import SSL Certificate
+
+The majority of the websites are fine with the free **Let's Encrypt Certificates** but in some cases e.g. <br />
+for an [Extended Validation Certificate](https://en.wikipedia.org/wiki/Extended_Validation_Certificate) you need to buy and import
+the certificate.
+
+To import a certificate you need to click on button **Actions** and select **Import SSL Certificate**.
+
+Enter the **Certificate Private Key**, **Certificate** and the **Certificate Chain** and click on the button <br />
+**Import and Install**.
+
+<img class="border" src={useBaseUrl('img/v1/domains/ssl_certificate_import.png')} />
