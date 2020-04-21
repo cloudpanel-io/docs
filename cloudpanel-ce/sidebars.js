@@ -33,6 +33,7 @@ module.exports = {
       type: 'category',
       label: 'Frontend Area',
       items: [
+        'account',
         'domains',
         'security',
         'users',
