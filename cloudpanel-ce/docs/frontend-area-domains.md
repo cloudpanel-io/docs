@@ -144,7 +144,7 @@ The majority of the websites are fine with the free **Let's Encrypt Certificates
 for an [Extended Validation Certificate](https://en.wikipedia.org/wiki/Extended_Validation_Certificate) you need to buy and import
 the certificate.
 
-To import a certificate you need to click on button **Actions** and select **Import SSL Certificate**.
+To import a certificate, click on button **Actions** and select **Import SSL Certificate**.
 
 Enter the **Certificate Private Key**, **Certificate** and the **Certificate Chain** and click on the button <br />
 **Import and Install**.
