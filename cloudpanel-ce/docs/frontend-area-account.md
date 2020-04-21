@@ -30,9 +30,17 @@ To enable **Two-Factor Authentication** click in your account on the tab **Secur
 <img class="border" src={useBaseUrl('img/v1/account/enable_two_factor_authentication.png')} /> <br /> <br />
 
 Open an app like [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en) or [Duo](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app)
-and scan the QR code and enter one **authentication code** to finish the process.
+and scan the QR code and enter one **authentication code** to confirm.
 
 <img class="border" src={useBaseUrl('img/v1/account/connect_app_two_factor_authentication.png')} />
 
 ### Disable 2-FA
+
+To disable **Two-Factor Authentication** click in your account on the tab **Security** and click on the button <br />
+**Disable Two-Factor Authentication**.
+
+<img class="border" src={useBaseUrl('img/v1/account/disable_two_factor_authentication.png')} /> <br /> <br />
+
+
+
 
