@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Account Information
 
-To make changes on your account, click on your name in the top right header.
+To edit account information, click on your name in the top right header.
 
 <img class="border" src={useBaseUrl('img/v1/account/header_account_menu.png')} /> <br /> <br />
 

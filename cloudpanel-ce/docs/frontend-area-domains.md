@@ -126,7 +126,7 @@ When you add a domain, a self-signed certificate will be automatically created.
 
 <img class="border" src={useBaseUrl('img/v1/domains/ssl_certificates_overview.png')} /> <br /> <br />
 
-On this page, you can import an existing SSL/TLS certificate or issue a free auto-renewing **Let's Encrypt**.
+On this page, you can import an existing SSL/TLS certificate or issue a free auto-renewing **Let's Encrypt** certificate.
 
 ### Let's Encrypt
 
