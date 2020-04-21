@@ -79,24 +79,30 @@ In the **PHP Settings** of your domain, you can change the **PHP Version** and m
 - upload_max_filesize
 
 The most common settings can be modified to your needs but if you need to change other parameter values you can overwrite
-them in the **Additional configuration directives** section.
+them in the **Additional configuration directives**.
 
 <img class="border" src={useBaseUrl('img/v1/domains/php_settings.png')} /> <br /><br />
 
 :::important Tips
 Keep the **memory_limit** and **max_execution** values as low as possible to keep the server stable. <br />
-In the [PHP FPM Error Log](#php-fpm-error-log), you find all error messages of processes that run out of memory or exceeded
+In the [PHP FPM Error Log](#php-fpm), you find all error messages of processes that run out of memory or exceeded
 the **max_execution_time**.
 :::
 
 ## Basic Auth
 
+In the **Basic Auth** settings of your domain, you can enable and disable **Basic Auth**. <br />
+Users can be added, and IPs to bypass **Basic Auth** can be whitelisted. <br />
+
+A **Basic Auth** is useful to prevent traffic to your site when you don't want to have it public, e.g. during the development
+of a project or for test/staging environments.
+
+<img class="border" src={useBaseUrl('img/v1/domains/basic_auth.png')} />
+
 ## Logs
 
-### NGINX Access Log
+### NGINX
 
-### NGINX Error Log
-
-### PHP-FPM Error Log
+### PHP-FPM
 
 ## SSL Certificates
