@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 On this page you will find information about **SSH/SFTP** and **FTP** Users.
 
-## SSH Users
+## SSH
 
 The SSH protocol (also referred to as Secure Shell) is a method for secure remote login from one computer to another. 
 It provides several alternative options for strong authentication, and it protects the communications security and integrity with strong encryption.
@@ -35,11 +35,11 @@ The entire home directory of the user will be deleted, in that example **/home/j
 
 ### SSH Login
 
-To login via SSH to the server, you need a terminal like [iterm2](https://www.iterm2.com/) (macOS) or [putty](https://www.putty.org/) (windows).
+To login via SSH to the server, you need a terminal like [iterm2](https://www.iterm2.com/) for macOS or [putty](https://www.putty.org/) for Windows.
 
-The SSH port is 22 (default port). Before you try to connect with SSH, make sure that the port 22 is open for your IP address.
+The SSH port is 22 (default port). Before you try to connect with SSH, make sure that the port **22** is open for your ip address.
 
-**Linux and MacOS Users:**
+**Linux and MacOS:**
 
 **SSH login via password**
 
@@ -53,10 +53,26 @@ ssh john-ssh@serverIpAddress
 ssh -i path_to_your_private_key.pem john-ssh@serverIpAddress
 ```
 
-**Windows**
+**Windows:**
+
+In the **Host Name ** field enter the server ip address and click on the button **Open**.
+
+<img class="border" src={useBaseUrl('img/v1/users/putty_ssh.png')} /> <br /> <br />
+
+In the next step, putty will ask you to enter the **User Name** and **Password**.
 
 ### SFTP Login
 
-dsfsdfsdf
+To login via SFTP to the server, you need a client like [FileZilla](https://filezilla-project.org/).
 
-## FTP Users
+Before you try to connect via SFTP, make sure that the port **22** is open for your ip address.
+
+Fill out the **Host**, **Username**, **Password** and **Port** fields and click on the button **Quickconnect**.
+
+<img class="border" src={useBaseUrl('img/v1/users/filezilla_sftp.png')} /> <br /> <br />
+
+:::caution Port
+Make sure to use the port **22** for a SFTP connection.
+:::
+
+## FTP
