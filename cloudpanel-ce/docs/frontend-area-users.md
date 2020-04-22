@@ -33,6 +33,26 @@ To delete a **SSH User** click on the button **Delete** on the overview page.
 The entire home directory of the user will be deleted, in that example **/home/john-ssh/**
 :::
 
+### Password Change
+
+There are several ways to change the password of a user.
+
+The **password** for a user can be changed in user view. Enter your new password and click on the button **Update**.
+
+<img class="border" src={useBaseUrl('img/v1/users/password_change_user_view.png')} /> <br /> <br />
+
+The **password** can also be changed on the command line. After login with [SSH](#ssh-login) enter the following command:
+
+```bash
+passwd
+```
+
+As **root** user you can change the password of any user with the following command:
+
+```bash
+passwd $userName
+```
+
 ### SSH Keys
 
 Login via SSH with a key is more secure than using the password authentification.
