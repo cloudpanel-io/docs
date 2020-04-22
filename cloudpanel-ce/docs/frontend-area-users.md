@@ -117,7 +117,7 @@ In the next step, putty will ask you to enter the **User Name** and **Password**
 
 To login via SFTP to the server, you need a client like [FileZilla](https://filezilla-project.org/).
 
-Before you try to connect via SFTP, make sure that the port **22** is open for your ip address.
+Make sure that the **SSH** port **22** is open for your ip address.
 
 Fill out the **Host**, **Username**, **Password** and **Port** fields and click on the button **Quickconnect**.
 
@@ -151,4 +151,14 @@ To delete a **FTP User** click on the button **Delete** on the overview page.
 
 The **password** for a user can be changed in user view. Enter your **new password** and click on the button **Update**.
 
-<img class="border" src={useBaseUrl('img/v1/users/ftp_user_password_change.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/ftp_user_password_change.png')} /> 
+
+### FTP Login
+
+To login via FTP to the server, you need a client like [FileZilla](https://filezilla-project.org/).
+
+Make sure that the **FTP** ports **20-21** and the passive ports **49152-65534** are open for your ip address.
+
+Fill out the **Host**, **Username**, **Password** and **Port** fields and click on the button **Quickconnect**.
+
+<img class="border" src={useBaseUrl('img/v1/users/filezilla_ftp.png')} /> 
