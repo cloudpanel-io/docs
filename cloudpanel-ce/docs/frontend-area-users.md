@@ -13,7 +13,7 @@ On this page you will find information about **SSH/SFTP** and **FTP** Users.
 The SSH protocol (also referred to as Secure Shell) is a method for secure remote login from one computer to another. 
 It provides several alternative options for strong authentication, and it protects the communications security and integrity with strong encryption.
 
-### Add a User
+### Addding a User
 
 To add a new **SSH User** click on the button **Add User** top right. 
 
@@ -23,6 +23,34 @@ The **Password** needs to be at least six characters long; the longer, the bette
 
 <img class="border" src={useBaseUrl('img/v1/users/add_ssh_user.png')} /> <br /> <br />
 
-### Delete a User
+### Deleting a User
+
+To delete a **SSH User** click on the button **Delete** on the overview page.
+
+<img class="border" src={useBaseUrl('img/v1/users/delete_ssh_user.png')} /> <br /> <br />
+
+:::warning
+The entire home directory of the user will be deleted, in that example **/home/john-ssh/**
+:::
+
+### SSH Login
+
+To login via SSH to the server, you need a terminal like [iterm2](https://www.iterm2.com/) (macOS) or [putty](https://www.putty.org/) (windows).
+
+The SSH port is 22 (Default Port). Before you try to connect with SSH, make sure that the port 22 is open for your IP address.
+
+**MacOS** and **Linux** Users
+
+#### SSH login via password
+
+```bash
+ssh john-ssh@8.8.8.8
+```
+
+**Windows**
+
+### SFTP Login
+
+dsfsdfsdf
 
 ## FTP Users
