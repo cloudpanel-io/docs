@@ -48,14 +48,14 @@ passwd
 As **root** user you can change the password of any user with the following command:
 
 ```bash
-passwd $userName
+passwd $userName-ssh
 ```
 
 ### SSH Keys
 
-Login via SSH with a key is more secure than using the password authentification.
+Login via SSH with a key is more secure than using the password authentification method.
 
-On **MacOs** and **Linux**, you can generate a private and public key with the following command:
+On **MacOs** and **Linux**, you can generate a private and public key with the following command in your terminal:
 
 ```bash
 ssh-keygen -f cloudpanel
@@ -89,7 +89,7 @@ If you have generated your keys with **puTTYgen**, you need to enter the **Publi
 
 To login via SSH to the server, you need a terminal like [iterm2](https://www.iterm2.com/) for macOS or [putty](https://www.putty.org/) for Windows.
 
-The SSH port is 22 (default port). Before you try to connect with SSH, make sure that the port **22** is open for your ip address.
+The **SSH** port is **22** (default port). Before you try to connect with SSH, make sure that the port **22** is open for your ip address.
 
 **Linux and MacOS:**
 
@@ -115,7 +115,7 @@ In the next step, putty will ask you to enter the **User Name** and **Password**
 
 ### SFTP Login
 
-To login via SFTP to the server, you need a client like [FileZilla](https://filezilla-project.org/).
+To login via **SFTP** to the server, you need a client like [FileZilla](https://filezilla-project.org/).
 
 Make sure that the **SSH** port **22** is open for your ip address.
 
@@ -149,9 +149,17 @@ To delete a **FTP User** click on the button **Delete** on the overview page.
 
 ### Password Change
 
-The **password** for a user can be changed in user view. Enter your **new password** and click on the button **Update**.
+The **password** for a user can be changed in the user view. Enter your **new password** and click on the button **Update**.
 
-<img class="border" src={useBaseUrl('img/v1/users/ftp_user_password_change.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/users/ftp_user_password_change.png')} /> <br /> <br />
+
+The **password** can also be changed on the command line.
+
+After login with [SSH](#ssh-login), switch the user to **root** and enter the following command:
+
+```bash
+passwd $userName-ftp
+```
 
 ### FTP Login
 
