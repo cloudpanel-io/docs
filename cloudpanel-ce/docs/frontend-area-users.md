@@ -63,7 +63,7 @@ Enter the **Key Name** and the **Public Key** and click on the button **Add SSH 
 
 <img class="border" src={useBaseUrl('img/v1/users/add_ssh_key_2.png')} /> <br /> <br />
 
-If you have generated your keys with **puTTYgen** you need to enter the **Public Key** as **OpenSSH** format.
+If you have generated your keys with **puTTYgen**, you need to enter the **Public Key** as **OpenSSH** format.
 
 <img class="border" src={useBaseUrl('img/v1/users/puttygen_openssh_format.png')} />
 
