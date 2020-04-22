@@ -13,7 +13,7 @@ On this page you will find information about **SSH/SFTP** and **FTP** Users.
 The SSH protocol (also referred to as Secure Shell) is a method for secure remote login from one computer to another. 
 It provides several alternative options for strong authentication, and it protects the communications security and integrity with strong encryption.
 
-### Addding a User
+### Adding a User
 
 To add a new **SSH User** click on the button **Add User** top right. 
 
@@ -37,7 +37,7 @@ The entire home directory of the user will be deleted, in that example **/home/j
 
 The **password** for a user can be changed in user view. Enter your **new password** and click on the button **Update**.
 
-<img class="border" src={useBaseUrl('img/v1/users/password_change_user_view.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/ssh_user_password_change.png')} /> <br /> <br />
 
 The **password** can also be changed on the command line. After login with [SSH](#ssh-login) enter the following command:
 
@@ -128,3 +128,27 @@ Make sure to use the port **22** for a SFTP connection.
 :::
 
 ## FTP
+
+The **File Transfer Protocol (FTP)** is a standard network protocol used for the transfer of computer files between a client and server on a computer network.
+
+### Adding a User
+
+To add a new **FTP User** click on tab **FTP Users** and then on the button **Add User** top right. 
+
+<img class="border" src={useBaseUrl('img/v1/users/add_ftp_user.png')} /> <br /> <br />
+
+Enter a **User Name** and a strong **Password**. 
+CloudPanel automatically adds the suffix **-ftp** at the end of the **User Name** to prevent conflicts with system users.
+The **Password** needs to be at least six characters long; the longer, the better.
+
+### Deleting a User
+
+To delete a **FTP User** click on the button **Delete** on the overview page.
+
+<img class="border" src={useBaseUrl('img/v1/users/delete_ftp_user.png')} /> <br /> <br />
+
+### Password Change
+
+The **password** for a user can be changed in user view. Enter your **new password** and click on the button **Update**.
+
+<img class="border" src={useBaseUrl('img/v1/users/ftp_user_password_change.png')} /> <br /> <br />
