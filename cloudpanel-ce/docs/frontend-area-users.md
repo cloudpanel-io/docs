@@ -37,14 +37,20 @@ The entire home directory of the user will be deleted, in that example **/home/j
 
 To login via SSH to the server, you need a terminal like [iterm2](https://www.iterm2.com/) (macOS) or [putty](https://www.putty.org/) (windows).
 
-The SSH port is 22 (Default Port). Before you try to connect with SSH, make sure that the port 22 is open for your IP address.
+The SSH port is 22 (default port). Before you try to connect with SSH, make sure that the port 22 is open for your IP address.
 
-**MacOS** and **Linux** Users
+**Linux and MacOS Users:**
 
-#### SSH login via password
+**SSH login via password**
 
 ```bash
-ssh john-ssh@8.8.8.8
+ssh john-ssh@serverIpAddress
+```
+
+**SSH login via private key**
+
+```bash
+ssh -i path_to_your_private_key.pem john-ssh@serverIpAddress
 ```
 
 **Windows**
