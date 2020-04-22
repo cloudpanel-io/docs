@@ -22,6 +22,7 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 | US East (Ohio)            | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-88888888) |
 | US West (N. California)   | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-88888888) |
 | US West (Oregon)          | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-88888888) |
+| Africa (Cape Town)        | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=af-south-1#LaunchInstanceWizard:ami=ami-88888888) |
 | Asia Pacific (Hong Kong)  | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-east-1#LaunchInstanceWizard:ami=ami-88888888) |
 | Asia Pacific (Mumbai)     | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-88888888) |
 | Asia Pacific (Seoul)      | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-88888888) |

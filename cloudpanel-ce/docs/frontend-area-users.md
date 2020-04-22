@@ -35,9 +35,7 @@ The entire home directory of the user will be deleted, in that example **/home/j
 
 ### Password Change
 
-There are several ways to change the password of a user.
-
-The **password** for a user can be changed in user view. Enter your new password and click on the button **Update**.
+The **password** for a user can be changed in user view. Enter your **new password** and click on the button **Update**.
 
 <img class="border" src={useBaseUrl('img/v1/users/password_change_user_view.png')} /> <br /> <br />
 
