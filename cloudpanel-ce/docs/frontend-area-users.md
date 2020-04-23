@@ -15,7 +15,7 @@ It provides several alternative options for strong authentication, and it protec
 
 ### Adding a User
 
-To add a new **SSH User** click on the button **Add User** top right. 
+To add a new **SSH User** click on the tab **SSH Users** and then on the button **Add User** top right. 
 
 Enter a **User Name** and a strong **Password**. 
 CloudPanel automatically adds the suffix **-ssh** at the end of the **User Name** to prevent conflicts with system users.
@@ -133,7 +133,7 @@ The **File Transfer Protocol (FTP)** is a standard network protocol used for the
 
 ### Adding a User
 
-To add a new **FTP User** click on tab **FTP Users** and then on the button **Add User** top right. 
+To add a new **FTP User** click on the tab **FTP Users** and then on the button **Add User** top right. 
 
 <img class="border" src={useBaseUrl('img/v1/users/add_ftp_user.png')} /> <br /> <br />
 
