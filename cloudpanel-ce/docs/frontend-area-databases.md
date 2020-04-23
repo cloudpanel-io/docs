@@ -29,10 +29,6 @@ On the database overview site, you can delete a **Database** by clicking on the 
 
 <img class="border" src={useBaseUrl('img/v1/databases/delete_database.png')} />
 
-## Connecting to a Database
-
-
-
 ## Managing Databases
 
 ## Database Backups
