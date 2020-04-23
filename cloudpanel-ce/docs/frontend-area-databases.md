@@ -133,3 +133,60 @@ For the backup, **CloudPanel** uses the **Database Backup Program** [mysqldump](
 :::
 
 ### Restore a Backup
+
+For restoring a **Database Backup**, you can use the **CloudPanel CLI** or the **mysql** command:
+
+#### Restore via CloudPanel CLI
+
+1) Login via [SSH](users#ssh-login) to your server
+
+2) Go to the directory where your **Database Dump** is e.g.:
+
+```bash
+cd /home/cloudpanel/backups/wordpress/YYYY-mm-dd/
+```
+
+3) Run the following command to restore the **Database Dump**:
+
+```bash
+clpctl db:import --file=dump.sql.gz --database=database-name
+```
+
+#### Restore via MySQL
+
+The **CloudPanel CLI** command uses the **mysql** command for restoring the database under the hood.
+
+To restore a **Database Dump** via normal **mysql** command, do the following:
+
+1) Login via [SSH](users#ssh-login) to your server and become **root**
+
+```bash
+sudo su root
+```
+
+2) Get the [Master Database Credentials](#master-database-credentials)
+
+```bash
+clpctl db:show:credentials
+```
+
+The **Output** will look like:
+
+<img class="border" src={useBaseUrl('img/v1/databases/show_database_credentials.png')} /> <br /> <br />
+
+3) Run the **mysql** command to restore a gzipped **Database Dump**
+
+```bash
+gunzip < dump.sql.gz | mysql -h'127.0.0.1' -P'3306' -u'root' -p'rGLEUUy6o2Wa7eBN' database-name
+```
+
+A non-gzipped **Database Dump** can be imported with the following command:
+
+```bash
+mysql -h'127.0.0.1' -P'3306' -u'root' -p'rGLEUUy6o2Wa7eBN' database-name < dump.sql
+```
+
+:::warning Warning
+Do not use **phpMyAdmin** for exporting and importing a database, it can damage your database. <br />
+Use **mysqldump** for exporting a database and the **mysql** command for import.
+:::
