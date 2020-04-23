@@ -29,6 +29,10 @@ On the database overview site, you can delete a **Database** by clicking on the 
 
 <img class="border" src={useBaseUrl('img/v1/databases/delete_database.png')} />
 
+## Database Credentials
+
+sdfdsfds
+
 ## Managing Databases
 
 The **Databases** can be managed with **phpMyAdmin**. On the database overview, click on the tab **phpMyAdmin** to manage
@@ -48,7 +52,7 @@ If you have smaller databases, you can change the cron job to run more frequentl
 
 To change the schedule of the database backup task, do the following:
 
-1) Login with [SSH](users#ssh-login) to your server and become **root**
+1) Login via [SSH](users#ssh-login) to your server and become **root**
 
 ```bash
 sudo su root
@@ -73,9 +77,33 @@ crontab -e
 ```
 
 :::caution Retention Period
-If you want to save the database backups for more than seven days, change the **retentionPeriod** parameter.
+If you want to save the database backups for more than seven days, change the **retentionPeriod** value.
 :::
 
 ### Create a Backup
+
+To make a backup of all **Databases** or a specific **Database**, first login via [SSH](users#ssh-login).
+
+To backup all **Databases**, run the following command:
+
+```bash
+clpctl db:backup --databases=all
+```
+
+To backup a specific **Database**, run the following command:
+
+```bash
+clpctl db:backup --databases=$databaseName
+```
+
+:::tip
+Multiple databases can be backuped at once via comma e.g. <br />
+
+clpctl db:backup --databases=$database1,$database2,$database3
+:::
+
+:::note Database Backup Program
+For the backup, **CloudPanel** uses the **Database Backup Program** [mysqldump](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) from [MySQL](https://www.mysql.com/).
+:::
 
 ### Restore a Backup
