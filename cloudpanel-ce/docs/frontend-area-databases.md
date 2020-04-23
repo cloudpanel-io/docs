@@ -29,7 +29,7 @@ On the database overview site, you can delete a **Database** by clicking on the 
 
 <img class="border" src={useBaseUrl('img/v1/databases/delete_database.png')} />
 
-## Database Credentials
+## Master Database Credentials
 
 To see the ** Master Database Credentials**, do the following:
 
