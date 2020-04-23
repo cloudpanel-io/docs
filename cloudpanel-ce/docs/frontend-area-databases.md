@@ -31,7 +31,50 @@ On the database overview site, you can delete a **Database** by clicking on the 
 
 ## Managing Databases
 
+The **Databases** can be managed with **phpMyAdmin**. On the database overview, click on the tab **phpMyAdmin** to manage
+your **Databases**.
+
+If you don't want to provide access to your **CloudPanel**, you can give direct access to **phpMyadmin**.
+
+:::caution phpMyadmin Direct Url
+https://serverIpAddress:8443/pma
+:::
+
 ## Database Backups
+
+All databases will be automatically backup once per night at 4:15 AM.
+
+If you have smaller databases, you can change the cron job to run more frequently like twice a day. 
+
+To change the schedule of the database backup task, do the following:
+
+1) Login with [SSH](users#ssh-login) to your server and become **root**
+
+```bash
+sudo su root
+```
+
+2) Switch the user to **clp-admin**
+
+```bash
+sudo su clp-admin
+```
+
+3) Edit the **Cron Jobs** of the user
+
+```bash
+crontab -e
+```
+
+4) Change the **backup task** schedule to your needs
+
+```bash
+15 4 * * * clpctl db:backup --databases=all --ignoreDatabases=db1,db2 --retentionPeriod=7 &> /dev/null
+```
+
+:::caution Retention Period
+If you want to save the database backups for more than seven days, change the **retentionPeriod** parameter.
+:::
 
 ### Create a Backup
 
