@@ -21,7 +21,7 @@ Enter a **User Name** and a strong **Password**.
 CloudPanel automatically adds the suffix **-ssh** at the end of the **User Name** to prevent conflicts with system users.
 The **Password** needs to be at least six characters long; the longer, the better.
 
-<img class="border" src={useBaseUrl('img/v1/users/add_ssh_user.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/new_ssh_user.png')} /> <br /> <br />
 
 ### Deleting a User
 
@@ -37,7 +37,7 @@ The entire home directory of the user will be deleted, in that example **/home/j
 
 The **password** for a user can be changed in user view. Enter your **new password** and click on the button **Update**.
 
-<img class="border" src={useBaseUrl('img/v1/users/ssh_user_password_change.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/change_ssh_user_password.png')} /> <br /> <br />
 
 The **password** can also be changed on the command line. After login with [SSH](#ssh-login) enter the following command:
 
@@ -67,19 +67,19 @@ This command will create the private key file **cloudpanel** and the public key 
 
 Select **RSA** as key type and click on the button **Generate**.
 
-<img class="border" src={useBaseUrl('img/v1/users/puttygen_generate_keys.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/generate_puttygen_keys.png')} /> <br /> <br />
 
 Click on the buttons **Save public key** and **Save private key** to store the keys on your computer.
 
-<img class="border" src={useBaseUrl('img/v1/users/puttygen_save_keys.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/save_puttygen_keys.png')} /> <br /> <br />
 
 To add an **SSH Key** for your **SSH User** click on the user and click on the button **Add SSH Key**.
 
-<img class="border" src={useBaseUrl('img/v1/users/add_ssh_key_1.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/new_ssh_key_1.png')} /> <br /> <br />
 
 Enter the **Key Name** and the **Public Key** and click on the button **Add SSH Key** to authorize the key.
 
-<img class="border" src={useBaseUrl('img/v1/users/add_ssh_key_2.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/new_ssh_key_2.png')} /> <br /> <br />
 
 If you have generated your keys with **puTTYgen**, you need to enter the **Public Key** as **OpenSSH** format.
 
@@ -135,7 +135,7 @@ The **File Transfer Protocol (FTP)** is a standard network protocol used for the
 
 To add a new **FTP User** click on the tab **FTP Users** and then on the button **Add User** top right. 
 
-<img class="border" src={useBaseUrl('img/v1/users/add_ftp_user.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/new_ftp_user.png')} /> <br /> <br />
 
 Enter a **User Name** and a strong **Password**. 
 CloudPanel automatically adds the suffix **-ftp** at the end of the **User Name** to prevent conflicts with system users.
@@ -151,7 +151,7 @@ To delete a **FTP User** click on the button **Delete** on the overview page.
 
 The **password** for a user can be changed in the user view. Enter your **new password** and click on the button **Update**.
 
-<img class="border" src={useBaseUrl('img/v1/users/ftp_user_password_change.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/change_ftp_user_password.png')} /> <br /> <br />
 
 The **password** can also be changed on the command line.
 
