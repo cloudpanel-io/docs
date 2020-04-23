@@ -31,7 +31,27 @@ On the database overview site, you can delete a **Database** by clicking on the 
 
 ## Database Credentials
 
-sdfdsfds
+To see the ** Master Database Credentials**, do the following:
+
+1) Login via [SSH](users#ssh-login) to your server and become **root**
+
+```bash
+sudo su root
+```
+
+2) Run the following command:
+
+```bash
+clpctl db:show:credentials
+```
+
+The **Output** will look like:
+
+<img class="border" src={useBaseUrl('img/v1/databases/show_database_credentials.png')} /> <br /> <br />
+
+:::caution Master Password
+The **Database Master Password** is unique for each **CloudPanel** and will be created during the initialization.
+:::
 
 ## Managing Databases
 
@@ -84,11 +104,17 @@ If you want to save the database backups for more than seven days, change the **
 
 To make a backup of all **Databases** or a specific **Database**, first login via [SSH](users#ssh-login).
 
+The **Database Backups** can be found in the directory: **/home/cloudpanel/backups/$databaseName/**
+
 To backup all **Databases**, run the following command:
 
 ```bash
 clpctl db:backup --databases=all
 ```
+
+The **Output** will look like:
+
+<img class="border" src={useBaseUrl('img/v1/databases/create_database_backup.png')} /> <br /> <br />
 
 To backup a specific **Database**, run the following command:
 
