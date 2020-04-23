@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 A new domain can be added by clicking on button **Add Domain** top right.
 
-<img class="border" src={useBaseUrl('img/v1/domains/adding_a_domain.png')} />
+<img class="border" src={useBaseUrl('img/v1/domains/new_domain.png')} />
 
 In this form you enter the **Domain Name**, the **Document Root** and you select a **Vhost Template** <br />
 and **PHP Version** for your application.
@@ -149,4 +149,4 @@ To import a certificate, click on button **Actions** and select **Import SSL Cer
 Enter the **Certificate Private Key**, **Certificate** and the **Certificate Chain** and click on the button <br />
 **Import and Install**.
 
-<img class="border" src={useBaseUrl('img/v1/domains/ssl_certificate_import.png')} />
+<img class="border" src={useBaseUrl('img/v1/domains/import_ssl_certificate.png')} />
