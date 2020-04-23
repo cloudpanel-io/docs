@@ -12,7 +12,7 @@ On this page you find information about how to block **IPs** and **Bots**.
 
 To block an **IP**, click on the tab **IP Blocking** and on the button **Add IP** top right.
 
-<img class="border" src={useBaseUrl('img/v1/security/add_ip.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/security/new_ip.png')} /> <br /> <br />
 
 The IP to block can entered as **ipv4** or **ipv6** format. Click on the button **Add IP** to save.
  
@@ -27,7 +27,7 @@ The IP to block can entered as **ipv4** or **ipv6** format. Click on the button 
 
 To block a **Bot**, click on the tab **Bots Blocking** and on the button **Add Bot** top right.
 
-<img class="border" src={useBaseUrl('img/v1/security/add_bot.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/security/new_bot.png')} /> <br /> <br />
 
 Enter the **Bot Name** and click on the button **Add Bot** to save.
 
