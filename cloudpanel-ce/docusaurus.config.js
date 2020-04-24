@@ -9,7 +9,6 @@ module.exports = {
   themeConfig: {
     disableDarkMode: true,
     algolia: {
-      appId: 'MTBF0OPI8S',
       apiKey: '4a68c2ae70048709e0852b5462dee94d',
       indexName: 'cloudpanel',
       algoliaOptions: {}, // Optional, if provided by Algolia
