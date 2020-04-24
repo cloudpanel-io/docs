@@ -164,7 +164,7 @@ To restore a **Database Dump** via normal **mysql** command, do the following:
 sudo su root
 ```
 
-2) Get the [Master Database Credentials](#master-database-credentials)
+2) Get the **Master Database Credentials** with the following command:
 
 ```bash
 clpctl db:show:credentials

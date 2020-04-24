@@ -11,7 +11,7 @@ The technology stack of CloudPanel consists of modern and lightweight components
 ## Components
 
 - [Debian 10](https://wiki.debian.org/DebianBuster)
-- [NGINX 1.17](https://nginx.org)
+- [NGINX 1.18](https://nginx.org)
 - [MySQL 5.7 (Percona)](https://www.percona.com/software/mysql-database/percona-server)
 - [PHP](https://www.php.net)
   - 7.1
@@ -20,7 +20,7 @@ The technology stack of CloudPanel consists of modern and lightweight components
   - 7.4
 - [Redis 5](https://redis.io)
 - [ProFTPD 1.3](http://www.proftpd.org)
-- [Node.js 12](https://nodejs.org)
+- [Node.js 14](https://nodejs.org)
 - [Yarn 1.22](https://yarnpkg.com)
 
 <img class="border" alt="CloudPanel Technology Stack" src={useBaseUrl('img/v1/technology_stack.png')} />

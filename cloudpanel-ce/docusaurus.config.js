@@ -10,8 +10,8 @@ module.exports = {
     disableDarkMode: true,
     algolia: {
       appId: 'MTBF0OPI8S',
-      apiKey: 'd2ce345b6ba76e388b14242cb4a93f66',
-      indexName: 'cloudpanel-ce',
+      apiKey: '4a68c2ae70048709e0852b5462dee94d',
+      indexName: 'cloudpanel',
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
     prism: {
