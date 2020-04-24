@@ -51,4 +51,6 @@ On the **Cron Jobs** overview site, you can delete a **Cron Job** by clicking on
 
 ## Settings
 
-In the **Settings**, you can enter an email address that receives the output every time the cron job runs.
+In the **Settings**, you can enter an email address to receive the output every time the cron job runs.
+
+<img class="border" src={useBaseUrl('img/v1/cron-jobs/mailto_settings.png')} />
