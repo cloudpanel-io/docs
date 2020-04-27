@@ -94,3 +94,38 @@ by translating names like www.example.com into the numeric IP addresses like 192
 
 In this **Route 53** area, you can import **Hosted Zones** from [Amazon Route 53](https://aws.amazon.com/route53/) or create new zones to manage.
 
+### New Hosted Zone
+
+To create a **New Hosted Zone**, click on the button top right on **New Hosted Zone**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/new_route53_hosted_zone.png')} /> <br /> <br />
+
+Enter the **Domain Name** and click on **Add Hosted Zone** to create a new **Hosted Zone** in [Amazon Route 53](https://aws.amazon.com/route53/).
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/new_route53_hosted_zone_domain.png')} />
+
+### Import Hosted Zone
+
+If you already have an existing **Hosted Zone** in your [Amazon Route 53](https://aws.amazon.com/route53/), and if you want to manage the DNS records via
+CloudPanel, you can import the **Hosted Zone**.
+
+To import an existing **Hosted Zone**, click on the button top right on **Import Hosted Zone**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/import_hosted_zone.png')} /> <br /> <br />
+
+The **Hosted Zone ID** of a **Domain Name** can be found in the **AWS Management Console** -> **Services** -> **Route 53**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/aws_route53_hosted_zone_id.png')} />
+
+### Adding a DNS Record
+
+To add a [DNS Record](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html), click on your **Hosted Zone** and click on the button **Add Record** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_record_hosted_zone_overview.png')} /> <br /> <br />
+
+Select the [Type](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html), enter the **Name**, **Value**,
+and select the **TTL** before clicking on the button **Add Record**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_record_hosted_zone.png')} />
+
+## AMIs
