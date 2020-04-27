@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### Create Access Keys
 
-To enable all **cloud functionalities**, we need to enter **AWS Access Keys** to communicate with the 
+To enable all **cloud functionalities**, you need to enter **AWS Access Keys** to communicate with the 
 services from **Amazon Web Services**.
 
 To create **AWS Access Keys** do the following steps:
@@ -40,7 +40,7 @@ Experienced **AWS** users should create **AWS Access Keys** with more fine granu
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_user_3.png')} /> <br /><br />
 
-Copy the **Access key ID** and **Secret access key**
+Copy the **Access key ID** and **Secret access key**.
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_user_4.png')} />
 
@@ -48,7 +48,7 @@ Copy the **Access key ID** and **Secret access key**
 
 To enter the **AWS Access Keys** do the following:
 
-1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**
+1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**.
 
 2) Click on the left menu on the **AWS** settings.
 
@@ -65,7 +65,7 @@ In this **Instance** area, you find information about your **Instance** like **I
 
 ## Security Groups
 
-In this **Security Groups** area, you see all assigned [Security Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html) of your **Instance**. <br />
+In this **Security Groups** area, you see all assigned [Security Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html) of your **Instance**.<br />
 With a click on a **Security Group** you can edit rules like adding IPs for SSH or other services.
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/security_groups.png')} />
@@ -88,9 +88,9 @@ On the **Security Group** overview site you can delete a rule by clicking on the
 
 ## Route 53
 
-[Amazon Route 53](https://aws.amazon.com/route53/) is a highly available and scalable cloud Domain Name System (DNS) web service. 
-It is designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications 
-by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other.
+[Amazon Route 53](https://aws.amazon.com/route53/) is a highly available and scalable cloud Domain Name System (DNS) web service. <br />
+It is designed to give developers and businesses a reliable and cost-effective way to route end users to Internet applications 
+by translating names like www.example.com into the numeric IP addresses like 8.8.8.8 that computers use to connect to each other.
 
 In this **Route 53** area, you can import **Hosted Zones** from [Amazon Route 53](https://aws.amazon.com/route53/) or create new zones to manage.
 
@@ -107,7 +107,7 @@ Enter the **Domain Name** and click on **Add Hosted Zone** to create a new **Hos
 ### Import Hosted Zone
 
 If you already have an existing **Hosted Zone** in your [Amazon Route 53](https://aws.amazon.com/route53/), and if you want to manage the DNS records via
-CloudPanel, you can import the **Hosted Zone**.
+**CloudPanel**, you can import the **Hosted Zone**.
 
 To import an existing **Hosted Zone**, click on the button top right on **Import Hosted Zone**.
 
@@ -137,12 +137,12 @@ To delete a **DNS Record**, click on your **Hosted Zone** and click on the butto
 ## Amazon Machine Images (AMI)
 
 An [Amazon Machine Image (AMI)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) is a special type of virtual appliance that is 
-used to create a virtual machine within the [Amazon Elastic Compute Cloud ("EC2")](https://aws.amazon.com/ec2/).
+used to create a virtual machine within the [Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/).
 
 ### Automatic Backups
 
-We use **AMIs** to backup the entire **Instance** including all disks. All **AMIs** are done incremental which means the first image
-is a full backup, and all further **AMIs** just contain the data differences (incremental).
+We use **AMIs** to backup the entire **Instance**, including all disks. All **AMIs** are done incrementally, which means the first image
+is a full backup, and all further **AMIs** contain the data differences.
 
 To enable **Automatic Backups** do the following:
 
@@ -154,7 +154,7 @@ Set **Automatic Backups** to **Yes** and select the **Backup Frequency** and **B
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/enable_automatic_backups.png')} /> <br /><br />
 
-With the following configuration, two **Backups (AMIs)** will be generated per day and held for seven days, 14 **AMIs** in total.
+With the following configuration, two **Backups (AMIs)** will be created per day and held for seven days, 14 **AMIs** in total.
 
 ### Manual Backups
 
