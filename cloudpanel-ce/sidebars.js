@@ -90,6 +90,7 @@ module.exports = {
         'application-wo-commerce',
       ],
     },
+    /*
     {
       type: 'category',
       label: 'Guides',
@@ -110,5 +111,6 @@ module.exports = {
         },
       ],
     },
+    */
   ]
 };

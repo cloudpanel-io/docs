@@ -190,3 +190,15 @@ mysql -h'127.0.0.1' -P'3306' -u'root' -p'rGLEUUy6o2Wa7eBN' database-name < dump.
 Do not use **phpMyAdmin** for exporting and importing a database, it can damage your database. <br />
 Use **mysqldump** for exporting a database and the **mysql** command for import.
 :::
+
+### Download a Backup
+
+All database backups can be found in the following directory: **/home/cloudpanel/backups/**
+
+You can download a single **Database Backup** via **SCP**, **rsync**, or via **CloudPanel**.
+
+To **download** a backup via **CloudPanel**, click on the **database** and on then the tab **Backups**.
+
+Click on the button **Download** to start the download process.
+
+<img class="border" src={useBaseUrl('img/v1/databases/download_a_backup.png')} />
