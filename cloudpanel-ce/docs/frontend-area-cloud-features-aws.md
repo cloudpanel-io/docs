@@ -74,7 +74,7 @@ With a click on a **Security Group** you can edit rules like adding IPs for SSH 
 
 To **Add a Rule** click on the **Security Group** and and then on the button **Add Rule** top right.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_securcan createity_group_rules.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rules.png')} /> <br /><br />
 
 Select a **Rule Type** from a list and select the **Source**, which should have access to the service.
 
