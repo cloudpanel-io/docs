@@ -134,4 +134,26 @@ To delete a **DNS Record**, click on your **Hosted Zone** and click on the butto
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/delete_dns_record.png')} />
 
-## AMIs
+## Amazon Machine Images (AMI)
+
+An [Amazon Machine Image (AMI)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) is a special type of virtual appliance that is 
+used to create a virtual machine within the [Amazon Elastic Compute Cloud ("EC2")](https://aws.amazon.com/ec2/).
+
+### Automatic Backups
+
+We use **AMIs** to backup the entire **Instance** including all disks. All **AMIs** are done incremental which means the first image
+is a full backup, and all further **AMIs** just contain the data differences (incremental).
+
+To enable **Automatic Backups** do the following:
+
+1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**
+
+2) Click on the left menu on the **AWS** settings.
+
+Set **Automatic Backups** to **Yes** and select the **Backup Frequency** and **Backup Retention Period**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/enable_automatic_backups.png')} /> <br /><br />
+
+With the following configuration, two **Backups (AMIs)** would be generated per day and held for 7 days, 14 **AMIs** in total.
+
+### Manual Backups
