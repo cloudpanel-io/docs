@@ -121,11 +121,17 @@ The **Hosted Zone ID** of a **Domain Name** can be found in the **AWS Management
 
 To add a [DNS Record](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html), click on your **Hosted Zone** and click on the button **Add Record** top right.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_record_hosted_zone_overview.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_dns_record_hosted_zone.png')} /> <br /> <br />
 
 Select the [Type](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html), enter the **Name**, **Value**,
 and select the **TTL** before clicking on the button **Add Record**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_record_hosted_zone.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_dns_record.png')} />
+
+### Deleting a DNS Record
+
+To delete a **DNS Record**, click on your **Hosted Zone** and click on the button **Delete**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/delete_dns_record.png')} />
 
 ## AMIs
