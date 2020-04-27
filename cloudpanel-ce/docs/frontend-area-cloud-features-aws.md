@@ -154,6 +154,22 @@ Set **Automatic Backups** to **Yes** and select the **Backup Frequency** and **B
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/enable_automatic_backups.png')} /> <br /><br />
 
-With the following configuration, two **Backups (AMIs)** would be generated per day and held for 7 days, 14 **AMIs** in total.
+With the following configuration, two **Backups (AMIs)** will be generated per day and held for seven days, 14 **AMIs** in total.
 
 ### Manual Backups
+
+Often you want to do a backup before releasing a new version of your application, and you want to retain the manually created backup
+for some time.
+
+To create a **Backup**, click on the tab **Backup (AMIs)** and then on the button **Create Backup** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/create_manual_backup_1.png')} /> <br /><br />
+
+Enter the **Name** of your **Backup (AMI)** and click on the button **Create Backup**.  <br />
+AWS will immediately start creating an **AMI** of your **Instance**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/create_manual_backup_2.png')} /> <br /><br />
+
+:::important AMI Retention
+Manually created **AMIs** will not be deleted automatically; they need to be **deleted** manually as well.
+:::
