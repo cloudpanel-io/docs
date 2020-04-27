@@ -58,12 +58,34 @@ Enter the **AWS Access Key** and **AWS Secret Access Key** and click on the butt
 
 ## Instance
 
-In the frontend area on the **Instance** overview, you find information about your **Instance** like **Instance Name**, **Instance ID**,
-**Instance Type**, **Region** and **IPv4 Public IP**. 
+In this **Instance** area, you find information about your **Instance** like **Instance Name**, **Instance ID**,
+**Instance Type**, **Region** and, **IPv4 Public IP**. 
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/instance.png')} />
 
 ## Security Groups
+
+In this **Security Groups** area, you see all assigned [Security Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html) of your **Instance**. <br />
+With a click on a **Security Group** you can edit rules like adding IPs for SSH or other services.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/security_groups.png')} />
+
+### Adding a Rule
+
+To **Add a Rule** click on the **Security Group** and and then on the button **Add Rule** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rules.png')} /> <br /><br />
+
+Select a **Rule Type** from a list and select the **Source**, which should have access to the service.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rule.png')} />
+
+### Deleting a Rule
+
+On the **Security Group** overview site you can delete a rule by clicking on the button **Delete**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rules.png')} /> 
+
 
 ## Route53
 
