@@ -31,7 +31,7 @@ on the button **Next: Tags**.
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_user_2.png')} /> <br /><br />
 
 :::caution Permissions
-Experienced **AWS** users can create **AWS Access Keys** with more fine granulated permissions.
+Experienced **AWS** users should create **AWS Access Keys** with more fine granulated permissions.
 :::
 
 5) Skip the **Add tags (optional)** step by clicking on the button **Next: Review**
@@ -74,7 +74,7 @@ With a click on a **Security Group** you can edit rules like adding IPs for SSH 
 
 To **Add a Rule** click on the **Security Group** and and then on the button **Add Rule** top right.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rules.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_securcan createity_group_rules.png')} /> <br /><br />
 
 Select a **Rule Type** from a list and select the **Source**, which should have access to the service.
 
@@ -86,6 +86,11 @@ On the **Security Group** overview site you can delete a rule by clicking on the
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rules.png')} /> 
 
+## Route 53
 
-## Route53
+[Amazon Route 53](https://aws.amazon.com/route53/) is a highly available and scalable cloud Domain Name System (DNS) web service. 
+It is designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications 
+by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other.
+
+In this **Route 53** area, you can import **Hosted Zones** from [Amazon Route 53](https://aws.amazon.com/route53/) or create new zones to manage.
 
