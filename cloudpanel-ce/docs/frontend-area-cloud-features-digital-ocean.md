@@ -113,3 +113,37 @@ To delete a **DNS Record**, click on your **Domain** and click on the button **D
 <img class="border" src={useBaseUrl('img/v1/cloud-features/do/delete_dns_record.png')} />
 
 ## Snapshots
+
+[Snapshots](https://www.digitalocean.com/docs/images/snapshots/) are on-demand disk images of **DigitalOcean Droplets**
+ and volumes saved to your account. 
+ 
+### Automatic Backups 
+
+We use **Snapshots** to backup the entire **Droplet**, including all **Volumes**. 
+All **Snapshots** are done incrementally, which means the first **Snapshot** is a full backup, and all further **Snapshots** contain the data differences.
+
+To enable **Automatic Backups** do the following:
+
+1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**
+
+2) Click on the left menu on the **Digital Ocean** settings.
+
+Set **Automatic Backups** to **Yes** and select the **Backup Frequency** and **Backup Retention Period**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/automatic_backup_settings.png')} /> <br /><br />
+
+With the following configuration, two **Snapshots** will be created per day and held for seven days, 14 **Snapshots** in total.
+
+### Manual Backups
+
+Often you want to do a backup before releasing a new version of your application, and you want to retain the manually created **Snapshot**
+for some time.
+
+To create a **Backup**, click on the tab **Snapshots** and then on the button **Create Snapshot** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/create_manual_snapshot_1.png')} /> <br /><br />
+
+Enter the **Name** of your **Snapshot** and click on the button **Create Snapshot**.  <br />
+**Digital Ocean** will immediately start creating the **Snapshot** of your **Droplet**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/create_manual_snapshot_2.png')} />
