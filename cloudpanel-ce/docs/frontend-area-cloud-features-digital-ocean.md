@@ -41,5 +41,28 @@ Enter the **Access Token** and click on the button **Save**.
 
 ## Droplet
 
-In this **Droplet** area, you find information about your **Instance** like **Instance Name**, **Instance ID**,
-**Instance Type**, **Region** and, **IPv4 Public IP**. 
+In the **Droplet** area, you find information about your **Droplet** like **Droplet Name**, **Droplet ID**,
+**Region**, **IPv4 Public IP** and, **Floating IP**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/droplet.png')} /> 
+
+## Firewalls
+
+In this **Firewalls** area, you see all assigned **Firewalls** of your **Droplet**.
+With a click on a **Firewall**, you can edit rules like adding IPs for SSH or other services.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/firewalls.png')} /> 
+
+### Adding a Rule
+
+To **Add a Rule** click on the **Firewall** and then on the button **Add Rule** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/add_firewall_rule.png')} /> <br /><br />
+
+Select a **Rule Type** from a list and select the **Source**, which should have access to the service.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/new_firewall_rule.png')} />
+
+### Deleting a Rule
+
+On the **Firewalls** overview site you can delete a rule by clicking on the button **Delete**.

@@ -71,7 +71,7 @@ With a click on a **Security Group**, you can edit rules like adding IPs for SSH
 
 ### Adding a Rule
 
-To **Add a Rule** click on the **Security Group** and and then on the button **Add Rule** top right.
+To **Add a Rule** click on the **Security Group** and then on the button **Add Rule** top right.
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rules.png')} /> <br /><br />
 
