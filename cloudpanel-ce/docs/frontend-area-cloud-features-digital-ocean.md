@@ -40,3 +40,6 @@ Enter the **Access Token** and click on the button **Save**.
 <img class="border" src={useBaseUrl('img/v1/cloud-features/do/enter_access_token.png')} /> 
 
 ## Droplet
+
+In this **Droplet** area, you find information about your **Instance** like **Instance Name**, **Instance ID**,
+**Instance Type**, **Region** and, **IPv4 Public IP**. 
