@@ -61,16 +61,6 @@ module.exports = {
         'admin-database-servers',
         'admin-action-log',
         'admin-settings',
-        {
-          type: 'category',
-          label: 'Cloud Features',
-          items: [
-            'admin-cloud-features-aws',
-            'admin-cloud-features-digital-ocean',
-            'admin-cloud-features-google-cloud',
-            'admin-cloud-features-microsoft-azure',
-          ]
-        }
       ],
     },
     {

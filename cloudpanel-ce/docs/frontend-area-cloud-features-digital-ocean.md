@@ -23,6 +23,18 @@ To create an **Access Token** do the following steps:
 
 3) Enter a **Token name** and click on the button **Generate Token**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/do/generate_access_token.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/generate_access_token.png')} /> <br /><br />
+
+Copy the **Access Token** and enter the access in **CloudPanel** to enable all cloud functionalities.
 
 ### Enter Access Token
+
+To enter the **Access Token** in **CloudPanel** do the following:
+
+1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**.
+
+2) Click on the left menu on the **Digital Ocean** settings.
+
+Enter the **Access Token** and click on the button **Save**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/enter_access_token.png')} /> <br /><br />
