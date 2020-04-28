@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 A new domain can be added by clicking on button **Add Domain** top right.
 
-<img class="border" src={useBaseUrl('img/v1/domains/new_domain.png')} />
+<img class="border" src={useBaseUrl('img/v1/domains/new_domain.png')} /> <br /><br />
 
 In this form you enter the **Domain Name**, the **Document Root** and you select a **Vhost Template** <br />
 and **PHP Version** for your application.

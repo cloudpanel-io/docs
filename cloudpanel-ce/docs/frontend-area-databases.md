@@ -33,7 +33,7 @@ On the database overview site, you can delete a **Database** by clicking on the 
 
 To see the ** Master Database Credentials**, do the following:
 
-1) Login via [SSH](users#ssh-login) to your server and become **root**
+1) Login via [SSH](users#ssh-login) to your server and become **root**.
 
 ```bash
 sudo su root
@@ -72,25 +72,25 @@ If you have smaller databases, you can change the cron job to run more frequentl
 
 To change the schedule of the database backup task, do the following:
 
-1) Login via [SSH](users#ssh-login) to your server and become **root**
+1) Login via [SSH](users#ssh-login) to your server and become **root**.
 
 ```bash
 sudo su root
 ```
 
-2) Switch the user to **clp-admin**
+2) Switch the user to **clp-admin**.
 
 ```bash
 sudo su clp-admin
 ```
 
-3) Edit the **Cron Jobs** of the user
+3) Edit the **Cron Jobs** of the user.
 
 ```bash
 crontab -e
 ```
 
-4) Change the **backup task** schedule to your needs
+4) Change the **backup task** schedule to your needs.
 
 ```bash
 15 4 * * * clpctl db:backup --databases=all --ignoreDatabases=db1,db2 --retentionPeriod=7 &> /dev/null
@@ -138,7 +138,7 @@ For restoring a **Database Backup**, you can use the **CloudPanel CLI** or the *
 
 #### Restore via CloudPanel CLI
 
-1) Login via [SSH](users#ssh-login) to your server
+1) Login via [SSH](users#ssh-login) to your server.
 
 2) Go to the directory where your **Database Dump** is e.g.:
 
@@ -158,7 +158,7 @@ The **CloudPanel CLI** command uses the **mysql** command for restoring the data
 
 To restore a **Database Dump** via normal **mysql** command, do the following:
 
-1) Login via [SSH](users#ssh-login) to your server and become **root**
+1) Login via [SSH](users#ssh-login) to your server and become **root**.
 
 ```bash
 sudo su root
@@ -174,7 +174,7 @@ The **Output** will look like:
 
 <img class="border" src={useBaseUrl('img/v1/databases/show_database_credentials.png')} /> <br /> <br />
 
-3) Run the **mysql** command to restore a gzipped **Database Dump**
+3) Run the **mysql** command to restore a gzipped **Database Dump**.
 
 ```bash
 gunzip < dump.sql.gz | mysql -h'127.0.0.1' -P'3306' -u'root' -p'rGLEUUy6o2Wa7eBN' database-name

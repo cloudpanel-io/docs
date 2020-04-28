@@ -30,15 +30,15 @@ if your script is reading and writing files.
 
 The standard linux way to configure **Cron Jobs** on the command line can be used as well.
 
-1) Login via [SSH](users#ssh-login) with the user who should run the **Cron Job** e.g. **john-ssh**
+1) Login via [SSH](users#ssh-login) with the user who should run the **Cron Job** e.g. **john-ssh**.
 
-2) Enter the following command to edit **Cron Jobs**
+2) Enter the following command to edit **Cron Jobs**:
 
 ```bash
 crontab -e
 ```
 
-3) Enter your **Cron Job**
+3) Enter your **Cron Job**.
 
 On the following [site](https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/), you find some useful 
 examples of how to configure them.

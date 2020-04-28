@@ -21,7 +21,7 @@ Enter a **User Name** and a strong **Password**.
 CloudPanel automatically adds the suffix **-ssh** at the end of the **User Name** to prevent conflicts with system users.
 The **Password** needs to be at least six characters long; the longer, the better.
 
-<img class="border" src={useBaseUrl('img/v1/users/new_ssh_user.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/users/new_ssh_user.png')} />
 
 ### Deleting a User
 

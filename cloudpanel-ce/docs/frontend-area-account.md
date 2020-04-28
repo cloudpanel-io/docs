@@ -43,13 +43,13 @@ To disable **Two-Factor Authentication** click in your account on the tab **Secu
 
 If you can't log in into your account anymore, you can disable the **Two-Factor Authentication** via the command line.
 
-1) Login with SSH and switch the user to **root**
+1) Login with SSH and switch the user to **root**.
 
 ```bash
 sudo su root
 ```
 
-2) Execute the following command
+2) Execute the following command:
 
 ```bash
 clpctl user:disable:mfa 'john.doe'
