@@ -87,4 +87,29 @@ Enter the **Domain Name** and click on **Add Domain** to create a **New Domain**
 
 ### Import Domain
 
+If you already have an existing **Domain** in your **Digital Ocean** account, 
+and if you want to manage the **DNS Records** via **CloudPanel**, you can import the **Domain**.
+
+To import an existing **Domain**, click on the button top right on **Import Domain**.
+
+Enter the **Domain Name** and click on the button **Import Domain** to import the **Domain** including all **DNS Records**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/import_domain.png')} />
+
+### Adding a DNS Record
+
+To add a **DNS Record**, click on your **Domain** and click on the button **Add Record** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/add_dns_record_1.png')} /> <br /><br />
+
+Select the **Type**, enter the **Name**, **Value**, and select the **TTL** before clicking on the button **Add Record**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/add_dns_record_2.png')} />
+
+### Deleting a DNS Record
+
+To delete a **DNS Record**, click on your **Domain** and click on the button **Delete**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/delete_dns_record.png')} />
+
 ## Snapshots
