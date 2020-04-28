@@ -10,9 +10,9 @@ On this page, we explain step by step how to run **CloudPanel** on the [Microsof
 
 ## Launching a Virtual Machine
 
-1) Login into the [Microsoft Azure Portal](https://portal.azure.com/)
+1) Login into the [Microsoft Azure Portal](https://portal.azure.com/).
 
-2) Click in the left navigation on **Virtual Machines** and click on the button **Create virtual machine**
+2) Click in the left navigation on **Virtual Machines** and click on the button **Create virtual machine**.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/create_virtual_machine.png')} />
 
@@ -45,13 +45,13 @@ Select the inbound ports: **HTTP**, **HTTPS** and **SSH** and click on the butto
 
 ### Disks
 
-Select **Standard SSD** as OS disk type and continue to **Advanced**
+Select **Standard SSD** as OS disk type and continue to **Advanced**.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/disks.png')} />
 
 ### Advanced
 
-Select the latest **VM generation** to benefit from the newest developments and continue to **Review + create**
+Select the latest **VM generation** to benefit from the newest developments and continue to **Review + create**.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/msa_installation/vm_generation.png')} />
 
@@ -123,7 +123,7 @@ curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo CLOUD=msa bash
 
 You can now access the CloudPanel via Browser: **https://yourStaticIpAddress:8443**
 
-<img class="border" src={useBaseUrl('img/v1/getting_started/ignore_self_signed_certificate.png')} />
+<img class="border" src={useBaseUrl('img/v1/getting_started/ignore_self_signed_certificate.png')} /> <br /><br />
 
 Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to CloudPanel.
 

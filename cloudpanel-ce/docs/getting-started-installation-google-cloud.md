@@ -10,37 +10,37 @@ On this page, we explain step by step how to run **CloudPanel** on the [Google C
 
 ## Launching a VM Instance
 
-1) Login into the [Google Cloud Console](https://console.cloud.google.com/)
+1) Login into the [Google Cloud Console](https://console.cloud.google.com/).
 
-2) Click in the left navigation on **Compute Engine** --> **VM instances** and click on the button **Create**
+2) Click in the left navigation on **Compute Engine** --> **VM instances** and click on the button **Create**.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vm_instance.png')} />
 
 ### Name and Region
 
-Enter the **Name** of the instance and select a **Region** to deploy
+Enter the **Name** of the instance and select a **Region** to deploy.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vm_name_region.png')} />
 
 ### Machine Configuration
 
-Select the **Machine Family**, **Series** and **Machine Type** 
+Select the **Machine Family**, **Series** and **Machine Type**.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/machine_configuration.png')} />
 
 ### Boot Disk
 
-Use **Debian 10 (Buster)** as **Boot disk** image
+Use **Debian 10 (Buster)** as **Boot disk** image.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/boot_disk_image.png')} />
 
 ### Firewall
 
-1) Allow **HTTP** and **HTTPS** Traffic
+1) Allow **HTTP** and **HTTPS** Traffic.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/allow_http_https_traffic.png')} /> <br /> <br />
 
-2) Click on the tab **Security** and enter your [Public SSH Key](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys)
+2) Click on the tab **Security** and enter your [Public SSH Key](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/public_ssh_key.png')} /> <br /> <br />
 
@@ -48,24 +48,24 @@ Use **Debian 10 (Buster)** as **Boot disk** image
 
 In the **Networking** section we will add a **Network Tag** and create a **Static IP Address** for our instance.
 
-1) In the field **Network tags** add the tag: **cloudpanel** <br />
+1) In the field **Network tags** add the tag: **cloudpanel**. <br />
 The **Network Tag** is needed for assigning firewall rules to our instance.
 
-2) In the **Network interface** settings click on **External IP** --> **Create IP address** to create a static IP address
+2) In the **Network interface** settings click on **External IP** --> **Create IP address** to create a static IP address.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/networking_network_tag_static_ip_address.png')} /> <br /> <br />
 
 ### Create
 
-Click on the button **Create** to launch the VM Instance
+Click on the button **Create** to launch the VM Instance.
 
 ## Firewall Rules
 
 For accessing the **CloudPanel** later, we need to create a firewall rule.
 
-1) Click in the left navigation on **Neworking** --> **VPC Network** --> **Firewall Rules**
+1) Click in the left navigation on **Neworking** --> **VPC Network** --> **Firewall Rules**.
 
-<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vpc_network_firewall_rules.png')} />
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vpc_network_firewall_rules.png')} /> <br /><br />
 
 2) Click on the button **CREATE FIREWALL RULE** and create the following rule:
 

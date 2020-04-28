@@ -12,7 +12,7 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 
 ### Choose AMI
 
-1) Login into the [AWS Management Console](https://console.aws.amazon.com/ec2/) <br />
+1) Login into the [AWS Management Console](https://console.aws.amazon.com/ec2/). <br />
 
 2) Click on the **AMI ID** to launch CloudPanel in your desired AWS Region.
 
@@ -33,6 +33,7 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 | Europe (Frankfurt)        | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-88888888) |
 | Europe (Ireland)          | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-88888888) |
 | Europe (London)           | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-88888888) |
+| Europe (Milan)            | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-south-1#LaunchInstanceWizard:ami=ami-88888888) |
 | Europe (Paris)            | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-88888888) |
 | Europe (Stockholm)        | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-88888888) |
 | Middle East (Bahrain)     | [ami-88888888](https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-88888888) |
@@ -80,11 +81,11 @@ Click on the button **Launch Instance** to get your instance up and running.
 
 Having a static IP (Elastic IP Address) is needed for running web applications. <br />
 
-1) To create an **Elastic IP Address** click in the left navigation on **Network & Security** --> **Elastic IPs**
+1) To create an **Elastic IP Address** click in the left navigation on **Network & Security** --> **Elastic IPs**.
 
-2) Click on button **Allocate Elastic IP address** to create an **Elastic IP Address**
+2) Click on button **Allocate Elastic IP address** to create an **Elastic IP Address**.
 
-3) Select the **Allocated IP Address** and **Associate** it to your launched instance
+3) Select the **Allocated IP Address** and **Associate** it to your launched instance.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/aws_installation/associate_eip.png')} />
 
