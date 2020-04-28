@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### Create Access Keys
 
-To enable all **cloud functionalities**, you need to enter **AWS Access Keys** that **CloudPanel** can communicate with **Amazon Web Services**.
+To enable all **cloud functionalities**, enter **AWS Access Keys** that **CloudPanel** can communicate with **Amazon Web Services**.
 
 To create **AWS Access Keys** do the following steps:
 
