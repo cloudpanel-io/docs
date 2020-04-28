@@ -37,4 +37,6 @@ To enter the **Access Token** in **CloudPanel** do the following:
 
 Enter the **Access Token** and click on the button **Save**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/do/enter_access_token.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/enter_access_token.png')} /> 
+
+## Droplet
