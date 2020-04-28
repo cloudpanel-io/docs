@@ -65,4 +65,26 @@ Select a **Rule Type** from a list and select the **Source**, which should have 
 
 ### Deleting a Rule
 
-On the **Firewalls** overview site you can delete a rule by clicking on the button **Delete**.
+On the **Firewall** overview site you can delete a rule by clicking on the button **Delete**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/delete_firewall_rule.png')} />
+
+## Domains
+
+**Domains** are basically **Hosted DNS Zones** where you can manage the **DNS Records** for a domain.
+
+The **DNS Records** of a domain can be managed via **Digital Ocean's** control panel or via **CloudPanel**.
+
+### New Domain
+
+To add a **New Domain**, click on the button top right on **New Domain**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/new_domain_1.png')} /> <br /><br />
+
+Enter the **Domain Name** and click on **Add Domain** to create a **New Domain** for managing **DNS Records**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/do/new_domain_2.png')} />
+
+### Import Domain
+
+## Snapshots
