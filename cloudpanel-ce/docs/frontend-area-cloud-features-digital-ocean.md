@@ -71,7 +71,7 @@ On the **Firewall** overview site you can delete a rule by clicking on the butto
 
 ## Domains
 
-**Domains** are basically **Hosted DNS Zones** where you can manage the **DNS Records** for a domain.
+**Digital Ocean's** [Domains](https://www.digitalocean.com/docs/networking/dns/) are basically **Hosted DNS Zones** where you can manage the **DNS Records**.
 
 The **DNS Records** of a domain can be managed via **Digital Ocean's** control panel or via **CloudPanel**.
 
