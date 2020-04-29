@@ -72,7 +72,7 @@ On the **Firewall Rules** overview site you can delete a rule by clicking on the
 **Domain Name System (DNS)** service running on the same infrastructure as **Google**. 
 It has **low latency**, **high availability** and is a **cost-effective** way to make your applications and services available to your users.
 
-### New Zone
+### New DNS Zone
 
 To add a new **DNS Zone**, click on the button top right on **New Zone**.
 
@@ -81,5 +81,7 @@ To add a new **DNS Zone**, click on the button top right on **New Zone**.
 Enter the **Domain Name** and click on **Add DNS Zone** to create a new **DNS Zone**.
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/gce/new_dns_zone_2.png')} />
+
+### Import DNS Zone
 
 ## Snapshots

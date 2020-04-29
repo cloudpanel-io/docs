@@ -47,7 +47,6 @@ module.exports = {
             'cloud-features-aws',
             'cloud-features-digital-ocean',
             'cloud-features-google-cloud',
-            'cloud-features-microsoft-azure',
           ]
         }
       ],
