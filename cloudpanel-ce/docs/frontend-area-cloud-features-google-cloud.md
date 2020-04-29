@@ -54,14 +54,32 @@ In this **Firewall Rules** area, you see all assigned **Firewall Rules** of your
 
 To **Add a Rule** click on the **Firewall Rules** and then on the button **Add Rule** top right.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/add_firewall_rule_1.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/firewall_rules.png')} /> <br /><br />
 
 Select a **Rule Type** from a list and select the **Source**, which should have access to the service.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/add_firewall_rule_2.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/add_firewall_rule.png')} />
 
 ### Deleting a Rule
 
+On the **Firewall Rules** overview site you can delete a rule by clicking on the button **Delete**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/firewall_rules.png')} />
+
 ## DNS
+
+[Google Cloud DNS](https://cloud.google.com/dns) is a scalable, reliable, and managed authoritative 
+**Domain Name System (DNS)** service running on the same infrastructure as **Google**. 
+It has **low latency**, **high availability** and is a **cost-effective** way to make your applications and services available to your users.
+
+### New Zone
+
+To add a new **DNS Zone**, click on the button top right on **New Zone**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/new_dns_zone_1.png')} /> <br /> <br />
+
+Enter the **Domain Name** and click on **Add DNS Zone** to create a new **DNS Zone**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/new_dns_zone_2.png')} />
 
 ## Snapshots
