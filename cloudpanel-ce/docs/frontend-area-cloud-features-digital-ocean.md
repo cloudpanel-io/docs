@@ -25,7 +25,7 @@ To create an **Access Token** do the following steps:
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/do/generate_access_token.png')} /> <br /><br />
 
-Copy the **Access Token** and enter the access in **CloudPanel** to enable all cloud functionalities.
+Copy the **Access Token** and enter it in **CloudPanel** to enable all **cloud functionalities**.
 
 ### Enter Access Token
 
@@ -115,7 +115,7 @@ To delete a **DNS Record**, click on your **Domain** and click on the button **D
 ## Snapshots
 
 [Snapshots](https://www.digitalocean.com/docs/images/snapshots/) are on-demand disk images of **DigitalOcean Droplets**
- and volumes saved to your account. 
+ and volumes saved to your **Digital Ocean** account. 
  
 ### Automatic Backups 
 
@@ -124,7 +124,7 @@ All **Snapshots** are done incrementally, which means the first **Snapshot** is 
 
 To enable **Automatic Backups** do the following:
 
-1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**
+1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**.
 
 2) Click on the left menu on the **Digital Ocean** settings.
 
@@ -144,6 +144,6 @@ To create a **Backup**, click on the tab **Snapshots** and then on the button **
 <img class="border" src={useBaseUrl('img/v1/cloud-features/do/create_manual_snapshot_1.png')} /> <br /><br />
 
 Enter the **Name** of your **Snapshot** and click on the button **Create Snapshot**.  <br />
-**Digital Ocean** will immediately start creating the **Snapshot** of your **Droplet**.
+**Digital Ocean** will immediately start creating a **Snapshot** of your **Droplet**.
 
 <img class="border" src={useBaseUrl('img/v1/cloud-features/do/create_manual_snapshot_2.png')} />
