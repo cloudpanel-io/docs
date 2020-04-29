@@ -112,3 +112,11 @@ To delete a **DNS Record**, click on your **DNS Zone** and click on the button *
 <img class="border" src={useBaseUrl('img/v1/cloud-features/gce/delete_dns_record.png')} />
 
 ## Snapshots
+
+A **Snapshot** is the state of a system at a particular point in time. 
+We use **Snapshots** to periodically back up data of your **Instance** on a regular interval.
+**Google** takes the **Snapshots**; **CloudPanel** just triggers them on a scheduled interval.
+
+### Automatic Backups
+
+### Manual Backups

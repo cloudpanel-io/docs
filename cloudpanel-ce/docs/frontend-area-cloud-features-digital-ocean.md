@@ -115,7 +115,7 @@ To delete a **DNS Record**, click on your **Domain** and click on the button **D
 ## Snapshots
 
 [Snapshots](https://www.digitalocean.com/docs/images/snapshots/) are on-demand disk images of **DigitalOcean Droplets**
- and volumes saved to your **Digital Ocean** account. 
+and volumes saved to your **Digital Ocean** account. 
  
 ### Automatic Backups 
 
