@@ -48,6 +48,20 @@ In the **Instance** area, you find information about your **Instance** like **In
 
 ## Firewall Rules
 
+In this **Firewall Rules** area, you see all assigned **Firewall Rules** of your **Instance**.
+
+### Adding a Rule
+
+To **Add a Rule** click on the **Firewall Rules** and then on the button **Add Rule** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/add_firewall_rule_1.png')} /> <br /><br />
+
+Select a **Rule Type** from a list and select the **Source**, which should have access to the service.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/add_firewall_rule_2.png')} />
+
+### Deleting a Rule
+
 ## DNS
 
 ## Snapshots
