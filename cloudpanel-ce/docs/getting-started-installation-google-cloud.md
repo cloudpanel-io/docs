@@ -86,7 +86,7 @@ For accessing the **CloudPanel** later, we need to create a **Firewall Rule**.
 
 ### SSH Login
 
-For installing the CloudPanel, we first need to login with **SSH**. <br />
+For installing **CloudPanel**, we first need to login with **SSH**. <br />
 
 ```bash
 ssh -i path_to_your_private_key username@staticIpAddress

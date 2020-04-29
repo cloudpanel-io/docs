@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Access Token
 
-To enable all **cloud functionalities**, enter an [Access Token](https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token/),
+To enable all **cloud functionalities**, you need to enter an [Access Token](https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token/),
 that **CloudPanel** can communicate with **Digital Ocean**.
 
 ### Create Access Token
