@@ -84,4 +84,31 @@ Enter the **Domain Name** and click on **Add DNS Zone** to create a new **DNS Zo
 
 ### Import DNS Zone
 
+If you already have an existing **DNS Zone** in your **Google Cloud Account**, and if you want to manage the DNS records via
+**CloudPanel**, you can import the **DNS Zone**.
+
+To import an existing **DNS Zone**, click on the button top right on **Import Zone**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/import_dns_zone_1.png')} /> <br /> <br />
+
+Enter the **Domain Name** and click on **Import DNS Zone** to import the **DNS Zone**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/import_dns_zone_2.png')} />
+
+### Adding a DNS Record
+
+To add a [DNS Record](https://cloud.google.com/dns/records), click on your **DNS Zone** and click on the button **Add Record** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/dns_records.png')} /> <br /><br />
+
+Select the **Type**, enter the **Name**, **Value**, and select the **TTL** before clicking on the button **Add Record**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/add_dns_record.png')} />
+
+### Deleting a DNS Record
+
+To delete a **DNS Record**, click on your **DNS Zone** and click on the button **Delete**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/delete_dns_record.png')} />
+
 ## Snapshots
