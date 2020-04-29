@@ -40,16 +40,20 @@ Use **Debian 10 (Buster)** as **Boot disk** image.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/allow_http_https_traffic.png')} /> <br /> <br />
 
-2) Click on the tab **Security** and enter your [Public SSH Key](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
+2) Click on **Management, security, disks, networking, sole tenancy** to continue with the next step.
 
-<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/public_ssh_key.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/management_security_disk_settings.png')} /> <br /> <br />
+
+3) Click on the tab **Security** and enter your [Public SSH Key](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
+
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/public_ssh_key.png')} /> 
 
 ### Networking
 
 In the **Networking** section we will add a **Network Tag** and create a **Static IP Address** for our instance.
 
 1) In the field **Network tags** add the tag: **cloudpanel**. <br />
-The **Network Tag** is needed for assigning firewall rules to our instance.
+The **Network Tag** is needed for assigning **Firewall Rules** to our instance.
 
 2) In the **Network interface** settings click on **External IP** --> **Create IP address** to create a static IP address.
 
@@ -57,13 +61,13 @@ The **Network Tag** is needed for assigning firewall rules to our instance.
 
 ### Create
 
-Click on the button **Create** to launch the VM Instance.
+Click on the button **Create** to launch the **VM Instance**.
 
 ## Firewall Rules
 
-For accessing the **CloudPanel** later, we need to create a firewall rule.
+For accessing the **CloudPanel** later, we need to create a **Firewall Rule**.
 
-1) Click in the left navigation on **Neworking** --> **VPC Network** --> **Firewall Rules**.
+1) Click in the left navigation on **Networking** -> **VPC Network** -> **Firewall Rules**.
 
 <img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vpc_network_firewall_rules.png')} /> <br /><br />
 

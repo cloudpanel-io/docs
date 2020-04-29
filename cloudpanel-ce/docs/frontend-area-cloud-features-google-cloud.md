@@ -4,4 +4,6 @@ title: Google Cloud
 sidebar_label: Google Cloud
 ---
 
-Hello World
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+## Access Token
