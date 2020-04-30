@@ -145,7 +145,7 @@ is a full backup, and all further **AMIs** contain the data differences.
 
 To enable **Automatic Backups** do the following:
 
-1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**
+1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**.
 
 2) Click on the left menu on the **AWS** settings.
 

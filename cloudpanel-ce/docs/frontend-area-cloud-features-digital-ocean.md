@@ -136,8 +136,7 @@ With the following configuration, two **Snapshots** will be created per day and 
 
 ### Manual Backups
 
-Often you want to do a backup before releasing a new version of your application, and you want to retain the manually created **Snapshot**
-for some time.
+Often you want to do a **Backup** before releasing a new version or feature of your application.
 
 To create a **Backup**, click on the tab **Snapshots** and then on the button **Create Snapshot** top right.
 

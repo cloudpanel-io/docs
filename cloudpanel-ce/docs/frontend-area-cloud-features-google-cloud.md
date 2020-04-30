@@ -115,8 +115,31 @@ To delete a **DNS Record**, click on your **DNS Zone** and click on the button *
 
 A **Snapshot** is the state of a system at a particular point in time. 
 We use **Snapshots** to periodically back up data of your **Instance** on a regular interval.
-**Google** takes the **Snapshots**; **CloudPanel** just triggers them on a scheduled interval.
+**Google** takes and stores the **Snapshots**; **CloudPanel** triggers them on a scheduled interval.
 
 ### Automatic Backups
 
+To enable **Automatic Backups** do the following:
+
+1) Login into your **CloudPanel** as **Admin** and go to the **Admin Adrea**.
+
+2) Click on the left menu on the **Google Cloud** settings.
+
+Set **Automatic Backups** to **Yes** and select the **Backup Frequency** and **Backup Retention Period**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/enable_automatic_backups.png')} /> <br /><br />
+
+With the following configuration, two **Snapshots** will be created per day and held for seven days, 14 **Snapshots** in total.
+
 ### Manual Backups
+
+Often you want to do a **Backup** before releasing a new version or feature of your application.
+
+To create a **Backup**, click on the tab **Snapshots** and then on the button **Create Snapshot** top right.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/snapshots.png')} /> <br /><br />
+
+Enter the **Name** of your **Snapshot** and click on the button **Create Snapshot**.  <br />
+The **Google Cloud** will immediately start creating a **Snapshot** of your **Instance**.
+
+<img class="border" src={useBaseUrl('img/v1/cloud-features/gce/create_manual_snapshot.png')} />
