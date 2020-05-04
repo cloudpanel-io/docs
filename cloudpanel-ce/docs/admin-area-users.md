@@ -6,11 +6,11 @@ sidebar_label: Users
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-As an admin user, you can add additional **CloudPanel** users. 
-Two different user types can be added, normal users and users which administrator rights.
-Normal users have only access to the frontend area.
-
 ## Users
+
+As an admin user, you can add additional **CloudPanel** users. 
+Two different user roles can be added, normal users and users which administrator rights.
+Normal users have only access to the frontend area.
 
 ### Adding a User
 
