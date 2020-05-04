@@ -18,7 +18,9 @@ To add a new **User** do the following steps:
 
 1) Login into the **CloudPanel** as **User** with admin rights.
 
-2) In the left menu, click on **Users** and click on the button Add user.
+2) Go to the **Admin Area** by clicking on **Admin Area** top right.
+
+3) In the left menu, click on **Users** and click on the button **Add User**.
 
 <img class="border" src={useBaseUrl('img/v1/admin/users/users.png')} /> <br /> <br />
 
@@ -30,7 +32,7 @@ in the monitoring graphs on the dashboard in the frontend area.
 
 ### Deleting a User
 
-On the **Users** overview site you can delete a **User** by clicking on the button **Delete**.
+On the **Users** overview site, you can delete a **User** by clicking on the button **Delete**.
 
 <img class="border" src={useBaseUrl('img/v1/admin/users/delete_user.png')} />
 
