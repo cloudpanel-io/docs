@@ -22,12 +22,12 @@ To create **AWS Access Keys** do the following steps:
 
 Enter a **User name** and select **Programmatic access** as **Access type** and click on the button **Next: Permissions**
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_user_1.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_user_1.png')} /> <br /><br />
 
 4) Click on the button **Attach existing policies directly** and select the **AdministratorAccess** policy and click
 on the button **Next: Tags**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_user_2.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_user_2.png')} /> <br /><br />
 
 :::caution Permissions
 Experienced **AWS** users should create **AWS Access Keys** with more fine granulated permissions.
@@ -37,11 +37,11 @@ Experienced **AWS** users should create **AWS Access Keys** with more fine granu
 
 6) Click on the button **Create user** to create the **AWS Access Keys**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_user_3.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_user_3.png')} /> <br /><br />
 
 Copy the **Access key ID** and **Secret access key**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_user_4.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_user_4.png')} />
 
 ### Enter Access Keys
 
@@ -53,37 +53,37 @@ To enter the **AWS Access Keys** do the following:
 
 Enter the **AWS Access Key** and **AWS Secret Access Key** and click on the button **Save**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/enter_access_keys.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/enter_access_keys.png')} />
 
 ## Instance
 
 In this **Instance** area, you find information about your **Instance** like **Instance Name**, **Instance ID**,
 **Instance Type**, **Region** and, **IPv4 Public IP**. 
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/instance.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/instance.png')} />
 
 ## Security Groups
 
 In this **Security Groups** area, you see all assigned [Security Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html) of your **Instance**.<br />
 With a click on a **Security Group**, you can edit rules like adding IPs for SSH or other services.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/security_groups.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/security_groups.png')} />
 
 ### Adding a Rule
 
 To **Add a Rule** click on the **Security Group** and then on the button **Add Rule** top right.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rules.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_security_group_rules.png')} /> <br /><br />
 
 Select a **Rule Type** from a list and select the **Source**, which should have access to the service.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rule.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_security_group_rule.png')} />
 
 ### Deleting a Rule
 
 On the **Security Group** overview site you can delete a rule by clicking on the button **Delete**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_security_group_rules.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_security_group_rules.png')} /> 
 
 ## Route 53
 
@@ -97,11 +97,11 @@ In this **Route 53** area, you can import **Hosted Zones** from [Amazon Route 53
 
 To create a **New Hosted Zone**, click on the button top right on **New Hosted Zone**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/new_route53_hosted_zone.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/new_route53_hosted_zone.png')} /> <br /> <br />
 
 Enter the **Domain Name** and click on **Add Hosted Zone** to create a new **Hosted Zone** in [Amazon Route 53](https://aws.amazon.com/route53/).
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/new_route53_hosted_zone_domain.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/new_route53_hosted_zone_domain.png')} />
 
 ### Import Hosted Zone
 
@@ -110,28 +110,28 @@ If you already have an existing **Hosted Zone** in your [Amazon Route 53](https:
 
 To import an existing **Hosted Zone**, click on the button top right on **Import Hosted Zone**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/import_hosted_zone.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/import_hosted_zone.png')} /> <br /> <br />
 
 The **Hosted Zone ID** of a **Domain Name** can be found in the **AWS Management Console** -> **Services** -> **Route 53**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/aws_route53_hosted_zone_id.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/aws_route53_hosted_zone_id.png')} />
 
 ### Adding a DNS Record
 
 To add a [DNS Record](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html), click on your **Hosted Zone** and click on the button **Add Record** top right.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_dns_record_hosted_zone.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_dns_record_hosted_zone.png')} /> <br /> <br />
 
 Select the [Type](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html), enter the **Name**, **Value**,
 and select the **TTL** before clicking on the button **Add Record**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/add_dns_record.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/add_dns_record.png')} />
 
 ### Deleting a DNS Record
 
 To delete a **DNS Record**, click on your **Hosted Zone** and click on the button **Delete**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/delete_dns_record.png')} />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/delete_dns_record.png')} />
 
 ## Amazon Machine Images (AMI)
 
@@ -151,7 +151,7 @@ To enable **Automatic Backups** do the following:
 
 Set **Automatic Backups** to **Yes** and select the **Backup Frequency** and **Backup Retention Period**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/enable_automatic_backups.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/enable_automatic_backups.png')} /> <br /><br />
 
 With the following configuration, two **Backups (AMIs)** will be created per day and held for seven days, 14 **AMIs** in total.
 
@@ -162,12 +162,12 @@ for some time.
 
 To create a **Backup**, click on the tab **Backup (AMIs)** and then on the button **Create Backup** top right.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/create_manual_backup_1.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/create_manual_backup_1.png')} /> <br /><br />
 
 Enter the **Name** of your **Backup (AMI)** and click on the button **Create Backup**.  <br />
 AWS will immediately start creating an **AMI** of your **Instance**.
 
-<img class="border" src={useBaseUrl('img/v1/cloud-features/aws/create_manual_backup_2.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/cloud_features/aws/create_manual_backup_2.png')} /> <br /><br />
 
 :::important AMI Retention
 Manually created **AMIs** will not be deleted automatically; they need to be **deleted** manually as well.
