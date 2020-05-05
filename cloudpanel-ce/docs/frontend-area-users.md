@@ -167,6 +167,8 @@ To login via FTP to the server, you need a client like [FileZilla](https://filez
 
 Make sure that the **FTP** ports **20-21** and the passive ports **49152-65534** are open for your ip address.
 
+It is also important that you have set the [MasqueradeAddress](admin-settings#proftpd-settings) in the **Admin Area**.
+
 Fill out the **Host**, **Username**, **Password** and **Port** fields and click on the button **Quickconnect**.
 
 <img class="border" src={useBaseUrl('img/v1/users/filezilla_ftp.png')} /> 
