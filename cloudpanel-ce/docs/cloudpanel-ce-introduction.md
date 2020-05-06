@@ -43,6 +43,7 @@ In this section we will provide an overview about the frontend, cloud and admin 
 - [Settings](domains#settings)
 - [Vhost](domains#vhost)
 - [Domain Aliases](domains#domain-aliases)
+- [PHP-FPM Pools](domains#php-fpm-pools)
 - [PHP Settings](domains#php-settings)
 - [Basic Auth](domains#basic-auth)
 - [Logs](domains#logs)

@@ -4,7 +4,6 @@ module.exports = {
       type: 'category',
       label: 'CloudPanel CE',
       items: [
-        'style-guide',
         'introduction',
         'requirements',
         'technology-stack',

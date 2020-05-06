@@ -68,6 +68,131 @@ Aliases of your domain can be added in the vhost by extending the **server_name*
 When you issue a [SSL/TLS certificate](#ssl-certificates) make sure to include the domain aliases as well.
 :::
 
+## PHP-FPM Pools
+
+**PHP-FPM** ([FastCGI Process Manager](https://php-fpm.org/)) is a **FastCGI** handler for **PHP** scripts and applications. <br />
+The web server **NGINX** is forwarding all **PHP** requests to **PHP-FPM** via **FastCGI**.
+
+Each **PHP Version** is organized in **PHP-FPM Pools**, the configured **Pools** can be found in the following directory:
+
+```bash
+/etc/php/$PHP_VERSION/fpm/pool.d/
+```
+
+Each **PHP Version** has a default **PHP-FPM Pool**:
+
+```bash
+/etc/php/$PHP_VERSION/fpm/pool.d/default.conf
+```
+
+The content of the default **PHP-FPM Pool** looks like the following one:
+
+```bash
+[default]
+listen = 127.0.0.1:9740
+user = clp
+group = clp
+listen.allowed_clients = 127.0.0.1
+pm = ondemand
+pm.max_children = 250
+pm.process_idle_timeout = 10s
+pm.max_requests = 100
+listen.backlog = 65535
+pm.status_path = /status
+request_terminate_timeout = 7200s
+rlimit_files = 131072
+rlimit_core = unlimited
+catch_workers_output = yes
+```
+
+In the configuration above you see that the **user** and **group** is **clp**.
+
+### Creating a PHP-FPM Pool
+
+Basically all **PHP Applications** are reading and writing files to the file system. <br />
+If you use the default **PHP-FPM Pool**, all created files will be created as user and group **clp**.
+
+To avoid permission problems you can create additional **PHP-FPM Pools**.
+
+To create a **PHP-FPM Pool** do the following:
+
+1) Create a [SSH User](users#adding-a-user) like **john-ssh**.
+
+2) Go to the **PHP-FPM** directory and make a copy of the default **PHP-FPM Pool**.
+
+```bash
+cd /etc/php/$PHP_VERSION/fpm/pool.d/
+cp default.conf domain.conf
+```
+
+3) Open the file **domain.conf** and change it:
+
+```bash
+[domain.com]
+listen = 127.0.0.1:9741
+user = john-ssh
+group = clp
+listen.allowed_clients = 127.0.0.1
+pm = ondemand
+pm.max_children = 250
+pm.process_idle_timeout = 10s
+pm.max_requests = 100
+listen.backlog = 65535
+pm.status_path = /status
+request_terminate_timeout = 7200s
+rlimit_files = 131072
+rlimit_core = unlimited
+catch_workers_output = yes
+```
+
+Change the following settings:
+
+- The name of the **PHP-FPM Pool** in the square brackets
+- **listen**: Increase the listener (port) number by one
+- **user**: Change it to your created **SSH User**
+
+In our example the new **PHP-FPM Pool** would look like the following one:
+
+```bash
+[domain.com]
+listen = 127.0.0.1:9741
+user = john-ssh
+group = clp
+listen.allowed_clients = 127.0.0.1
+pm = ondemand
+pm.max_children = 250
+pm.process_idle_timeout = 10s
+pm.max_requests = 100
+listen.backlog = 65535
+pm.status_path = /status
+request_terminate_timeout = 7200s
+rlimit_files = 131072
+rlimit_core = unlimited
+catch_workers_output = yes
+```
+
+4) Restart **PHP-FPM** with the following command to apply the changes:
+
+```bash
+systemctl restart php7.4-fpm
+```
+
+If you have created a **PHP-FPM Pool** for **PHP 7.3**, you would need to restart **PHP-FPM** for **PHP 7.3**:
+
+```bash
+systemctl restart php7.3-fpm
+```
+
+### Selecting a PHP-FPM Pool
+
+When you add a new **Domain**, you can now select the new created **PHP-FPM Pool** in the **PHP-Version** drop down.
+
+<img class="border" src={useBaseUrl('img/v1/domains/select_php_fpm_pool_new_domain.png')} /> <br /><br />
+
+The **PHP-FPM Pool**  for existing domains can be changed in the [PHP Settings](domains#php-settings) of your domain.
+
+<img class="border" src={useBaseUrl('img/v1/domains/php_settings_change_php_fpm_pool.png')} />
+
 ## PHP Settings
 
 In the **PHP Settings** of your domain, you can change the **PHP Version** and make other settings like:
