@@ -4,4 +4,24 @@ title: CloudPanel CLI Commands
 sidebar_label: Commands
 ---
 
-Hello World
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+## Database
+
+### Database Backup
+
+### Database Import
+
+### Database Credentials
+
+
+## User
+
+### Disable 2-FA
+
+### Reset Password
+
+## System
+
+### Permission Reset
+
