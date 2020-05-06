@@ -17,6 +17,10 @@ A new domain can be added by clicking on button **Add Domain** top right.
 In this form you enter the **Domain Name**, the **Document Root** and you select a **Vhost Template** <br />
 and **PHP Version** for your application.
 
+:::warning PHP-FPM Pools
+Make sure to read about [PHP-FPM Pools](domains#php-fpm-pools) before adding a domain.
+:::
+
 When you click on the button **Add Domain**, the following things will be created by **CloudPanel**:
 
 - The Document Root: **/home/cloudpanel/htdocs/www.domain.com**
@@ -70,7 +74,7 @@ When you issue a [SSL/TLS certificate](#ssl-certificates) make sure to include t
 
 ## PHP-FPM Pools
 
-**PHP-FPM** ([FastCGI Process Manager](https://php-fpm.org/)) is a **FastCGI** handler for **PHP** scripts and applications. <br />
+**PHP-FPM** ([FastCGI Process Manager](https://php-fpm.org/)) is a **FastCGI** handler for **PHP** applications. <br />
 The web server **NGINX** is forwarding all **PHP** requests to **PHP-FPM** via **FastCGI**.
 
 Each **PHP Version** is organized in **PHP-FPM Pools**, the configured **Pools** can be found in the following directory:
@@ -149,7 +153,7 @@ Change the following settings:
 
 - The name of the **PHP-FPM Pool** in the square brackets
 - **listen**: Increase the listener (port) number by one
-- **user**: Change it to your created **SSH User**
+- **user**: Your created **SSH User** (e.g. john-ssh)
 
 In our example the new **PHP-FPM Pool** would look like the following one:
 
@@ -177,7 +181,7 @@ catch_workers_output = yes
 systemctl restart php7.4-fpm
 ```
 
-If you have created a **PHP-FPM Pool** for **PHP 7.3**, you would need to restart **PHP-FPM** for **PHP 7.3**:
+If you have created a **PHP-FPM Pool** for **PHP 7.3**, restart **PHP-FPM** for **PHP 7.3** with the following command:
 
 ```bash
 systemctl restart php7.3-fpm
