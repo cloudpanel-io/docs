@@ -38,6 +38,8 @@ The following **commands** are available for other **users**:
 
 With the **Database Backup** command you can backup all databases or specific ones.
 
+For backing up databases, **CloudPanel** uses the standard utility **mysqldump**.
+
 To **backup all** databases, run the following command:
 
 ```bash
@@ -56,13 +58,21 @@ To **backup** only one specific **database**, run the following command:
 clpctl db:backup --databases=$databaseName
 ```
 
-The **Database Backups** will be compressed via gzip and stored in the following directory:
+The **Database Backups** will be compressed via **gzip** and stored in the following directory:
 
 ```bash
 /home/cloudpanel/backups/
 ```
 
 ### Database Import
+
+**Importing** or **restoring** a database can be done with the following command:
+
+```bash
+clpctl db:import --file=dump.sql.gz --database=database-name
+```
+
+The supported file formats are **.sql** and **sql.gz**. 
 
 ### Database Credentials
 
