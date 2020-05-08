@@ -76,14 +76,60 @@ The supported file formats are **.sql** and **sql.gz**.
 
 ### Database Credentials
 
+The **Database Credentials** command shows the master credentials for connecting to the **database**.
+
+```bash
+clpctl db:show:credentials
+```
+
+The output will look like:
+
+<img class="border" src={useBaseUrl('img/v1/cli/db_show_credentials.png')} /> <br /><br />
+
+Use the **Connect Command** to connect to **MySQL** from the command-line.
+
+This command is only available for the **root** user.
+
+### Database Master Password
+
+To display only the **Database Maste Password** run the following command:
+
+```bash
+clpctl db:show:master-password
+```
+
+This command is only available for the **root** user.
 
 ## User
 
 ### Disable 2-FA
 
+To disable **Two-Factor Authentication** for a **user**, run the following command:
+
+```bash
+clpctl user:disable:mfa 'john.doe'
+```
+
+This command is only available for the **root** user.
+
 ### Reset Password
+
+To **reset a password** for a **user**, run the following command:
+
+```bash
+clpctl user:reset:password 'john.doe' 'newPassword123'
+```
+
+This command is only available for the **root** user.
 
 ## System
 
 ### Permission Reset
 
+To reset the **owner** and **permissions** of files and directories run the following command:
+
+```bash
+clpctl system:permissions:reset $directoryOrFile 775
+```
+
+The reset of the **owner** and **permissions** are applied recursively.
