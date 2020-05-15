@@ -1,3 +1,5 @@
+const versions = require('./versions.json');
+
 module.exports = {
   title: 'CloudPanel CE | Documentation',
   tagline: 'CloudPanel CE | Documentation',
@@ -8,6 +10,9 @@ module.exports = {
   projectName: 'CloudPanelCE',
   themeConfig: {
     disableDarkMode: true,
+    gtag: {
+      trackingID: 'UA-88888',
+    },
     algolia: {
       apiKey: '4a68c2ae70048709e0852b5462dee94d',
       indexName: 'cloudpanel',
@@ -21,6 +26,25 @@ module.exports = {
         alt: 'CloudPanel CE | Documentation',
         src: 'img/logo.svg',
       },
+      links: [
+        {
+          label: 'Docs',
+          to: 'docs/introduction', // "fake" link
+          position: 'left',
+          activeBasePath: 'docs',
+          items: [
+            {
+              label: versions[0],
+              to: '/introduction',
+            },
+            ...versions.slice(1).map((version) => ({
+              label: version,
+              to: `/${version}/introduction`,
+            }))
+          ],
+        },
+        {to: 'blog', label: 'Blog', position: 'left'},
+      ],
     },
     footer: {
       style: 'classic',

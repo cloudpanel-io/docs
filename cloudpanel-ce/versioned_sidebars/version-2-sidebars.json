@@ -1,24 +1,24 @@
 {
-  "version-v1/sidebar": [
+  "version-2/sidebar": [
     {
       "type": "category",
       "label": "CloudPanel CE",
       "items": [
         {
           "type": "doc",
-          "id": "version-v1/introduction"
+          "id": "version-2/introduction"
         },
         {
           "type": "doc",
-          "id": "version-v1/requirements"
+          "id": "version-2/requirements"
         },
         {
           "type": "doc",
-          "id": "version-v1/technology-stack"
+          "id": "version-2/technology-stack"
         },
         {
           "type": "doc",
-          "id": "version-v1/changelog"
+          "id": "version-2/changelog"
         }
       ]
     },
@@ -28,7 +28,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-v1/getting-started"
+          "id": "version-2/getting-started"
         },
         {
           "type": "category",
@@ -36,23 +36,23 @@
           "items": [
             {
               "type": "doc",
-              "id": "version-v1/installation-aws"
+              "id": "version-2/installation-aws"
             },
             {
               "type": "doc",
-              "id": "version-v1/installation-digital-ocean"
+              "id": "version-2/installation-digital-ocean"
             },
             {
               "type": "doc",
-              "id": "version-v1/installation-google-cloud"
+              "id": "version-2/installation-google-cloud"
             },
             {
               "type": "doc",
-              "id": "version-v1/installation-microsoft-azure"
+              "id": "version-2/installation-microsoft-azure"
             },
             {
               "type": "doc",
-              "id": "version-v1/installation-other"
+              "id": "version-2/installation-other"
             }
           ]
         }
@@ -64,31 +64,31 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-v1/account"
+          "id": "version-2/account"
         },
         {
           "type": "doc",
-          "id": "version-v1/domains"
+          "id": "version-2/domains"
         },
         {
           "type": "doc",
-          "id": "version-v1/security"
+          "id": "version-2/security"
         },
         {
           "type": "doc",
-          "id": "version-v1/users"
+          "id": "version-2/users"
         },
         {
           "type": "doc",
-          "id": "version-v1/databases"
+          "id": "version-2/databases"
         },
         {
           "type": "doc",
-          "id": "version-v1/cron-jobs"
+          "id": "version-2/cron-jobs"
         },
         {
           "type": "doc",
-          "id": "version-v1/services"
+          "id": "version-2/services"
         },
         {
           "type": "category",
@@ -96,15 +96,15 @@
           "items": [
             {
               "type": "doc",
-              "id": "version-v1/cloud-features-aws"
+              "id": "version-2/cloud-features-aws"
             },
             {
               "type": "doc",
-              "id": "version-v1/cloud-features-digital-ocean"
+              "id": "version-2/cloud-features-digital-ocean"
             },
             {
               "type": "doc",
-              "id": "version-v1/cloud-features-google-cloud"
+              "id": "version-2/cloud-features-google-cloud"
             }
           ]
         }
@@ -116,23 +116,23 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-v1/admin-users"
+          "id": "version-2/admin-users"
         },
         {
           "type": "doc",
-          "id": "version-v1/admin-vhost-templates"
+          "id": "version-2/admin-vhost-templates"
         },
         {
           "type": "doc",
-          "id": "version-v1/admin-database-servers"
+          "id": "version-2/admin-database-servers"
         },
         {
           "type": "doc",
-          "id": "version-v1/admin-action-log"
+          "id": "version-2/admin-action-log"
         },
         {
           "type": "doc",
-          "id": "version-v1/admin-settings"
+          "id": "version-2/admin-settings"
         }
       ]
     },
@@ -142,7 +142,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-v1/cloudpanel-cli-commands"
+          "id": "version-2/cloudpanel-cli-commands"
         }
       ]
     },
@@ -152,19 +152,19 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-v1/application-drupal"
+          "id": "version-2/application-drupal"
         },
         {
           "type": "doc",
-          "id": "version-v1/application-magento"
+          "id": "version-2/application-magento"
         },
         {
           "type": "doc",
-          "id": "version-v1/application-wordpress"
+          "id": "version-2/application-wordpress"
         },
         {
           "type": "doc",
-          "id": "version-v1/application-wo-commerce"
+          "id": "version-2/application-wo-commerce"
         }
       ]
     }
