@@ -1,0 +1,172 @@
+{
+  "version-v1/sidebar": [
+    {
+      "type": "category",
+      "label": "CloudPanel CE",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v1/introduction"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/requirements"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/technology-stack"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/changelog"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Getting Started",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v1/getting-started"
+        },
+        {
+          "type": "category",
+          "label": "Installation",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-v1/installation-aws"
+            },
+            {
+              "type": "doc",
+              "id": "version-v1/installation-digital-ocean"
+            },
+            {
+              "type": "doc",
+              "id": "version-v1/installation-google-cloud"
+            },
+            {
+              "type": "doc",
+              "id": "version-v1/installation-microsoft-azure"
+            },
+            {
+              "type": "doc",
+              "id": "version-v1/installation-other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Frontend Area",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v1/account"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/domains"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/security"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/users"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/databases"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/cron-jobs"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/services"
+        },
+        {
+          "type": "category",
+          "label": "Cloud Features",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-v1/cloud-features-aws"
+            },
+            {
+              "type": "doc",
+              "id": "version-v1/cloud-features-digital-ocean"
+            },
+            {
+              "type": "doc",
+              "id": "version-v1/cloud-features-google-cloud"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Admin Area",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v1/admin-users"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/admin-vhost-templates"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/admin-database-servers"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/admin-action-log"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/admin-settings"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "CloudPanel CLI",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v1/cloudpanel-cli-commands"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Applications",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v1/application-drupal"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/application-magento"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/application-wordpress"
+        },
+        {
+          "type": "doc",
+          "id": "version-v1/application-wo-commerce"
+        }
+      ]
+    }
+  ]
+}
