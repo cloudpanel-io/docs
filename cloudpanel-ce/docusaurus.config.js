@@ -28,7 +28,7 @@ module.exports = {
       },
       links: [
         {
-          label: 'Docs',
+          label: 'Versions',
           to: 'docs/introduction', // "fake" link
           position: 'left',
           activeBasePath: 'docs',
@@ -43,7 +43,7 @@ module.exports = {
             }))
           ],
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        /*{to: 'blog', label: 'Blog', position: 'left'},*/
       ],
     },
     footer: {
