@@ -10,6 +10,7 @@
   --ifm-navbar-height: 40px;
   --ifm-navbar-padding-vertical: 5px;
   --ifm-navbar-padding-horizontal: 10px;
+  --ifm-font-size-base: 15px;
 }
 
 .markdown {
