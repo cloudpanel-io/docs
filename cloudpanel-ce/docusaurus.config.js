@@ -16,7 +16,9 @@ module.exports = {
     algolia: {
       apiKey: '4a68c2ae70048709e0852b5462dee94d',
       indexName: 'cloudpanel',
-      algoliaOptions: {}, // Optional, if provided by Algolia
+      algoliaOptions: {
+        facetFilters: [`version:${versions[0]}`],
+      },
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
