@@ -72,33 +72,15 @@ module.exports = {
       type: 'category',
       label: 'Applications',
       items: [
-        'application-drupal',
-        'application-magento',
-        'application-wordpress',
-        'application-wo-commerce',
-      ],
-    },
-    /*
-    {
-      type: 'category',
-      label: 'Guides',
-      items: [
         {
           type: 'category',
-          label: 'NGINX',
+          label: 'Magento',
           items: [
-            'guide-nginx-rewrites',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'PHP-FPM',
-          items: [
-            'guide-php-fpm-configuration',
-          ],
+            'application-magento-1',
+            'application-magento-2',
+          ]
         },
       ],
     },
-    */
   ]
 };
