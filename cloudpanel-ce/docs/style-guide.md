@@ -179,9 +179,9 @@ This is a note
 This is a tip
 :::
 
-_:::important
+:::important
 This is important
-:::_
+:::
 
 :::caution
 This is a caution
