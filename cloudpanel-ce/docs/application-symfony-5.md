@@ -6,62 +6,54 @@ sidebar_label: Symfony 5
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Magento 1** with **CloudPanel**.
+On this page, we explain step by step how to setup **Symfony 5** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup a **Magento 1** shop under the domain ***www.domain.com***.
+In the following example we will setup a **Symfony 5** application under the domain ***www.domain.com***.
 
 ### Preparation
 
-Before we can start with the installation of a **Magento 1** shop, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
+Before we can start with the installation of a **Symfony 5** application, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
 and a [Domain](domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 1 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](domains#adding-a-domain), make sure to select the **Symfony 5 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/magento1/new_domain.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/symfony5/new_domain.png')} /> <br /><br />
+
+:::warning Document Root
+Make sure to point the **Document Root** to the **public** directory.
+:::
 
 ### Installation
 
-To install **Magento 1** do the following steps:
+To install **Symfony 5** do the following steps:
 
-1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
-
-```
-cd ~/tmp
-```
-
-2. Download and extract the latest **Magento 1** version.
+1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 
 ```
-curl -sL https://github.com/cloudpanel-io/applications/raw/master/magento1/magento-1.9.4.5.tar.gz | tar xfz -
+cd /home/cloudpanel/htdocs/
 ```
 
-:::caution Download Magento 1 Version
-The latest version of **Magento 1** can also be found and downloaded on the following site: <br /> [https://magento.com/tech-resources/download](https://magento.com/tech-resources/download)
-:::
-
-3. Move files to the **htdocs** directory of the domain:
+2. Delete the project directory which has been created by **CloudPanel**:
 
 ```
-cp -R magento/* /home/cloudpanel/htdocs/www.domain.com/
+rm -rf /home/cloudpanel/htdocs/www.domain.com
 ```
 
-4. Reset file permissions to 775.
+3. Install **Symfony 5** via composer:
+
+```
+php7.4 /usr/local/bin/composer create-project symfony/website-skeleton:^5.0 www.domain.com
+```
+
+4. Reset permissions.
 
 ```
 cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 
-5. Clean up the **tmp** directory.
+5. That's it, open [https://www.domain.com](https://www.domain.com) to see **Symfony 5** welcome page.
 
-```
-rm -rf ~/tmp/*
-```
-
-5. Open [https://www.domain.com/](https://www.domain.com/) and go through the **Installation Wizard**.
-
-<img class="border" src={useBaseUrl('img/v1/applications/magento1/installation_wizard.png')} /> <br /> <br />
-
-6. That's it, the installation of **Magento 1** is done.
+<img class="border" src={useBaseUrl('img/v1/applications/symfony5/welcome_to_symfony.png')} /> 

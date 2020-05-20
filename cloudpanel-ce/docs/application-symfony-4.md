@@ -14,7 +14,7 @@ In the following example we will setup a **Symfony 4** application under the dom
 
 ### Preparation
 
-Before we can start with the installation of a **Magento 1** shop, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
+Before we can start with the installation of a **Symfony 4** application, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
 and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Symfony 4 Vhost Template** and the right **PHP Version**.
@@ -27,7 +27,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **Magento 1** do the following steps:
+To install **Symfony 4** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 
@@ -47,6 +47,13 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 php7.4 /usr/local/bin/composer create-project symfony/website-skeleton:^4.4 www.domain.com
 ```
 
-4. That's it, open [https://www.domain.com](https://www.www.domain.com) to see **Symfony 4** welcome page.
+4. Reset permissions.
+
+```
+cd /home/cloudpanel/htdocs/
+clpctl system:permissions:reset www.domain.com 775
+```
+
+5. That's it, open [https://www.domain.com](https://www.domain.com) to see **Symfony 4** welcome page.
 
 <img class="border" src={useBaseUrl('img/v1/applications/symfony4/welcome_to_symfony.png')} /> 

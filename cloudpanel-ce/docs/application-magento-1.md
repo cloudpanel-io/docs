@@ -47,7 +47,7 @@ The latest version of **Magento 1** can also be found and downloaded on the foll
 cp -R magento/* /home/cloudpanel/htdocs/www.domain.com/
 ```
 
-4. Reset file permissions to 775.
+4. Reset permissions.
 
 ```
 cd /home/cloudpanel/htdocs/
