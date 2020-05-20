@@ -34,7 +34,7 @@ cd ~/tmp
 2. Download and extract the latest **WordPress 5** version.
 
 ```
-curl -sL https://wordpress.org/latest.tar.gz | tar xfz -
+curl -sL https://wordpress.org/wordpress-5.4.1.tar.gz | tar xfz -
 ```
 
 3. Move files to the **htdocs** directory of the domain:
