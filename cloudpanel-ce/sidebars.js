@@ -88,6 +88,13 @@ module.exports = {
             'application-symfony-5',
           ]
         },
+        {
+          type: 'category',
+          label: 'WordPress',
+          items: [
+            'application-wordpress-5',
+          ]
+        },
       ],
     },
   ]

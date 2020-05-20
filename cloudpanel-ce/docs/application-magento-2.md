@@ -17,7 +17,7 @@ In the following example we will setup a **Magento 2** shop under the domain ***
 Before we can start with the installation of a **Magento 2** shop, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
 and a [Domain](domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 2 Vhost Template** and the **PHP Version**.
+When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 2 Vhost Template** and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/magento2/new_domain.png')} /> <br /><br />
 
@@ -67,7 +67,7 @@ Edit the parameters like **key**, **db-host**, **db-name** and so on to your nee
 php7.3 bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='magento2' --db-user='magento2' --db-password='magento2' --base-url='https://www.domain.com/' --base-url-secure='https://www.domain.com/' --admin-user='admin' --admin-password='!admin123!' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe'
 ```
 
-5. That's it, the installation of **Magento 2** is done.
+5. Done!
 
 You can now access the frontend and backend.
 

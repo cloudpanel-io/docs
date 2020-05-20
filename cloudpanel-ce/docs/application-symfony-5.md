@@ -54,6 +54,6 @@ cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 
-5. That's it, open [https://www.domain.com](https://www.domain.com) to see **Symfony 5** welcome page.
+5. Done! You can now open your domain in your browser to see **Symfony 5** welcome page.
 
 <img class="border" src={useBaseUrl('img/v1/applications/symfony5/welcome_to_symfony.png')} /> 

@@ -17,7 +17,7 @@ In the following example we will setup a **Magento 1** shop under the domain ***
 Before we can start with the installation of a **Magento 1** shop, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
 and a [Domain](domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 1 Vhost Template** and the **PHP Version**.
+When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 1 Vhost Template** and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/magento1/new_domain.png')} />
 
@@ -60,8 +60,8 @@ clpctl system:permissions:reset www.domain.com 775
 rm -rf ~/tmp/*
 ```
 
-5. Open [https://www.domain.com/](https://www.domain.com/) and go through the **Installation Wizard**.
+5. Open your domain in the browser and go through the **Installation Wizard**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/magento1/installation_wizard.png')} /> <br /> <br />
 
-6. That's it, the installation of **Magento 1** is done.
+6. Done!
