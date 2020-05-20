@@ -74,6 +74,13 @@ module.exports = {
       items: [
         {
           type: 'category',
+          label: 'Laravel',
+          items: [
+            'application-laravel-7',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Magento',
           items: [
             'application-magento-1',
