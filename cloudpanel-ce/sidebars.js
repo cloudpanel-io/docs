@@ -80,6 +80,14 @@ module.exports = {
             'application-magento-2',
           ]
         },
+        {
+          type: 'category',
+          label: 'Symfony',
+          items: [
+            'application-symfony-4',
+            'application-symfony-5',
+          ]
+        },
       ],
     },
   ]

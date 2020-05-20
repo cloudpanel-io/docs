@@ -1,7 +1,7 @@
 ---
-id: application-magento-1
-title: Magento 1
-sidebar_label: Magento 1
+id: application-symfony-5
+title: Symfony 5
+sidebar_label: Symfony 5
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -17,7 +17,7 @@ In the following example we will setup a **Magento 1** shop under the domain ***
 Before we can start with the installation of a **Magento 1** shop, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
 and a [Domain](domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 1 Vhost Template** and the **PHP Version**.
+When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 1 Vhost Template** and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/magento1/new_domain.png')} />
 
