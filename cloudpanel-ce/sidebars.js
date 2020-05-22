@@ -74,6 +74,13 @@ module.exports = {
       items: [
         {
           type: 'category',
+          label: 'Drupal',
+          items: [
+            'application-drupal-8',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Laravel',
           items: [
             'application-laravel-7',
