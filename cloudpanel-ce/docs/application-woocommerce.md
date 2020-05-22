@@ -77,18 +77,16 @@ define('FS_METHOD','direct');
 
 <img class="border" src={useBaseUrl('img/v1/applications/woocommerce/wordpress_plugins.png')} /> 
 
-8. Search for **WooCommerce** top right and click on the button **Install Now**.
+8. Search for **WooCommerce** top right and click on the button **Install Now** and then on **Activate**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/woocommerce/install_wocommerce_plugin.png')} /> 
 
-9. Click on the button **Activate** to get forwarded to the **Installation Wizard**.
-
-<img class="border" src={useBaseUrl('img/v1/applications/woocommerce/activate_woocommerce.png')} /> 
-
-10. Go through the **Installation Wizard** to finish the installation.
+9. Go through the **Installation Wizard** to finish the installation.
 
 <img class="border" src={useBaseUrl('img/v1/applications/woocommerce/wocommerce_installation_wizard.png')} /> 
 
+9. Done!
 
+<img class="border" src={useBaseUrl('img/v1/applications/woocommerce/setup_store_and_start_selling.png')} /> 
 
 
