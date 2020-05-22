@@ -97,6 +97,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'WooCommerce',
+          items: [
+            'application-wocommerce',
+          ]
+        },
+        {
+          type: 'category',
           label: 'WordPress',
           items: [
             'application-wordpress-5',
