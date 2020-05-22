@@ -21,59 +21,50 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Dr
 
 <img class="border" src={useBaseUrl('img/v1/applications/drupal8/new_domain.png')} /> <br /><br />
 
+:::warning Document Root
+Make sure to point the **Document Root** to the **web** directory.
+:::
+
 ### Installation
 
 To install **Drupal 8** do the following steps:
 
-1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
+1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the **htdocs** directory:
 
 ```
-cd ~/tmp
+cd /home/cloudpanel/htdocs/
 ```
 
-2. Download and extract the latest **Drupal 8** version.
+2. Delete the project directory which has been created by **CloudPanel**:
 
 ```
-curl -sL https://ftp.drupal.org/files/projects/drupal-8.8.6.tar.gz | tar xfz -
+rm -rf /home/cloudpanel/htdocs/www.domain.com
 ```
 
-3. Move files to the **htdocs** directory of the domain:
+3. Create the project with **composer**:
 
 ```
-cp -R drupal-8.8.6/* /home/cloudpanel/htdocs/www.domain.com/
+php7.4 /usr/local/bin/composer create-project drupal/recommended-project:^8 www.domain.com
 ```
 
-4. Install dependencies with **composer**:
-
-```
-cd /home/cloudpanel/htdocs/www.domain.com/
-php7.4 /usr/local/bin/composer install --no-dev
-```
-
-5. Reset permissions.
+4. Reset permissions.
 
 ```
 cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 
-6. Clean up the **tmp** directory.
+5. Copy **Drupal** settings file.
 
 ```
-rm -rf ~/tmp/*
-```
-
-7. Copy **Drupal** settings file.
-
-```
-cd /home/cloudpanel/htdocs/www.domain.com/
+cd /home/cloudpanel/htdocs/www.domain.com/web/
 cp sites/default/default.settings.php sites/default/settings.php
 ```
 
-8. Open your domain in the browser and go through the **Drupal Installer**.
+6. Open your domain in the browser and go through the **Drupal Installer**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/drupal8/installer.png')} /> 
 
-9. Done! **Drupal 8** is now installed.
+7. Done! **Drupal 8** is now installed.
 
 <img class="border" src={useBaseUrl('img/v1/applications/drupal8/welcome.png')} /> 

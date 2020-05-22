@@ -77,6 +77,7 @@ module.exports = {
           label: 'Drupal',
           items: [
             'application-drupal-8',
+            'application-drupal-9',
           ]
         },
         {
