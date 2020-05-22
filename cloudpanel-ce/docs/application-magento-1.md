@@ -50,7 +50,6 @@ cp -R magento/* /home/cloudpanel/htdocs/www.domain.com/
 4. Reset permissions.
 
 ```
-cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 

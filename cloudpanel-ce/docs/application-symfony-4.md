@@ -50,7 +50,6 @@ php7.4 /usr/local/bin/composer create-project symfony/website-skeleton:^4.4 www.
 4. Reset permissions.
 
 ```
-cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 
