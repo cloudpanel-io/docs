@@ -50,6 +50,7 @@ php7.4 /usr/local/bin/composer create-project --prefer-dist laravel/laravel:^7 w
 4. Reset permissions.
 
 ```
+cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 
