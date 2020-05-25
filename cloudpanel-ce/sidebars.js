@@ -131,6 +131,13 @@ module.exports = {
             'application-wordpress-5',
           ]
         },
+        {
+          type: 'category',
+          label: 'Yii',
+          items: [
+            'application-yii-2',
+          ]
+        },
       ],
     },
   ]
