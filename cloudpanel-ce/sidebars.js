@@ -74,6 +74,13 @@ module.exports = {
       items: [
         {
           type: 'category',
+          label: 'CakePHP',
+          items: [
+            'application-cakephp-4'
+          ]
+        },
+        {
+          type: 'category',
           label: 'CodeIgniter',
           items: [
             'application-codeigniter-4'
