@@ -118,6 +118,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Slim',
+          items: [
+            'application-slim-4',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Symfony',
           items: [
             'application-symfony-4',
