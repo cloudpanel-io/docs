@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Or
 <img class="border" src={useBaseUrl('img/v1/applications/orocrm4.1/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
-Make sure to point the **Document Root** to the **web** directory.
+Make sure to point the **Document Root** to the **public** directory.
 :::
 
 ### Installation
