@@ -133,6 +133,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'TYPO3',
+          items: [
+            'application-typo3-v10',
+          ]
+        },
+        {
+          type: 'category',
           label: 'WooCommerce',
           items: [
             'application-wocommerce',

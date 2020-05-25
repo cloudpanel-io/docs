@@ -27,7 +27,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **Laminas** do the following steps:
+To install **Slim 4** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 
@@ -44,7 +44,7 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 3. Install via **composer**:
 
 ```
-php7.4 /usr/local/bin/composer create-project slim/slim-skeleton www.domain.com
+php7.4 /usr/local/bin/composer create-project slim/slim-skeleton:~4 www.domain.com
 ```
 
 4. Reset permissions.
