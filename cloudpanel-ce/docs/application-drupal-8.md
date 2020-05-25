@@ -41,7 +41,7 @@ cd /home/cloudpanel/htdocs/
 rm -rf /home/cloudpanel/htdocs/www.domain.com
 ```
 
-3. Create the project with **composer**:
+3. Install via **composer**:
 
 ```
 php7.4 /usr/local/bin/composer create-project drupal/recommended-project:^8 www.domain.com

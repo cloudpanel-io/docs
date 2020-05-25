@@ -96,6 +96,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Laminas',
+          items: [
+            'application-laminas',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Laravel',
           items: [
             'application-laravel-7',

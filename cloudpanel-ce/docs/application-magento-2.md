@@ -41,9 +41,9 @@ cd /home/cloudpanel/htdocs/
 rm -rf /home/cloudpanel/htdocs/www.domain.com
 ```
 
-3. Run the composer command to install the latest **Magento 2 Version**.
+3. Run the **composer** command to install the latest **Magento 2 Version**.
 
-Before you run the composer command, make sure to have [Magento Authentication Keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html) created.
+Before you run the **composer** command, make sure to have [Magento Authentication Keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html) created.
 
 ```
 php7.3 /usr/local/bin/composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition www.domain.com
