@@ -17,7 +17,7 @@ module.exports = {
       apiKey: '4a68c2ae70048709e0852b5462dee94d',
       indexName: 'cloudpanel',
       algoliaOptions: {
-        facetFilters: [`version:${versions[0]}`],
+        facetFilters: [`version:VERSION`],
       },
     },
     prism: {
