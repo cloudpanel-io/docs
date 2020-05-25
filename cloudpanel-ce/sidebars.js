@@ -118,6 +118,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Shopware',
+          items: [
+            'application-shopware-6',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Slim',
           items: [
             'application-slim-4',
