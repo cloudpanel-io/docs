@@ -41,7 +41,7 @@ cd /home/cloudpanel/htdocs/
 rm -rf /home/cloudpanel/htdocs/www.domain.com
 ```
 
-3. Install **Yii 2** via composer:
+3. Install via **composer**:
 
 ```
 php7.4 /usr/local/bin/composer create-project --prefer-dist yiisoft/yii2-app-basic www.domain.com
