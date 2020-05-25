@@ -118,6 +118,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'OroCrm',
+          items: [
+            'application-orocrm-4.1',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Shopware',
           items: [
             'application-shopware-6',
