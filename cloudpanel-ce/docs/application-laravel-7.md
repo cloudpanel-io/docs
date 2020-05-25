@@ -54,7 +54,7 @@ cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 
-5. Done! You can now open your domain in your browser to see the **Laravel 7** welcome page.
+5. Done! You can now open your domain in your browser to see the welcome page.
 
 <img class="border" src={useBaseUrl('img/v1/applications/laravel7/welcome_to_laravel.png')} /> 
 

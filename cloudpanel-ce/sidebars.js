@@ -74,6 +74,13 @@ module.exports = {
       items: [
         {
           type: 'category',
+          label: 'CodeIgniter',
+          items: [
+            'application-codeigniter-4'
+          ]
+        },
+        {
+          type: 'category',
           label: 'Drupal',
           items: [
             'application-drupal-8',
