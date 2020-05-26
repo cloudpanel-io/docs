@@ -118,6 +118,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Neos',
+          items: [
+            'application-neos-5',
+          ]
+        },
+        {
+          type: 'category',
           label: 'OroCrm',
           items: [
             'application-oro-crm-4.1',
