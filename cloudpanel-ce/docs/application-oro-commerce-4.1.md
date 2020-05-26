@@ -70,6 +70,6 @@ clpctl system:permissions:reset www.domain.com 775
 
 7. Done! You can now open your domain in your browser and start working with **OroCommerce**.
 
-The admin area path is the following one: https://www.domain.com/admin/
+The admin area can be reached at the following path: https://www.domain.com/admin/
 
 <img class="border" src={useBaseUrl('img/v1/applications/oro-commerce4.1/sample_data_homepage.png')} />
