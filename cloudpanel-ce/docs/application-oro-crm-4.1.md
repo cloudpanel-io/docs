@@ -81,6 +81,4 @@ clpctl system:permissions:reset www.domain.com 775
 
 7. Done! You can now open your domain in your browser and start working with **OroCRM**.
 
-The admin area can be reached at the following path: https://www.domain.com/admin/
-
 <img class="border" src={useBaseUrl('img/v1/applications/oro-crm4.1/admin_login.png')} />
