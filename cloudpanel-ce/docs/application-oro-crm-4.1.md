@@ -1,5 +1,5 @@
 ---
-id: application-orocrm-4.1
+id: application-oro-crm-4.1
 title: OroCrm 4.1
 sidebar_label: OroCrm 4.1
 ---
@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **OroCrm 4.1 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/orocrm4.1/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-crm4.1/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **public** directory.
@@ -41,15 +41,26 @@ cd /home/cloudpanel/htdocs/
 rm -rf /home/cloudpanel/htdocs/www.domain.com
 ```
 
-3. Install via **composer**:
+3. Clone latest **4.1.x** version from **github**:
 
 ```
-php7.4 /usr/local/bin/composer create-project oro/commerce-crm-application:4.1.* www.domain.com --repository=https://satis.oroinc.com
+git clone -b 4.1.3 https://github.com/oroinc/crm-application.git www.domain.com
+```
+
+:::caution Latest Version
+You find the latest version on github: [https://github.com/oroinc/crm-application/releases](https://github.com/oroinc/crm-application/releases)
+:::
+
+4. Install via **composer**:
+
+```
+cd /home/cloudpanel/htdocs/www.domain.com/
+php7.4 /usr/local/bin/composer install --prefer-dist --no-dev
 ```
 
 4. Enter the **database credentials** and other **parameters**:
 
-<img class="border" src={useBaseUrl('img/v1/applications/orocrm4.1/application_parameters.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-crm4.1/application_parameters.png')} /> <br /><br />
 
 5. Run **oro:install** command:
 
@@ -59,7 +70,7 @@ php7.4 /home/cloudpanel/htdocs/www.domain.com/bin/console oro:install --env=prod
 
 Enter the **Application URL**, **Organization name** and the admin **Username** and **Password**:
 
-<img class="border" src={useBaseUrl('img/v1/applications/orocrm4.1/enter_application_data.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-crm4.1/enter_application_data.png')} />
 
 6. Reset permissions.
 
@@ -72,4 +83,4 @@ clpctl system:permissions:reset www.domain.com 775
 
 The admin area path is the following one: https://www.domain.com/admin/
 
-<img class="border" src={useBaseUrl('img/v1/applications/orocrm4.1/sample_data_homepage.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-crm4.1/admin_login.png')} />
