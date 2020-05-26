@@ -54,7 +54,7 @@ php7.4 /usr/local/bin/composer create-project oro/commerce-crm-application:4.1.*
 5. Run **oro:install** command:
 
 ```
-php7.4 /home/cloudpanel/htdocs/www.domain.com/bin/console oro:install --env=prod --timeout=2000
+php7.4 /home/cloudpanel/htdocs/www.domain.com/bin/console oro:install --env=prod --timeout=8000
 ```
 
 Enter the **Application URL**, **Organization name** and the admin **Username** and **Password**:
