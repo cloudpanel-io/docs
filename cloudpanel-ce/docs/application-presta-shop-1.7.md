@@ -73,7 +73,7 @@ rm -rf ~/tmp/*
 
 8. Done! **PrestaShop** is now installed.
 
-<img class="border" src={useBaseUrl('img/v1/applications/presta-shop-1.7/installer.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/presta-shop-1.7/frontend.png')} />
 
 
 

@@ -96,6 +96,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'FuelPHP',
+          items: [
+            'application-fuel-php-1.8'
+          ]
+        },
+        {
+          type: 'category',
           label: 'Laminas',
           items: [
             'application-laminas',
