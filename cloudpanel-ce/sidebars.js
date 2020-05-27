@@ -125,6 +125,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'OroCommerce',
+          items: [
+            'application-oro-commerce-4.1',
+          ]
+        },
+        {
+          type: 'category',
           label: 'OroCrm',
           items: [
             'application-oro-crm-4.1',
@@ -132,9 +139,9 @@ module.exports = {
         },
         {
           type: 'category',
-          label: 'OroCommerce',
+          label: 'PrestaShop',
           items: [
-            'application-oro-commerce-4.1',
+            'application-presta-shop-1.7',
           ]
         },
         {
