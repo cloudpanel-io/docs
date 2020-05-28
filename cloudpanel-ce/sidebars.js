@@ -132,6 +132,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Matomo',
+          items: [
+            'application-matomo-3',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Neos',
           items: [
             'application-neos-5',
