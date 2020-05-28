@@ -122,3 +122,23 @@ server {
 To delete a **Vhost Template**, click on the **Application** and then on the button **Delete**.
 
 <img class="border" src={useBaseUrl('img/v1/admin/vhost_templates/delete_vhost_template.png')} /> <br /><br />
+
+## Vhost Templates
+
+### Updating Vhost Templates
+
+All **Vhost Templates** are managed via [GitHub](https://vhost-templates.cloudpanel.io/v1/), where we make constant changes on the application vhosts.
+
+To update the **Vhost Templates** in your **CloudPanel** do the following:
+
+1) Login via [SSH](users#ssh-login) to your server and become **root**.
+
+```bash
+sudo su root
+```
+
+2) Run the following command:
+
+```bash
+clpctl vhost-templates:import
+```

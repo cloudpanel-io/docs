@@ -24,6 +24,7 @@ The following **commands** are available only for the **root** user:
 - **db:show:master-password**
 - **user:disable:mfa**
 - **user:reset:password**
+- **vhost-templates:import**
 
 The following **commands** are available for other **users**:
 
