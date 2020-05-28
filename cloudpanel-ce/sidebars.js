@@ -132,6 +132,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Nextcloud',
+          items: [
+            'application-nextcloud-18',
+          ]
+        },
+        {
+          type: 'category',
           label: 'OroCommerce',
           items: [
             'application-oro-commerce-4.1',
