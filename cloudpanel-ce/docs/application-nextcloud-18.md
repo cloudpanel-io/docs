@@ -68,7 +68,7 @@ Click on the button **Finish setup** to install **Nextcloud 18**.
 
 8. Done! **Nextcloud 18** is now installed.
 
-<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-18/frontend.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-18/nextcloud.png')} />
 
 
 
