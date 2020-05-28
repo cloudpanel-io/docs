@@ -103,6 +103,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Joomla',
+          items: [
+            'application-joomla-3.9'
+          ]
+        },
+        {
+          type: 'category',
           label: 'Laminas',
           items: [
             'application-laminas',
