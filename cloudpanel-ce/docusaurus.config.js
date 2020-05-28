@@ -1,4 +1,4 @@
-//const versions = require('./versions.json');
+const versions = require('./versions.json');
 
 module.exports = {
   title: 'CloudPanel CE | Documentation',
@@ -17,7 +17,7 @@ module.exports = {
       apiKey: '4a68c2ae70048709e0852b5462dee94d',
       indexName: 'cloudpanel',
       algoliaOptions: {
-        //facetFilters: [`version:1`]
+        facetFilters: [`version:1`]
       },
     },
     prism: {
@@ -29,7 +29,6 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        /*
         {
           label: 'Versions',
           to: 'docs/introduction', // "fake" link
@@ -46,7 +45,6 @@ module.exports = {
             }))
           ],
         },
-        */
         /*{to: 'blog', label: 'Blog', position: 'left'},*/
       ],
     },
