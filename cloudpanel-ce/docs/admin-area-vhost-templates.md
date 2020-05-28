@@ -127,7 +127,7 @@ To delete a **Vhost Template**, click on the **Application** and then on the but
 
 ### Updating Vhost Templates
 
-All **Vhost Templates** are managed via [GitHub](https://vhost-templates.cloudpanel.io/v1/), where we make constant changes on the application vhosts.
+All **Vhost Templates** are managed via [GitHub](https://vhost-templates.cloudpanel.io/v1/), where we make constantly changes.
 
 To update the **Vhost Templates** in your **CloudPanel** do the following:
 
