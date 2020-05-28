@@ -31,49 +31,44 @@ To install **Nextcloud 18** do the following steps:
 cd ~/tmp
 ```
 
-2. Download and extract the latest **PrestaShop 1.7** version.
+2. Download and extract the latest **Nextcloud 18** version.
 
 ```
-curl -sL https://github.com/PrestaShop/PrestaShop/archive/1.7.6.5.tar.gz | tar xfz -
+curl -sLo nextcloud-18.zip https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip && unzip nextcloud-18.zip -d nextcloud-18
 ```
 
 :::caution Latest Version
-You find the latest version on github: [https://github.com/PrestaShop/PrestaShop/releases](https://github.com/PrestaShop/PrestaShop/releases)
+You find the latest version on github: [https://github.com/nextcloud/server/releases](https://github.com/nextcloud/server/releases)
 :::
 
 3. Move files to the **htdocs** directory of the domain:
 
 ```
-cp -R PrestaShop-1.7.6.5/* /home/cloudpanel/htdocs/www.domain.com/
+cp -R nextcloud-18/nextcloud/* /home/cloudpanel/htdocs/www.domain.com/
 ```
 
-4. Install via **composer**:
-
-```
-cd /home/cloudpanel/htdocs/www.domain.com/
-php7.2 /usr/local/bin/composer install
-```
-
-5. Reset permissions.
+4. Reset permissions.
 
 ```
 cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 
-6. Clean up the **tmp** directory.
+5. Clean up the **tmp** directory.
 
 ```
 rm -rf ~/tmp/*
 ```
 
-7. Open your domain in the browser and go through the **Installation Wizard**.
+7. Open your domain in the browser and enter your **admin account** and **database credentials**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/presta-shop-1.7/installer.png')} />
+Click on the button **Finish setup** to install **Nextcloud 18**.
 
-8. Done! **PrestaShop** is now installed.
+<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-18/setup.png')} />
 
-<img class="border" src={useBaseUrl('img/v1/applications/presta-shop-1.7/frontend.png')} />
+8. Done! **Nextcloud 18** is now installed.
+
+<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-18/frontend.png')} />
 
 
 
