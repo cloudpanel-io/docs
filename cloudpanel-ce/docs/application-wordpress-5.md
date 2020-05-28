@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **WordPress 5 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/wordpress5/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/wordpress-5/new_domain.png')} /> <br /><br />
 
 ### Installation
 
@@ -58,7 +58,7 @@ rm -rf ~/tmp/*
 
 5. Open your domain in the browser and go through the **Installation Wizard**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/wordpress5/installation_wizard.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/applications/wordpress-5/installation_wizard.png')} /> <br /> <br />
 
 6. Done!
 

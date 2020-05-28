@@ -68,11 +68,11 @@ cat /home/cloudpanel/htdocs/www.domain.com/Data/SetupPassword.txt
 
 6. Go through all setup steps to finish the installation.
 
-<img class="border" src={useBaseUrl('img/v1/applications/neos5/setup_steps.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/neos-5/setup_steps.png')} />
 
 7. Done! **Neos** is now installed.
 
-<img class="border" src={useBaseUrl('img/v1/applications/neos5/welcome.jpg')} />
+<img class="border" src={useBaseUrl('img/v1/applications/neos-5/welcome.jpg')} />
 
 
 
