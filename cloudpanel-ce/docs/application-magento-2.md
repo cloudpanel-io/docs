@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 2 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/magento2/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/magento-2/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **pub** directory.
@@ -51,7 +51,7 @@ php7.3 /usr/local/bin/composer create-project --repository-url=https://repo.mage
 
 Enter the **Username** and **Password** (Authentication Keys) and press enter.
 
-<img class="border" src={useBaseUrl('img/v1/applications/magento2/authentication_keys.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/magento-2/authentication_keys.png')} /> <br /><br />
 
 4. Go to the installation directory and execute the **setup::install** script from **Magento**:
 

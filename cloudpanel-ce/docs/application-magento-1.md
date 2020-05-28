@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 1 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/magento1/new_domain.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/magento-1/new_domain.png')} />
 
 ### Installation
 
@@ -34,7 +34,7 @@ cd ~/tmp
 2. Download and extract the latest **Magento 1** version.
 
 ```
-curl -sL https://github.com/cloudpanel-io/applications/raw/master/magento1/magento-1.9.4.5.tar.gz | tar xfz -
+curl -sL https://github.com/cloudpanel-io/applications/raw/master/magento-1/magento-1.9.4.5.tar.gz | tar xfz -
 ```
 
 :::caution Download Magento 1 Version
@@ -62,6 +62,6 @@ rm -rf ~/tmp/*
 
 5. Open your domain in the browser and go through the **Installation Wizard**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/magento1/installation_wizard.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/applications/magento-1/installation_wizard.png')} /> <br /> <br />
 
 6. Done!

@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Symfony 4 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/symfony4/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/symfony-4/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **public** directory.
@@ -56,4 +56,4 @@ clpctl system:permissions:reset www.domain.com 775
 
 5. Done! You can now open your domain in your browser to see **Symfony 4** welcome page.
 
-<img class="border" src={useBaseUrl('img/v1/applications/symfony4/welcome_to_symfony.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/symfony-4/welcome_to_symfony.png')} /> 

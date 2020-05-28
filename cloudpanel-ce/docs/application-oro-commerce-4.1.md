@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **OroCommerce 4.1 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce4.1/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **public** directory.
@@ -49,7 +49,7 @@ php7.4 /usr/local/bin/composer create-project oro/commerce-crm-application:4.1.*
 
 4. Enter the **database credentials** and other **parameters**:
 
-<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce4.1/application_parameters.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/application_parameters.png')} /> <br /><br />
 
 5. Run **oro:install** command:
 
@@ -59,7 +59,7 @@ php7.4 /home/cloudpanel/htdocs/www.domain.com/bin/console oro:install --env=prod
 
 Enter the **Application URL**, **Organization name** and the admin **Username** and **Password**:
 
-<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce4.1/enter_application_data.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/enter_application_data.png')} />
 
 6. Reset permissions.
 
@@ -72,4 +72,4 @@ clpctl system:permissions:reset www.domain.com 775
 
 The admin area can be reached at the following path: https://www.domain.com/admin/
 
-<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce4.1/sample_data_homepage.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/sample_data_homepage.png')} />

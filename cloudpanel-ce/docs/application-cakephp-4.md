@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **CakePHP 4 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/cakephp4/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/cakephp-4/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **webroot** directory.
@@ -56,5 +56,5 @@ clpctl system:permissions:reset www.domain.com 775
 
 5. Done! You can now open your domain in your browser to see the **Welcome to CakePHP 4** page.
 
-<img class="border" src={useBaseUrl('img/v1/applications/cakephp4/welcome.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/cakephp-4/welcome.png')} /> 
 

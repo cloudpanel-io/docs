@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Shopware 6 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/shopware6/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/shopware-6/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **public** directory and to use **PHP 7.3**.
@@ -60,8 +60,8 @@ rm -rf ~/tmp/*
 
 5. Open your domain in the browser and go through the **Installation Wizard**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/shopware6/installation_wizard.png')} /> <br /> <br />
+<img class="border" src={useBaseUrl('img/v1/applications/shopware-6/installation_wizard.png')} /> <br /> <br />
 
 6. Done! You can now login to the **Shopware 6** admin area.
 
-<img class="border" src={useBaseUrl('img/v1/applications/shopware6/admin_login_form.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/shopware-6/admin_login_form.png')} />

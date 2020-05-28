@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Laravel 7 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/laravel7/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/laravel-7/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **public** directory.
@@ -56,5 +56,5 @@ clpctl system:permissions:reset www.domain.com 775
 
 5. Done! You can now open your domain in your browser to see the welcome page.
 
-<img class="border" src={useBaseUrl('img/v1/applications/laravel7/welcome_to_laravel.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/laravel-7/welcome_to_laravel.png')} /> 
 

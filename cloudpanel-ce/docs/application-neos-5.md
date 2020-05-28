@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Neos 5 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/neos5/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/neos-5/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **Web** directory.
@@ -56,7 +56,7 @@ clpctl system:permissions:reset www.domain.com 775
 
 5. Open your domain in the browser and start the setup process: [https://www.domain.com/setup/](https://www.domain.com/setup/)
 
-<img class="border" src={useBaseUrl('img/v1/applications/neos5/setup_password.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/neos-5/setup_password.png')} />
 
 Enter the **Setup Password** to start the installation process. 
 

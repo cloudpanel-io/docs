@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **TYPO3 10 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/typo3v10/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/typo3-v10/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **public** directory.
@@ -56,7 +56,7 @@ clpctl system:permissions:reset www.domain.com 775
 
 5. Open your domain in your browser and go through the **installation wizard**:
 
-<img class="border" src={useBaseUrl('img/v1/applications/typo3v10/installation_wizard.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/typo3-v10/installation_wizard.png')} /> 
 
 6. Create the empty file **FIRST_INSTALL** and reload the browser:
 
@@ -66,11 +66,11 @@ touch /home/cloudpanel/htdocs/www.domain.com/public/FIRST_INSTALL
 
 7. Enter the **database credentials** and go through all further steps:
 
-<img class="border" src={useBaseUrl('img/v1/applications/typo3v10/installation_wizard_db.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/typo3-v10/installation_wizard_db.png')} /> 
 
 7. Done! Login into the **TYPO3** backend to get started:
 
-<img class="border" src={useBaseUrl('img/v1/applications/typo3v10/backend_login_form.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/typo3-v10/backend_login_form.png')} /> 
 
 
 

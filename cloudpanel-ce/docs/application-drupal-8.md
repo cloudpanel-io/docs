@@ -19,7 +19,7 @@ and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Drupal 8 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/drupal8/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/drupal-8/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **web** directory.
@@ -63,8 +63,8 @@ cp sites/default/default.settings.php sites/default/settings.php
 
 6. Open your domain in the browser and go through the **Drupal Installer**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/drupal8/installer.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/drupal-8/installer.png')} /> 
 
 7. Done! **Drupal 8** is now installed.
 
-<img class="border" src={useBaseUrl('img/v1/applications/drupal8/welcome.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/drupal-8/welcome.png')} /> 
