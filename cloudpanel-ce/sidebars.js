@@ -153,6 +153,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'ownCloud',
+          items: [
+            'application-owncloud-10.4',
+          ]
+        },
+        {
+          type: 'category',
           label: 'PrestaShop',
           items: [
             'application-presta-shop-1.7',

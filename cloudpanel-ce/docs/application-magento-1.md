@@ -34,7 +34,7 @@ cd ~/tmp
 2. Download and extract the latest **Magento 1** version.
 
 ```
-curl -sL https://github.com/cloudpanel-io/applications/raw/master/magento-1/magento-1.9.4.5.tar.gz | tar xfz -
+curl -sL https://github.com/cloudpanel-io/applications/blob/master/magento1/magento-1.9.4.5.tar.gz?raw=true | tar xfz -
 ```
 
 :::caution Download Magento 1 Version
