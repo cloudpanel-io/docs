@@ -22,6 +22,8 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Ge
 Make sure to point the **Document Root** to the right directory, some applications using **public** or other directories as **Document Root**.
 :::
 
+### Vhost
+
 After [Adding the Domain](domains#adding-a-domain), you can make changes on the [Vhost](domains#vhost) to your needs like adding application-specific rules.
 
 <img class="border" src={useBaseUrl('img/v1/domains/vhost.png')} />
