@@ -30,3 +30,7 @@
     // Commit and push to docker
     - docker commit cloudpanel-docusaurus cloudpanelio/cloudpanel-docusaurus
     - docker push cloudpanelio/cloudpanel-docusaurus
+
+  ## Creating a version
+
+  yarn run docusaurus docs:version 1
