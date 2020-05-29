@@ -32,5 +32,7 @@
     - docker push cloudpanelio/cloudpanel-docusaurus
 
   ## Creating a version
-
   yarn run docusaurus docs:version 1
+
+  # DocSearch workaround:
+  Line 110-118: node_modules/docsearch.js/dist/npm/src/lib/DocSearch.js
