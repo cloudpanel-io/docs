@@ -16,9 +16,11 @@ module.exports = {
     algolia: {
       apiKey: '4a68c2ae70048709e0852b5462dee94d',
       indexName: 'cloudpanel',
+      inputSelector: '#search_input_react',
       algoliaOptions: {
-        facetFilters: [`version:1`]
+        facetFilters: [`version:$VERSION`]
       },
+      debug: true
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
