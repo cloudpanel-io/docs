@@ -229,6 +229,7 @@ module.exports = {
             'application-yii-2',
           ]
         },
+        'application-other'
       ],
     },
   ]
