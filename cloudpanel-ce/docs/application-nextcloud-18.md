@@ -60,13 +60,13 @@ clpctl system:permissions:reset www.domain.com 775
 rm -rf ~/tmp/*
 ```
 
-7. Open your domain in the browser and enter your **admin account** and **database credentials**.
+6. Open your domain in the browser and enter your **admin account** and **database credentials**.
 
 Click on the button **Finish setup** to install **Nextcloud 18**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/nextcloud-18/setup.png')} />
 
-8. Done! **Nextcloud 18** is now installed.
+7. Done! **Nextcloud 18** is now installed.
 
 <img class="border" src={useBaseUrl('img/v1/applications/nextcloud-18/nextcloud.png')} />
 

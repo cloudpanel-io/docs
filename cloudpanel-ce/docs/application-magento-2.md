@@ -67,7 +67,14 @@ Edit the parameters like **key**, **db-host**, **db-name** and so on to your nee
 php7.3 bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='magento2' --db-user='magento2' --db-password='magento2' --base-url='https://www.domain.com/' --base-url-secure='https://www.domain.com/' --admin-user='admin' --admin-password='!admin123!' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe'
 ```
 
-5. Done!
+5. Reset permissions.
+
+```
+cd /home/cloudpanel/htdocs/
+clpctl system:permissions:reset www.domain.com 775
+```
+
+6. Done!
 
 You can now access the frontend and backend.
 
