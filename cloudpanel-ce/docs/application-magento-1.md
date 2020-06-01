@@ -60,8 +60,8 @@ clpctl system:permissions:reset www.domain.com 775
 rm -rf ~/tmp/*
 ```
 
-5. Open your domain in the browser and go through the **Installation Wizard**.
+6. Open your domain in the browser and go through the **Installation Wizard**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/magento-1/installation_wizard.png')} /> <br /> <br />
 
-6. Done!
+7. Done!

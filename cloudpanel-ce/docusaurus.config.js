@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     disableDarkMode: true,
     gtag: {
-      trackingID: 'UA-88888',
+      trackingID: 'UA-168148528-1',
     },
     algolia: {
       apiKey: '4a68c2ae70048709e0852b5462dee94d',
