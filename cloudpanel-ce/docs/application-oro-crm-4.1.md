@@ -1,23 +1,23 @@
 ---
 id: application-oro-crm-4.1
-title: OroCrm 4.1
-sidebar_label: OroCrm 4.1
+title: OroCRM 4.1
+sidebar_label: OroCRM 4.1
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **OroCrm 4.1** with **CloudPanel**.
+On this page, we explain step by step how to setup **OroCRM 4.1** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **OroCrm 4.1** under the domain ***www.domain.com***.
+In the following example we will setup **OroCRM 4.1** under the domain ***www.domain.com***.
 
 ### Preparation
 
-Before we can start with the installation of **OroCrm 4.1**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
+Before we can start with the installation of **OroCRM 4.1**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
 and a [Domain](domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **OroCrm 4.1 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](domains#adding-a-domain), make sure to select the **OroCRM 4.1 Vhost Template** and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/oro-crm-4.1/new_domain.png')} /> <br /><br />
 
@@ -27,7 +27,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **OroCrm 4.1** do the following steps:
+To install **OroCRM 4.1** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the **htdocs** directory:
 

@@ -17,7 +17,7 @@ module.exports = {
       apiKey: '4a68c2ae70048709e0852b5462dee94d',
       indexName: 'cloudpanel',
       algoliaOptions: {
-        facetFilters: [`version:1`]
+        /*facetFilters: [`version:1`]*/
       },
     },
     prism: {
@@ -27,6 +27,8 @@ module.exports = {
       logo: {
         alt: 'CloudPanel CE | Documentation',
         src: 'img/logo.svg',
+        href: 'https://www.cloudpanel.io/docs/cloudpanel-ce/introduction',
+        target: '_self'
       },
       links: [
         /*
