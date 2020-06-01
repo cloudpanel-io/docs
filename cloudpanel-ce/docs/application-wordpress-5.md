@@ -37,6 +37,10 @@ cd ~/tmp
 curl -sL https://wordpress.org/wordpress-5.4.1.tar.gz | tar xfz -
 ```
 
+:::caution Latest Version
+You find the latest version on the WordPress website: [https://wordpress.org/download/](https://wordpress.org/download/)
+:::
+
 3. Move files to the **htdocs** directory of the domain:
 
 ```
