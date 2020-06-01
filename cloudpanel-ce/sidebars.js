@@ -160,7 +160,7 @@ module.exports = {
         },
         {
           type: 'category',
-          label: 'OroCrm',
+          label: 'OroCRM',
           items: [
             'application-oro-crm-4.1',
           ]
