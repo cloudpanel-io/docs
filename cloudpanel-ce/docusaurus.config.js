@@ -8,6 +8,9 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'CloudPanel',
   projectName: 'CloudPanelCE',
+  scripts: [
+    'https://www.cloudpanel.io/docs/cloudpanel-ce/js/hotjar.js',
+  ],
   themeConfig: {
     disableDarkMode: true,
     gtag: {
