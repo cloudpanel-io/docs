@@ -9,7 +9,7 @@ module.exports = {
   organizationName: 'CloudPanel',
   projectName: 'CloudPanelCE',
   scripts: [
-    'https://www.cloudpanel.io/docs/cloudpanel-ce/js/hotjar.js',
+    'https://www.cloudpanel.io/docs/cloudpanel-ce/js/feedback.js',
   ],
   themeConfig: {
     disableDarkMode: true,
