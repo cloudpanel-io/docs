@@ -56,5 +56,5 @@ clpctl system:permissions:reset www.domain.com 775
 
 5. Done! You can now open your domain in your browser to see the **Welcome to CakePHP 4** page.
 
-<img class="border" src={useBaseUrl('img/v1/applications/cakephp-4/welcome.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/cakephp-4/welcome.png')} />
 
