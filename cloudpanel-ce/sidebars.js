@@ -148,7 +148,7 @@ module.exports = {
           type: 'category',
           label: 'Nextcloud',
           items: [
-            'application-nextcloud-18',
+            'application-nextcloud-19',
           ]
         },
         {
