@@ -44,7 +44,7 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 3. Clone latest **4.1.x** version from **github**:
 
 ```
-git clone -b 4.1.3 https://github.com/oroinc/crm-application.git www.domain.com
+git clone -b 4.1.6 https://github.com/oroinc/crm-application.git www.domain.com
 ```
 
 :::caution Latest Version
