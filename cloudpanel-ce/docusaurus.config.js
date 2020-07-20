@@ -104,6 +104,10 @@ module.exports = {
               href: 'https://discord.cloudpanel.io/',
             },
             {
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/company/mgt-commerce-gmbh',
+            },
+            {
               label: 'Twitter',
               href: 'https://twitter.com/cloudpanel_io',
             },
