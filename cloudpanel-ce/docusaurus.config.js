@@ -59,21 +59,29 @@ module.exports = {
       style: 'classic',
       links: [
         {
-          title: 'Company',
+          title: 'Product',
           items: [
             {
-              label: 'Contact',
-              href: '#',
+              label: 'Overview',
+              href: 'https://www.cloudpanel.io/product/',
             },
             {
-              label: 'Imprint',
-              to: '#',
+              label: 'Technology',
+              href: 'https://www.cloudpanel.io/product/#technology-stack',
+            },
+            {
+              label: 'Features',
+              href: 'https://www.cloudpanel.io/product/#features',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Support',
           items: [
+            {
+              label: 'Documentation',
+              href: 'https://www.cloudpanel.io/docs/cloudpanel-ce/',
+            },
             {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/cloudpanel',
@@ -85,19 +93,61 @@ module.exports = {
           ],
         },
         {
-          title: 'Social',
+          title: 'Connect',
           items: [
             {
-              label: 'Blog',
-              href: 'https://www.cloudpanel.io/blog/'
+              label: 'Github',
+              href: 'https://github.com/cloudpanel-io/'
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/cloudpanel-io',
+              label: 'Discord',
+              href: 'https://discord.cloudpanel.io/',
             },
             {
               label: 'Twitter',
               href: 'https://twitter.com/cloudpanel_io',
+            },
+          ],
+        },
+        {
+          title: 'Company',
+          items: [
+            {
+              label: 'About Us',
+              to: 'https://www.cloudpanel.io/about-us/',
+            },
+            {
+              label: 'Contact Us',
+              href: 'https://www.cloudpanel.io/contact/',
+            },
+            {
+              label: 'Feedback',
+              href: 'https://www.cloudpanel.io/feedback/',
+            },
+            {
+              label: 'Blog',
+              href: 'https://www.cloudpanel.io/blog/',
+            },
+          ],
+        },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Imprint',
+              href: 'https://www.cloudpanel.io/imprint/',
+            },
+            {
+              label: 'License Terms',
+              to: 'https://www.cloudpanel.io/license-terms/',
+            },
+            {
+              label: 'Privacy Policy',
+              to: 'https://www.cloudpanel.io/privacy-policy/',
+            },
+            {
+              label: 'GDPR',
+              to: 'https://www.cloudpanel.io/gdpr/',
             },
           ],
         },
