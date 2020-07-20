@@ -63,7 +63,7 @@ rm -rf ~/tmp/*
 6. Open the **WordPress** configuration file **wp-config.php**.
 
 ```
-nano /home/john-ssh/htdocs/www.domain.com/wp-config.php
+nano /home/cloudpanel/htdocs/www.domain.com/wp-config.php
 ```
 
 Add the following line after the other **constants**:

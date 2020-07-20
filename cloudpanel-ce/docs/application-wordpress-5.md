@@ -34,7 +34,7 @@ cd ~/tmp
 2. Download and extract the latest **WordPress 5** version.
 
 ```
-curl -sL https://wordpress.org/wordpress-5.4.1.tar.gz | tar xfz -
+curl -sL https://wordpress.org/wordpress-5.4.2.tar.gz | tar xfz -
 ```
 
 :::caution Latest Version
