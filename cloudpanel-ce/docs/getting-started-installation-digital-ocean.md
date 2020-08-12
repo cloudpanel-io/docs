@@ -30,10 +30,10 @@ Choose the **datacenter** where you want to run your **Droplet**.
 
 ### Authentication Method
 
-Select your **Authentication Method**, **SSH key** or **One-time password** <br />
+Select your **Authentication Method**, **SSH key** or **Password** <br />
 How to create an SSH Key, is explained on the site: [How-to Add SSH Keys to New or Existing Droplets](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/)
 
-<img class="border" src={useBaseUrl('img/v1/getting_started/do_installation/create_droplet_4.png')} />
+<img class="border" src={useBaseUrl('img/v1/getting_started/do_installation/create_droplet_4.png?v=1')} />
 
 ### Finalize and Create
 
@@ -83,15 +83,11 @@ If you have selected the **SSH Key** authentification method, you can log in wit
 ssh -i path_to_your_private_key root@yourFloatingIpAddress
 ```
 
-If you have selected the **One-time** authentification method, you can login with the following command:
+If you have selected the **Password** authentification method, you can login with the following command:
 
 ```bash
 ssh root@yourFloatingIpAddress
 ```
-
-:::caution One-Time Password
-Digital Ocean will email you the One-time password.
-:::
 
 ### Installer
 
