@@ -67,9 +67,9 @@ Click on the button **Create** to launch the **VM Instance**.
 
 For accessing the **CloudPanel** later, we need to create a **Firewall Rule**.
 
-1) Click in the left navigation on **Networking** -> **VPC Network** -> **Firewall Rules**.
+1) Click in the left navigation on **Networking** -> **VPC Network** -> **Firewall**.
 
-<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vpc_network_firewall_rules.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/getting_started/gce_installation/vpc_network_firewall_rules.png?v=1')} /> <br /><br />
 
 2) Click on the button **CREATE FIREWALL RULE** and create the following rule:
 
@@ -101,6 +101,10 @@ pQ1LeXRmODsfzv4pntYeGw0dfBFidlmxujNLyd8FMZ8Yida5zcciWkLvqAAkTlwCAWNg/kdJI0R4B
 wuSgYUjxgOU5LPYkm4MixSOvC+jI27Ge0nKMiqUaJoSrYfNJqraMNuikNrwQn+I7w3var2aebhQtR
 77Lx1dHoAF/pP9DIFYfzFZ7CsQc8pBXj3 john@macbook
 ```
+
+:::warning
+Do not use the username **cloudpanel** as it's a reserved one.
+:::
 
 The **static IP Address** can be found on the VM instances overview, it's called **External IP**.
 
