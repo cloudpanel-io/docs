@@ -20,7 +20,14 @@ module.exports = {
           label: 'Installation',
           items: [
             'installation-aws',
-            'installation-digital-ocean',
+            {
+              type: 'category',
+              label: 'Digital Ocean',
+              items: [
+                'installation-digital-ocean-marketplace',
+                'installation-digital-ocean-installer',
+              ]
+            },
             'installation-google-cloud',
             'installation-microsoft-azure',
             'installation-other',

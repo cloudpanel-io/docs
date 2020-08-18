@@ -1,7 +1,7 @@
 ---
-id: installation-digital-ocean
-title: Digital Ocean
-sidebar_label: Digital Ocean
+id: installation-digital-ocean-installer
+title: Digital Ocean Installer
+sidebar_label: Installer
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
