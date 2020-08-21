@@ -18,9 +18,9 @@ On this page, we explain step by step how to run **CloudPanel** on [Digital Ocea
 
 ### Choose an image
 
-Select the **Debian 10.3** image and choose the size of your **Droplet**.
+Select the **Debian 10.x** image and choose the size of your **Droplet**.
 
-<img class="border" src={useBaseUrl('img/v1/getting_started/do_installation/create_droplet_2.png')} />
+<img class="border" src={useBaseUrl('img/v1/getting_started/do_installation/create_droplet_2.png?v=1')} />
 
 ### Datacenter region
 
