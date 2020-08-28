@@ -44,7 +44,7 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 3. Install via **composer**:
 
 ```
-php7.4 /usr/local/bin/composer create-project symfony/website-skeleton:^5.0 www.domain.com
+php7.4 /usr/local/bin/composer create-project symfony/website-skeleton:^5.1 www.domain.com
 ```
 
 4. Reset permissions.
@@ -56,4 +56,4 @@ clpctl system:permissions:reset www.domain.com 775
 
 5. Done! You can now open your domain in your browser to see **Symfony 5** welcome page.
 
-<img class="border" src={useBaseUrl('img/v1/applications/symfony-5/welcome_to_symfony.png')} /> 
+<img class="border" src={useBaseUrl('img/v1/applications/symfony-5/welcome_to_symfony.png?v=1')} /> 

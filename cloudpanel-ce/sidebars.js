@@ -176,7 +176,7 @@ module.exports = {
           type: 'category',
           label: 'ownCloud',
           items: [
-            'application-owncloud-10.4',
+            'application-owncloud-10',
           ]
         },
         {
