@@ -129,33 +129,13 @@ cd /etc/php/$PHP_VERSION/fpm/pool.d/
 cp default.conf domain.conf
 ```
 
-3) Open the file **domain.conf** and change it:
-
-```bash
-[domain.com]
-listen = 127.0.0.1:9741
-user = john-ssh
-group = clp
-listen.allowed_clients = 127.0.0.1
-pm = ondemand
-pm.max_children = 250
-pm.process_idle_timeout = 10s
-pm.max_requests = 100
-listen.backlog = 65535
-pm.status_path = /status
-request_terminate_timeout = 7200s
-rlimit_files = 131072
-rlimit_core = unlimited
-catch_workers_output = yes
-```
-
-Change the following settings:
+3) Open the file **domain.conf** and change the following settings:
 
 - The name of the **PHP-FPM Pool** in the square brackets
-- **listen**: Increase the listener (port) number by one
+- **listen**: Increase the listener (port) number by one (e.g. port differs in example regarding your php version)
 - **user**: Your created **SSH User** (e.g. john-ssh)
 
-In our example the new **PHP-FPM Pool** would look like the following one:
+In our example the new **PHP-FPM Pool** should look like the following one:
 
 ```bash
 [domain.com]
