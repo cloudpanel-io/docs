@@ -41,6 +41,7 @@ module.exports = {
       items: [
         'account',
         'domains',
+        'email',
         'security',
         'users',
         'databases',
