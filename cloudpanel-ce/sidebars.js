@@ -42,6 +42,7 @@ module.exports = {
         'account',
         'domains',
         'email',
+        'file-manager',
         'security',
         'users',
         'databases',
