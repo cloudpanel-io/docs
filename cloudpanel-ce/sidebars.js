@@ -129,6 +129,7 @@ module.exports = {
           label: 'Laravel',
           items: [
             'application-laravel-7',
+            'application-laravel-8',
           ]
         },
         {
