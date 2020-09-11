@@ -149,6 +149,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Moodle',
+          items: [
+            'application-moodle-3.9',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Neos',
           items: [
             'application-neos-5',
