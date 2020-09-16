@@ -58,3 +58,59 @@ clpctl system:permissions:reset www.domain.com 775
 
 <img class="border" src={useBaseUrl('img/v1/applications/laravel-8/welcome_to_laravel.png')} /> 
 
+## Daemons
+
+Powered by [Supervisor](http://supervisord.org/), daemons are used to keep long-running **PHP** scripts alive.
+
+In case they will be terminated, [Supervisor](http://supervisord.org/) makes sure to restart them automatically.
+
+### Installation
+
+1. [Login via SSH](users#ssh-login) to the server e.g. as **root** user.
+
+2. Install **supervisor**
+
+```
+apt install -y supervisor
+```
+
+3. Create a **supervisor** configuration file
+
+```
+touch /etc/supervisor/conf.d/supervisor.conf
+```
+
+4. Open the configuration file and put the following content:
+
+```
+[program:laravel-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php7.4 /home/cloudpanel/htdocs/www.domain.com/artisan queue:work redis --sleep=10 --daemon --quiet --queue="default"
+numprocs=1
+user=john-ssh
+autostart=true
+autorestart=true
+stopsignal=KILL
+stdout_logfile=/var/log/supervisor/laravel-worker.log
+```
+
+:::warning Attention
+Make sure that the **php version** and the **user** are correct to avoid permission problems.
+:::
+
+:::tip
+For consuming messages in parallel, e.g., when you are working with **rabbitMQ**, you may increase **numprocs**.
+
+:::
+
+5. Update the configuration and start the worker.
+
+```
+supervisorctl reread
+supervisorctl update
+supervisorctl start laravel-worker:*
+```
+
+With the command **supervisorctl** you get information about the **status**, **pid**, and **uptime**.
+
+<img class="border" src={useBaseUrl('img/v1/applications/laravel-8/supervisorctl_screenshot.png')} /> 
