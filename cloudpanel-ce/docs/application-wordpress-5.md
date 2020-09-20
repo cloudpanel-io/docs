@@ -37,10 +37,6 @@ cd ~/tmp
 curl -sL https://wordpress.org/latest.tar.gz | tar xfz -
 ```
 
-:::caution Latest Version
-You find the latest version on the WordPress website: [https://wordpress.org/download/](https://wordpress.org/download/)
-:::
-
 3. Move files to the **htdocs** directory of the domain:
 
 ```
@@ -60,9 +56,23 @@ clpctl system:permissions:reset www.domain.com 775
 rm -rf ~/tmp/*
 ```
 
-5. Open your domain in the browser and go through the **Installation Wizard**.
+6. Open your domain in the browser and go through the **Installation Wizard**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/wordpress-5/installation_wizard.png')} /> <br /> <br />
 
-6. Done!
+7. Open the **WordPress** configuration file **wp-config.php**.
+
+```
+nano /home/cloudpanel/htdocs/www.domain.com/wp-config.php
+```
+
+Add the following line after the other **constants** to download all plugins and themes to the disk.
+
+```
+define('FS_METHOD','direct');
+```
+
+<img class="border" src={useBaseUrl('img/v1/applications/wordpress-5/fs_method_directory.png')} /> 
+
+8. Done!
 
