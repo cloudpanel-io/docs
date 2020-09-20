@@ -1,3 +1,6 @@
+1.0.9 Stefan Wieczorek <stefan.wieczorek@cloudpanel.io> Sun, 20 Sep 2020 08:08:08
+- Add WordPress 5 FS_METHOD
+
 1.0.8 Stefan Wieczorek <stefan.wieczorek@cloudpanel.io> Wed, 16 Sep 2020 08:08:08
 - Add Daemons section for Laravel 7 & 8
 
