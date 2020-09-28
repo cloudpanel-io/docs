@@ -16,28 +16,28 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 
 2) Click on the **AMI ID** to launch CloudPanel in your desired AWS Region.
 
-| AWS Region|  AMI ID |
-| :---  | :--- |
-| US East (N.Virginia)      | [ami-09df0065bfb628ecf](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09df0065bfb628ecf) |
-| US East (Ohio)            | [ami-08148747ca2df6b4f](https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-08148747ca2df6b4f) |
-| US West (N. California)   | [ami-05006c2e5904bb4a5](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-05006c2e5904bb4a5) |
-| US West (Oregon)          | [ami-0f40de9ff6ef1f78e](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0f40de9ff6ef1f78e) |
-| Africa (Cape Town)        | [ami-0731b370719e014fa](https://console.aws.amazon.com/ec2/v2/home?region=af-south-1#LaunchInstanceWizard:ami=ami-0731b370719e014fa) |
-| Asia Pacific (Hong Kong)  | [ami-0573e336c18a57df3](https://console.aws.amazon.com/ec2/v2/home?region=ap-east-1#LaunchInstanceWizard:ami=ami-0573e336c18a57df3) |
-| Asia Pacific (Mumbai)     | [ami-02972fcc732f0c42d](https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-02972fcc732f0c42d) |
-| Asia Pacific (Seoul)      | [ami-038ae448098fd9007](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-038ae448098fd9007) |
-| Asia Pacific (Singapore)  | [ami-04d1cbff70cd29a19](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-04d1cbff70cd29a19) |
-| Asia Pacific (Sydney)     | [ami-06b46d1f5f85ca77d](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-06b46d1f5f85ca77d) |
-| Asia Pacific (Tokyo)      | [ami-074a3dc3d9f3134f1](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-074a3dc3d9f3134f1) |
-| Canada (Central)          | [ami-0b40d6afac1ceee8e](https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0b40d6afac1ceee8e) |
-| Europe (Frankfurt)        | [ami-0e5b3ee6dd0872115](https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0e5b3ee6dd0872115) |
-| Europe (Ireland)          | [ami-0579442f9a7dbed8b](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0579442f9a7dbed8b) |
-| Europe (London)           | [ami-0f06ece96c196c34d](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0f06ece96c196c34d) |
-| Europe (Milan)            | [ami-02c2b24ba47e6a07a](https://console.aws.amazon.com/ec2/v2/home?region=eu-south-1#LaunchInstanceWizard:ami=ami-02c2b24ba47e6a07a) |
-| Europe (Paris)            | [ami-05019cbfd70d0cdc7](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-05019cbfd70d0cdc7) |
-| Europe (Stockholm)        | [ami-08c21272bd4e8fa47](https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-08c21272bd4e8fa47) |
-| Middle East (Bahrain)     | [ami-03a41f58dcc700190](https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-03a41f58dcc700190) |
-| South America (Sáo Paulo) | [ami-082b12f2e337c9beb](https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-082b12f2e337c9beb) |
+| AWS Region | X64 | ARM64 ([Graviton](https://aws.amazon.com/ec2/graviton/)) |
+| :---  | :--- | :--- |
+| US East (N.Virginia)      | [ami-09df0065bfb628ecf](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09df0065bfb628ecf) | [ami-00b348d45bd85b0d6](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-00b348d45bd85b0d6) |
+| US East (Ohio)            | [ami-08148747ca2df6b4f](https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-08148747ca2df6b4f) | [ami-02ce804f97cdddec5](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-02ce804f97cdddec5) |
+| US West (N. California)   | [ami-05006c2e5904bb4a5](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-05006c2e5904bb4a5) | [ami-0d552ea26a3350367](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0d552ea26a3350367) |
+| US West (Oregon)          | [ami-0f40de9ff6ef1f78e](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0f40de9ff6ef1f78e) | [ami-0a00535949d25d284](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0a00535949d25d284) |
+| Africa (Cape Town)        | [ami-0731b370719e014fa](https://console.aws.amazon.com/ec2/v2/home?region=af-south-1#LaunchInstanceWizard:ami=ami-0731b370719e014fa) | Not yet available |
+| Asia Pacific (Hong Kong)  | [ami-0573e336c18a57df3](https://console.aws.amazon.com/ec2/v2/home?region=ap-east-1#LaunchInstanceWizard:ami=ami-0573e336c18a57df3) | Not yet available |
+| Asia Pacific (Mumbai)     | [ami-02972fcc732f0c42d](https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-02972fcc732f0c42d) | [ami-0ebbf6fd671e9c72b](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0ebbf6fd671e9c72b) |
+| Asia Pacific (Seoul)      | [ami-038ae448098fd9007](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-038ae448098fd9007) | Not yet available |
+| Asia Pacific (Singapore)  | [ami-04d1cbff70cd29a19](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-04d1cbff70cd29a19) | [ami-05d798d446be38099](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-05d798d446be38099) |
+| Asia Pacific (Sydney)     | [ami-06b46d1f5f85ca77d](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-06b46d1f5f85ca77d) | [ami-0a43582793a3fd219](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0a43582793a3fd219) |
+| Asia Pacific (Tokyo)      | [ami-074a3dc3d9f3134f1](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-074a3dc3d9f3134f1) | [ami-0440d5071e13ca116](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0440d5071e13ca116) |
+| Canada (Central)          | [ami-0b40d6afac1ceee8e](https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0b40d6afac1ceee8e) | Not yet available |
+| Europe (Frankfurt)        | [ami-0e5b3ee6dd0872115](https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0e5b3ee6dd0872115) | [ami-041aabae5ca84b124](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-041aabae5ca84b124) |
+| Europe (Ireland)          | [ami-0579442f9a7dbed8b](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0579442f9a7dbed8b) | [ami-0f7ab90fd715b8464](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0f7ab90fd715b8464) |
+| Europe (London)           | [ami-0f06ece96c196c34d](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0f06ece96c196c34d) | Not yet available |
+| Europe (Milan)            | [ami-02c2b24ba47e6a07a](https://console.aws.amazon.com/ec2/v2/home?region=eu-south-1#LaunchInstanceWizard:ami=ami-02c2b24ba47e6a07a) | Not yet available |
+| Europe (Paris)            | [ami-05019cbfd70d0cdc7](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-05019cbfd70d0cdc7) | Not yet available |
+| Europe (Stockholm)        | [ami-08c21272bd4e8fa47](https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-08c21272bd4e8fa47) | Not yet available |
+| Middle East (Bahrain)     | [ami-03a41f58dcc700190](https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-03a41f58dcc700190) | Not yet available |
+| South America (Sáo Paulo) | [ami-082b12f2e337c9beb](https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-082b12f2e337c9beb) | Not yet available |
 
 ### Choose Instance Type
 
