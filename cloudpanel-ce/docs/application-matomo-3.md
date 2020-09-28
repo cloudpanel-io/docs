@@ -34,13 +34,13 @@ cd ~/tmp
 2. Download and extract the latest **Matomo 3** version.
 
 ```
-curl -sL https://github.com/matomo-org/matomo/archive/3.14.0.tar.gz | tar xfz -
+curl -sL https://github.com/matomo-org/matomo/archive/3.14.1.tar.gz | tar xfz -
 ```
 
 3. Move files to the **htdocs** directory of the domain:
 
 ```
-cp -R matomo-3.14.0/* /home/cloudpanel/htdocs/www.domain.com/
+cp -R matomo-3.14.1/* /home/cloudpanel/htdocs/www.domain.com/
 ```
 
 4. Install via **composer**:
