@@ -149,6 +149,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Mautic',
+          items: [
+            'application-mautic-3',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Moodle',
           items: [
             'application-moodle-3.9',
