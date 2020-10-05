@@ -3,7 +3,7 @@
   ## Run Docusaurus
 
     // Run docker conainer
-    docker run -d --net=bridge --restart=always --privileged -h cloudpanel-docusaurus --name cloudpanel-docusaurus -it -p 80:80 -p 443:443 -p 22:22 -p 3306:3306 -p 8443:8443 -p3000:3000 cloudpanelio/cloudpanel-docusaurus
+    docker run -d --net=bridge -v ~/Users/admin/PhpstormProjects/cloudpanel-docs:/mnt/cloudpanel-docs --restart=always --privileged -h cloudpanel-docusaurus --name cloudpanel-docusaurus -it -p 80:80 -p 443:443 -p 22:22 -p 3306:3306 -p 3000:3000 -p 8443:8443 -p 9200:9300 cloudpanelio/cloudpanel-docusaurus
 
   ## Build Docusaurus
 
