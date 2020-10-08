@@ -94,7 +94,7 @@ ssh root@yourFloatingIpAddress
 Before we run the installer, we need to update the sources and install required packages.
 
 ```bash
-apt update && apt -y install curl wget sudo
+apt update && apt -y upgrade && apt -y install curl wget sudo
 ```
 
 To start the **CloudPanel** installation, execute the following command:

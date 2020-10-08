@@ -110,7 +110,7 @@ sudo su root
 ```
 
 ```bash
-apt update && apt -y install curl wget sudo
+apt update && apt -y upgrade && apt -y install curl wget sudo
 ```
 
 To start the **CloudPanel** installation, execute the following command:
