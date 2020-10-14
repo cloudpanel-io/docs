@@ -6,11 +6,11 @@ sidebar_label: Laravel 8
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Laravel 8** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Laravel 8](https://laravel.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Laravel 8** under the domain ***www.domain.com***.
+In the following example we will setup **[Laravel](https://laravel.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -26,7 +26,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **Laravel 8** do the following steps:
+To install **Laravel** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 

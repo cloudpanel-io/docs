@@ -6,11 +6,11 @@ sidebar_label: Matomo 3
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Matomo 3** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Matomo 3](https://matomo.org/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Matomo 3** under the domain ***www.domain.com***.
+In the following example we will setup **[Matomo](https://matomo.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Ma
 
 ### Installation
 
-To install **Matomo 3** do the following steps:
+To install **Matomo** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 

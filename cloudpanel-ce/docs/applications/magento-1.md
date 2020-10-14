@@ -6,11 +6,11 @@ sidebar_label: Magento 1
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Magento 1** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Magento 1](https://magento.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup a **Magento 1** shop under the domain ***www.domain.com***.
+In the following example we will setup a **[Magento](https://magento.com/)** shop under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Ma
 
 ### Installation
 
-To install **Magento 1** do the following steps:
+To install **Magento** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 

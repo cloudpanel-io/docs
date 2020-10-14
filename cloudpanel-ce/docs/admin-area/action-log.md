@@ -1,5 +1,5 @@
 ---
-id: admin-action-log
+id: action-log
 title: Action Log
 sidebar_label: Action Log
 ---

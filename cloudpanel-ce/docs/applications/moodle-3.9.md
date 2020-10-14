@@ -6,11 +6,11 @@ sidebar_label: Moodle 3.9
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Moodle 3.9** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Moodle 3.9](https://moodle.org/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Moodle 3.9** under the domain ***www.domain.com***.
+In the following example we will setup **[Moodle](https://moodle.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Mo
 
 ### Installation
 
-To install **Moodle 3.9** do the following steps:
+To install **Moodle** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 

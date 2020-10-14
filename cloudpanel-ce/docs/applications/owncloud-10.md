@@ -6,11 +6,11 @@ sidebar_label: ownCloud 10
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **ownCloud 10** with **CloudPanel**.
+On this page, we explain step by step how to setup **[ownCloud 10](https://owncloud.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **ownCloud 10** under the domain ***www.domain.com***.
+In the following example we will setup **[ownCloud](https://owncloud.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **ow
 
 ### Installation
 
-To install **ownCloud 10** do the following steps:
+To install **ownCloud** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 

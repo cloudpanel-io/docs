@@ -6,11 +6,11 @@ sidebar_label: Yii 2
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Yii 2** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Yii 2](https://www.yiiframework.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Yii 2** under the domain ***www.domain.com***.
+In the following example we will setup **[Yii](https://www.yiiframework.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -26,7 +26,7 @@ Make sure to point the **Document Root** to the **web** directory.
 
 ### Installation
 
-To install **Yii 2** do the following steps:
+To install **Yii** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 

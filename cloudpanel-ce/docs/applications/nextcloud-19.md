@@ -6,11 +6,11 @@ sidebar_label: Nextcloud 19
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Nextcloud 19** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Nextcloud 19](https://nextcloud.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Nextcloud 19** under the domain ***www.domain.com***.
+In the following example we will setup **[Nextcloud](https://nextcloud.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Ne
 
 ### Installation
 
-To install **Nextcloud 19** do the following steps:
+To install **Nextcloud** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 

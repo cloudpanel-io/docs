@@ -6,11 +6,11 @@ sidebar_label: OroCRM 4.1
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **OroCRM 4.1** with **CloudPanel**.
+On this page, we explain step by step how to setup **[OroCRM 4.1](https://oroinc.com/orocrm/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **OroCRM 4.1** under the domain ***www.domain.com***.
+In the following example we will setup **[OroCRM](https://oroinc.com/orocrm/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -26,7 +26,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **OroCRM 4.1** do the following steps:
+To install **OroCRM** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the **htdocs** directory:
 

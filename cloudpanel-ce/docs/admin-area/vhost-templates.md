@@ -1,5 +1,5 @@
 ---
-id: admin-vhost-templates
+id: vhost-templates
 title: Vhost Templates
 sidebar_label: Vhost Templates
 ---

@@ -6,11 +6,11 @@ sidebar_label: Shopware 6
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Shopware 6** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Shopware 6](https://www.shopware.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Shopware 6** under the domain ***www.domain.com***.
+In the following example we will setup **[Shopware](https://www.shopware.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 

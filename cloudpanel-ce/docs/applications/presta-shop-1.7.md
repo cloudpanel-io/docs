@@ -6,11 +6,11 @@ sidebar_label: PrestaShop 1.7
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **PrestaShop 1.7** with **CloudPanel**.
+On this page, we explain step by step how to setup **[PrestaShop 1.7](https://www.prestashop.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **PrestaShop 1.7** under the domain ***www.domain.com***.
+In the following example we will setup **[PrestaShop](https://www.prestashop.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Pr
 
 ### Installation
 
-To install **PrestaShop 1.7** do the following steps:
+To install **PrestaShop** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 

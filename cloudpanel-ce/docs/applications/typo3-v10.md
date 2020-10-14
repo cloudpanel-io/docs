@@ -6,11 +6,11 @@ sidebar_label: TYPO3 v10
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **TYPO3 v10** with **CloudPanel**.
+On this page, we explain step by step how to setup **[TYPO3 v10](https://typo3.org/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **TYPO3 v10** under the domain ***www.domain.com***.
+In the following example we will setup **[TYPO3](https://typo3.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -26,7 +26,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **TYPO3 v10** do the following steps:
+To install **TYPO3** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 

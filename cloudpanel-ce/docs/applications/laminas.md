@@ -6,11 +6,11 @@ sidebar_label: Laminas
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Laminas** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Laminas](https://getlaminas.org/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Laminas** under the domain ***www.domain.com***.
+In the following example we will setup **[Laminas](https://getlaminas.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 

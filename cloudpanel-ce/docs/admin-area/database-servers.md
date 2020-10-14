@@ -1,5 +1,5 @@
 ---
-id: admin-database-servers
+id: database-servers
 title: Database Servers
 sidebar_label: Database Servers
 ---

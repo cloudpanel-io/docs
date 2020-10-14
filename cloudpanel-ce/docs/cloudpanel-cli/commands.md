@@ -1,5 +1,5 @@
 ---
-id: cloudpanel-cli-commands
+id: cli-commands
 title: CloudPanel CLI Commands
 sidebar_label: Commands
 ---

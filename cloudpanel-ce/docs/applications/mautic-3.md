@@ -6,11 +6,11 @@ sidebar_label: Mautic 3
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Mautic 3** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Mautic 3](https://www.mautic.org/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Mautic 3** under the domain ***www.domain.com***.
+In the following example we will setup **[Mautic](https://www.mautic.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Ma
 
 ### Installation
 
-To install **Mautic 3** do the following steps:
+To install **Mautic** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the **htdocs** directory:
 

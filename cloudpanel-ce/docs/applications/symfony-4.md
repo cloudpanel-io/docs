@@ -6,11 +6,11 @@ sidebar_label: Symfony 4
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Symfony 4** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Symfony 4](https://symfony.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup a **Symfony 4** application under the domain ***www.domain.com***.
+In the following example we will setup a **[Symfony](https://symfony.com/)** application under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -26,7 +26,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **Symfony 4** do the following steps:
+To install **Symfony** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 

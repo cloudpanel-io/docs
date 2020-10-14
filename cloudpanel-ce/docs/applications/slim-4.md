@@ -6,11 +6,11 @@ sidebar_label: Slim 4
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Slim 4** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Slim 4](http://www.slimframework.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Slim 4** under the domain ***www.domain.com***.
+In the following example we will setup **[Slim](http://www.slimframework.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -26,7 +26,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **Slim 4** do the following steps:
+To install **Slim** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 

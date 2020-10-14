@@ -6,11 +6,11 @@ sidebar_label: OroCommerce 4.1
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **OroCommerce 4.1** with **CloudPanel**.
+On this page, we explain step by step how to setup **[OroCommerce 4.1](https://oroinc.com/b2b-ecommerce/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **OroCommerce 4.1** under the domain ***www.domain.com***.
+In the following example we will setup **[OroCommerce](https://oroinc.com/b2b-ecommerce/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -26,7 +26,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **OroCommerce 4.1** do the following steps:
+To install **OroCommerce** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the **htdocs** directory:
 

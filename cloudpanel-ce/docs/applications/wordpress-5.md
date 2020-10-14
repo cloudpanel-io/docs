@@ -6,11 +6,11 @@ sidebar_label: WordPress 5
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **WordPress 5** with **CloudPanel**.
+On this page, we explain step by step how to setup **[WordPress 5](https://wordpress.org/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **WordPress 5** under the domain ***www.domain.com***.
+In the following example we will setup **[WordPress](https://wordpress.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -22,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Wo
 
 ### Installation
 
-To install **WordPress 5** do the following steps:
+To install **WordPress** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 

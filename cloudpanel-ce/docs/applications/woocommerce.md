@@ -6,11 +6,11 @@ sidebar_label: WooCommerce
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **WooCommerce** with **CloudPanel**.
+On this page, we explain step by step how to setup **[WooCommerce](https://woocommerce.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **WooCommerce** under the domain ***www.domain.com***.
+In the following example we will setup **[WooCommerce](https://woocommerce.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
