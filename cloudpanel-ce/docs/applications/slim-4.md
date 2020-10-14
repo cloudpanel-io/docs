@@ -1,5 +1,5 @@
 ---
-id: application-slim-4
+id: slim-4
 title: Slim 4
 sidebar_label: Slim 4
 ---

@@ -1,5 +1,5 @@
 ---
-id: application-wocommerce
+id: wocommerce
 title: WooCommerce
 sidebar_label: WooCommerce
 ---

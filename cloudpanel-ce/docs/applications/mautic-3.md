@@ -1,5 +1,5 @@
 ---
-id: application-mautic-3
+id: mautic-3
 title: Mautic 3
 sidebar_label: Mautic 3
 ---

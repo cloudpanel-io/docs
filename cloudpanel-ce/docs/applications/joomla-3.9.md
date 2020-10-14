@@ -1,5 +1,5 @@
 ---
-id: application-joomla-3.9
+id: joomla-3.9
 title: Joomla 3.9
 sidebar_label: Joomla 3.9
 ---

@@ -1,5 +1,5 @@
 ---
-id: application-shopware-6
+id: shopware-6
 title: Shopware 6
 sidebar_label: Shopware 6
 ---

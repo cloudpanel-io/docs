@@ -1,5 +1,5 @@
 ---
-id: application-oro-commerce-4.1
+id: oro-commerce-4.1
 title: OroCommerce 4.1
 sidebar_label: OroCommerce 4.1
 ---

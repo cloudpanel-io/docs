@@ -1,5 +1,5 @@
 ---
-id: application-symfony-5
+id: symfony-5
 title: Symfony 5
 sidebar_label: Symfony 5
 ---

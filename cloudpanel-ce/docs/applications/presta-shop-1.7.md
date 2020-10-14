@@ -1,5 +1,5 @@
 ---
-id: application-presta-shop-1.7
+id: presta-shop-1.7
 title: PrestaShop 1.7
 sidebar_label: PrestaShop 1.7
 ---

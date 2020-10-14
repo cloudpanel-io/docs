@@ -1,5 +1,5 @@
 ---
-id: application-other
+id: other
 title: Other
 sidebar_label: Other
 ---

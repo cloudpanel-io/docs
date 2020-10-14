@@ -1,5 +1,5 @@
 ---
-id: application-typo3-v10
+id: typo3-v10
 title: TYPO3 v10
 sidebar_label: TYPO3 v10
 ---

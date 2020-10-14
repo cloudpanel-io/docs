@@ -1,5 +1,5 @@
 ---
-id: application-matomo-3
+id: matomo-3
 title: Matomo 3
 sidebar_label: Matomo 3
 ---

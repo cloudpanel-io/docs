@@ -1,5 +1,5 @@
 ---
-id: application-magento-1
+id: magento-1
 title: Magento 1
 sidebar_label: Magento 1
 ---

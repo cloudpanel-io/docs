@@ -1,5 +1,5 @@
 ---
-id: application-fuel-php-1.8
+id: fuel-php-1.8
 title: FuelPHP 1.8
 sidebar_label: FuelPHP 1.8
 ---

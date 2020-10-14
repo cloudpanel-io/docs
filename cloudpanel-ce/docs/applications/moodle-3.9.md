@@ -1,5 +1,5 @@
 ---
-id: application-moodle-3.9
+id: moodle-3.9
 title: Moodle 3.9
 sidebar_label: Moodle 3.9
 ---

@@ -1,5 +1,5 @@
 ---
-id: application-cakephp-4
+id: cakephp-4
 title: CakePHP 4
 sidebar_label: CakePHP 4
 ---

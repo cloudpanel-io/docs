@@ -1,5 +1,5 @@
 ---
-id: application-nextcloud-19
+id: nextcloud-19
 title: Nextcloud 19
 sidebar_label: Nextcloud 19
 ---

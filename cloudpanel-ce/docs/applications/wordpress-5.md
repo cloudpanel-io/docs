@@ -1,5 +1,5 @@
 ---
-id: application-wordpress-5
+id: wordpress-5
 title: WordPress 5
 sidebar_label: WordPress 5
 ---

@@ -1,5 +1,5 @@
 ---
-id: application-oro-crm-4.1
+id: oro-crm-4.1
 title: OroCRM 4.1
 sidebar_label: OroCRM 4.1
 ---

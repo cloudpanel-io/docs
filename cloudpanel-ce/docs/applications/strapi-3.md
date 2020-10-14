@@ -1,5 +1,5 @@
 ---
-id: application-strapi-3
+id: strapi-3
 title: Strapi 3
 sidebar_label: Strapi 3
 ---

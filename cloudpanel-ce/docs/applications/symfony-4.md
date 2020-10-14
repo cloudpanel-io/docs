@@ -1,5 +1,5 @@
 ---
-id: application-symfony-4
+id: symfony-4
 title: Symfony 4
 sidebar_label: Symfony 4
 ---

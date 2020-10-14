@@ -1,5 +1,5 @@
 ---
-id: application-neos-5
+id: neos-5
 title: Neos 5
 sidebar_label: Neos 5
 ---

@@ -1,5 +1,5 @@
 ---
-id: application-owncloud-10
+id: owncloud-10
 title: ownCloud 10
 sidebar_label: ownCloud 10
 ---

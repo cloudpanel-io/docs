@@ -85,182 +85,182 @@ module.exports = {
           type: 'category',
           label: 'CakePHP',
           items: [
-            'application-cakephp-4'
+            'applications/cakephp-4'
           ]
         },
         {
           type: 'category',
           label: 'CodeIgniter',
           items: [
-            'application-codeigniter-4'
+            'applications/codeigniter-4'
           ]
         },
         {
           type: 'category',
           label: 'Drupal',
           items: [
-            'application-drupal-8',
-            'application-drupal-9',
+            'applications/drupal-8',
+            'applications/drupal-9',
           ]
         },
         {
           type: 'category',
           label: 'FuelPHP',
           items: [
-            'application-fuel-php-1.8'
+            'applications/fuel-php-1.8'
           ]
         },
         {
           type: 'category',
           label: 'Joomla',
           items: [
-            'application-joomla-3.9'
+            'applications/joomla-3.9'
           ]
         },
         {
           type: 'category',
           label: 'Laminas',
           items: [
-            'application-laminas',
+            'applications/laminas',
           ]
         },
         {
           type: 'category',
           label: 'Laravel',
           items: [
-            'application-laravel-7',
-            'application-laravel-8',
+            'applications/laravel-7',
+            'applications/laravel-8',
           ]
         },
         {
           type: 'category',
           label: 'Magento',
           items: [
-            'application-magento-1',
-            'application-magento-2',
+            'applications/magento-1',
+            'applications/magento-2',
           ]
         },
         {
           type: 'category',
           label: 'Matomo',
           items: [
-            'application-matomo-3',
+            'applications/matomo-3',
           ]
         },
         {
           type: 'category',
           label: 'Mautic',
           items: [
-            'application-mautic-3',
+            'applications/mautic-3',
           ]
         },
         {
           type: 'category',
           label: 'Moodle',
           items: [
-            'application-moodle-3.9',
+            'applications/moodle-3.9',
           ]
         },
         {
           type: 'category',
           label: 'Neos',
           items: [
-            'application-neos-5',
+            'applications/neos-5',
           ]
         },
         {
           type: 'category',
           label: 'Nextcloud',
           items: [
-            'application-nextcloud-19',
+            'applications/nextcloud-19',
           ]
         },
         {
           type: 'category',
           label: 'OroCommerce',
           items: [
-            'application-oro-commerce-4.1',
+            'applications/oro-commerce-4.1',
           ]
         },
         {
           type: 'category',
           label: 'OroCRM',
           items: [
-            'application-oro-crm-4.1',
+            'applications/oro-crm-4.1',
           ]
         },
         {
           type: 'category',
           label: 'ownCloud',
           items: [
-            'application-owncloud-10',
+            'applications/owncloud-10',
           ]
         },
         {
           type: 'category',
           label: 'PrestaShop',
           items: [
-            'application-presta-shop-1.7',
+            'applications/presta-shop-1.7',
           ]
         },
         {
           type: 'category',
           label: 'Shopware',
           items: [
-            'application-shopware-6',
+            'applications/shopware-6',
           ]
         },
         {
           type: 'category',
           label: 'Slim',
           items: [
-            'application-slim-4',
+            'applications/slim-4',
           ]
         },
         {
           type: 'category',
           label: 'Strapi',
           items: [
-            'application-strapi-3',
+            'applications/strapi-3',
           ]
         },
         {
           type: 'category',
           label: 'Symfony',
           items: [
-            'application-symfony-4',
-            'application-symfony-5',
+            'applications/symfony-4',
+            'applications/symfony-5',
           ]
         },
         {
           type: 'category',
           label: 'TYPO3',
           items: [
-            'application-typo3-v10',
+            'applications/typo3-v10',
           ]
         },
         {
           type: 'category',
           label: 'WooCommerce',
           items: [
-            'application-wocommerce',
+            'applications/wocommerce',
           ]
         },
         {
           type: 'category',
           label: 'WordPress',
           items: [
-            'application-wordpress-5',
+            'applications/wordpress-5',
           ]
         },
         {
           type: 'category',
           label: 'Yii',
           items: [
-            'application-yii-2',
+            'applications/yii-2',
           ]
         },
-        'application-other'
+        'applications/other'
       ],
     },
   ]

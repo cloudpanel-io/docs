@@ -1,5 +1,5 @@
 ---
-id: application-codeigniter-4
+id: codeigniter-4
 title: CodeIgniter 4
 sidebar_label: CodeIgniter 4
 ---
