@@ -25,6 +25,7 @@
 
 .markdown > h2 {
   border-bottom: 1px solid #eeeeee;
+  padding-bottom: 5px;
 }
 
 .docusaurus-highlight-code-line {
