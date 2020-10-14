@@ -173,6 +173,7 @@ module.exports = {
           label: 'Nextcloud',
           items: [
             'applications/nextcloud-19',
+            'applications/nextcloud-20',
           ]
         },
         {
