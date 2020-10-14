@@ -6,7 +6,7 @@ sidebar_label: Joomla 3.9
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **[Joomla](https://www.joomla.org/)** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Joomla 3.9](https://www.joomla.org/)** with **CloudPanel**.
 
 ## Installation
 
