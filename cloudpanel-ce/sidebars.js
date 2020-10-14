@@ -219,6 +219,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Strapi',
+          items: [
+            'application-strapi-3',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Symfony',
           items: [
             'application-symfony-4',

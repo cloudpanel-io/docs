@@ -14,8 +14,7 @@ In the following example we will setup **Nextcloud 18** under the domain ***www.
 
 ### Preparation
 
-Before we can start with the installation of **Nextcloud 18**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
-and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Nextcloud 18 Vhost Template** and the right **PHP Version**.
 

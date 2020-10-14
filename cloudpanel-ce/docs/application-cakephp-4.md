@@ -6,18 +6,17 @@ sidebar_label: CakePHP 4
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **CakePHP 4** with **CloudPanel**.
+On this page, we explain step by step how to setup **[CakePHP](https://cakephp.org/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **CakePHP 4** under the domain ***www.domain.com***.
+In the following example we will setup **[CakePHP](https://cakephp.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
-Before we can start with the installation of **CakePHP 4**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
-and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **CakePHP 4 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](domains#adding-a-domain), make sure to select the **CakePHP 4 Vhost Template**, and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/cakephp-4/new_domain.png')} /> <br /><br />
 
@@ -27,7 +26,7 @@ Make sure to point the **Document Root** to the **webroot** directory.
 
 ### Installation
 
-To install **CakePHP 4** do the following steps:
+To install **CakePHP** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 

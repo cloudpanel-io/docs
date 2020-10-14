@@ -14,8 +14,7 @@ In the following example we will setup **Laravel 8** under the domain ***www.dom
 
 ### Preparation
 
-Before we can start with the installation of **Laravel 8**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
-and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Laravel 8 Vhost Template** and the right **PHP Version**.
 

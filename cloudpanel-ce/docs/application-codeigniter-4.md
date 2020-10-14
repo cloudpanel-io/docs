@@ -6,16 +6,15 @@ sidebar_label: CodeIgniter 4
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **CodeIgniter 4** with **CloudPanel**.
+On this page, we explain step by step how to setup **[CodeIgniter](https://codeigniter.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **CodeIgniter 4** under the domain ***www.domain.com***.
+In the following example we will setup **[CodeIgniter](https://codeigniter.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
-Before we can start with the installation of **CodeIgniter 4**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
-and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **CodeIgniter 4 Vhost Template** and the right **PHP Version**.
 
@@ -27,7 +26,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 ### Installation
 
-To install **CodeIgniter 4** do the following steps:
+To install **CodeIgniter** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 

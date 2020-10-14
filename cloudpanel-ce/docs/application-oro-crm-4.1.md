@@ -14,8 +14,7 @@ In the following example we will setup **OroCRM 4.1** under the domain ***www.do
 
 ### Preparation
 
-Before we can start with the installation of **OroCRM 4.1**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
-and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **OroCRM 4.1 Vhost Template** and the right **PHP Version**.
 

@@ -6,16 +6,15 @@ sidebar_label: Joomla 3.9
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **Joomla 3.9** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Joomla](https://www.joomla.org/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **Joomla 3.9** under the domain ***www.domain.com***.
+In the following example we will setup **[Joomla](https://www.joomla.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
-Before we can start with the installation of **Joomla 3.9**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
-and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Joomla 3.9 Vhost Template** and the right **PHP Version**.
 
@@ -23,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Jo
 
 ### Installation
 
-To install **Joomla 3.9** do the following steps:
+To install **Joomla** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 

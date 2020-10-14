@@ -14,8 +14,7 @@ In the following example we will setup **Mautic 3** under the domain ***www.doma
 
 ### Preparation
 
-Before we can start with the installation of **Mautic 3**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
-and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Mautic 3 Vhost Template** and the right **PHP Version**.
 

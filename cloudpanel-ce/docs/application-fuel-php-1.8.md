@@ -6,16 +6,15 @@ sidebar_label: FuelPHP 1.8
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **FuelPHP 1.8** with **CloudPanel**.
+On this page, we explain step by step how to setup **[FuelPHP 1.8](https://fuelphp.com/)** with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup **FuelPHP 1.8** under the domain ***www.domain.com***.
+In the following example we will setup **[FuelPHP](https://fuelphp.com/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
-Before we can start with the installation of **FuelPHP 1.8**, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database) <br />
-and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **FuelPHP 1.8 Vhost Template** and the right **PHP Version**.
 
@@ -23,7 +22,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **Fu
 
 ### Installation
 
-To install **FuelPHP 1.8** do the following steps:
+To install **FuelPHP** do the following steps:
 
 1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 
