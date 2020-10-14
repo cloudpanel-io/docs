@@ -14,7 +14,7 @@ In the following example we will setup **[Strapi](https://strapi.io/)** under th
 
 ### Preparation
 
-Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](users#adding-a-user) and a [Domain](domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Strapi 3 Vhost Template**.
 
@@ -84,9 +84,78 @@ yarn create strapi-app api.domain.com --quickstart
 
 For the development, you can start **Strapi** from the commandline with a detailed output:
 
+1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go the **project** directory:
+
 ```
 cd /home/cloudpanel/htdocs/api.domain.com/
+```
+
+2. Start **Strapi** via **yarn**:
+
+```
 yarn develop
 ```
 
-## Deployment
+## Production Deployment
+
+For running **Strapi** in **production** it's recommended to use a process control system like [supervisor](http://supervisord.org/),
+which restarts the node processes automatically in case of a failure.
+
+### Setup Supervisor
+
+1. Got to the **project directory** and build **Strapi** with user **john-ssh**:
+
+```
+cd /home/cloudpanel/htdocs/api.domain.com/ && NODE_ENV=production yarn build
+```
+
+2. Install the **supervisor** package:
+
+```
+apt update && apt -y install supervisor
+```
+
+3. Create a **supervisor** configuration file.
+
+```
+touch /etc/supervisor/conf.d/strapi-api.conf
+```
+
+4. Open the configuration file and put the following content:
+
+```
+[program:strapi-api]
+process_name=%(program_name)s_%(process_num)02d
+environment=NODE_ENV=production
+command=/usr/bin/yarn --cwd /home/cloudpanel/htdocs/api.domain.com/ start
+numprocs=1
+user=john-ssh
+autostart=true
+autorestart=true
+stopsignal=KILL
+stdout_logfile=/var/log/supervisor/strapi-api.log
+```
+
+:::warning Attention
+Make sure that the **user** is correct to avoid permission problems.
+:::
+
+5. Update the configuration and start the node processes :
+
+```
+supervisorctl reread
+supervisorctl update
+supervisorctl start strapi-api:*
+```
+
+With the command **supervisorctl** you get information about the **status**, **pid**, and **uptime**:
+
+<img class="border" src={useBaseUrl('img/v1/applications/strapi-3/supervisorctl_screenshot.png')} /> 
+
+### Troubleshooting
+
+You may want to see what happens in the background; you can do that by tailing the log file:
+
+```
+tail -f /var/log/supervisor/strapi-api.log -n1000
+```

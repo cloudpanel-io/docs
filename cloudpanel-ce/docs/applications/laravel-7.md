@@ -73,7 +73,7 @@ In case they will be terminated, [Supervisor](http://supervisord.org/) makes sur
 apt install -y supervisor
 ```
 
-3. Create a **supervisor** configuration file
+3. Create a **supervisor** configuration file.
 
 ```
 touch /etc/supervisor/conf.d/supervisor.conf
@@ -99,7 +99,6 @@ Make sure that the **php version** and the **user** are correct to avoid permiss
 
 :::tip
 For consuming messages in parallel, e.g., when you are working with **rabbitMQ**, you may increase **numprocs**.
-
 :::
 
 5. Update the configuration and start the worker.
