@@ -14,23 +14,23 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'getting-started',
+        'getting-started/getting-started',
         {
           type: 'category',
           label: 'Installation',
           items: [
-            'installation-aws',
+            'getting-started/installation-aws',
             {
               type: 'category',
               label: 'Digital Ocean',
               items: [
-                'installation-digital-ocean-marketplace',
-                'installation-digital-ocean-installer',
+                'getting-started/installation-digital-ocean-marketplace',
+                'getting-started/installation-digital-ocean-installer',
               ]
             },
-            'installation-google-cloud',
-            'installation-microsoft-azure',
-            'installation-other',
+            'getting-started/installation-google-cloud',
+            'getting-started/installation-microsoft-azure',
+            'getting-started/installation-other',
           ]
         }
       ],
