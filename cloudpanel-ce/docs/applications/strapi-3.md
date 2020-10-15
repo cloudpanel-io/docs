@@ -16,7 +16,7 @@ In the following example we will setup **[Strapi](https://strapi.io/)** under th
 
 Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user) and a [Domain](../frontend-area/domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **Strapi 3 Vhost Template**.
+When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **Strapi 3 Vhost Template**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/strapi-3/new_domain.png')} /> <br /><br />
 
@@ -58,7 +58,7 @@ apt update && dpkg -r --force-depends nodejs
 apt -y install nodejs
 ```
 
-4. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
+4. [Login via SSH](../frontend-area/users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 
 ```
 cd /home/cloudpanel/htdocs/
@@ -84,7 +84,7 @@ yarn create strapi-app api.domain.com --quickstart
 
 For the development, you can start **Strapi** from the commandline with a detailed output:
 
-1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go the **project** directory:
+1. [Login via SSH](../frontend-area/users#ssh-login) to the server e.g. with **john-ssh** and go the **project** directory:
 
 ```
 cd /home/cloudpanel/htdocs/api.domain.com/

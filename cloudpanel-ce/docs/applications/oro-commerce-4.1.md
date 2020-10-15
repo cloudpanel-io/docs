@@ -16,7 +16,7 @@ In the following example we will setup **[OroCommerce](https://oroinc.com/b2b-ec
 
 Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user), a [Database](../frontend-area/databases#adding-a-database), and a [Domain](../frontend-area/domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **OroCommerce 4.1 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **OroCommerce 4.1 Vhost Template** and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/new_domain.png')} /> <br /><br />
 
@@ -28,7 +28,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 To install **OroCommerce** do the following steps:
 
-1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the **htdocs** directory:
+1. [Login via SSH](../frontend-area/users#ssh-login) to the server e.g. with **john-ssh** and go to the **htdocs** directory:
 
 ```
 cd /home/cloudpanel/htdocs/

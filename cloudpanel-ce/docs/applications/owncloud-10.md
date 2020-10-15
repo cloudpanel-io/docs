@@ -16,7 +16,7 @@ In the following example we will setup **[ownCloud](https://owncloud.com/)** und
 
 Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user), a [Database](../frontend-area/databases#adding-a-database), and a [Domain](../frontend-area/domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **ownCloud 10 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **ownCloud 10 Vhost Template** and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/owncloud-10/new_domain.png?v=1')} /> <br /><br />
 
@@ -24,7 +24,7 @@ When you [Add the Domain](domains#adding-a-domain), make sure to select the **ow
 
 To install **ownCloud** do the following steps:
 
-1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
+1. [Login via SSH](../frontend-area/users#ssh-login) to the server e.g. with **john-ssh** and go to the users **tmp** directory:
 
 ```
 cd ~/tmp

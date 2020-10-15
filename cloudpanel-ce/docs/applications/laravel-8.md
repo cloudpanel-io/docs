@@ -16,7 +16,7 @@ In the following example we will setup **[Laravel](https://laravel.com/)** under
 
 Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user), a [Database](../frontend-area/databases#adding-a-database), and a [Domain](../frontend-area/domains#adding-a-domain).
 
-When you [Add the Domain](domains#adding-a-domain), make sure to select the **Laravel 8 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **Laravel 8 Vhost Template** and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/laravel-8/new_domain.png')} /> <br /><br />
 
@@ -28,7 +28,7 @@ Make sure to point the **Document Root** to the **public** directory.
 
 To install **Laravel** do the following steps:
 
-1. [Login via SSH](users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
+1. [Login via SSH](../frontend-area/users#ssh-login) to the server e.g. with **john-ssh** and go **htdocs** directory:
 
 ```
 cd /home/cloudpanel/htdocs/
@@ -65,7 +65,7 @@ In case they will be terminated, [Supervisor](http://supervisord.org/) makes sur
 
 ### Installation
 
-1. [Login via SSH](users#ssh-login) to the server e.g. as **root** user.
+1. [Login via SSH](../frontend-area/users#ssh-login) to the server e.g. as **root** user.
 
 2. Install **supervisor**
 
