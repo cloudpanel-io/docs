@@ -7,7 +7,7 @@ sidebar_label: Other
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 On this page, we explain step by step how to run **CloudPanel** on a dedicated server or any other cloud. <br />
-For the installation, you need an empty server with [Debian 10 (Buster)](getting-started/requirements) with root access.
+For the installation, you need an empty server with [Debian 10 (Buster)](../requirements) with root access.
 
 ## CloudPanel Installation
 

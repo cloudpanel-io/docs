@@ -121,4 +121,4 @@ For each cloud, we have implemented features to use them without the need to log
 
 #### Settings
 
-- [Proftpd Settings](admin-area/admin-settings#proftpd-settings)
+- [Proftpd Settings](admin-area/settings#proftpd-settings)
