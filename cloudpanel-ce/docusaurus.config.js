@@ -6,13 +6,16 @@ module.exports = {
   url: 'https://github.com/cloudpanel-io/docs/tree/master/docs/cloudpanel-ce',
   baseUrl: '/docs/cloudpanel-ce/',
   favicon: 'img/favicon.png',
+  onBrokenLinks: 'throw',
   organizationName: 'CloudPanel',
   projectName: 'CloudPanelCE',
   scripts: [
     'https://www.cloudpanel.io/docs/cloudpanel-ce/js/feedback.js',
   ],
   themeConfig: {
-    disableDarkMode: true,
+    colorMode: {
+      disableSwitch: true
+    },
     gtag: {
       trackingID: 'UA-168148528-1',
     },
@@ -33,7 +36,7 @@ module.exports = {
         href: 'https://www.cloudpanel.io/docs/cloudpanel-ce/introduction',
         target: '_self'
       },
-      links: [
+      items: [
         /*
         {
           label: 'Versions',
@@ -56,7 +59,7 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'classic',
+      style: 'light',
       links: [
         {
           title: 'Product',
@@ -164,7 +167,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          routeBasePath: '',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/cloudpanel-io/docs/tree/master/cloudpanel-ce',

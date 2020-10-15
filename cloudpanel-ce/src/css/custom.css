@@ -114,3 +114,19 @@ img.border {
 .alert a {
   color: var(--ifm-link-color);
 }
+
+@media only screen and (min-width: 997px) {
+  .DocSearch-Button {
+    height: 30px !important;
+    width: 200px !important;
+  }
+  .DocSearch-Button-Placeholder {
+    padding: 0 60px 0 6px !important;
+  }
+}
+
+@media only screen and (max-width: 997px) {
+  .DocSearch-Button {
+    height: 30px !important;
+  }
+}
