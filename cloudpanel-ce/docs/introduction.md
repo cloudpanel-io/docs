@@ -34,44 +34,44 @@ In this section we will provide an overview about the frontend, cloud and admin 
 
 #### Account
 
-- [Account Information](account#account-information)
-- [Two-Factor Authentication](account#two-factor-authentication)
+- [Account Information](frontend-area/account#account-information)
+- [Two-Factor Authentication](frontend-area/account#two-factor-authentication)
 
 #### Domains
 
-- [Basics](domains#basics)
-- [Settings](domains#settings)
-- [Vhost](domains#vhost)
-- [Domain Aliases](domains#domain-aliases)
-- [PHP-FPM Pools](domains#php-fpm-pools)
-- [PHP Settings](domains#php-settings)
-- [Basic Auth](domains#basic-auth)
-- [Logs](domains#logs)
-- [SSL Certificates](domains#ssl-certificates)
+- [Basics](frontend-area/domains#basics)
+- [Settings](frontend-area/domains#settings)
+- [Vhost](frontend-area/domains#vhost)
+- [Domain Aliases](frontend-area/domains#domain-aliases)
+- [PHP-FPM Pools](frontend-area/domains#php-fpm-pools)
+- [PHP Settings](frontend-area/domains#php-settings)
+- [Basic Auth](frontend-area/domains#basic-auth)
+- [Logs](frontend-area/domains#logs)
+- [SSL Certificates](frontend-area/domains#ssl-certificates)
 
 #### Security
 
-- [IP Blocking](security#ip-blocking)
-- [Bots Blocking](security#bot-blocking)
+- [IP Blocking](frontend-area/security#ip-blocking)
+- [Bots Blocking](frontend-area/security#bot-blocking)
 
 #### Users
 
-- [SSH Users](users#sshsftp)
-- [FTP Users](users#ftp)
+- [SSH Users](frontend-area/users#sshsftp)
+- [FTP Users](frontend-area/users#ftp)
 
 #### Databases
 
-- [Databases](databases)
-- [Managing Databases](databases#managing-databases)
+- [Databases](frontend-area/databases)
+- [Managing Databases](frontend-area/databases#managing-databases)
 
 #### Cron Jobs
 
-- [Cron Jobs](cron-jobs)
-- [Settings](cron-jobs#settings)
+- [Cron Jobs](frontend-area/cron-jobs)
+- [Settings](frontend-area/cron-jobs#settings)
 
 #### Services
 
-- [Services](services)
+- [Services](frontend-area/services)
 
 ### Cloud Features
 
@@ -79,46 +79,46 @@ For each cloud, we have implemented features to use them without the need to log
 
 #### Amazon Web Services
 
-- [AWS Access Keys](cloud-features-aws#aws-access-keys)
-- [Instance](cloud-features-aws#instance)
-- [Security Group](cloud-features-aws#security-groups)
-- [Route 53](cloud-features-aws#route-53)
-- [Amazon Machine Images (AMI)](cloud-features-aws#amazon-machine-images-ami)
+- [AWS Access Keys](frontend-area/cloud-features-aws#aws-access-keys)
+- [Instance](frontend-area/cloud-features-aws#instance)
+- [Security Group](frontend-area/cloud-features-aws#security-groups)
+- [Route 53](frontend-area/cloud-features-aws#route-53)
+- [Amazon Machine Images (AMI)](frontend-area/cloud-features-aws#amazon-machine-images-ami)
 
 #### Digital Ocean
 
-- [Access Token](cloud-features-digital-ocean#access-token)
-- [Droplet](cloud-features-digital-ocean#droplet)
-- [Firewalls](cloud-features-digital-ocean#firewalls)
-- [Domains](cloud-features-digital-ocean#domains)
-- [Snapshots](cloud-features-digital-ocean#snapshots)
+- [Access Token](frontend-area/cloud-features-digital-ocean#access-token)
+- [Droplet](frontend-area/cloud-features-digital-ocean#droplet)
+- [Firewalls](frontend-area/cloud-features-digital-ocean#firewalls)
+- [Domains](frontend-area/cloud-features-digital-ocean#domains)
+- [Snapshots](frontend-area/cloud-features-digital-ocean#snapshots)
 
 #### Google Cloud
 
-- [Service Account Keys](cloud-features-google-cloud#service-account-keys)
-- [Instance](cloud-features-google-cloud#instance)
-- [Firewall Rules](cloud-features-google-cloud#firewall-rules)
-- [DNS](cloud-features-google-cloud#dns)
-- [Snapshots](cloud-features-google-cloud#snapshots)
+- [Service Account Keys](frontend-area/cloud-features-google-cloud#service-account-keys)
+- [Instance](frontend-area/cloud-features-google-cloud#instance)
+- [Firewall Rules](frontend-area/cloud-features-google-cloud#firewall-rules)
+- [DNS](frontend-area/cloud-features-google-cloud#dns)
+- [Snapshots](frontend-area/cloud-features-google-cloud#snapshots)
 
 ### Admin Area
 
 #### Users
 
-- [Users](admin-users)
+- [Users](admin-area/admin-users)
 
 #### Vhost Templates
 
-- [Vhost Templates](admin-vhost-templates)
+- [Vhost Templates](admin-area/admin-vhost-templates)
 
 #### Database Servers
 
-- [Database Servers](admin-database-servers)
+- [Database Servers](admin-area/admin-database-servers)
 
 #### Action Log
 
-- [Action Log](admin-action-log)
+- [Action Log](admin-area/admin-action-log)
 
 #### Settings
 
-- [Proftpd Settings](admin-settings#proftpd-settings)
+- [Proftpd Settings](admin-area/admin-settings#proftpd-settings)
