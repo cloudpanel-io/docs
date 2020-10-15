@@ -14,7 +14,7 @@ In the following example we will setup **[Strapi](https://strapi.io/)** under th
 
 ### Preparation
 
-Before we can start with the installation, we need to create an [SSH User](users#adding-a-user) and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user) and a [Domain](../frontend-area/domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Strapi 3 Vhost Template**.
 

@@ -14,7 +14,7 @@ In the following example we will setup **[PrestaShop](https://www.prestashop.com
 
 ### Preparation
 
-Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user), a [Database](../frontend-area/databases#adding-a-database), and a [Domain](../frontend-area/domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **PrestaShop 1.7 Vhost Template** and the right **PHP Version**.
 

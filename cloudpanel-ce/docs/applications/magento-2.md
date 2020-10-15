@@ -22,7 +22,7 @@ A step by step guide how to install **Elasticsearch 7.9** on **Debian 10** can b
 
 ### Preparation
 
-Before we can start with the installation, we need to create an [SSH User](users#adding-a-user), a [Database](databases#adding-a-database), and a [Domain](domains#adding-a-domain).
+Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user), a [Database](../frontend-area/databases#adding-a-database), and a [Domain](../frontend-area/domains#adding-a-domain).
 
 When you [Add the Domain](domains#adding-a-domain), make sure to select the **Magento 2 Vhost Template** and the right **PHP Version**.
 
