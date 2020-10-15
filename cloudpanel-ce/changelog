@@ -1,3 +1,6 @@
+1.0.15 Stefan Wieczorek <stefan.wieczorek@cloudpanel.io> Thi, 15 Oct 2020 08:08:08
+- Fix Links
+
 1.0.14 Stefan Wieczorek <stefan.wieczorek@cloudpanel.io> Wed, 14 Oct 2020 08:08:08
 - Add Strapi 3
 - Add Nextcloud 20
