@@ -105,19 +105,19 @@ For each cloud, we have implemented features to use them without the need to log
 
 #### Users
 
-- [Users](admin-area/admin-users)
+- [Users](admin-area/users)
 
 #### Vhost Templates
 
-- [Vhost Templates](admin-area/admin-vhost-templates)
+- [Vhost Templates](admin-area/vhost-templates)
 
 #### Database Servers
 
-- [Database Servers](admin-area/admin-database-servers)
+- [Database Servers](admin-area/database-servers)
 
 #### Action Log
 
-- [Action Log](admin-area/admin-action-log)
+- [Action Log](admin-area/action-log)
 
 #### Settings
 
