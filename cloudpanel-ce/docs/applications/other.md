@@ -24,7 +24,7 @@ Make sure to point the **Document Root** to the right directory, some applicatio
 
 ### Vhost
 
-After [Adding the Domain](../frontend-area/domains#adding-a-domain), you can make changes on the [Vhost](domains#vhost) to your needs like adding application-specific rules.
+After [Adding the Domain](../frontend-area/domains#adding-a-domain), you can make changes on the [Vhost](../frontend-area/domains#vhost) to your needs like adding application-specific rules.
 
 <img class="border" src={useBaseUrl('img/v1/domains/vhost.png')} />
 
