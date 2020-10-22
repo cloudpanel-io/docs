@@ -1,14 +1,14 @@
 const versions = require('./versions.json');
 
 module.exports = {
-  title: 'CloudPanel CE | Documentation',
-  tagline: 'CloudPanel CE | Documentation',
-  url: 'https://github.com/cloudpanel-io/docs/tree/master/docs/cloudpanel-ce',
-  baseUrl: '/docs/cloudpanel-ce/',
+  title: 'CloudPanel CE | Guides',
+  tagline: 'CloudPanel CE | Guides',
+  url: 'https://github.com/cloudpanel-io/docs/tree/master/docs/guides',
+  baseUrl: '/docs/guides/',
   favicon: 'img/favicon.png',
   onBrokenLinks: 'throw',
   organizationName: 'CloudPanel',
-  projectName: 'CloudPanelCE',
+  projectName: 'CloudPanelCEGuides',
   scripts: [
     'https://www.cloudpanel.io/docs/cloudpanel-ce/js/feedback.js',
   ],
@@ -33,7 +33,7 @@ module.exports = {
       logo: {
         alt: 'CloudPanel CE | Documentation',
         src: 'img/logo.svg',
-        href: 'https://www.cloudpanel.io/docs/cloudpanel-ce/introduction',
+        href: 'https://www.cloudpanel.io/docs/guides/introduction',
         target: '_self'
       },
       items: [
@@ -170,7 +170,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/cloudpanel-io/docs/tree/master/cloudpanel-ce',
+            'https://github.com/cloudpanel-io/docs/tree/master/guides',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
