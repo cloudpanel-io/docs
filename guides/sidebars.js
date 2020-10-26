@@ -15,5 +15,13 @@ module.exports = {
         'mysql/configuration',
       ],
     },
+    {
+      type: 'category',
+      label: 'PHP',
+      items: [
+        'php/extensions',
+        'php/ioncube-loader',
+      ],
+    },
   ]
 };
