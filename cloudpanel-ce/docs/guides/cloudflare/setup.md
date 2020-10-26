@@ -116,7 +116,7 @@ crontab -e
 Add the following line at the end to run the script every five minutes:
 
 ```
-*/5 * * * * /root/scripts/whitelist_cloudflare_ips &> /dev/null
+*/5 * * * * bash /root/scripts/whitelist_cloudflare_ips &> /dev/null
 ```
 
 6. **Done**
@@ -129,6 +129,6 @@ With the following command, you get a detailed overview of which **IPs** are all
 ufw status numbered
 ```
 
-The output will look like this:
+**The output will look like this:**
 
-
+<img src={useBaseUrl('img/v1/guides/cloudflare/ufw_rules.png')} />
