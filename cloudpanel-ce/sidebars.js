@@ -270,6 +270,13 @@ module.exports = {
       items: [
         {
           type: 'category',
+          label: 'Cloudflare',
+          items: [
+            'guides/cloudflare/setup',
+          ],
+        },
+        {
+          type: 'category',
           label: 'MySQL',
           items: [
             'guides/mysql/commands',
