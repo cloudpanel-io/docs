@@ -8,7 +8,7 @@ module.exports = {
   favicon: 'img/favicon.png',
   onBrokenLinks: 'throw',
   organizationName: 'CloudPanel',
-  projectName: 'CloudPanelCEGuides',
+  projectName: 'CloudPanelCE | Guides',
   scripts: [
     'https://www.cloudpanel.io/docs/cloudpanel-ce/js/feedback.js',
   ],
@@ -20,8 +20,8 @@ module.exports = {
       trackingID: 'UA-168148528-1',
     },
     algolia: {
-      apiKey: '4a68c2ae70048709e0852b5462dee94d',
-      indexName: 'cloudpanel',
+      apiKey: '####',
+      indexName: 'cloudpanel-guides',
       algoliaOptions: {
         /*facetFilters: [`version:1`]*/
       },
@@ -36,27 +36,6 @@ module.exports = {
         href: 'https://www.cloudpanel.io/docs/guides/introduction',
         target: '_self'
       },
-      items: [
-        /*
-        {
-          label: 'Versions',
-          to: 'docs/introduction', // "fake" link
-          position: 'left',
-          activeBasePath: 'docs',
-          items: [
-            {
-              label: versions[0],
-              to: '/introduction',
-            },
-            ...versions.slice(1).map((version) => ({
-              label: version,
-              to: `/${version}/introduction`,
-            }))
-          ],
-        },
-        */
-        /*{to: 'blog', label: 'Blog', position: 'left'},*/
-      ],
     },
     footer: {
       style: 'light',
