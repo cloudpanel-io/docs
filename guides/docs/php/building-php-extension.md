@@ -1,7 +1,7 @@
 ---
-id: extensions
-title: PHP Extensions
-sidebar_label: Extensions
+id: building-extension
+title: Building a PHP Extension
+sidebar_label: Building a PHP Extension
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

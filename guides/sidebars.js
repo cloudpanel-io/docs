@@ -19,7 +19,7 @@ module.exports = {
       type: 'category',
       label: 'PHP',
       items: [
-        'php/extensions',
+        'php/building-extension',
         'php/ioncube-loader',
       ],
     },
