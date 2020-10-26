@@ -8,8 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-On the following site, you will find useful **MySQL Commands** like exporting and importing/restoring databases
-or checking the current processlist.
+On the following site, you will find useful **MySQL Commands** like exporting and importing/restoring databases.
 
 ## Export
 
