@@ -22,7 +22,7 @@ apt update && apt install -y php7.4-dev
 
 3. Go to [https://pecl.php.net/](https://pecl.php.net/) and search for the extension like [ssh2](https://pecl.php.net/package/ssh2):
 
-<img class="border" src={useBaseUrl('img/php/php-extensions/download_extension.png')} />
+<img class="border" src={useBaseUrl('img/v1/guides/php/php-extensions/download_extension.png')} />
 
 4. Download the **tgz** via **cURL**:
 
@@ -112,6 +112,6 @@ phpinfo();
 
 3. Open **t.php** in your browser and search for the **extension**.
 
-<img class="border" src={useBaseUrl('img/php/php-extensions/phpinfo_extension.png')} />
+<img class="border" src={useBaseUrl('img/v1/guides/php/php-extensions/phpinfo_extension.png')} />
 
 If you don't find information about the extension, then it's **NOT** loaded.

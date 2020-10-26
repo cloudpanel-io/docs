@@ -27,7 +27,7 @@ clpctl db:show:credentials
 
 The output will look like the following image:
 
-<img src={useBaseUrl('img/mysql/cloudpanel_master_credentials.png')} /> 
+<img src={useBaseUrl('img/v1/guides/mysql/cloudpanel_master_credentials.png')} /> 
 
 2. With the **database master credentials**, you can export a **database**:
 

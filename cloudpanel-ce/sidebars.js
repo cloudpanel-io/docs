@@ -264,5 +264,27 @@ module.exports = {
         'applications/other'
       ],
     },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        {
+          type: 'category',
+          label: 'MySQL',
+          items: [
+            'guides/mysql/commands',
+            'guides/mysql/configuration',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'PHP',
+          items: [
+            'guides/php/building-extension',
+            'guides/php/ioncube-loader',
+          ],
+        },
+      ],
+    },
   ]
 };
