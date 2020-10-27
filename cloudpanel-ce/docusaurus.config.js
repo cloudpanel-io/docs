@@ -88,10 +88,6 @@ module.exports = {
               href: 'https://www.cloudpanel.io/docs/cloudpanel-ce/',
             },
             {
-              label: 'Guides',
-              href: 'https://www.cloudpanel.io/docs/guides/',
-            },
-            {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/cloudpanel',
             },

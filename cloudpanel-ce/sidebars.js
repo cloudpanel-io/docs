@@ -270,6 +270,13 @@ module.exports = {
       items: [
         {
           type: 'category',
+          label: 'CloudPanel',
+          items: [
+            'guides/cloudpanel/own-domain',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Cloudflare',
           items: [
             'guides/cloudflare/setup',
