@@ -38,13 +38,13 @@ server {
     rewrite ^ https://$host$uri permanent;
   }
 
-  if ($http_x_forwarded_proto != https) {
-    return 301 https://$host$request_uri;
-  }
+  #if ($http_x_forwarded_proto != https) {
+  #  return 301 https://$host$request_uri;
+  #}
   
-  if ($http_x_forwarded_proto ~ https) {
-    set $fastcgi_https on;
-  }
+  #if ($http_x_forwarded_proto ~ https) {
+  #  set $fastcgi_https on;
+  #}
 
   location ~ /.well-known {
     auth_basic off;
@@ -80,6 +80,18 @@ If you are using **Cloudflare**, comment the following lines in the **Vhost Temp
 #if ($scheme != "https") {
 #  rewrite ^ https://$host$uri permanent;
 #}
+```
+
+and uncomment the following ones:
+
+```
+if ($http_x_forwarded_proto != https) {
+  return 301 https://$host$request_uri;
+}
+  
+if ($http_x_forwarded_proto ~ https) {
+  set $fastcgi_https on;
+}
 ```
 
 3. Issue a [Let's Encrypt Certificate](../../frontend-area/domains#lets-encrypt) for your domain.
