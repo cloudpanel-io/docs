@@ -178,6 +178,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Nodejs',
+          items: [
+            'applications/nodejs',
+          ]
+        },
+        {
+          type: 'category',
           label: 'OroCommerce',
           items: [
             'applications/oro-commerce-4.1',
