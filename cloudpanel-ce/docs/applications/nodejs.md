@@ -6,11 +6,11 @@ sidebar_label: Nodejs
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup a **[Nodejs](https://nodejs.org/)** Application with **CloudPanel**.
+On this page, we explain step by step how to setup a **[Nodejs](https://nodejs.org/)** App with **CloudPanel**.
 
 ## Installation
 
-In the following example we will setup a **[Nodejs](https://nodejs.org/)** under the domain ***www.domain.com***.
+In the following example, we will setup a **[Nodejs](https://nodejs.org/)** under the domain ***www.domain.com***.
 
 ### Preparation
 
@@ -24,7 +24,7 @@ When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure t
 
 By default, all requests are forwarded to port **3000** via **reverse proxy**.
 
-If your **Nodejs App** is running under another **port**, you can change it easily in the [Vhost Editor](../frontend-area/domains#vhost).
+If your **Nodejs App** is running under another **port**, you can change it easily in the [Vhost Editor](../frontend-area/domains#vhost) of your domain.
 
 <img class="border" src={useBaseUrl('img/v1/applications/nodejs/vhost_reverse_proxy_port.png')} />
 
@@ -74,8 +74,6 @@ supervisorctl start nodejs-app:*
 ```
 
 With the command **supervisorctl** you get information about the **status**, **pid**, and **uptime**:
-
-<img class="border" src={useBaseUrl('img/v1/applications/strapi-3/supervisorctl_screenshot.png')} /> 
 
 ### Troubleshooting
 
