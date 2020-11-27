@@ -1,3 +1,6 @@
+1.0.18 Stefan Wieczorek <stefan.wieczorek@cloudpanel.io> Fr, 26 Nov 2020 08:08:08
+- Release 1.0.4 with PHP 8.0 support
+
 1.0.17 Stefan Wieczorek <stefan.wieczorek@cloudpanel.io> Tue, 27 Oct 2020 08:08:08
 - Remove algolia search with docusaurus-lunr-search
 
