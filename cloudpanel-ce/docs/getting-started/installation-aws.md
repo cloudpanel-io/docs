@@ -18,26 +18,26 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 
 | AWS Region | X64 | ARM64 ([Graviton](https://aws.amazon.com/ec2/graviton/)) |
 | :---  | :--- | :--- |
-| US East (N.Virginia)      | [ami-04a1f5bc9039ded86](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-04a1f5bc9039ded86) | [ami-0fee2c300fda1c35d](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0fee2c300fda1c35d) |
-| US East (Ohio)            | [ami-0555f889d836dbbb6](https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0555f889d836dbbb6) | [ami-0070829ccfae01204](https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0070829ccfae01204) |
-| US West (N. California)   | [ami-0f09a82312b86fdd2](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0f09a82312b86fdd2) | [ami-0dd365a2990680ef8](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0dd365a2990680ef8) |
-| US West (Oregon)          | [ami-0380144af39536aea](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0380144af39536aea) | [ami-01aebc4ee08283d59](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-01aebc4ee08283d59) |
-| Africa (Cape Town)        | [ami-0a35b6d7c4b50613e](https://console.aws.amazon.com/ec2/v2/home?region=af-south-1#LaunchInstanceWizard:ami=ami-0a35b6d7c4b50613e) | Not yet available |
-| Asia Pacific (Hong Kong)  | [ami-0d825b19ad010dfde](https://console.aws.amazon.com/ec2/v2/home?region=ap-east-1#LaunchInstanceWizard:ami=ami-0d825b19ad010dfde) | Not yet available |
-| Asia Pacific (Mumbai)     | [ami-0028668744c73f58f](https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0028668744c73f58f) | [ami-00e8998a47abb8b5e](https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-00e8998a47abb8b5e) |
-| Asia Pacific (Seoul)      | [ami-08bf0d04dbab81a42](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-08bf0d04dbab81a42) | Not yet available |
-| Asia Pacific (Singapore)  | [ami-0f3274dd85202ed3f](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0f3274dd85202ed3f) | [ami-05b2e37442e1d1b2b](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-05b2e37442e1d1b2b) |
-| Asia Pacific (Sydney)     | [ami-0340edbc75eae8396](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0340edbc75eae8396) | [ami-0add15a6a5b3487ab](https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0add15a6a5b3487ab) |
-| Asia Pacific (Tokyo)      | [ami-060a0201110a34d70](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-060a0201110a34d70) | [ami-070d15c43e6ed3400](https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-070d15c43e6ed3400) |
-| Canada (Central)          | [ami-093aa28ff35da6d00](https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-093aa28ff35da6d00) | [ami-0148b5e218b3ee9cf](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0148b5e218b3ee9cf) |
-| Europe (Frankfurt)        | [ami-016365e1d1f08b19f](https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-016365e1d1f08b19f) | [ami-00be145a2db43f75d](https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-00be145a2db43f75d) |
-| Europe (Ireland)          | [ami-0249f081aa7f7052c](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0249f081aa7f7052c) | [ami-0890af89640ebef37](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0890af89640ebef37) |
-| Europe (London)           | [ami-071790bdf52d43e23](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-071790bdf52d43e23) | [ami-0e1e7ce5b1ce871d5](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0e1e7ce5b1ce871d5) |
-| Europe (Milan)            | [ami-0db8043bc6c3ef4d4](https://console.aws.amazon.com/ec2/v2/home?region=eu-south-1#LaunchInstanceWizard:ami=ami-0db8043bc6c3ef4d4) | Not yet available |
-| Europe (Paris)            | [ami-0404dcdd440554a59](https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0404dcdd440554a59) | Not yet available |
-| Europe (Stockholm)        | [ami-06c3d82b314099ac0](https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-06c3d82b314099ac0) | Not yet available |
-| Middle East (Bahrain)     | [ami-0a00799ce312dc4a1](https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0a00799ce312dc4a1) | Not yet available |
-| South America (Sáo Paulo) | [ami-0300e8dec2ffca8e9](https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0300e8dec2ffca8e9) | Not yet available |
+| US East (N.Virginia)      | [Launch](https://ami-launcher.clp.io/?region=us-east-1&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=us-east-1&arch=arm64&version=1.0.4) |
+| US East (Ohio)            | [Launch](https://ami-launcher.clp.io/?region=us-east-2&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=us-east-2&arch=arm64&version=1.0.4) |
+| US West (N. California)   | [Launch](https://ami-launcher.clp.io/?region=us-west-1&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=us-west-1&arch=arm64&version=1.0.4) |
+| US West (Oregon)          | [Launch](https://ami-launcher.clp.io/?region=us-west-2&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=us-west-2&arch=arm64&version=1.0.4) |
+| Africa (Cape Town)        | [Launch](https://ami-launcher.clp.io/?region=af-south-1&arch=x86_64&version=1.0.4) | Not yet available |
+| Asia Pacific (Hong Kong)  | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&arch=x86_64&version=1.0.4) | Not yet available |
+| Asia Pacific (Mumbai)     | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&arch=arm64&version=1.0.4) |
+| Asia Pacific (Seoul)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.4) | Not yet available |
+| Asia Pacific (Singapore)  | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&arch=arm64&version=1.0.4) |
+| Asia Pacific (Sydney)     | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&arch=arm64&version=1.0.4) |
+| Asia Pacific (Tokyo)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=arm64&version=1.0.4) |
+| Canada (Central)          | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&arch=arm64&version=1.0.4) |
+| Europe (Frankfurt)        | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&arch=arm64&version=1.0.4) |
+| Europe (Ireland)          | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&arch=arm64&version=1.0.4) |
+| Europe (London)           | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=x86_64&version=1.0.4) | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=arm64&version=1.0.4) |
+| Europe (Milan)            | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&arch=x86_64&version=1.0.4) | Not yet available |
+| Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&arch=x86_64&version=1.0.4) | Not yet available |
+| Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=x86_64&version=1.0.4) | Not yet available |
+| Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&arch=x86_64&version=1.0.4) | Not yet available |
+| South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=x86_64&version=1.0.4) | Not yet available |
 
 ### Choose Instance Type
 
