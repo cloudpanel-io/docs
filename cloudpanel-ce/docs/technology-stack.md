@@ -18,6 +18,7 @@ The technology stack of CloudPanel consists of modern and lightweight components
   - 7.2
   - 7.3
   - 7.4
+  - 8.0
 - [Redis 5](https://redis.io)
 - [ProFTPD 1.3](http://www.proftpd.org)
 - [Node.js 14](https://nodejs.org)

@@ -4,6 +4,14 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v1.0.4 - [2020-11-27]
+
+**Features:**
+- [PHP 8.0](https://www.php.net/releases/8.0/en.php) support
+
+**Bug Fixes:**
+- Bug [#14](https://github.com/cloudpanel-io/cloudpanel-ce/issues/14) Remove date.timezone from Additional configuration directives
+
 ## v1.0.3 - [2020-10-08]
 
 **Features:**
