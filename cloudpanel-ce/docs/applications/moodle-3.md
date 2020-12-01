@@ -1,12 +1,12 @@
 ---
-id: moodle-3.9
-title: Moodle 3.9
-sidebar_label: Moodle 3.9
+id: moodle-3
+title: Moodle 3
+sidebar_label: Moodle 3
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **[Moodle 3.9](https://moodle.org/)** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Moodle 3](https://moodle.org/)** with **CloudPanel**.
 
 ## Installation
 
@@ -16,7 +16,7 @@ In the following example we will setup **[Moodle](https://moodle.org/)** under t
 
 Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user), a [Database](../frontend-area/databases#adding-a-database), and a [Domain](../frontend-area/domains#adding-a-domain).
 
-When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **Moodle 3.9 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **Moodle 3 Vhost Template** and the right **PHP Version**.
 
 <img class="border" src={useBaseUrl('img/v1/applications/moodle-3/new_domain.png')} /> <br /><br />
 
@@ -30,10 +30,10 @@ To install **Moodle** do the following steps:
 cd ~/tmp
 ```
 
-2. Download and extract the latest **Moodle 3.9** version.
+2. Download and extract the latest **Moodle 3** version.
 
 ```
-curl -sL https://download.moodle.org/download.php/direct/stable39/moodle-latest-39.tgz | tar xfz -
+curl -sL https://download.moodle.org/download.php/direct/stable310/moodle-3.10.tgz | tar xfz -
 ```
 
 3. Move files to the **htdocs** directory of the domain:
@@ -59,6 +59,6 @@ rm -rf ~/tmp/*
 
 <img class="border" src={useBaseUrl('img/v1/applications/moodle-3/installation_wizard.png')} />
 
-7. Done! **Moodle 3.9** is now installed.
+7. Done! **Moodle 3** is now installed.
 
 <img class="border" src={useBaseUrl('img/v1/applications/moodle-3/moodle_dashboard.png')} />

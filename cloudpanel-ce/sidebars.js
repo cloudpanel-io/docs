@@ -159,7 +159,7 @@ module.exports = {
           type: 'category',
           label: 'Moodle',
           items: [
-            'applications/moodle-3.9',
+            'applications/moodle-3',
           ]
         },
         {
