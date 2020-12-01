@@ -1,3 +1,6 @@
+1.0.19 Stefan Wieczorek <stefan.wieczorek@cloudpanel.io> Tue, 01 Dec 2020 08:08:08
+- Add Moodle 4
+
 1.0.18 Stefan Wieczorek <stefan.wieczorek@cloudpanel.io> Fr, 26 Nov 2020 08:08:08
 - Release 1.0.4 with PHP 8.0 support
 
