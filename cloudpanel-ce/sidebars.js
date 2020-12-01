@@ -145,6 +145,7 @@ module.exports = {
           label: 'Matomo',
           items: [
             'applications/matomo-3',
+            'applications/matomo-4',
           ]
         },
         {

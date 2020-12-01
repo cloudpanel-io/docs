@@ -43,7 +43,7 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 3. Install via **composer**:
 
 ```
-php7.4 /usr/local/bin/composer create-project --prefer-dist cakephp/app:~4.0 www.domain.com
+php7.4 /usr/local/bin/composer create-project --prefer-dist cakephp/app:~4.1 www.domain.com
 ```
 
 4. Reset permissions.
