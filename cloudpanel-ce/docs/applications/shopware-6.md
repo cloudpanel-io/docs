@@ -35,7 +35,7 @@ cd ~/tmp
 2. Download and extract **Shopware 6**:
 
 ```
-curl -sLo shopware6.zip https://www.shopware.com/de/Download/redirect/version/sw6/file/install_v6.3.3.0_e9ff6b72e856a84d2dad01b8e20eacf65ebfb963.zip && unzip shopware6.zip -d shopware6
+curl -sLo shopware6.zip https://www.shopware.com/en/Download/redirect/version/sw6/file/install_v6.3.3.1_124cb4c92cbfec1bcfa33b5d2d81aa05b8656835.zip && unzip shopware6.zip -d shopware6
 ```
 
 3. Move files to the **htdocs** directory of the domain:
