@@ -43,7 +43,7 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 3. Install via **composer**:
 
 ```
-php7.4 /usr/local/bin/composer create-project drupal/recommended-project:^9 www.domain.com
+php8.0 /usr/local/bin/composer create-project drupal/recommended-project:^9 www.domain.com
 ```
 
 4. Reset permissions.
