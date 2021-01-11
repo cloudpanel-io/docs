@@ -300,6 +300,13 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'NGINX',
+          items: [
+            'guides/nginx/pagespeed-module',
+          ],
+        },
+        {
+          type: 'category',
           label: 'PHP',
           items: [
             'guides/php/building-extension',

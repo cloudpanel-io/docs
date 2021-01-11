@@ -11,7 +11,7 @@ The technology stack of CloudPanel consists of modern and lightweight components
 ## Components
 
 - [Debian 10](https://wiki.debian.org/DebianBuster)
-- [NGINX 1.18](https://nginx.org)
+- [NGINX 1.18](https://nginx.org) with [PageSpeed Module](guides/nginx/pagespeed-module)
 - [MySQL 5.7 (Percona)](https://www.percona.com/software/mysql-database/percona-server)
 - [PHP](https://www.php.net)
   - 7.1
