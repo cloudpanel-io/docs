@@ -40,26 +40,20 @@ cd /home/cloudpanel/htdocs/
 rm -rf /home/cloudpanel/htdocs/www.domain.com
 ```
 
-3. Update **composer** to latest version. Execute the following command as **root** user:
-
-```
-php7.4 /usr/local/bin/composer self-update
-```
-
-4. Install via **composer**:
+3. Install via **composer**:
 
 ```
 php8.0 /usr/local/bin/composer create-project --prefer-dist cakephp/app:~4.2 www.domain.com
 ```
 
-5. Reset permissions.
+4. Reset permissions.
 
 ```
 cd /home/cloudpanel/htdocs/
 clpctl system:permissions:reset www.domain.com 775
 ```
 
-6. Done! You can now open your domain in your browser to see the **Welcome to CakePHP 4** page.
+5. Done! You can now open your domain in your browser to see the **Welcome to CakePHP 4** page.
 
 <img class="border" src={useBaseUrl('img/v1/applications/cakephp-4/welcome.png')} />
 

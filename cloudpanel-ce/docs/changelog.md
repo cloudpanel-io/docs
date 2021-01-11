@@ -4,6 +4,15 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v1.0.5 - [2021-01-09]
+
+**Updates:**
+- Composer: 1.10.19
+
+**Bug Fixes:**
+- Bug [#20](https://github.com/cloudpanel-io/cloudpanel-ce/issues/20) The import/export functionality is missing in phpMyAdmin
+
+
 ## v1.0.4 - [2020-11-27]
 
 **Features:**
