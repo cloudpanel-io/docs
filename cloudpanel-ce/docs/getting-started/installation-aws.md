@@ -37,7 +37,7 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 | Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&arch=x86_64&version=1.0.5) | Not yet available |
 | Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=x86_64&version=1.0.5) | Not yet available |
 | Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&arch=x86_64&version=1.0.5) | Not yet available |
-| South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=x86_64&version=1.0.5) | Not yet available |
+| South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=arm64&version=1.0.5) |
 
 ### Choose Instance Type
 
