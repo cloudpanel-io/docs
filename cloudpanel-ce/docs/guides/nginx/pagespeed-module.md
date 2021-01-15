@@ -8,6 +8,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::warning ARM64
+The PageSpeed Module is only available for **X86** and not yet for **ARM64**.
+:::
+
 On this site, you will find a step by step guide on enabling and using the [PageSpeed Module](https://developers.google.com/speed/pagespeed/module) from Google.
 
 The **Pagespeed Module** is already compiled and shipped with **CloudPanel** and can be used right away.
