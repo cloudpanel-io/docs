@@ -14,7 +14,7 @@ On this page, we explain step by step how to run **CloudPanel** on [Digital Ocea
 
 2) Click on the button **Create CloudPanel Droplet**.
 
-[![Create CloudPanel Droplet](/img/v1/getting_started/do_installation/create_cloudpanel_droplet_one_click.png)](https://cloud.digitalocean.com/droplets/new?onboarding_origin=marketplace&image=mgtcommercegmbh-cloudpanel1-10-4)
+[![Create CloudPanel Droplet](/img/v1/getting_started/do_installation/create_cloudpanel_droplet_one_click.png)](https://marketplace.digitalocean.com/apps/cloudpanel-1?refcode=d21dd4c6ed65)
 
 ### Select Droplet Size
 
