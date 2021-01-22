@@ -311,6 +311,7 @@ module.exports = {
           items: [
             'guides/php/building-extension',
             'guides/php/ioncube-loader',
+            'guides/php/opcache-preload',
           ],
         },
       ],
