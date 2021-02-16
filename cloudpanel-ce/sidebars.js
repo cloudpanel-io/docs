@@ -194,7 +194,7 @@ module.exports = {
           type: 'category',
           label: 'OroCRM',
           items: [
-            'applications/oro-crm-4.1',
+            'applications/oro-crm-4.2',
           ]
         },
         {
