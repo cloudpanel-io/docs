@@ -1,12 +1,12 @@
 ---
-id: oro-commerce-4.1
-title: OroCommerce 4.1
-sidebar_label: OroCommerce 4.1
+id: oro-commerce-4.2
+title: OroCommerce 4.2
+sidebar_label: OroCommerce 4.2
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **[OroCommerce 4.1](https://oroinc.com/b2b-ecommerce/)** with **CloudPanel**.
+On this page, we explain step by step how to setup **[OroCommerce 4.2](https://oroinc.com/b2b-ecommerce/)** with **CloudPanel**.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Before we can start with the installation, we need to create an [SSH User](../fr
 
 When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **OroCommerce 4.1 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.2/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
 Make sure to point the **Document Root** to the **public** directory.
@@ -43,12 +43,12 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 3. Install via **composer**:
 
 ```
-php7.4 /usr/local/bin/composer create-project oro/commerce-crm-application:4.1.* www.domain.com --repository=https://satis.oroinc.com
+php7.4 /usr/local/bin/composer create-project oro/commerce-crm-application:4.2.* www.domain.com --repository=https://satis.oroinc.com
 ```
 
 4. Enter the **database credentials** and other **parameters**:
 
-<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/application_parameters.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.2/application_parameters.png')} /> <br /><br />
 
 5. Run **oro:install** command:
 
@@ -58,7 +58,7 @@ php7.4 /home/cloudpanel/htdocs/www.domain.com/bin/console oro:install --env=prod
 
 Enter the **Application URL**, **Organization name** and the admin **Username** and **Password**:
 
-<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/enter_application_data.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.2/enter_application_data.png')} />
 
 6. Reset permissions.
 
@@ -71,4 +71,4 @@ clpctl system:permissions:reset www.domain.com 775
 
 The admin area can be reached at the following path: https://www.domain.com/admin/
 
-<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.1/sample_data_homepage.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/oro-commerce-4.2/sample_data_homepage.png')} />

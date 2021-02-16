@@ -9,7 +9,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 With **>= PHP 7.4**, support for [opcache preloading](https://wiki.php.net/rfc/preload) was added, a feature that improves 
-the **performance** of your code significantly.
+the application start **performance up to 60%**.
 
 :::caution
 Keep in mind that it's a very new feature that might not be bug-free.
@@ -36,7 +36,17 @@ By default, all **PHP Versions** on CloudPanel have a default PHP-FPM Pool runni
 
 If you are using a custom PHP-FPM Pool, change the **opcache.preload_user**.
 
-### Symfony
+3. Restart **PHP-FPM** to apply the changes.
+
+```
+sudo systemctl restart php7.4-fpm
+```
+
+## Applications
+
+#### Symfony
+
+You may also want to stay up to date with the [Symfony Performance](https://symfony.com/doc/current/performance.html) recommendations.
 
 ```
 ; For Symfony 5.1+
@@ -46,10 +56,49 @@ opcache.preload=/home/cloudpanel/htdocs/www.domain.com/var/cache/prod/App_Kernel
 opcache.preload=/home/cloudpanel/htdocs/www.domain.com/var/cache/prod/srcApp_KernelProdContainer.preload.php
 ```
 
-3. Restart **PHP-FPM** to apply the changes.
+#### Laravel 7 & 8
+
+Download the `preload.php` for **Laravel 7 & 8** from our [Github Repository](https://github.com/cloudpanel-io/clp-opcache-preloader).
 
 ```
-sudo systemctl restart php7.4-fpm
+cd /home/cloudpanel/htdocs/www.domain.com/
+curl -s -o preload.php https://raw.githubusercontent.com/cloudpanel-io/clp-opcache-preloader/master/laravel/preload.php
+```
+
+Set the `opcache.preload` path:
+
+```
+opcache.preload=/home/cloudpanel/htdocs/www.domain.com/preload.php
+```
+
+#### Magento 2
+
+Download the `preload.php` for **Magento 2** from our [Github Repository](https://github.com/cloudpanel-io/clp-opcache-preloader).
+
+```
+cd /home/cloudpanel/htdocs/www.domain.com/
+curl -s -o preload.php https://raw.githubusercontent.com/cloudpanel-io/clp-opcache-preloader/master/magento/v2/preload.php
+```
+
+Set the `opcache.preload` path:
+
+```
+opcache.preload=/home/cloudpanel/htdocs/www.domain.com/preload.php
+```
+
+#### Other PHP Apps
+
+You can use the [generic preload script](https://github.com/cloudpanel-io/clp-opcache-preloader/blob/master/generic/preload.php) and configure it to your needs.
+
+In the bottom of the script, you can add **paths** to add and **ignore**.
+
+```php
+$clpPreloader = new ClpPreloader();
+$clpPreloader->setDebug(false);
+$clpPreloader->paths(realpath(__DIR__ . '/src'));
+$clpPreloader->paths(realpath(__DIR__ . '/vendor'));
+$clpPreloader->ignore(realpath(__DIR__ . '/vendor/twig/twig'));
+$clpPreloader->preload();
 ```
 
 ## Testing

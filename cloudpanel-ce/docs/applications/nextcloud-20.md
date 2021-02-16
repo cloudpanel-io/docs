@@ -33,7 +33,7 @@ cd ~/tmp
 2. Download and extract the latest **Nextcloud 20** version.
 
 ```
-curl -sLo nextcloud-20.zip https://download.nextcloud.com/server/releases/nextcloud-20.0.2.zip && unzip nextcloud-20.zip -d nextcloud-20
+curl -sLo nextcloud-20.zip https://download.nextcloud.com/server/releases/nextcloud-20.0.7.zip && unzip nextcloud-20.zip -d nextcloud-20
 ```
 
 :::caution Latest Version

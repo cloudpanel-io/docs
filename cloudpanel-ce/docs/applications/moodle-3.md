@@ -33,7 +33,7 @@ cd ~/tmp
 2. Download and extract the latest **Moodle 3** version.
 
 ```
-curl -sL https://download.moodle.org/download.php/direct/stable310/moodle-3.10.tgz | tar xfz -
+curl -sL https://download.moodle.org/download.php/direct/stable310/moodle-latest-310.tgz | tar xfz -
 ```
 
 3. Move files to the **htdocs** directory of the domain:

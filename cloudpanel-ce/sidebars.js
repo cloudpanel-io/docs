@@ -173,7 +173,6 @@ module.exports = {
           type: 'category',
           label: 'Nextcloud',
           items: [
-            'applications/nextcloud-19',
             'applications/nextcloud-20',
           ]
         },
@@ -188,7 +187,7 @@ module.exports = {
           type: 'category',
           label: 'OroCommerce',
           items: [
-            'applications/oro-commerce-4.1',
+            'applications/oro-commerce-4.2',
           ]
         },
         {
@@ -276,6 +275,13 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       items: [
+        {
+          type: 'category',
+          label: 'AWS',
+          items: [
+            'guides/aws/ses',
+          ],
+        },
         {
           type: 'category',
           label: 'CloudPanel',

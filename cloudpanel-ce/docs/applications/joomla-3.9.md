@@ -33,7 +33,7 @@ cd ~/tmp
 2. Download and extract the latest **Joomla 3.9** version.
 
 ```
-mkdir ~/tmp/joomla-3.9 && curl -sL https://downloads.joomla.org/cms/joomla3/3-9-23/Joomla_3-9-23-Stable-Full_Package.tar.gz | tar xfz - -C ~/tmp/joomla-3.9/
+mkdir ~/tmp/joomla-3.9 && curl -sL https://downloads.joomla.org/cms/joomla3/3-9-24/Joomla_3-9-24-Stable-Full_Package.tar.gz | tar xfz - -C ~/tmp/joomla-3.9/
 ```
 
 3. Move files to the **htdocs** directory of the domain:
