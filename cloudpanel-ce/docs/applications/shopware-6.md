@@ -21,7 +21,7 @@ When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure t
 <img class="border" src={useBaseUrl('img/v1/applications/shopware-6/new_domain.png')} /> <br /><br />
 
 :::warning Document Root
-Make sure to point the **Document Root** to the **public** directory and to use **PHP 7.3**.
+Make sure to point the **Document Root** to the **public** directory and to use **PHP 7.4**.
 :::
 
 ### Installation
@@ -35,7 +35,7 @@ cd ~/tmp
 2. Download and extract **Shopware 6**:
 
 ```
-curl -sLo shopware6.zip https://www.shopware.com/en/Download/redirect/version/sw6/file/install_v6.3.3.1_124cb4c92cbfec1bcfa33b5d2d81aa05b8656835.zip && unzip shopware6.zip -d shopware6
+curl -sLo shopware6.zip https://www.shopware.com/en/Download/redirect/version/sw6/file/install_v6.3.5.1_b2d5d91f1f2189b0112601b0cfd65073b2d12dd4.zip && unzip shopware6.zip -d shopware6
 ```
 
 3. Move files to the **htdocs** directory of the domain:

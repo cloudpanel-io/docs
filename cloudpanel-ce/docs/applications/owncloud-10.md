@@ -33,7 +33,7 @@ cd ~/tmp
 2. Download and extract the latest **ownCloud 10** version.
 
 ```
-curl -sL https://download.owncloud.org/community/owncloud-complete-20200731.tar.bz2 | tar xfj -
+curl -sL https://download.owncloud.org/community/owncloud-complete-20201216.tar.bz2 | tar xfj -
 ```
 
 :::caution Latest Version
