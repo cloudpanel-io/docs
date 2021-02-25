@@ -23,9 +23,9 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 | US West (N. California)   | [Launch](https://ami-launcher.clp.io/?region=us-west-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=us-west-1&arch=arm64&version=1.0.5) |
 | US West (Oregon)          | [Launch](https://ami-launcher.clp.io/?region=us-west-2&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=us-west-2&arch=arm64&version=1.0.5) |
 | Africa (Cape Town)        | [Launch](https://ami-launcher.clp.io/?region=af-south-1&arch=x86_64&version=1.0.5) | Not yet available |
-| Asia Pacific (Hong Kong)  | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&arch=x86_64&version=1.0.5) | Not yet available |
+| Asia Pacific (Hong Kong)  | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&arch=arm64&version=1.0.5) |
 | Asia Pacific (Mumbai)     | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&arch=arm64&version=1.0.5) |
-| Asia Pacific (Seoul)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.5) | Not yet available |
+| Asia Pacific (Seoul)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=arm64&version=1.0.5) |
 | Asia Pacific (Singapore)  | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&arch=arm64&version=1.0.5) |
 | Asia Pacific (Sydney)     | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&arch=arm64&version=1.0.5) |
 | Asia Pacific (Tokyo)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=arm64&version=1.0.5) |
@@ -35,7 +35,7 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 | Europe (London)           | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=arm64&version=1.0.5) |
 | Europe (Milan)            | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&arch=x86_64&version=1.0.5) | Not yet available |
 | Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&arch=x86_64&version=1.0.5) | Not yet available |
-| Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=x86_64&version=1.0.5) | Not yet available |
+| Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=arm64&version=1.0.5) |
 | Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&arch=x86_64&version=1.0.5) | Not yet available |
 | South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=x86_64&version=1.0.5) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=arm64&version=1.0.5) |
 
