@@ -1,12 +1,12 @@
 ---
-id: nextcloud-20
-title: Nextcloud 20
-sidebar_label: Nextcloud 20
+id: nextcloud-21
+title: Nextcloud 21
+sidebar_label: Nextcloud 21
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **[Nextcloud 20](https://nextcloud.com/)** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Nextcloud 21](https://nextcloud.com/)** with **CloudPanel**.
 
 ## Installation
 
@@ -16,9 +16,9 @@ In the following example we will setup **[Nextcloud](https://nextcloud.com/)** u
 
 Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user), a [Database](../frontend-area/databases#adding-a-database), and a [Domain](../frontend-area/domains#adding-a-domain).
 
-When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **Nextcloud 20 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **Nextcloud 21 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-20/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-21/new_domain.png')} /> <br /><br />
 
 ### Installation
 
@@ -30,10 +30,10 @@ To install **Nextcloud** do the following steps:
 cd ~/tmp
 ```
 
-2. Download and extract the latest **Nextcloud 20** version.
+2. Download and extract the latest **Nextcloud 21** version.
 
 ```
-curl -sLo nextcloud-20.zip https://download.nextcloud.com/server/releases/nextcloud-20.0.7.zip && unzip nextcloud-20.zip -d nextcloud-20
+curl -sLo nextcloud.zip https://download.nextcloud.com/server/releases/nextcloud-21.0.0.zip && unzip nextcloud.zip -d nextcloud
 ```
 
 :::caution Latest Version
@@ -43,7 +43,7 @@ You find the latest version on github: [https://github.com/nextcloud/server/rele
 3. Move files to the **htdocs** directory of the domain:
 
 ```
-cp -R nextcloud-20/nextcloud/* /home/cloudpanel/htdocs/www.domain.com/
+cp -R nextcloud/nextcloud/* /home/cloudpanel/htdocs/www.domain.com/
 ```
 
 4. Reset permissions.
@@ -61,13 +61,13 @@ rm -rf ~/tmp/*
 
 6. Open your domain in the browser and enter your **admin account** and **database credentials**.
 
-Click on the button **Finish setup** to install **Nextcloud 20**.
+Click on the button **Finish setup** to install **Nextcloud 21**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-20/setup.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-21/setup.png')} />
 
-7. Done! **Nextcloud 20** is now installed.
+7. Done! **Nextcloud 21** is now installed.
 
-<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-20/nextcloud.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/nextcloud-21/nextcloud.png')} />
 
 
 

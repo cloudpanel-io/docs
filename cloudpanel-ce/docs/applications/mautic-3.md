@@ -39,7 +39,7 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 3. Clone the latest version from the [Mautic Git Repository](https://github.com/mautic/mautic):
 
 ```
-git clone -b 3.2.5 https://github.com/mautic/mautic.git /home/cloudpanel/htdocs/www.domain.com
+git clone -b 3.3.2 https://github.com/mautic/mautic.git /home/cloudpanel/htdocs/www.domain.com
 ```
 
 :::caution Latest Version

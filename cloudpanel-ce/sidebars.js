@@ -166,14 +166,14 @@ module.exports = {
           type: 'category',
           label: 'Neos',
           items: [
-            'applications/neos-5',
+            'applications/neos-7',
           ]
         },
         {
           type: 'category',
           label: 'Nextcloud',
           items: [
-            'applications/nextcloud-20',
+            'applications/nextcloud-21',
           ]
         },
         {
