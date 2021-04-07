@@ -4,6 +4,11 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v1.0.6 - [2021-04-06]
+
+**Updates:**
+- VULTR Support
+
 ## v1.0.5 - [2021-01-09]
 
 **Updates:**
