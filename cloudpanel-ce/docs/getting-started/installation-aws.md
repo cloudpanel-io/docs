@@ -18,26 +18,26 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 
 | AWS Region | X64 | ARM64 ([Graviton](https://aws.amazon.com/ec2/graviton/)) |
 | :---  | :--- | :--- |
-| US East (N.Virginia)      | [Launch](https://ami-launcher.clp.io/?region=us-east-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=us-east-1&arch=arm64&version=1.0.5-2) |
-| US East (Ohio)            | [Launch](https://ami-launcher.clp.io/?region=us-east-2&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=us-east-2&arch=arm64&version=1.0.5-2) |
-| US West (N. California)   | [Launch](https://ami-launcher.clp.io/?region=us-west-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=us-west-1&arch=arm64&version=1.0.5-2) |
-| US West (Oregon)          | [Launch](https://ami-launcher.clp.io/?region=us-west-2&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=us-west-2&arch=arm64&version=1.0.5-2) |
-| Africa (Cape Town)        | [Launch](https://ami-launcher.clp.io/?region=af-south-1&arch=x86_64&version=1.0.5-2) | Not yet available |
-| Asia Pacific (Hong Kong)  | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&arch=arm64&version=1.0.5-2) |
-| Asia Pacific (Mumbai)     | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&arch=arm64&version=1.0.5-2) |
-| Asia Pacific (Seoul)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=arm64&version=1.0.5-2) |
-| Asia Pacific (Singapore)  | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&arch=arm64&version=1.0.5-2) |
-| Asia Pacific (Sydney)     | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&arch=arm64&version=1.0.5-2) |
-| Asia Pacific (Tokyo)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=arm64&version=1.0.5-2) |
-| Canada (Central)          | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&arch=arm64&version=1.0.5-2) |
-| Europe (Frankfurt)        | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&arch=arm64&version=1.0.5-2) |
-| Europe (Ireland)          | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&arch=arm64&version=1.0.5-2) |
-| Europe (London)           | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=arm64&version=1.0.5-2) |
-| Europe (Milan)            | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&arch=x86_64&version=1.0.5-2) | Not yet available |
-| Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&arch=x86_64&version=1.0.5-2) | Not yet available |
-| Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=arm64&version=1.0.5-2) |
-| Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&arch=x86_64&version=1.0.5-2) | Not yet available |
-| South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=x86_64&version=1.0.5-2) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=arm64&version=1.0.5-2) |
+| US East (N.Virginia)      | [Launch](https://ami-launcher.clp.io/?region=us-east-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=us-east-1&arch=arm64&version=1.0.6) |
+| US East (Ohio)            | [Launch](https://ami-launcher.clp.io/?region=us-east-2&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=us-east-2&arch=arm64&version=1.0.6) |
+| US West (N. California)   | [Launch](https://ami-launcher.clp.io/?region=us-west-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=us-west-1&arch=arm64&version=1.0.6) |
+| US West (Oregon)          | [Launch](https://ami-launcher.clp.io/?region=us-west-2&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=us-west-2&arch=arm64&version=1.0.6) |
+| Africa (Cape Town)        | [Launch](https://ami-launcher.clp.io/?region=af-south-1&arch=x86_64&version=1.0.6) | Not yet available |
+| Asia Pacific (Hong Kong)  | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&arch=arm64&version=1.0.6) |
+| Asia Pacific (Mumbai)     | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&arch=arm64&version=1.0.6) |
+| Asia Pacific (Seoul)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=arm64&version=1.0.6) |
+| Asia Pacific (Singapore)  | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&arch=arm64&version=1.0.6) |
+| Asia Pacific (Sydney)     | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&arch=arm64&version=1.0.6) |
+| Asia Pacific (Tokyo)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&arch=arm64&version=1.0.6) |
+| Canada (Central)          | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&arch=arm64&version=1.0.6) |
+| Europe (Frankfurt)        | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&arch=arm64&version=1.0.6) |
+| Europe (Ireland)          | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&arch=arm64&version=1.0.6) |
+| Europe (London)           | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=arm64&version=1.0.6) |
+| Europe (Milan)            | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&arch=x86_64&version=1.0.6) | Not yet available |
+| Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&arch=x86_64&version=1.0.6) | Not yet available |
+| Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=arm64&version=1.0.6) |
+| Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&arch=x86_64&version=1.0.6) | Not yet available |
+| South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=arm64&version=1.0.6) |
 
 ### Choose Instance Type
 
