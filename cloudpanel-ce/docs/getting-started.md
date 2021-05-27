@@ -11,4 +11,5 @@ For all common clouds like Amazon Web Services, Digital Ocean, Google Cloud, and
 - [Installation on Digital Ocean](getting-started/installation-digital-ocean-marketplace)
 - [Installation on Google Cloud](getting-started/installation-google-cloud)
 - [Installation on Microsoft Azure](getting-started/installation-microsoft-azure)
+- [Installation on Vultr](getting-started/installation-vultr)
 - [Installation on Other](getting-started/installation-other)

@@ -33,7 +33,7 @@ cd ~/tmp
 2. Download and extract the latest **PrestaShop 1.7** version.
 
 ```
-curl -sL https://github.com/PrestaShop/PrestaShop/archive/1.7.7.3.tar.gz | tar xfz -
+curl -sL https://github.com/PrestaShop/PrestaShop/archive/1.7.7.4.tar.gz | tar xfz -
 ```
 
 :::caution Latest Version

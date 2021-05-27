@@ -246,6 +246,7 @@ module.exports = {
           label: 'TYPO3',
           items: [
             'applications/typo3-v10',
+            'applications/typo3-v11',
           ]
         },
         {
