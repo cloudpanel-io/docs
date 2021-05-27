@@ -55,7 +55,7 @@ To create a **Floating IP**, do the following steps:
 
 ## Creating a Firewall
 
-For better security, you should assign a firewall to control the incoming traffic to your **Droplet**.
+For higher security, you should assign a firewall to control the incoming traffic to your **Droplet**.
 
 1) Click in the left navigation on **Networking**.
 

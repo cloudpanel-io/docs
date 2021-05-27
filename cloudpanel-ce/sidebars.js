@@ -30,6 +30,7 @@ module.exports = {
             },
             'getting-started/installation-google-cloud',
             'getting-started/installation-microsoft-azure',
+            'getting-started/installation-vultr',
             'getting-started/installation-other',
           ]
         }
