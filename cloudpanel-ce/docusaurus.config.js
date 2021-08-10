@@ -3,7 +3,7 @@ const versions = require('./versions.json');
 module.exports = {
   title: 'CloudPanel CE | Documentation',
   tagline: 'CloudPanel CE | Documentation',
-  url: 'https://github.com/cloudpanel-io/docs/tree/master/docs/cloudpanel-ce',
+  url: 'https://www.cloudpanel.io',
   baseUrl: '/docs/cloudpanel-ce/',
   favicon: 'img/favicon.png',
   onBrokenLinks: 'throw',

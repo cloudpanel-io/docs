@@ -33,10 +33,10 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 | Europe (Frankfurt)        | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&arch=arm64&version=1.0.6) |
 | Europe (Ireland)          | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&arch=arm64&version=1.0.6) |
 | Europe (London)           | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&arch=arm64&version=1.0.6) |
-| Europe (Milan)            | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&arch=x86_64&version=1.0.6) | Not yet available |
-| Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&arch=x86_64&version=1.0.6) | Not yet available |
+| Europe (Milan)            | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&arch=arm64&version=1.0.6) |
+| Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&arch=arm64&version=1.0.6) |
 | Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&arch=arm64&version=1.0.6) |
-| Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&arch=x86_64&version=1.0.6) | Not yet available |
+| Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=me-south-1&arch=arm64&version=1.0.6) |
 | South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=x86_64&version=1.0.6) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&arch=arm64&version=1.0.6) |
 
 ### Choose Instance Type
