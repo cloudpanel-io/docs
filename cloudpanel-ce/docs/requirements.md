@@ -20,4 +20,4 @@ The only requirement for running the CloudPanel is to use [Debian 10 (Buster)](h
 
 ## Disk
 
-- **>= 15 GB**
+- **>= 35 GB**
