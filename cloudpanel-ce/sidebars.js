@@ -115,7 +115,8 @@ module.exports = {
           type: 'category',
           label: 'Joomla',
           items: [
-            'applications/joomla-3.9'
+            'applications/joomla-3.9',
+            'applications/joomla-4'
           ]
         },
         {
