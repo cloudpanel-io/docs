@@ -1,12 +1,12 @@
 ---
-id: mautic-3
-title: Mautic 3
-sidebar_label: Mautic 3
+id: mautic-4
+title: Mautic 4
+sidebar_label: Mautic 4
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page, we explain step by step how to setup **[Mautic 3](https://www.mautic.org/)** with **CloudPanel**.
+On this page, we explain step by step how to setup **[Mautic 4](https://www.mautic.org/)** with **CloudPanel**.
 
 ## Installation
 
@@ -16,9 +16,9 @@ In the following example we will setup **[Mautic](https://www.mautic.org/)** und
 
 Before we can start with the installation, we need to create an [SSH User](../frontend-area/users#adding-a-user), a [Database](../frontend-area/databases#adding-a-database), and a [Domain](../frontend-area/domains#adding-a-domain).
 
-When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **Mautic 3 Vhost Template** and the right **PHP Version**.
+When you [Add the Domain](../frontend-area/domains#adding-a-domain), make sure to select the **Mautic 4 Vhost Template** and the right **PHP Version**.
 
-<img class="border" src={useBaseUrl('img/v1/applications/mautic-3/new_domain.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/mautic-4/new_domain.png')} /> <br /><br />
 
 ### Installation
 
@@ -39,7 +39,7 @@ rm -rf /home/cloudpanel/htdocs/www.domain.com
 3. Clone the latest version from the [Mautic Git Repository](https://github.com/mautic/mautic):
 
 ```
-git clone -b 3.3.3 https://github.com/mautic/mautic.git /home/cloudpanel/htdocs/www.domain.com
+git clone -b 4.0.0 https://github.com/mautic/mautic.git /home/cloudpanel/htdocs/www.domain.com
 ```
 
 :::caution Latest Version
@@ -50,7 +50,7 @@ You find the latest version on github: [https://github.com/mautic/mautic/release
 
 ```
 cd /home/cloudpanel/htdocs/www.domain.com/
-php7.3 /usr/local/bin/composer install
+php7.4 /usr/local/bin/composer install
 ```
 
 5. Reset permissions.
@@ -61,11 +61,11 @@ clpctl system:permissions:reset www.domain.com 775
 ```
 6. Open your domain in the browser and go through the installation wizard.
 
-<img class="border" src={useBaseUrl('img/v1/applications/mautic-3/installation_wizard.png')} /> <br /><br />
+<img class="border" src={useBaseUrl('img/v1/applications/mautic-4/installation_wizard.png')} /> <br /><br />
 
-7. Done! **Mautic 3** is now installed.
+7. Done! **Mautic 4** is now installed.
 
-<img class="border" src={useBaseUrl('img/v1/applications/mautic-3/login.png')} />
+<img class="border" src={useBaseUrl('img/v1/applications/mautic-4/admin_login.png')} />
 
 
 

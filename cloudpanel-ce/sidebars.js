@@ -115,7 +115,6 @@ module.exports = {
           type: 'category',
           label: 'Joomla',
           items: [
-            'applications/joomla-3.9',
             'applications/joomla-4'
           ]
         },
@@ -130,7 +129,6 @@ module.exports = {
           type: 'category',
           label: 'Laravel',
           items: [
-            'applications/laravel-7',
             'applications/laravel-8',
           ]
         },
@@ -146,7 +144,6 @@ module.exports = {
           type: 'category',
           label: 'Matomo',
           items: [
-            'applications/matomo-3',
             'applications/matomo-4',
           ]
         },
@@ -154,7 +151,7 @@ module.exports = {
           type: 'category',
           label: 'Mautic',
           items: [
-            'applications/mautic-3',
+            'applications/mautic-4',
           ]
         },
         {
