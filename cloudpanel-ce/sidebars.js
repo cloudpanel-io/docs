@@ -172,7 +172,7 @@ module.exports = {
           type: 'category',
           label: 'Nextcloud',
           items: [
-            'applications/nextcloud-21',
+            'applications/nextcloud-22',
           ]
         },
         {
@@ -235,7 +235,6 @@ module.exports = {
           type: 'category',
           label: 'Symfony',
           items: [
-            'applications/symfony-4',
             'applications/symfony-5',
           ]
         },
@@ -243,7 +242,6 @@ module.exports = {
           type: 'category',
           label: 'TYPO3',
           items: [
-            'applications/typo3-v10',
             'applications/typo3-v11',
           ]
         },
