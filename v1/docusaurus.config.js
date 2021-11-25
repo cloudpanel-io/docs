@@ -4,7 +4,7 @@ module.exports = {
   title: 'CloudPanel CE | Documentation',
   tagline: 'CloudPanel CE | Documentation',
   url: 'https://www.cloudpanel.io',
-  baseUrl: '/docs/cloudpanel-ce/',
+  baseUrl: '/docs/v1/',
   favicon: 'img/favicon.png',
   onBrokenLinks: 'throw',
   organizationName: 'CloudPanel',
