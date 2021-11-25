@@ -9,9 +9,11 @@ module.exports = {
   onBrokenLinks: 'throw',
   organizationName: 'CloudPanel',
   projectName: 'CloudPanelCE',
+  /*
   scripts: [
     'https://www.cloudpanel.io/docs/cloudpanel-ce/js/feedback.js',
   ],
+  */
   themeConfig: {
     colorMode: {
       disableSwitch: true
@@ -19,15 +21,6 @@ module.exports = {
     gtag: {
       trackingID: 'UA-168148528-1',
     },
-    /*
-    algolia: {
-      apiKey: '4a68c2ae70048709e0852b5462dee94d',
-      indexName: 'cloudpanel',
-      algoliaOptions: {
-        facetFilters: [`version:1`]
-      },
-    },
-    */
     prism: {
       theme: require('prism-react-renderer/themes/github'),
     },

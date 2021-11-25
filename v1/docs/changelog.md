@@ -4,6 +4,11 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v1.0.7 - [2021-11-25]
+
+**Updates:**
+- PHP 8.1 Support
+
 ## v1.0.6 - [2021-04-06]
 
 **Updates:**
