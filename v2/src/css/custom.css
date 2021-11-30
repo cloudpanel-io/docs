@@ -1,0 +1,132 @@
+:root {
+  --ifm-color-primary: #0078d4;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-height: 40px;
+  --ifm-navbar-padding-vertical: 5px;
+  --ifm-navbar-padding-horizontal: 10px;
+  --ifm-font-size-base: 15px;
+}
+
+.markdown {
+  --ifm-heading-vertical-rhythm-bottom: 1;
+  --ifm-h3-vertical-rhythm-top: 1;
+  --ifm-h2-vertical-rhythm-top: 1.5;
+  --ifm-hr-border-color: #ededed;
+  --ifm-hr-border-width: 1px;
+  --ifm-alert-border-width: 0px;
+  --ifm-alert-border-radius: 0px;
+}
+
+.markdown > h2 {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 5px;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.navbar.navbar--fixed-top {
+  border-top: 1px solid #0078d4;
+}
+
+.navbar .navbar__toggle {
+  display: none;
+}
+
+.navbar .navbar__logo {
+  width: 110px;
+  height: auto;
+}
+
+img.border {
+  border: 2px solid #ededed;
+}
+
+.admonition-heading span.admonition-icon {
+  display: none;
+}
+
+.alert.alert--secondary {
+  border: 0px;
+  border-left: 4px solid #f0c330;
+  color: #000000;
+  background: #fef9e8;
+}
+
+.alert.alert--secondary h5 {
+  color: #f0c330;
+}
+
+.alert.alert--info {
+  border: 0px;
+  border-left: 4px solid #3b99d9;
+  color: #000000;
+  background: #eaf4fb;
+}
+
+.alert.alert--info h5 {
+  color: #3b99d9;
+}
+
+.alert.alert--success {
+  border: 0px;
+  border-left: 4px solid #39cb75;
+  color: #000000;
+  background: #ebfaf1;
+}
+
+.alert.alert--success h5 {
+  color: #39cb75;
+}
+
+.alert.alert--warning {
+  border: 0px;
+  border-left: 4px solid #e47e31;
+  color: #000000;
+  background: #fcf2e9;
+}
+
+.alert.alert--warning h5 {
+  color: #e47e31;
+}
+
+.alert.alert--danger {
+  border: 0px;
+  border-left: 4px solid #e54d42;
+  color: #000000;
+  background: #fdedeb;
+}
+
+.alert.alert--danger h5 {
+  color: #e54d42;
+}
+
+.alert a {
+  color: var(--ifm-link-color);
+}
+
+@media only screen and (min-width: 997px) {
+  .DocSearch-Button {
+    height: 30px !important;
+    width: 200px !important;
+  }
+  .DocSearch-Button-Placeholder {
+    padding: 0 60px 0 6px !important;
+  }
+}
+
+@media only screen and (max-width: 997px) {
+  .DocSearch-Button {
+    height: 30px !important;
+  }
+}
