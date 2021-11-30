@@ -4,11 +4,10 @@ title: Requirements
 sidebar_label: Requirements
 ---
 
-The only requirement for running the CloudPanel is to use [Debian 10 (Buster)](https://wiki.debian.org/DebianBuster), which is provided by all major cloud companies.
+## Operating Systems
 
-## Operating System
-
-- [Debian 10 (Buster)](https://wiki.debian.org/DebianBuster)
+- [Debian 11 (Bullseye)](https://wiki.debian.org/DebianBullseye)
+- [Ubuntu 22.04 (Jammy Jellyfish)](https://ubuntu.com/)
 
 ## Cores
 

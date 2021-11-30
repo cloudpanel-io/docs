@@ -41,21 +41,11 @@ module.exports = {
       label: 'Frontend Area',
       items: [
         'frontend-area/account',
-        'frontend-area/domains',
-        'frontend-area/email',
-        'frontend-area/file-manager',
-        'frontend-area/security',
-        'frontend-area/users',
-        'frontend-area/databases',
-        'frontend-area/cron-jobs',
-        'frontend-area/services',
         {
           type: 'category',
           label: 'Cloud Features',
           items: [
             'frontend-area/cloud-features-aws',
-            'frontend-area/cloud-features-digital-ocean',
-            'frontend-area/cloud-features-google-cloud',
           ]
         }
       ],
@@ -65,10 +55,6 @@ module.exports = {
       label: 'Admin Area',
       items: [
         'admin-area/users',
-        'admin-area/vhost-templates',
-        'admin-area/database-servers',
-        'admin-area/action-log',
-        'admin-area/settings',
       ],
     },
     {

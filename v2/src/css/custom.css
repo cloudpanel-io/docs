@@ -11,6 +11,8 @@
   --ifm-navbar-padding-vertical: 5px;
   --ifm-navbar-padding-horizontal: 10px;
   --ifm-font-size-base: 16px;
+  --ifm-menu-link-padding-horizontal: 1rem;
+  --ifm-menu-link-padding-vertical: 0.675rem;
 }
 
 .markdown {
@@ -48,10 +50,16 @@
   height: auto;
 }
 
-.navbar__search-input {
-  height: 50px;
-  width: 300px;
-  border-radius: 5px;
+@media (min-width: 997px) {
+  .navbar__search-input {
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+  }
+}
+
+.menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-styles-module {
+  padding: 0 !important;
 }
 
 img.border {
