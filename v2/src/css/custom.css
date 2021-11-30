@@ -10,7 +10,7 @@
   --ifm-navbar-height: 75px;
   --ifm-navbar-padding-vertical: 5px;
   --ifm-navbar-padding-horizontal: 10px;
-  --ifm-font-size-base: 15px;
+  --ifm-font-size-base: 16px;
 }
 
 .markdown {
@@ -46,6 +46,12 @@
 .navbar .navbar__logo {
   width: 155px;
   height: auto;
+}
+
+.navbar__search-input {
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
 }
 
 img.border {
