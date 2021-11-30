@@ -62,6 +62,10 @@
   padding: 0 !important;
 }
 
+.iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-next-theme-IconExternalLink-styles-module {
+  display: none;
+}
+
 img.border {
   border: 2px solid #ededed;
 }
