@@ -2,7 +2,7 @@ module.exports = {
   sidebar: [
     {
       type: 'category',
-      label: 'CloudPanel CE',
+      label: 'CloudPanel',
       items: [
         'introduction',
         'requirements',

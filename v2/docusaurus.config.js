@@ -78,7 +78,7 @@ module.exports = {
           items: [
             {
               label: 'Documentation',
-              href: 'https://www.cloudpanel.io/docs/cloudpanel-ce/',
+              href: 'https://www.cloudpanel.io/docs/',
             },
             {
               label: 'Stack Overflow',
