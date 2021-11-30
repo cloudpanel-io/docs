@@ -1,14 +1,14 @@
 const versions = require('./versions.json');
 
 module.exports = {
-  title: 'CloudPanel CE | Documentation',
-  tagline: 'CloudPanel CE | Documentation',
+  title: 'CloudPanel | Documentation',
+  tagline: 'CloudPanel | Documentation',
   url: 'https://www.cloudpanel.io',
   baseUrl: '/docs/v2/',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.svg',
   onBrokenLinks: 'throw',
   organizationName: 'CloudPanel',
-  projectName: 'CloudPanelCE',
+  projectName: 'CloudPanel',
   /*
   scripts: [
     'https://www.cloudpanel.io/docs/cloudpanel-ce/js/feedback.js',
@@ -26,7 +26,7 @@ module.exports = {
     },
     navbar: {
       logo: {
-        alt: 'CloudPanel CE | Documentation',
+        alt: 'CloudPanel | Documentation',
         src: 'img/logo.svg',
         href: 'https://www.cloudpanel.io/docs/v2/introduction',
         target: '_self'

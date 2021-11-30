@@ -7,7 +7,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  --ifm-navbar-height: 40px;
+  --ifm-navbar-height: 75px;
   --ifm-navbar-padding-vertical: 5px;
   --ifm-navbar-padding-horizontal: 10px;
   --ifm-font-size-base: 15px;
@@ -44,7 +44,7 @@
 }
 
 .navbar .navbar__logo {
-  width: 110px;
+  width: 155px;
   height: auto;
 }
 
