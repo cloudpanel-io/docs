@@ -6,33 +6,48 @@ sidebar_label: Users
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Users
+## Roles
 
-As an admin user, you can add additional **CloudPanel** users. 
-Two different user roles can be added, normal users and users which administrator rights.
-Normal users have only access to the frontend area.
+You can create additional users with restricted access.
+Each **role** has specific permissions which will be explained in following section.
+
+### Admin
+
+Users with the **Admin** role have full permissions and are not restricted to the **frontend**, **admin area**, or to a **specific site**.
+
+### Site Manager
+
+Users with the **Site Manager** role have full access to manage all sites but no access to the **admin area**. 
+
+### User
+
+Users with the **User** role are restricted to specific **sites**. They only see the assigned **sites** and cannot see and manage other **sites**.
+
+## User
 
 ### Adding a User
 
 To add a new **User** do the following steps:
 
-1) Login into the **CloudPanel** as **User** with admin rights.
+1. In the left menu, click on **Users** and click on the button **Add User**.
 
-2) Go to the **Admin Area** by clicking on **Admin Area** top right.
+<img class="border" alt="Users" src={useBaseUrl('img/admin/users/users.png')} />
 
-3) In the left menu, click on **Users** and click on the button **Add User**.
+2. Fill the form and click on the button **Add User**.
 
-<img class="border" src={useBaseUrl('img/v1/admin/users/users.png')} /> <br /> <br />
+<img class="border" alt="Add User" src={useBaseUrl('img/admin/users/add_user.png')} />
 
-Fill out the form and enter the **User Name**, **E-Mail**, **First Name**, **Last Name**,
-**Password**, and select the **Role** and **Timezone**. The **Timezone** is essential for showing the right time
-in the monitoring graphs on the dashboard in the frontend area.
+:::important Timezone
+The **Timezone** is essential for showing the right time in the monitoring graphs on the dashboard in the frontend area.
+:::
 
-<img class="border" src={useBaseUrl('img/v1/admin/users/new_user.png')} />
 
 ### Deleting a User
 
-On the **Users** overview site, you can delete a **User** by clicking on the button **Delete**.
+1. In the left menu, click on **Users** and click on the **User Name** you want to delete.
 
-<img class="border" src={useBaseUrl('img/v1/admin/users/delete_user.png')} />
+<img class="border" alt="Add User" src={useBaseUrl('img/admin/users/user_list.png')} />
 
+2. To delete the user, click on the button **Delete** bottom left.
+
+<img class="border" alt="Add User" src={useBaseUrl('img/admin/users/delete_user.png')} />
