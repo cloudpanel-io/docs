@@ -55,6 +55,7 @@ module.exports = {
       items: [
         'admin-area/users',
         'admin-area/events',
+        'admin-area/instance',
       ],
     },
     {
