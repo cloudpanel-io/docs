@@ -40,7 +40,6 @@ module.exports = {
       type: 'category',
       label: 'Frontend Area',
       items: [
-        'frontend-area/account',
         {
           type: 'category',
           label: 'Cloud Features',
@@ -55,6 +54,7 @@ module.exports = {
       label: 'Admin Area',
       items: [
         'admin-area/users',
+        'admin-area/events',
       ],
     },
     {
