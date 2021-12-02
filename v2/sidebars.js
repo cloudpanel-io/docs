@@ -57,6 +57,7 @@ module.exports = {
         'admin-area/events',
         'admin-area/instance',
         'admin-area/security',
+        'admin-area/settings',
       ],
     },
     {
