@@ -29,7 +29,7 @@ For higher security, whitelist the **SSH Port (22)** for your IPs only. The **Cl
 
 ### Editing a Rule
 
-1. Select the **Rule** you want to edit.
+1. Click on the **Rule** you want to edit.
 
 <img class="border" alt="Edit Rule" src={useBaseUrl('img/admin/security/firewall/edit_rule.png')} />
 
