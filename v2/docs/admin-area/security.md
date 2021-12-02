@@ -14,7 +14,7 @@ Developed to ease iptables firewall configuration, **ufw** provides a user-frien
 **CloudPanel** is being shipped with pref-configured rules to achieve higher security.
 
 :::warning Recommendation
-For higher security, whitelist the **SSH Port (22)** for your IPs. The **CloudPanel Port (8443)** should only be whitelisted if you have a static ip. 
+For higher security, whitelist the **SSH Port (22)** for your IPs only. The **CloudPanel Port (8443)** should only be whitelisted if you have a static ip. 
 :::
 
 <img class="border" alt="Pre-Configured UFW rules" src={useBaseUrl('img/admin/security/firewall/pre_configured_rules.png')} />
@@ -45,6 +45,34 @@ For higher security, whitelist the **SSH Port (22)** for your IPs. The **CloudPa
 
 ## Basic Auth
 
+If you don't have a static ip to close port **8443**, a **Basic Auth** in front of **CloudPanel** is recommended to restrict the access.
+
 ### Enable Basic Auth
 
+### Via Web Interface
+
+1. To enable **Basic Auth**, click in the left menu on **Security** and then on the tab **Basic Auth**.
+
+2. Enter a **User Name** and **Password** and click on **Save** to enable basic auth.
+
+<img class="border" alt="Enable Basic Auth" src={useBaseUrl('img/admin/security/basic-auth/enable.png')} />
+
+### Via Command Line (CLI)
+
+To enable **Basic Auth** via the command line, log in via **SSH** and execute the following command as the **root** user.
+
+```bash
+clpctl cloudpanel:enable:basic-auth 'john.doe' 'password123'
+```
+
 ### Disable Basic Auth
+
+### Via Web Interface
+
+### Via Command Line (CLI)
+
+To disable **Basic Auth** via the command line, log in via **SSH** and execute the following command as the **root** user.
+
+```bash
+clpctl cloudpanel:disable:basic-auth
+```
