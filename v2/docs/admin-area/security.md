@@ -49,7 +49,7 @@ If you don't have a static ip to close port **8443**, a **Basic Auth** in front 
 
 ### Enable Basic Auth
 
-### Via Web Interface
+#### Via Web Interface
 
 1. To enable **Basic Auth**, click in the left menu on **Security** and then on the tab **Basic Auth**.
 
@@ -57,7 +57,7 @@ If you don't have a static ip to close port **8443**, a **Basic Auth** in front 
 
 <img class="border" alt="Enable Basic Auth" src={useBaseUrl('img/admin/security/basic-auth/enable.png')} />
 
-### Via Command Line (CLI)
+#### Via Command Line (CLI)
 
 To enable **Basic Auth** via the command line, log in via **SSH** and execute the following command as the **root** user.
 
@@ -67,9 +67,13 @@ clpctl cloudpanel:enable:basic-auth 'john.doe' 'password123'
 
 ### Disable Basic Auth
 
-### Via Web Interface
+#### Via Web Interface
 
-### Via Command Line (CLI)
+To disable **Basic Auth**, click in the left menu on **Security** and then on the tab **Basic Auth**.
+
+<img class="border" alt="Disable Basic Auth" src={useBaseUrl('img/admin/security/basic-auth/disable.png')} />
+
+#### Via Command Line (CLI)
 
 To disable **Basic Auth** via the command line, log in via **SSH** and execute the following command as the **root** user.
 
