@@ -57,6 +57,9 @@ module.exports = {
           label: 'Cloud Features',
           items: [
             'admin-area/cloud-features/amazon-web-services',
+            'admin-area/cloud-features/digital-ocean',
+            'admin-area/cloud-features/google-compute-engine',
+            'admin-area/cloud-features/vultr',
           ]
         }
       ],

@@ -48,10 +48,6 @@ Copy the **Access key ID** and **Secret access key**.
 
 ### Images Settings
 
-:::caution AWS Credentials
-Make sure that you have entered the [AWS Credentials](#aws-credentials) before you continue.
-:::
-
 1. To enable **Automatic Images**, click in the left menu on **Amazon Web Services** and then on the tab **Settings**.
 
 <img class="border" alt="Enable Automatic Images" src={useBaseUrl('img/admin/cloud-features/aws/enable_automatic_images.png')} />
