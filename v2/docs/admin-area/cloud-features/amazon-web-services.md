@@ -48,5 +48,39 @@ Copy the **Access key ID** and **Secret access key**.
 
 ### Images Settings
 
+:::caution AWS Credentials
+Make sure that you have entered the [AWS Credentials](#aws-credentials) before you continue.
+:::
+
+1. To enable **Automatic Images**, click in the left menu on **Amazon Web Services** and then on the tab **Settings**.
+
+<img class="border" alt="Enable Automatic Images" src={useBaseUrl('img/admin/cloud-features/aws/enable_automatic_images.png')} />
+
+2. Select the **Frequency** and **Retention Period** and click on the button **Save**.
+
+With the following configuration, two **Images** will be created per day and held for **14 AMIs** in total for seven days.
+
 ## Images
 
+An [Amazon Machine Image (AMI)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) is a special type of virtual appliance that is
+used to create a virtual machine within the [Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/).
+
+**CloudPanel** can create an **Image** of your instance on a defined frequency, e.g.,
+**Hourly**, **Every Three Hours**, **Every Six Hours**, **Every Twelve Hours**, or **Once per Day**.
+
+### Create Image
+
+1. To create an **Image**, click in the left menu on **Amazon Web Services** and then on the tab **Images**.
+
+2. Click on the button **Create Image** top right.
+
+<img class="border" alt="Create Image" src={useBaseUrl('img/admin/cloud-features/aws/create_image_1.png')} />
+
+3. Enter an **Image Name** and click on **Create**. 
+
+<img class="border" alt="Create Image" src={useBaseUrl('img/admin/cloud-features/aws/create_image_2.png')} />
+
+4. The **Image** is now being created by **Amazon Web Services**.
+The **Image** status changes from **Pending** to **Available** when it's done.
+
+<img class="border" alt="Image Created" src={useBaseUrl('img/admin/cloud-features/aws/image_created.png')} />
