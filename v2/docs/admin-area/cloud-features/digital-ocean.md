@@ -6,7 +6,6 @@ sidebar_label: Digital Ocean
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
 ## Settings
 
 ### Access Token
