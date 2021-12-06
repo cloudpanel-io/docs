@@ -40,13 +40,7 @@ module.exports = {
       type: 'category',
       label: 'Frontend Area',
       items: [
-        {
-          type: 'category',
-          label: 'Cloud Features',
-          items: [
-            'frontend-area/cloud-features-aws',
-          ]
-        }
+        'frontend-area/sites',
       ],
     },
     {
@@ -58,6 +52,13 @@ module.exports = {
         'admin-area/instance',
         'admin-area/security',
         'admin-area/settings',
+        {
+          type: 'category',
+          label: 'Cloud Features',
+          items: [
+            'admin-area/cloud-features/amazon-web-services',
+          ]
+        }
       ],
     },
     {
