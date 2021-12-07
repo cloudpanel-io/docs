@@ -8,6 +8,8 @@ module.exports = {
         'requirements',
         'technology-stack',
         'changelog',
+        'update',
+        'support',
       ],
     },
     {
