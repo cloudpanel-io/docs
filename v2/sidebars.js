@@ -30,6 +30,7 @@ module.exports = {
                 'getting-started/installation-digital-ocean-installer',
               ]
             },
+            'getting-started/installation-hetzner-cloud',
             'getting-started/installation-google-cloud',
             'getting-started/installation-microsoft-azure',
             'getting-started/installation-vultr',
