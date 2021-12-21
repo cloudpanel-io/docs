@@ -70,6 +70,10 @@ img.border {
   border: 2px solid #ededed;
 }
 
+table thead tr {
+  border-bottom: 0;
+}
+
 .admonition-heading span.admonition-icon {
   display: none;
 }
