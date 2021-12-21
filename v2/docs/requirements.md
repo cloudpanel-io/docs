@@ -6,8 +6,8 @@ sidebar_label: Requirements
 
 ## Operating Systems
 
-- [Debian 11 (Bullseye)](https://wiki.debian.org/DebianBullseye)
 - [Ubuntu 22.04 (Jammy Jellyfish)](https://ubuntu.com/)
+- [Debian 11 (Bullseye)](https://wiki.debian.org/DebianBullseye)
 
 ## Cores
 
