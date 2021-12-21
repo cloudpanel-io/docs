@@ -19,37 +19,11 @@ On this page, we explain step by step how to run **CloudPanel** on an EC2 instan
 2) Select an **Operating System** and click on **Launch** to start a **CloudPanel** instance.
 
 <Tabs
-defaultValue="debian-11"
+defaultValue="ubuntu-22.04"
 values={[
-{ label: 'Debian 11 LTS', value: 'debian-11', },
 { label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
+{ label: 'Debian 11 LTS', value: 'debian-11', },
 ]}>
-<TabItem value="debian-11">
-
-| AWS Region | X86_64 | ARM64 ([Graviton](https://aws.amazon.com/ec2/graviton/)) |
-| :---  | :--- | :--- |
-| US East (N.Virginia)      | [Launch](https://ami-launcher.clp.io/?region=us-east-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=us-east-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| US East (Ohio)            | [Launch](https://ami-launcher.clp.io/?region=us-east-2&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=us-east-2&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| US West (N. California)   | [Launch](https://ami-launcher.clp.io/?region=us-west-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=us-west-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| US West (Oregon)          | [Launch](https://ami-launcher.clp.io/?region=us-west-2&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=us-west-2&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Africa (Cape Town)        | [Launch](https://ami-launcher.clp.io/?region=af-south-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | Not yet available |
-| Asia Pacific (Hong Kong)  | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Asia Pacific (Mumbai)     | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Asia Pacific (Seoul)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Asia Pacific (Singapore)  | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Asia Pacific (Sydney)     | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Asia Pacific (Tokyo)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Canada (Central)          | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Europe (Frankfurt)        | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Europe (Ireland)          | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Europe (London)           | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Europe (Milan)            | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=me-south-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-| South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
-
-</TabItem>
 <TabItem value="ubuntu-22.04">
 
 | AWS Region | X86_64 | ARM64 ([Graviton](https://aws.amazon.com/ec2/graviton/)) |
@@ -74,6 +48,32 @@ values={[
 | Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&name=cloudpanel-ubuntu-22.04-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&name=cloudpanel-ubuntu-22.04-arm64&version=2.0.0) |
 | Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&name=cloudpanel-ubuntu-22.04-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=me-south-1&name=cloudpanel-ubuntu-22.04-arm64&version=2.0.0) |
 | South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&name=cloudpanel-ubuntu-22.04-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&name=cloudpanel-ubuntu-22.04-arm64&version=2.0.0) |
+
+</TabItem>
+<TabItem value="debian-11">
+
+| AWS Region | X86_64 | ARM64 ([Graviton](https://aws.amazon.com/ec2/graviton/)) |
+| :---  | :--- | :--- |
+| US East (N.Virginia)      | [Launch](https://ami-launcher.clp.io/?region=us-east-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=us-east-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| US East (Ohio)            | [Launch](https://ami-launcher.clp.io/?region=us-east-2&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=us-east-2&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| US West (N. California)   | [Launch](https://ami-launcher.clp.io/?region=us-west-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=us-west-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| US West (Oregon)          | [Launch](https://ami-launcher.clp.io/?region=us-west-2&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=us-west-2&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Africa (Cape Town)        | [Launch](https://ami-launcher.clp.io/?region=af-south-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | Not yet available |
+| Asia Pacific (Hong Kong)  | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-east-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Asia Pacific (Mumbai)     | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-south-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Asia Pacific (Seoul)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Asia Pacific (Singapore)  | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Asia Pacific (Sydney)     | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-southeast-2&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Asia Pacific (Tokyo)      | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ap-northeast-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Canada (Central)          | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=ca-central-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Europe (Frankfurt)        | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-central-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Europe (Ireland)          | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-west-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Europe (London)           | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-west-2&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Europe (Milan)            | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-south-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Europe (Paris)            | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-west-3&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Europe (Stockholm)        | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=eu-north-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| Middle East (Bahrain)     | [Launch](https://ami-launcher.clp.io/?region=me-south-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=me-south-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
+| South America (Sáo Paulo) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&name=cloudpanel-debian-11-x86_64&version=2.0.0) | [Launch](https://ami-launcher.clp.io/?region=sa-east-1&name=cloudpanel-debian-11-arm64&version=2.0.0) |
 
 </TabItem>
 </Tabs>
