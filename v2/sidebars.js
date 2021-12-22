@@ -61,6 +61,7 @@ module.exports = {
           items: [
             'admin-area/cloud-features/amazon-web-services',
             'admin-area/cloud-features/digital-ocean',
+            'admin-area/cloud-features/hetzner-cloud',
             'admin-area/cloud-features/google-compute-engine',
             'admin-area/cloud-features/vultr',
           ]
