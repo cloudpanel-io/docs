@@ -24,7 +24,7 @@ clp-update
 
 ## Test Releases
 
-Test releases give you early access to our newest features. <br />
+Test releases give you early access to newest features. <br />
 Note that some of the features may be experimental, and some may not ever reach the stable release.
 
 To switch to the **test release channel**, do the following:
@@ -34,7 +34,7 @@ To switch to the **test release channel**, do the following:
 2. Set the release channel to **test**:
 
 ```bash
-clpctl cloudpanel:set:release-channel 'test'
+clpctl cloudpanel:set:release-channel --channel='test'
 ```
 
 3. Run the update script:
