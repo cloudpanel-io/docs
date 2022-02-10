@@ -4562,10 +4562,10 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docusaurus-lunr-search@^2.1.7:
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/docusaurus-lunr-search/-/docusaurus-lunr-search-2.1.7.tgz#46bbfd518e4e3601534996614572c6f4409230c0"
-  integrity sha512-RHrt8li7VIu1ohR+EDM86gSmitTokNFVtc9036wQ9FYZRiHUNoDN+OUPZ65P0nhUiQIAiYkPPxTymDzXTXrmTg==
+docusaurus-lunr-search@^2.1.15:
+  version "2.1.15"
+  resolved "https://registry.yarnpkg.com/docusaurus-lunr-search/-/docusaurus-lunr-search-2.1.15.tgz#e0b141ebf6226e3fb2cd7ec0a07fccee809cfc94"
+  integrity sha512-W37af7ziwNFstM0VNjruJi3HChPWI5BWGAAxFYpRRbMZQAZqdQtz4aZHX5E/ORrfqHWsKTGMCRWode1rb3ncQw==
   dependencies:
     autocomplete.js "^0.37.0"
     classnames "^2.2.6"
@@ -10666,9 +10666,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.22"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.22.tgz#960df60a5f911ea8f1c818f3747b99c6e177eae3"
-  integrity sha512-YUxzMjJ5T71w6a8WWVcMGM6YWOTX27rCoIQgLXiWaxqXSx9D7DNjiGWn1aJIRSQ5qr0xuhra77bSIh6voR/46Q==
+  version "0.7.31"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
+  integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
 
 unherit@^1.0.4:
   version "1.1.3"
