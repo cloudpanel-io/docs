@@ -43,7 +43,16 @@ module.exports = {
       type: 'category',
       label: 'Frontend Area',
       items: [
-        'frontend-area/sites',
+        'frontend-area/add-site',
+        'frontend-area/settings',
+        'frontend-area/vhost',
+        'frontend-area/databases',
+        'frontend-area/tls',
+        'frontend-area/security',
+        'frontend-area/ssh-ftp',
+        'frontend-area/file-manager',
+        'frontend-area/cron-jobs',
+        'frontend-area/logs',
       ],
     },
     {
