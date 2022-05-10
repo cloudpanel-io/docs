@@ -25,6 +25,7 @@ and [others](https://).
 - **Community Driven**
 - **Modern**
 - **Secure (free SSL/TLS certificates)**
+- **Cloudflare integration**
 - **High Performance**
 - **Ready to go within 1 minute**
 - **Supports all major clouds**
