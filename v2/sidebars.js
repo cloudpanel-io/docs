@@ -84,5 +84,12 @@ module.exports = {
         'cloudpanel-cli/cli-commands',
       ],
     },
+    {
+      type: 'category',
+      label: 'Node.js',
+      items: [
+        'nodejs/deployment',
+      ],
+    },
   ]
 };
