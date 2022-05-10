@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-The technology stack of CloudPanel consists of modern and lightweight components for maximum performance for PHP applications.
+Next generation technology stack for maximum performance to run **PHP**, **Node.js**, **Static Websites** and **Python** Applications.
 
 ## Components
 
@@ -45,5 +45,3 @@ values={[
 
 </TabItem>
 </Tabs>
-
-<img className="border" alt="CloudPanel Technology Stack" src={useBaseUrl('img/technology_stack.png')} />

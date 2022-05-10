@@ -6,8 +6,13 @@ sidebar_label: Requirements
 
 ## Operating Systems
 
-- [Ubuntu 22.04 (Jammy Jellyfish)](https://ubuntu.com/)
+- [Ubuntu 22.04 (Jammy Jellyfish)](https://releases.ubuntu.com/22.04/)
 - [Debian 11 (Bullseye)](https://wiki.debian.org/DebianBullseye)
+
+## Supported Architectures
+
+- **X86**
+- **ARM64**
 
 ## Cores
 
@@ -19,4 +24,4 @@ sidebar_label: Requirements
 
 ## Disk
 
-- **>= 15 GB**
+- **>= 10 GB**
