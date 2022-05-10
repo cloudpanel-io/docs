@@ -24,7 +24,3 @@ Our [Discord Server](https://discord.cloudpanel.io/) serves as our virtual Headq
 - Make a **Youtube** Video
 - Report [Bugs](https://github.com/cloudpanel-io/cloudpanel-ce/issues) on Github
 - Help us with the [translation](https://github.com/cloudpanel-io/cloudpanel-translations)
-
-<br /><br />
-
-<img src={useBaseUrl('img/v2/love_cloudpanel.svg')} /> <br />
