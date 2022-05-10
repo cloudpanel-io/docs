@@ -89,6 +89,40 @@ module.exports = {
       label: 'Node.js',
       items: [
         'nodejs/deployment',
+        {
+          type: 'category',
+          label: 'Applications',
+          items: [
+            'nodejs/applications/strapi',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'PHP',
+      items: [
+        {
+          type: 'category',
+          label: 'Applications',
+          items: [
+            'php/applications/symfony',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Python',
+      items: [
+        'python/deployment',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'guides/security',
       ],
     },
   ]
