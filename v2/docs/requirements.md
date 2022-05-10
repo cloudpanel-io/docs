@@ -9,7 +9,7 @@ sidebar_label: Requirements
 - [Ubuntu 22.04 (Jammy Jellyfish)](https://releases.ubuntu.com/22.04/)
 - [Debian 11 (Bullseye)](https://wiki.debian.org/DebianBullseye)
 
-## Supported Architectures
+## Architectures
 
 - **X86**
 - **ARM64**

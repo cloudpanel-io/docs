@@ -8,9 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Next generation technology stack for maximum performance to run **PHP**, **Node.js**, **Static Websites** and **Python** Applications.
-
-## Components
+Next generation **technology stack** for maximum performance and security to run **PHP**, **Node.js**, **Static Websites** and **Python** Applications.
 
 <Tabs
 defaultValue="ubuntu-22.04"
