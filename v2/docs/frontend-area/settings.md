@@ -48,8 +48,10 @@ The most common settings can be modified to your needs, but you can overwrite th
 </TabItem>
 <TabItem value="nodejs-settings">
 
-In the **Node.js Settings**, you can change the **Node.js Version** and the **App Port**. <br />
-The **App Port** is used to forward NGINX traffic via reverse proxy to the **Node App**. <br />
+In the **Node.js Settings**, you can change the **Node.js Version** and the **App Port**.
+
+The **App Port** is used to forward NGINX traffic via reverse proxy to the **Node App**.
+
 The **Node.js Versions** are managed via [Node Version Manager](https://github.com/nvm-sh/nvm).
 
 :::caution Node.js Version change
@@ -62,8 +64,10 @@ Type: **node -v** to see the new version.
 </TabItem>
 <TabItem value="python-settings">
 
-In the **Python Settings**, you can change the **Python Version** and the **App Port**. <br />
-The **App Port** is used to forward NGINX traffic via reverse proxy to the **Python App**. <br />
+In the **Python Settings**, you can change the **Python Version** and the **App Port**.
+
+The **App Port** is used to forward NGINX traffic via reverse proxy to the **Python App**.
+
 By default, the **Python Version** of the operating system is installed.
 
 :::caution Python Version change
@@ -78,4 +82,20 @@ Type: **python --version** to see the new version.
 
 ## PageSpeed
 
+**CloudPanel** is shipped with the [Google PageSpeed Module for NGINX](https://developers.google.com/speed/pagespeed/module), automatically optimizing your site for **better performance**.
+
+Enable the **PageSpeed** module for **NGINX** by using the switch and clicking on the button **Save**.
+
+You can modify the rules; see the [PageSpeed Documentation](https://www.modpagespeed.com/doc/) for detailed information.
+
+<img alt="Google PageSpeed" class="border" src={useBaseUrl('img/v2/frontend-area/settings/pagespeed.png')} />
+
 ## Delete Site
+
+To delete a site, click on the button **Delete Site** and confirm the action by entering the **Domain Name**.
+
+:::warning Attention
+Deleting a site will permanently remove all site files, databases, users, and configs, and they will be non-recoverable.
+:::
+
+<img alt="Delete Site" class="border" src={useBaseUrl('img/v2/frontend-area/settings/delete-site.png')} />
