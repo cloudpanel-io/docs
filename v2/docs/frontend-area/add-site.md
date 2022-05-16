@@ -27,7 +27,7 @@ The **Site User** is an **SSH User**. All files will be stored in his home direc
 
 ## Create a PHP Site
 
-1. Select the **Application**, the **Domain Name**, and the **PHP Version**.
+1. Select the **Application**, the **Domain Name**, and the **PHP Version**. The **PHP Version** can be changed later if needed.
 
 :::caution Redirection
 When you enter the **Domain Name** with **www**, a redirection from non-www to www will be created automatically and vice versa.
@@ -38,9 +38,47 @@ All **HTTP** requests are redirected to **HTTPS** by default.
 
 2. Click on **Create** to create the **PHP Site**.
 
+3. You can now use the **Site User** to log in via **SSH** to upload the application files.
+
 ## Create a Node.js Site
+
+1. Enter the **Domain Name**, select the **Node.js Version**, and the **App Port**.
+
+The **Node.js Versions** are managed via [Node Version Manager](https://github.com/nvm-sh/nvm).
+
+:::caution Redirection
+When you enter the **Domain Name** with **www**, a redirection from non-www to www will be created automatically and vice versa.
+All **HTTP** requests are redirected to **HTTPS** by default.
+:::
+
+<img alt="New Node.js Site" class="border" src={useBaseUrl('img/v2/frontend-area/create-nodejs-site.png')} />
+
+2. You can now use the **Site User** to log in via **SSH** to upload the application files.
 
 ## Create a Static HTML Site
 
+1. Enter the **Domain Name** you want to use for your site.
+
+:::caution Redirection
+When you enter the **Domain Name** with **www**, a redirection from non-www to www will be created automatically and vice versa.
+All **HTTP** requests are redirected to **HTTPS** by default.
+:::
+
+<img alt="Create a Static HTML Site" class="border" src={useBaseUrl('img/v2/frontend-area/create-a-static-html-site.png')} />
+
+2. You can now use the **Site User** to log in via **SSH** to upload the HTML files.
+
 ## Create a Python Site
+
+1. Enter the **Domain Name**, select the **Python Version** and enter the **App Port**.
+
+:::caution Redirection
+When you enter the **Domain Name** with **www**, a redirection from non-www to www will be created automatically and vice versa.
+All **HTTP** requests are redirected to **HTTPS** by default.
+:::
+
+<img alt="Create a Python Site" class="border" src={useBaseUrl('img/v2/frontend-area/create-a-python-site.png')} />
+
+2. You can now use the **Site User** to log in via **SSH** to upload the application files.
+
 
