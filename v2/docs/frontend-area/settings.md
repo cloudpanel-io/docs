@@ -48,13 +48,13 @@ The most common settings can be modified to your needs, but you can overwrite th
 </TabItem>
 <TabItem value="nodejs-settings">
 
-In the **Node.js Settings** you can change the **Node.js Version** and the **App Port**. <br />
-The **App Port** is being used to forward NGINX traffic via reverse proxy to the **Node App**. <br />
+In the **Node.js Settings**, you can change the **Node.js Version** and the **App Port**. <br />
+The **App Port** is used to forward NGINX traffic via reverse proxy to the **Node App**. <br />
 The **Node.js Versions** are managed via [Node Version Manager](https://github.com/nvm-sh/nvm).
 
 :::caution Node.js Version change
 After changing the **Node.js Version**, log out from an active **SSH Session** and connect again to see the new version. <br/>
-Type: **node -v** to see the changed version.
+Type: **node -v** to see the new version.
 :::
 
 <img alt="Node.js Settings" class="border" src={useBaseUrl('img/v2/frontend-area/settings/nodejs-settings.png')} />
@@ -62,7 +62,16 @@ Type: **node -v** to see the changed version.
 </TabItem>
 <TabItem value="python-settings">
 
-Python Settings
+In the **Python Settings**, you can change the **Python Version** and the **App Port**. <br />
+The **App Port** is used to forward NGINX traffic via reverse proxy to the **Python App**. <br />
+By default, the **Python Version** of the operating system is installed.
+
+:::caution Python Version change
+After changing the **Python Version**, log out from an active **SSH Session** and connect again to see the new version. <br/>
+Type: **python --version** to see the new version.
+:::
+
+<img alt="Python Settings" class="border" src={useBaseUrl('img/v2/frontend-area/settings/python-settings.png')} />
 
 </TabItem>
 </Tabs>
