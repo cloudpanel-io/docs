@@ -6,5 +6,11 @@ sidebar_label: Security
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Security
+## IP Blocking
+
+## Bots Blocking
+
+## Basic Authentication
+
+## Cloudflare
 
