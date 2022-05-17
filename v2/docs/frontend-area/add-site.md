@@ -15,7 +15,7 @@ With **CloudPanel**, you can [Create a WordPress Site](#create-a-wordpress-site)
 
 1. Fill out all fields and click on **Create** to **Create a WordPress Site**.
 
-<img alt="Create a WordPress Site" class="border" src={useBaseUrl('img/v2/frontend-area//add-site/create-a-wordpress-site.png')} />
+<img alt="Create a WordPress Site" class="border" src={useBaseUrl('img/v2/frontend-area/add-site/create-a-wordpress-site.png')} />
 
 2. Copy the credentials for your created WordPress site in a secure place.
 
@@ -23,7 +23,7 @@ With **CloudPanel**, you can [Create a WordPress Site](#create-a-wordpress-site)
 The **Site User** is an **SSH User**. All files will be stored in his home directory: **/home/$siteUser**
 :::
 
-<img alt="WordPress Site has been created!" class="border" src={useBaseUrl('img/v2/frontend-area//add-site/wordpress-site-credentials.png')} />
+<img alt="WordPress Site has been created!" class="border" src={useBaseUrl('img/v2/frontend-area/add-site/wordpress-site-credentials.png')} />
 
 ## Create a PHP Site
 
@@ -34,7 +34,7 @@ When you enter the **Domain Name** with **www**, a redirection from non-www to w
 All **HTTP** requests are redirected to **HTTPS** by default.
 :::
 
-<img alt="New PHP Site" class="border" src={useBaseUrl('img/v2/frontend-area//add-site/create-php-site.png')} />
+<img alt="New PHP Site" class="border" src={useBaseUrl('img/v2/frontend-area/add-site/create-php-site.png')} />
 
 2. Click on **Create** to create the **PHP Site**.
 
