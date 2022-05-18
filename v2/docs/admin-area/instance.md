@@ -14,7 +14,7 @@ To reboot your instance, click in the left menu on **Instance** and then on the 
 
 ## Services
 
-To restart a service like **NGINX**, **MySQL** or **PHP-FPM**, click in the left menu on **Instance** and then select the **Service** to restart.
+To restart a service like **NGINX**, **MySQL**, or **PHP-FPM**, click in the left menu on **Instance** and select the **Service** to restart.
 
 <img class="border" alt="Service Restart" src={useBaseUrl('img/admin/instance/service_restart.png')} />
 

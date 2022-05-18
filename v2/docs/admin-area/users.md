@@ -8,12 +8,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Roles
 
-You can create additional users with restricted access.
-Each **role** has specific permissions which will be explained in following section.
+You can create additional users with restricted access. 
+Each **role** has specific permissions, explained in the following section.
 
 ### Admin
 
-Users with the **Admin** role have full permissions and are not restricted to the **frontend**, **admin area**, or to a **specific site**.
+Users with the **Admin** role have full permissions and are not restricted to the **frontend**, **admin area**, or a **specific site**.
 
 ### Site Manager
 

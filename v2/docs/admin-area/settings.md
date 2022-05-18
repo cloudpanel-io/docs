@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## Database Servers
 
 By default, **CloudPanel** is being shipped with **MySQL 8.0**. You can use a database service like [Amazon RDS](https://aws.amazon.com/rds/), [Digital Ocean Managed MySQL](https://www.digitalocean.com/products/managed-databases-mysql/), 
-or your own server. **MySQL 5.7** and **MySQL 8.0** are supported.
+or your server. **MySQL 5.7**, **MySQL 8.0**, **MariaDB 10.6** and **MariaDB 10.7** are supported.
 
 <img class="border" alt="Database Servers" src={useBaseUrl('img/admin/settings/database_servers.png')} />
 
