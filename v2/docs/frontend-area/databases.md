@@ -47,7 +47,7 @@ Do not use **phpMyAdmin** to export and import databases; it can destroy your da
 Use **export** and **import** guide from below.
 :::
 
-<img alt="Deleting a Database User" class="border" src={useBaseUrl('img/v2/frontend-area/databases/phpmyadmin.png')} />
+<img alt="phpMyAdmin" class="border" src={useBaseUrl('img/v2/frontend-area/databases/phpmyadmin.png')} />
 
 ## Exporting a Database
 
@@ -94,7 +94,7 @@ To import a database, do the following.
 1. Login via **SSH** with the **Site User**.
 
 ```bash
-ssh site-user@yourIpAddress
+ssh site-user@server-ip-address
 ```
 
 2. Run **clpctl** to see all available commands.
