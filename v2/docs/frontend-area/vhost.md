@@ -14,5 +14,5 @@ Under the hood, **CloudPanel** checks the syntax and reverts the changes to prev
 
 On [Github](https://github.com/cloudpanel-io/vhost-templates/tree/master/v2), you find all vhost templates automatically updated every night.
 
-<img alt="Vhost Editor" class="border" src={useBaseUrl('img/v2/frontend-area/vhost/vhost-editor.png')} />
+<img alt="Vhost Editor" class="border" src={useBaseUrl('img/frontend-area/vhost/vhost-editor.png')} />
 

@@ -15,7 +15,7 @@ It provides several alternative options for strong authentication, and it protec
 
 To add a new **SSH User**, click on the tab **SSH/FTP** and enter a **User Name** and **Password** and click on **Add User**.
 
-<img alt="Adding a SSH User" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/adding-a-ssh-user.png')} />
+<img alt="Adding a SSH User" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/adding-a-ssh-user.png')} />
 
 Add your **Public SSH Key(s)** if you want to log in via  [Public Key authentication](https://www.ssh.com/academy/ssh/public-key-authentication).
 
@@ -23,7 +23,7 @@ Add your **Public SSH Key(s)** if you want to log in via  [Public Key authentica
 
 To delete an **SSH User**, click on the tab **SSH/FTP** and then on **Delete** and confirm your action.
 
-<img alt="Delete a SSH User" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/delete-ssh-user.png')} />
+<img alt="Delete a SSH User" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/delete-ssh-user.png')} />
 
 ### Password Change
 
@@ -31,7 +31,7 @@ To change the password for an **SSH User**, click on the tab **SSH/FTP** and the
 
 Enter a new strong **Password** or click on **Generate new password** and click on **Save**.
 
-<img alt="Change SSH User Password" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/change-ssh-user-password.png')} />
+<img alt="Change SSH User Password" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/change-ssh-user-password.png')} />
 
 ### SSH Login
 
@@ -57,7 +57,7 @@ ssh -i path_to_your_private_key.pem john-doe@server-ip-address
 
 In the **Host Name ** field, enter the **server ip address** and click on the button **Open**.
 
-<img alt="Change SSH User Password" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/putty-ssh.png')} />
+<img alt="Change SSH User Password" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/putty-ssh.png')} />
 
 Putty will ask you to enter the **User Name** and **Password** in the next step.
 
@@ -73,7 +73,7 @@ Enter the **Host**, **Username**, **Password** and **Port** fields and click on 
 Make sure to use port **22** for an SFTP connection.
 :::
 
-<img alt="SFTP Login via Filezilla" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/sftp-login-filezilla.png')} />
+<img alt="SFTP Login via Filezilla" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/sftp-login-filezilla.png')} />
 
 ## FTP
 
@@ -83,13 +83,13 @@ The **File Transfer Protocol (FTP)** is a standard network protocol used to tran
 
 To add a new **FTP User**, click on the tab **SSH/FTP** and enter a **User Name**, **Password**, and **Home Directory** and click on **Add User**.
 
-<img alt="Adding a FTP User" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/adding-a-ftp-user.png')} />
+<img alt="Adding a FTP User" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/adding-a-ftp-user.png')} />
 
 ### Deleting a User
 
 To delete an **FTP User**, click on the tab **SSH/FTP** and then on **Delete** and confirm your action.
 
-<img alt="Delete a FTP User" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/delete-ftp-user.png')} />
+<img alt="Delete a FTP User" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/delete-ftp-user.png')} />
 
 ### Password Change
 
@@ -97,7 +97,7 @@ To change the password for an **FTP User**, click on the tab **SSH/FTP** and the
 
 Enter a new strong **Password** or click on **Generate new password** and click on **Save**.
 
-<img alt="Change SSH User Password" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/change-ftp-user-password.png')} />
+<img alt="Change SSH User Password" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/change-ftp-user-password.png')} />
 
 ### FTP Login
 
@@ -107,7 +107,7 @@ To login via FTP to the server, you need a client like [FileZilla](https://filez
 
 2. Go to the [Firewall](../admin-area/security#adding-a-rule) in the **Admin Area** and add the following rule.
 
-<img alt="Add FTP Firewall Rule" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/add-ftp-firewall-rule.png')} />
+<img alt="Add FTP Firewall Rule" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/add-ftp-firewall-rule.png')} />
 
 3. Click on **Add Rule** to open the ports **20-21** for your IP. 
 
@@ -119,4 +119,4 @@ To login via FTP to the server, you need a client like [FileZilla](https://filez
 Make sure to use port **21** for an FTP connection.
 :::
 
-<img alt="FTP Login via Filezilla" class="border" src={useBaseUrl('img/v2/frontend-area/ssh-ftp/ftp-login-filezilla.png')} />
+<img alt="FTP Login via Filezilla" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/ftp-login-filezilla.png')} />

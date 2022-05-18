@@ -12,13 +12,13 @@ import TabItem from '@theme/TabItem';
 
 In the **Domain Settings**, you can change your site's **Root Directory**. By default, the **Domain Name** will be used but can be changed to your needs.
 
-<img alt="Domain Settings" class="border" src={useBaseUrl('img/v2/frontend-area/settings/domain-settings.png')} />
+<img alt="Domain Settings" class="border" src={useBaseUrl('img/frontend-area/settings/domain-settings.png')} />
 
 ## Site User Settings
 
 In the **Site User Settings**, you can reset the password for the primary **SSH User** or add **SSH Keys** if you want to use **SSH Public Key Authentication**.
 
-<img alt="Site User Settings" class="border" src={useBaseUrl('img/v2/frontend-area/settings/site-user-settings.png')} />
+<img alt="Site User Settings" class="border" src={useBaseUrl('img/frontend-area/settings/site-user-settings.png')} />
 
 ## PHP/Node.js/Python Settings
 
@@ -43,7 +43,7 @@ In the **PHP Settings**, you can change the **PHP Version** and change other set
 The most common settings can be modified to your needs, but you can overwrite them in the <br />
 **Additional Configuration Directives** if you need to change other parameter values.
 
-<img alt="PHP Settings" class="border" src={useBaseUrl('img/v2/frontend-area/settings/php-settings.png')} />
+<img alt="PHP Settings" class="border" src={useBaseUrl('img/frontend-area/settings/php-settings.png')} />
 
 </TabItem>
 <TabItem value="nodejs-settings">
@@ -59,7 +59,7 @@ After changing the **Node.js Version**, log out from an active **SSH Session** a
 Type: **node -v** to see the new version.
 :::
 
-<img alt="Node.js Settings" class="border" src={useBaseUrl('img/v2/frontend-area/settings/nodejs-settings.png')} />
+<img alt="Node.js Settings" class="border" src={useBaseUrl('img/frontend-area/settings/nodejs-settings.png')} />
 
 </TabItem>
 <TabItem value="python-settings">
@@ -75,7 +75,7 @@ After changing the **Python Version**, log out from an active **SSH Session** an
 Type: **python --version** to see the new version.
 :::
 
-<img alt="Python Settings" class="border" src={useBaseUrl('img/v2/frontend-area/settings/python-settings.png')} />
+<img alt="Python Settings" class="border" src={useBaseUrl('img/frontend-area/settings/python-settings.png')} />
 
 </TabItem>
 </Tabs>
@@ -88,7 +88,7 @@ Enable the **PageSpeed** module for **NGINX** by using the switch and clicking o
 
 You can modify the rules; see the [PageSpeed Documentation](https://www.modpagespeed.com/doc/) for detailed information.
 
-<img alt="Google PageSpeed" class="border" src={useBaseUrl('img/v2/frontend-area/settings/pagespeed.png')} />
+<img alt="Google PageSpeed" class="border" src={useBaseUrl('img/frontend-area/settings/pagespeed.png')} />
 
 ## Delete Site
 
@@ -98,4 +98,4 @@ To delete a site, click on the button **Delete Site** and confirm the action by 
 Deleting a site will permanently remove all site files, databases, users, and configs, and they will be non-recoverable.
 :::
 
-<img alt="Delete Site" class="border" src={useBaseUrl('img/v2/frontend-area/settings/delete-site.png')} />
+<img alt="Delete Site" class="border" src={useBaseUrl('img/frontend-area/settings/delete-site.png')} />

@@ -15,7 +15,7 @@ It is used to schedule commands at a specific time. These scheduled commands or 
 
 To add a **Cron Job**, click on the **Cron Jobs** tab, select a **Template** and enter the **Command** you want to execute.
 
-<img alt="Adding a Cron Job" class="border" src={useBaseUrl('img/v2/frontend-area/cron-jobs/adding-a-cron-job.png')} />
+<img alt="Adding a Cron Job" class="border" src={useBaseUrl('img/frontend-area/cron-jobs/adding-a-cron-job.png')} />
 
 ### Via Command Line
 
@@ -42,4 +42,4 @@ examples of how to configure them.
 
 To delete a **Cron Job**, click on the **Cron Jobs** tab and click on **Delete** and confirm your action.
 
-<img alt="Deleting a Cron Job" class="border" src={useBaseUrl('img/v2/frontend-area/cron-jobs/deleting-a-cron-job.png')} />
+<img alt="Deleting a Cron Job" class="border" src={useBaseUrl('img/frontend-area/cron-jobs/deleting-a-cron-job.png')} />

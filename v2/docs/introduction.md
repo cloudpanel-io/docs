@@ -16,7 +16,7 @@ Quick launch support for [Amazon Web Server](https://), [Digital Ocean](https://
 [Google Compute Engine](https://), [Microsoft Azure](https://), <br />
 and [others](https://).
 
-<img alt="CloudPanel" class="border" src={useBaseUrl('img/v2/cloudpanel.png')} />
+<img alt="CloudPanel" class="border" src={useBaseUrl('img/cloudpanel.png')} />
 
 ## Benefits
 

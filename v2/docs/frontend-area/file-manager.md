@@ -11,7 +11,7 @@ With the **File Manager**, you can organize your site files with an easy-to-use 
 Managing your site files is a pleasure with the **File Manager**. Creating **new files and folders** and **editing files** with an editor
 with **syntax highlighting** makes your work easier and faster.
 
-<img alt="CloudPanel File Manager" class="border" src={useBaseUrl('img/v2/frontend-area/file-manager/file-manager.png')} />
+<img alt="CloudPanel File Manager" class="border" src={useBaseUrl('img/frontend-area/file-manager/file-manager.png')} />
 
 ## Features
 

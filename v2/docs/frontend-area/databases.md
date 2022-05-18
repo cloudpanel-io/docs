@@ -10,33 +10,33 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 1. Click on **Add Database** to create a new database.
 
-<img alt="Adding a Database" class="border" src={useBaseUrl('img/v2/frontend-area/databases/adding-a-database.png')} />
+<img alt="Adding a Database" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database.png')} />
 
 2. Enter the **Database Name**, **Database User Name**, and **Database User Password** and click on the button **Add Database**.
 
-<img alt="Add Database Form" class="border" src={useBaseUrl('img/v2/frontend-area/databases/add-database-form.png')} />
+<img alt="Add Database Form" class="border" src={useBaseUrl('img/frontend-area/databases/add-database-form.png')} />
 
 ## Deleting a Database
 
 To delete a database, click on **Delete** and confirm your action.
 
-<img alt="Deleting a Database" class="border" src={useBaseUrl('img/v2/frontend-area/databases/deleting-a-database.png')} />
+<img alt="Deleting a Database" class="border" src={useBaseUrl('img/frontend-area/databases/deleting-a-database.png')} />
 
 ## Adding a Database User
 
 1. Click on **Add Database User** to add a new user to your database.
 
-<img alt="Adding a Database User" class="border" src={useBaseUrl('img/v2/frontend-area/databases/adding-a-database-user.png')} />
+<img alt="Adding a Database User" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database-user.png')} />
 
 2. Enter the **Database User Name**, **Database User Password**, and select the **Database** and the **Permissions**.
 
-<img alt="Adding a Database User Form" class="border" src={useBaseUrl('img/v2/frontend-area/databases/adding-a-database-user-form.png')} />
+<img alt="Adding a Database User Form" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database-user-form.png')} />
 
 ## Deleting a Database User
 
 To delete a database user, click on **Delete** and confirm your action.
 
-<img alt="Deleting a Database User" class="border" src={useBaseUrl('img/v2/frontend-area/databases/deleting-a-database-user.png')} />
+<img alt="Deleting a Database User" class="border" src={useBaseUrl('img/frontend-area/databases/deleting-a-database-user.png')} />
 
 ## phpMyAdmin
 
@@ -47,7 +47,7 @@ Do not use **phpMyAdmin** to export and import databases; it can destroy your da
 Use **export** and **import** guide from below.
 :::
 
-<img alt="phpMyAdmin" class="border" src={useBaseUrl('img/v2/frontend-area/databases/phpmyadmin.png')} />
+<img alt="phpMyAdmin" class="border" src={useBaseUrl('img/frontend-area/databases/phpmyadmin.png')} />
 
 ## Exporting a Database
 
@@ -73,7 +73,7 @@ cd ~/tmp/
 clpctl
 ```
 
-<img alt="CLI User Commands" class="border" src={useBaseUrl('img/v2/frontend-area/databases/clpctl-user-commands.png')} />
+<img alt="CLI User Commands" class="border" src={useBaseUrl('img/frontend-area/databases/clpctl-user-commands.png')} />
 
 4. Use the following command to export a database.
 
@@ -103,7 +103,7 @@ ssh site-user@server-ip-address
 clpctl
 ```
 
-<img alt="CLI User Commands" class="border" src={useBaseUrl('img/v2/frontend-area/databases/clpctl-user-commands.png')} />
+<img alt="CLI User Commands" class="border" src={useBaseUrl('img/frontend-area/databases/clpctl-user-commands.png')} />
 
 3. Go to the **database dump's directory** and use the following command to import a database.
 
@@ -165,7 +165,7 @@ clpctl db:show:master-credentials
 
 The output will look like this:
 
-<img alt="Show Database Master Credentials" class="border" src={useBaseUrl('img/v2/frontend-area/databases/show-database-master-credentials.png')} />
+<img alt="Show Database Master Credentials" class="border" src={useBaseUrl('img/frontend-area/databases/show-database-master-credentials.png')} />
 
 Copy the **Connect Command** to get connected to your **database server**.
 
