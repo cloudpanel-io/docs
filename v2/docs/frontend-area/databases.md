@@ -55,10 +55,10 @@ For exporting a **database**, **CloudPanel** uses [mysqldump client utility](htt
 
 To export a database, do the following.
 
-1. Login via **SSH** with the **Site User**.
+1. Login via [SSH](ssh-ftp#ssh-login) with the **Site User**.
 
 ```bash
-ssh site-user@yourIpAddress
+ssh site-user@server-ip-address
 ```
 
 2. Go to the directory where the **database dump** should be saved e.g., the **tmp** directory of the user.
@@ -91,7 +91,7 @@ For importing a **database**, **CloudPanel** uses [mysql command-line client](ht
 
 To import a database, do the following.
 
-1. Login via **SSH** with the **Site User**.
+1. Login via [SSH](ssh-ftp#ssh-login) with the **Site User**.
 
 ```bash
 ssh site-user@server-ip-address
@@ -171,5 +171,5 @@ Copy the **Connect Command** to get connected to your **database server**.
 
 ## Remote Database Access
 
-For a remote connection to your **database**, go to **Firewall** in the **Admin Area** and whitelist your IP for the MySQL port **3306** in the **Firewall**.
+For a remote connection to your **database**, go to [Firewall](../admin-area/security#adding-a-rule) in the **Admin Area** and whitelist your IP for the MySQL port **3306** in the **Firewall**.
 
