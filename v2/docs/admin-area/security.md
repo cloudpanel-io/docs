@@ -17,7 +17,7 @@ Developed to ease iptables firewall configuration, **ufw** provides a user-frien
 For higher security, whitelist the **SSH Port (22)** for your IPs only. The **CloudPanel Port (8443)** should only be whitelisted if you have a static ip. 
 :::
 
-<img class="border" alt="Pre-Configured UFW rules" src={useBaseUrl('img/admin/security/firewall/pre_configured_rules.png')} />
+<img class="border" alt="Pre-Configured UFW rules" src={useBaseUrl('img/admin-area/security/firewall/pre_configured_rules.png')} />
 
 ### Adding a Rule
 
@@ -25,23 +25,23 @@ For higher security, whitelist the **SSH Port (22)** for your IPs only. The **Cl
 
 2. Select the **Type**, enter the **Port Range**, **Source**, and **Description (optional)** and click on **Add Rule** to apply the firewall rule.
 
-<img class="border" alt="Add Rule" src={useBaseUrl('img/admin/security/firewall/add_rule.png')} />
+<img class="border" alt="Add Rule" src={useBaseUrl('img/admin-area/security/firewall/add_rule.png')} />
 
 ### Editing a Rule
 
 1. Click on the **Rule** you want to edit.
 
-<img class="border" alt="Edit Rule" src={useBaseUrl('img/admin/security/firewall/edit_rule.png')} />
+<img class="border" alt="Edit Rule" src={useBaseUrl('img/admin-area/security/firewall/edit_rule.png')} />
 
 2. Edit the **Firewall Rule** and click on the button **Save**.
 
-<img class="border" alt="Edit Rule Form" src={useBaseUrl('img/admin/security/firewall/edit_rule_form.png')} />
+<img class="border" alt="Edit Rule Form" src={useBaseUrl('img/admin-area/security/firewall/edit_rule_form.png')} />
 
 ### Deleting a Rule
 
 1. Select the **Rule** you want to remove and click on **Delete**.
 
-<img class="border" alt="Delete Rule" src={useBaseUrl('img/admin/security/firewall/delete_rule.png')} />
+<img class="border" alt="Delete Rule" src={useBaseUrl('img/admin-area/security/firewall/delete_rule.png')} />
 
 ## Basic Auth
 
@@ -55,7 +55,7 @@ If you don't have a static ip to close port **8443**, a **Basic Auth** in front 
 
 2. Enter a **User Name** and **Password** and click on **Save** to enable basic auth.
 
-<img class="border" alt="Enable Basic Auth" src={useBaseUrl('img/admin/security/basic-auth/enable.png')} />
+<img class="border" alt="Enable Basic Auth" src={useBaseUrl('img/admin-area/security/basic-auth/enable.png')} />
 
 #### Via Command Line (CLI)
 
@@ -71,7 +71,7 @@ clpctl cloudpanel:enable:basic-auth 'john.doe' 'password123'
 
 To disable **Basic Auth**, click in the left menu on **Security** and then on the tab **Basic Auth**.
 
-<img class="border" alt="Disable Basic Auth" src={useBaseUrl('img/admin/security/basic-auth/disable.png')} />
+<img class="border" alt="Disable Basic Auth" src={useBaseUrl('img/admin-area/security/basic-auth/disable.png')} />
 
 #### Via Command Line (CLI)
 

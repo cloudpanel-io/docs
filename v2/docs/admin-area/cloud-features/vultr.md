@@ -14,7 +14,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 To communicate with the **Vultr** interface, you need to enter an **API Key**.
 
-<img class="border" alt="Vultr Settings" src={useBaseUrl('img/admin/cloud-features/vultr/settings.png')} />
+<img class="border" alt="Vultr Settings" src={useBaseUrl('img/admin-area/cloud-features/vultr/settings.png')} />
 
 To create an **API Key** do the following steps:
 
@@ -22,13 +22,13 @@ To create an **API Key** do the following steps:
 
 2. Go to [Settings](https://my.vultr.com/settings/#settingsapi) and click on the tab **API**. Copy and paste the **API Key**. 
 
-<img class="border" alt="Copy API Key" src={useBaseUrl('img/admin/cloud-features/vultr/copy_api_key.png')} />
+<img class="border" alt="Copy API Key" src={useBaseUrl('img/admin-area/cloud-features/vultr/copy_api_key.png')} />
 
 ### Snapshot Settings
 
 1. To enable **Automatic Snapshots**, click in the left menu on **Vultr** and then on the tab **Settings**.
 
-<img class="border" alt="Enable Automatic Snapshots" src={useBaseUrl('img/admin/cloud-features/vultr/enable_automatic_snapshots.png')} />
+<img class="border" alt="Enable Automatic Snapshots" src={useBaseUrl('img/admin-area/cloud-features/vultr/enable_automatic_snapshots.png')} />
 
 2. Select the **Frequency** and **Retention Period** and click on the button **Save**.
 
@@ -45,12 +45,12 @@ The **instance** will not be stopped when taking a snapshot; modern file systems
 
 2. Click on the button **Create Snapshot** top right.
 
-<img class="border" alt="Create Snapshot" src={useBaseUrl('img/admin/cloud-features/vultr/create_snapshot_1.png')} />
+<img class="border" alt="Create Snapshot" src={useBaseUrl('img/admin-area/cloud-features/vultr/create_snapshot_1.png')} />
 
 3. Enter the **Snapshot Name** and click on **Create**.
 
-<img class="border" alt="Create Image" src={useBaseUrl('img/admin/cloud-features/vultr/create_snapshot_2.png')} />
+<img class="border" alt="Create Image" src={useBaseUrl('img/admin-area/cloud-features/vultr/create_snapshot_2.png')} />
 
 4. The **Snapshot** is now being created by **Vultr**.
 
-<img class="border" alt="Snapshot Created" src={useBaseUrl('img/admin/cloud-features/vultr/snapshot_created.png')} />
+<img class="border" alt="Snapshot Created" src={useBaseUrl('img/admin-area/cloud-features/vultr/snapshot_created.png')} />
