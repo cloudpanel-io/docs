@@ -31,7 +31,7 @@ All major cloud providers offer **MySQL Database Services** like [Amazon RDS](ht
 
 Supported Database Versions are: **MySQL 5.7**, **MySQL 8.0**, **>= MariaDB 10.6**
 
-<img class="border" alt="Database Servers" src={useBaseUrl('img/admin-area/settings/database_servers.png')} />
+<img class="border" alt="Database Servers" src={useBaseUrl('img/admin-area/settings/database-servers.png')} />
 
 ### Add Database Server
 
@@ -39,13 +39,13 @@ Supported Database Versions are: **MySQL 5.7**, **MySQL 8.0**, **>= MariaDB 10.6
 
 2. Enter the **Host**, **User Name**, **Password** and **Port** and click on **Add Database Server**.
 
-<img class="border" alt="Add Database Server" src={useBaseUrl('img/admin-area/settings/add_database_server.png')} />
+<img class="border" alt="Add Database Server" src={useBaseUrl('img/admin-area/settings/add-database-server.png')} />
 
-3. Click on **Set Active**.
+3. Click on **Set Active** to use the **Database Server**.
 
 <img class="border" alt="Set Database Server Active" src={useBaseUrl('img/admin-area/settings/set-db-server-active.png')} />
 
-4. The local **MySQL Service** is not needed any longer and can be stopped and disabled to free up memory. <br />
+4. The local **MySQL Service** is no longer needed and can be stopped and disabled to free up memory. <br />
 Login via **SSH** as **root** and disable the service with the following command:
 
 ```bash
@@ -58,8 +58,8 @@ systemctl stop mysql && systemctl disable mysql
 
 2. Click on the **Database Server** you want to **delete**.
 
-<img class="border" alt="Delete Database Server" src={useBaseUrl('img/admin-area/settings/delete_database_server_1.png')} />
+<img class="border" alt="Delete Database Server" src={useBaseUrl('img/admin-area/settings/delete-database-server-1.png')} />
 
-3. Click on the button **Delete** bottom left to delete the **Database Server**.
+3. Click on **Delete** to remove the **Database Server**.
 
-<img class="border" alt="Delete Database Server" src={useBaseUrl('img/admin-area/settings/delete_database_server_2.png')} />
+<img class="border" alt="Delete Database Server" src={useBaseUrl('img/admin-area/settings/delete-database-server-2.png')} />
