@@ -122,7 +122,13 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       items: [
-        'guides/security',
+        {
+          type: 'category',
+          label: 'Best Practices',
+          items: [
+            'guides/best-practices/security',
+          ],
+        },
       ],
     },
   ]
