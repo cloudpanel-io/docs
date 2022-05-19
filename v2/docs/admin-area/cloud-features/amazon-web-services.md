@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### Create AWS Credentials
 
-To communicate with **Amazon Web Services**, you need to enter **AWS Credentials** like **AWS Access Key** and **AWS Secret Access Key**.
+For the communication with **Amazon Web Services**, you need to enter **AWS Credentials** like **AWS Access Key** and **AWS Secret Access Key**.
 
 <img class="border" alt="Amazon Web Services Settings" src={useBaseUrl('img/admin-area/cloud-features/aws/settings.png')} />
 
@@ -26,11 +26,11 @@ To create **AWS Access Keys** do the following steps:
 
 Enter a **User name** and select **Access key - Programmatic access** as credential type and click on the button **Next: Permissions**
 
-<img class="border" alt="Create Access Keys" src={useBaseUrl('img/admin-area/cloud-features/aws/create_access_keys_1.png')} />
+<img class="border" alt="Create Access Keys" src={useBaseUrl('img/admin-area/cloud-features/aws/create-access-keys-1.png')} />
 
 4. Click on **Attach existing policies directly** and select the **AdministratorAccess** policy and click on the button **Next: Tags**
 
-<img class="border" alt="Create Access Keys" src={useBaseUrl('img/admin-area/cloud-features/aws/create_access_keys_2.png')} />
+<img class="border" alt="Create Access Keys" src={useBaseUrl('img/admin-area/cloud-features/aws/create-access-keys-2.png')} />
 
 :::caution Permissions
 Experienced **AWS** users should create **AWS Access Keys** with more fine granulated permissions.
@@ -40,25 +40,25 @@ Experienced **AWS** users should create **AWS Access Keys** with more fine granu
 
 6. Click on the button **Create user** to create the **AWS Access Keys**.
 
-<img class="border" alt="Create Access Keys" src={useBaseUrl('img/admin-area/cloud-features/aws/create_access_keys_3.png')} />
+<img class="border" alt="Create Access Keys" src={useBaseUrl('img/admin-area/cloud-features/aws/create-access-keys-3.png')} />
 
 Copy the **Access key ID** and **Secret access key**.
 
-<img class="border" alt="Create Access Keys" src={useBaseUrl('img/admin-area/cloud-features/aws/create_access_keys_4.png')} />
+<img class="border" alt="Create Access Keys" src={useBaseUrl('img/admin-area/cloud-features/aws/create-access-keys-4.png')} />
 
 ### Images Settings
 
 1. To enable **Automatic Images**, click in the left menu on **Amazon Web Services** and then on the tab **Settings**.
 
-<img class="border" alt="Enable Automatic Images" src={useBaseUrl('img/admin-area/cloud-features/aws/enable_automatic_images.png')} />
+<img class="border" alt="Enable Automatic Images" src={useBaseUrl('img/admin-area/cloud-features/aws/enable-automatic-images.png')} />
 
 2. Select the **Frequency** and **Retention Period** and click on the button **Save**.
 
-With the following configuration, two **Images** will be created per day and held for **14 AMIs** in total for seven days.
+With the following configuration, two **Images** will be created per day and held for **14 AMIs** for seven days.
 
 ## Images
 
-An [Amazon Machine Image (AMI)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) is a special type of virtual appliance that is
+An [Amazon Machine Image (AMI)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) is a special type of virtual appliance
 used to create a virtual machine within the [Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/).
 
 **CloudPanel** can create an **Image** of your instance on a defined frequency, e.g.,
@@ -70,13 +70,13 @@ used to create a virtual machine within the [Amazon Elastic Compute Cloud (EC2)]
 
 2. Click on the button **Create Image** top right.
 
-<img class="border" alt="Create Image" src={useBaseUrl('img/admin-area/cloud-features/aws/create_image_1.png')} />
+<img class="border" alt="Create Image" src={useBaseUrl('img/admin-area/cloud-features/aws/create-image-1.png')} />
 
 3. Enter an **Image Name** and click on **Create**. 
 
-<img class="border" alt="Create Image" src={useBaseUrl('img/admin-area/cloud-features/aws/create_image_2.png')} />
+<img class="border" alt="Create Image" src={useBaseUrl('img/admin-area/cloud-features/aws/create-image-2.png')} />
 
 4. The **Image** is now being created by **Amazon Web Services**.
 The **Image** status changes from **Pending** to **Available** when it's done.
 
-<img class="border" alt="Image Created" src={useBaseUrl('img/admin-area/cloud-features/aws/image_created.png')} />
+<img class="border" alt="Image Created" src={useBaseUrl('img/admin-area/cloud-features/aws/image-created.png')} />
