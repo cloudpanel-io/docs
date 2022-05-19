@@ -17,7 +17,7 @@ Developed to ease iptables firewall configuration, **ufw** provides a user-frien
 For higher security, whitelist the **SSH Port (22)** for your IPs only. The **CloudPanel Port (8443)** should only be whitelisted if you have a static ip. 
 :::
 
-<img class="border" alt="Pre-Configured UFW rules" src={useBaseUrl('img/admin-area/security/firewall/pre_configured_rules.png')} />
+<img class="border" alt="Pre-Configured UFW rules" src={useBaseUrl('img/admin-area/security/firewall/pre-configured-rules.png')} />
 
 ### Adding a Rule
 
@@ -25,23 +25,23 @@ For higher security, whitelist the **SSH Port (22)** for your IPs only. The **Cl
 
 2. Select the **Type**, enter the **Port Range**, **Source**, and **Description (optional)** and click on **Add Rule** to apply the firewall rule.
 
-<img class="border" alt="Add Rule" src={useBaseUrl('img/admin-area/security/firewall/add_rule.png')} />
+<img class="border" alt="Add Rule" src={useBaseUrl('img/admin-area/security/firewall/add-rule.png')} />
 
 ### Editing a Rule
 
 1. Click on the **Rule** you want to edit.
 
-<img class="border" alt="Edit Rule" src={useBaseUrl('img/admin-area/security/firewall/edit_rule.png')} />
+<img class="border" alt="Edit Rule" src={useBaseUrl('img/admin-area/security/firewall/edit-rule.png')} />
 
 2. Edit the **Firewall Rule** and click on the button **Save**.
 
-<img class="border" alt="Edit Rule Form" src={useBaseUrl('img/admin-area/security/firewall/edit_rule_form.png')} />
+<img class="border" alt="Edit Rule Form" src={useBaseUrl('img/admin-area/security/firewall/edit-rule-form.png')} />
 
 ### Deleting a Rule
 
 1. Select the **Rule** you want to remove and click on **Delete**.
 
-<img class="border" alt="Delete Rule" src={useBaseUrl('img/admin-area/security/firewall/delete_rule.png')} />
+<img class="border" alt="Delete Rule" src={useBaseUrl('img/admin-area/security/firewall/delete-rule.png')} />
 
 ## Basic Auth
 
@@ -62,7 +62,7 @@ If you don't have a static ip to close port **8443**, a **Basic Auth** in front 
 To enable **Basic Auth** via the command line, log in via **SSH** and execute the following command as the **root** user.
 
 ```bash
-clpctl cloudpanel:enable:basic-auth 'john.doe' 'password123'
+clpctl cloudpanel:enable:basic-auth --userName='john.doe' --password='password123'
 ```
 
 ### Disable Basic Auth
