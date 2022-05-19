@@ -9,6 +9,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   organizationName: 'CloudPanel',
   projectName: 'CloudPanel',
+  trailingSlash: true,
   /*
   scripts: [
     'https://www.cloudpanel.io/docs/cloudpanel-ce/js/feedback.js',
