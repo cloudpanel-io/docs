@@ -81,8 +81,9 @@ module.exports = {
       type: 'category',
       label: 'CloudPanel CLI',
       items: [
-        'cloudpanel-cli/cli-commands-old',
-        'cloudpanel-cli/cli-commands',
+        //'cloudpanel-cli/cli-commands-old',
+        'cloudpanel-cli/root-user-commands',
+        'cloudpanel-cli/site-user-commands',
       ],
     },
     {
