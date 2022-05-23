@@ -58,7 +58,7 @@ To export a database, do the following.
 1. Login via [SSH](ssh-ftp#ssh-login) with the **Site User**.
 
 ```bash
-ssh site-user@server-ip-address
+ssh site-user@instance-ip-address
 ```
 
 2. Go to the directory where the **database dump** should be saved e.g., the **tmp** directory of the user.
@@ -94,7 +94,7 @@ To import a database, do the following.
 1. Login via [SSH](ssh-ftp#ssh-login) with the **Site User**.
 
 ```bash
-ssh site-user@server-ip-address
+ssh site-user@instance-ip-address
 ```
 
 2. Run **clpctl** to see all available commands.
@@ -125,7 +125,7 @@ If you have smaller databases, you can change the cron job to run more frequentl
 
 To change the schedule of the database backup task, do the following:
 
-1. Login via **SSH** to your server and become **root**.
+1. Login via **SSH** to your instance and become **root**.
 
 ```bash
 sudo su root
@@ -151,7 +151,7 @@ If you want to save the database backups for more than seven days, change the **
 
 To see the **Master Database Credentials**, do the following.
 
-1. Login via **SSH** to your server and become **root**.
+1. Login via **SSH** to your instance and become **root**.
 
 ```bash
 sudo su root

@@ -24,7 +24,7 @@ The standard linux way to configure **Cron Jobs** on the command line can be use
 1. Login via [SSH](ssh-ftp#ssh-login) with the **Site User**.
 
 ```bash
-ssh site-user@server-ip-address
+ssh site-user@instance-ip-address
 ```
 
 2. Enter the following command to edit **Cron Jobs**:

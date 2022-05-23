@@ -19,7 +19,7 @@ We explain how to use the [PM2](https://pm2.keymetrics.io/) for setting up a **N
 1. Log in via [SSH](../../../../frontend-area/ssh-ftp/#ssh-login) with your **Site User**:
 
 ```bash
-ssh john-doe@server-ip-address
+ssh john-doe@instance-ip-address
 ```
 
 2. Go to the **root directory** of you project:

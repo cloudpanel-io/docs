@@ -35,7 +35,7 @@ Enter a new strong **Password** or click on **Generate new password** and click 
 
 ### SSH Login
 
-To login via **SSH** to the server, you need a terminal like [iterm2](https://www.iterm2.com/) for macOS or [putty](https://www.putty.org/) for Windows.
+To login via **SSH** to the instance, you need a terminal like [iterm2](https://www.iterm2.com/) for macOS or [putty](https://www.putty.org/) for Windows.
 
 The **SSH** port is **22** (default port). Before you try to connect with SSH, make sure that port **22** is open for your ip address.
 
@@ -44,18 +44,18 @@ The **SSH** port is **22** (default port). Before you try to connect with SSH, m
 **SSH login via password**
 
 ```bash
-ssh john-doe@server-ip-address
+ssh john-doe@instance-ip-address
 ```
 
 **SSH login via private key**
 
 ```bash
-ssh -i path_to_your_private_key.pem john-doe@server-ip-address
+ssh -i path_to_your_private_key.pem john-doe@instance-ip-address
 ```
 
 **Windows:**
 
-In the **Host Name ** field, enter the **server ip address** and click on the button **Open**.
+In the **Host Name ** field, enter the **instance ip address** and click on the button **Open**.
 
 <img alt="Change SSH User Password" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/putty-ssh.png')} />
 
@@ -63,7 +63,7 @@ Putty will ask you to enter the **User Name** and **Password** in the next step.
 
 ### SFTP Login
 
-To login via **SFTP** to the server, you need a client like [FileZilla](https://filezilla-project.org/).
+To login via **SFTP** to the instance, you need a client like [FileZilla](https://filezilla-project.org/).
 
 Make sure that the **SSH** port **22** is open for your ip address.
 
