@@ -6,7 +6,7 @@ module.exports = {
   url: 'https://www.cloudpanel.io',
   baseUrl: '/docs/v2/',
   favicon: 'img/favicon.svg',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   organizationName: 'CloudPanel',
   projectName: 'CloudPanel',
   trailingSlash: true,

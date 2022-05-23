@@ -44,6 +44,7 @@ module.exports = {
       label: 'Frontend Area',
       items: [
         'frontend-area/add-site',
+        'frontend-area/account',
         'frontend-area/settings',
         'frontend-area/vhost',
         'frontend-area/databases',
@@ -108,6 +109,13 @@ module.exports = {
           label: 'Applications',
           items: [
             'php/applications/symfony',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Guides',
+          items: [
+            'php/guides/building-a-php-extension',
           ],
         },
       ],
