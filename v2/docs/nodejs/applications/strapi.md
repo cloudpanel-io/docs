@@ -30,7 +30,7 @@ clpctl site:add:nodejs --domainName=www.domain.com --nodejsVersion=14 --appPort=
 
 ## Creating a Strapi project
 
-1. Log in via [SSH](../../../../frontend-area/ssh-ftp/#ssh-login) with the **Site User**:
+1. Log in via [SSH](../../../frontend-area/ssh-ftp/#ssh-login) with the **Site User**:
 
 ```bash
 ssh john-doe@server-ip-address
@@ -88,4 +88,4 @@ To create a user, you can now open your **Strapi Installation** in the browser *
 
 For running **Strapi** in production, it's essential to have an **process manager** like **pm2** who takes care of the node processes.
 
-Follow the [Node.js Deployment](../../../../nodejs/deployment) for a step-by-step guide.
+Follow the [Node.js Deployment](../../../nodejs/deployment) for a step-by-step guide.
