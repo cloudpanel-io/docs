@@ -16,13 +16,13 @@ We explain how to use the [PM2](https://pm2.keymetrics.io/) for setting up a **N
 
 ### Installation
 
-1. Log in via [SSH](../../../../frontend-area/ssh-ftp/#ssh-login) with your **Site User**:
+1. Log in via [SSH](../../frontend-area/ssh-ftp/#ssh-login) with your **Site User**:
 
 ```bash
 ssh john-doe@instance-ip-address
 ```
 
-2. Go to the **root directory** of you project:
+2. Go to the **root directory** of your project:
 
 ```bash
 cd htdocs/www.domain.com/
@@ -46,7 +46,7 @@ Replace the **app-name** variable with the name of your application.
 pm2 start npm --name $app-name -- start
 ```
 
-Your **Application** is now running via **pm2**.
+Your **application** is now running via **pm2**.
 
 <img alt="PM2 Start NPM" src={useBaseUrl('img/nodejs/applications/strapi/pm2-start-npm.png')} />
 
@@ -60,7 +60,7 @@ pm2 save
 
 ### Adding a Cron Job
 
-To ensure, that your **Application** is running after a reboot of your instance, we need to configure a cron job.
+To ensure, that your **application** is running after a reboot of your instance, you need to configure a cron job.
 
 1. First copy the output of the **PATH** variable:
 
@@ -97,6 +97,14 @@ PATH=$PASTE_THE_OUTPUT_OF_$PATH
 pm2 status
 ```
 
-The  status  should be **online** to confirm that your Application is running after reboot,
+The  status  should be **online** to confirm that your Application is running after reboot.
 
 <img alt="PM2 Cronjob Example" src={useBaseUrl('img/nodejs/applications/strapi/pm2-status.png')} />
+
+### Troubleshooting
+
+[PM2](https://pm2.keymetrics.io/) provides a [logs](https://pm2.keymetrics.io/docs/usage/log-management/) command to see the application's output, which helps troubleshoot.
+
+```bash
+pm2 logs
+```

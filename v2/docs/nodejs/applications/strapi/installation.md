@@ -12,7 +12,7 @@ On this site, you find a guide to install [Strapi 4](https://strapi.io/) on **Cl
 
 ### Via CloudPanel
 
-1. Click on **Add Site** and then click on **Create a Node.js Site**.
+1. Click on **+ Add Site** and then click on **Create a Node.js Site**.
 
 <img class="border" alt="Add Node.js Site" src={useBaseUrl('img/nodejs/applications/strapi/add-site.png')} />
 
@@ -84,8 +84,8 @@ To create a user, you can now open your **Strapi Installation** in the browser *
 
 <img class="border" alt="NPM start" src={useBaseUrl('img/nodejs/applications/strapi/welcome-to-strapi-form.png')} />
 
-### Production Deployment
+## Production Deployment
 
-For running **Strapi** in production, it's essential to have an automatic launch after reboot.
+For running **Strapi** in production, it's essential to have an **process manager** like **pm2** who takes care of the node processes.
 
-To achieve that, we use [pm2](https://pm2.keymetrics.io/) the **Production Process Manager** for **Node.js**.
+Follow the [Node.js Deployment](../../../../nodejs/deployment) for a step-by-step guide.
