@@ -52,7 +52,7 @@ The output will look like:
 
 <img alt="Database Master Credentials" src={useBaseUrl('img/cli-commands/database-show-master-credentials.png')} />
 
-To connect to the **database server**, copy the **Connect Command** and enter the command in the command-line.
+To connect to the **database server**, copy the **Connect Command** and enter the command in the command line.
 
 ### Adding a Database
 

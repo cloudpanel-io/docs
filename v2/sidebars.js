@@ -81,7 +81,6 @@ module.exports = {
       type: 'category',
       label: 'CloudPanel CLI',
       items: [
-        //'cloudpanel-cli/cli-commands-old',
         'cloudpanel-cli/root-user-commands',
         'cloudpanel-cli/site-user-commands',
       ],
@@ -95,7 +94,13 @@ module.exports = {
           type: 'category',
           label: 'Applications',
           items: [
-            'nodejs/applications/strapi',
+            {
+              type: 'category',
+              label: 'Strapi',
+              items: [
+                'nodejs/applications/strapi/installation',
+              ],
+            },
           ],
         },
       ],
