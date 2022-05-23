@@ -1,12 +1,12 @@
 ---
-id: installation
-title: Strapi 4 - Installation
-sidebar_label: Installation
+id: strapi
+title: Strapi 4
+sidebar_label: Strapi 4
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this site, you find a guide to install [Strapi 4](https://strapi.io/) on **CloudPanel**.
+On this site, you find a guide to install and configure [Strapi 4](https://strapi.io/) on **CloudPanel**.
 
 ## Creating a Node.js Site
 

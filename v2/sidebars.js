@@ -94,13 +94,7 @@ module.exports = {
           type: 'category',
           label: 'Applications',
           items: [
-            {
-              type: 'category',
-              label: 'Strapi',
-              items: [
-                'nodejs/applications/strapi/installation',
-              ],
-            },
+            'nodejs/applications/strapi',
           ],
         },
       ],
