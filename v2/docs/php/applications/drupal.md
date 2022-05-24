@@ -1,7 +1,7 @@
 ---
 id: drupal
 title: Drupal
-sidebar_label: Drupal 9
+sidebar_label: Drupal
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

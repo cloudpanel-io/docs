@@ -1,7 +1,7 @@
 ---
 id: codeigniter
 title: CodeIgniter
-sidebar_label: CodeIgniter 4
+sidebar_label: CodeIgniter
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -1,7 +1,7 @@
 ---
 id: cakephp
 title: CakePHP
-sidebar_label: CakePHP 4
+sidebar_label: CakePHP
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

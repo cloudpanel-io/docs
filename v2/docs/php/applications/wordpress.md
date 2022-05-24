@@ -1,7 +1,7 @@
 ---
 id: wordpress
 title: WordPress
-sidebar_label: WordPress 5
+sidebar_label: WordPress
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -111,6 +111,8 @@ module.exports = {
             'php/applications/cakephp',
             'php/applications/codeigniter',
             'php/applications/drupal',
+            'php/applications/fuelphp',
+            'php/applications/joomla',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
