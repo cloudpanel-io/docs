@@ -117,6 +117,7 @@ module.exports = {
             'php/applications/laravel',
             'php/applications/magento',
             'php/applications/matomo',
+            'php/applications/mautic',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
