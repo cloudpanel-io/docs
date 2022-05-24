@@ -108,6 +108,7 @@ module.exports = {
           type: 'category',
           label: 'Applications',
           items: [
+            'php/applications/cakephp',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],

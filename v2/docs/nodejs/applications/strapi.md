@@ -36,7 +36,7 @@ clpctl site:add:nodejs --domainName=www.domain.com --nodejsVersion=14 --appPort=
 ssh john-doe@server-ip-address
 ```
 
-2. Delete the CloudPanel created **directory**:
+2. Go to htdocs and delete the directory which CloudPanel has created:
 
 ```bash
 cd htdocs && rm -rf www.domain.com
