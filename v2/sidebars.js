@@ -113,6 +113,8 @@ module.exports = {
             'php/applications/drupal',
             'php/applications/fuelphp',
             'php/applications/joomla',
+            'php/applications/laminas',
+            'php/applications/laravel',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
