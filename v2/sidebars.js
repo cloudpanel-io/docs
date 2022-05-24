@@ -116,6 +116,7 @@ module.exports = {
             'php/applications/laminas',
             'php/applications/laravel',
             'php/applications/magento',
+            'php/applications/matomo',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],

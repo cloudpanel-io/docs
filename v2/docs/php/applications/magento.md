@@ -22,7 +22,7 @@ Follow the guide [https://www.elastic.co/guide/en/elasticsearch/reference/7.9/de
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **Magento**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Magento 2**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
 <img class="border" alt="Create a Magento Site" src={useBaseUrl('img/php/applications/magento/create-site-form.png')} />
 
