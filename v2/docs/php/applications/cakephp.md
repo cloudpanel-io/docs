@@ -18,7 +18,7 @@ On this site, you find a guide to install [CakePHP](https://cakephp.org/) on **C
 
 2. Select the Application **CakePHP**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create CakePHP Site" src={useBaseUrl('img/php/applications/cakephp/create-site-form.png')} />
+<img class="border" alt="Create a CakePHP Site" src={useBaseUrl('img/php/applications/cakephp/create-site-form.png')} />
 
 ### Via CloudPanel CLI
 

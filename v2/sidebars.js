@@ -109,6 +109,7 @@ module.exports = {
           label: 'Applications',
           items: [
             'php/applications/cakephp',
+            'php/applications/codeigniter',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
