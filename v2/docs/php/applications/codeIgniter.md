@@ -1,7 +1,7 @@
 ---
 id: codeigniter
 title: CodeIgniter
-sidebar_label: CodeIgniter
+sidebar_label: CodeIgniter 4
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -50,4 +50,4 @@ php8.1 /usr/local/bin/composer create-project codeigniter4/appstarter www.domain
 
 4. **Done!** You can now open your site in your browser to see the **Welcome to CodeIgniter** page.
 
-<img class="border" alt="Welcome to CakePHP" src={useBaseUrl('img/php/applications/codeigniter/welcome-to-codeigniter.png')} />
+<img class="border" alt="Welcome to CodeIgniter" src={useBaseUrl('img/php/applications/codeigniter/welcome-to-codeigniter.png')} />

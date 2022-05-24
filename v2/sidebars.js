@@ -110,6 +110,7 @@ module.exports = {
           items: [
             'php/applications/cakephp',
             'php/applications/codeigniter',
+            'php/applications/drupal',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
