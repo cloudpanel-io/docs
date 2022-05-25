@@ -18,14 +18,14 @@ On this site, you find a guide to install [Mautic](https://www.mautic.org/) on *
 
 2. Select the Application **Mautic 4**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Mautic Site" src={useBaseUrl('img/php/applications/matomo/create-site-form.png')} />
+<img class="border" alt="Create a Mautic Site" src={useBaseUrl('img/php/applications/mautic/create-site-form.png')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Mautic Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate='Mautic 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=7.4 --vhostTemplate='Mautic 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Mautic Project
@@ -36,34 +36,33 @@ clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate
 ssh john-doe@server-ip-address
 ```
 
-2. Go to the **tmp** directory:
+2. Go to **htdocs** and delete the directory which **CloudPanel** has created:
 
-```
-cd ~/tmp
-```
-
-3. Download and extract the latest **Mautic 4** version.
-
-```
-curl -sL https://builds.matomo.org/matomo-latest.tar.gz | tar xfz -
+```bash
+cd htdocs && rm -rf www.domain.com
 ```
 
-4. Copy files to the **root directory** of your site:
+3. Clone the latest version from the [Mautic Git Repository](https://github.com/mautic/mautic):
 
 ```
-cp -R ~/tmp/matomo/* ~/htdocs/www.domain.com/
+git clone -b 4.3.1 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
 ```
 
-5. Clean up the **tmp** directory.
+:::caution Latest Version
+You find the latest version on github: [https://github.com/mautic/mautic/releases](https://github.com/mautic/mautic/releases)
+:::
 
+4. Install the **project** via **Composer**:
+
+```bash
+cd ~/htdocs/www.domain.com/
+php7.4 /usr/local/bin/composer install
 ```
-rm -rf ~/tmp/*
-```
 
-6. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Mautic Installer**.
+5. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Mautic Installer**.
 
-<img class="border" alt="Mautic Installer" src={useBaseUrl('img/php/applications/matomo/matomo-installer.png')} />
+<img class="border" alt="Mautic Installer" src={useBaseUrl('img/php/applications/mautic/mautic-installer.png')} />
 
-7. Done! **Mautic** has been installed.
+6. Done. **Mautic** has been installed.
 
-<img class="border" alt="Matomo Installed" src={useBaseUrl('img/php/applications/matomo/matomo-installed.png')} />
+<img class="border" alt="Mautic Installed" src={useBaseUrl('img/php/applications/mautic/mautic-installed.png')} />

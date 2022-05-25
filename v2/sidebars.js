@@ -118,6 +118,7 @@ module.exports = {
             'php/applications/magento',
             'php/applications/matomo',
             'php/applications/mautic',
+            'php/applications/moodle',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
