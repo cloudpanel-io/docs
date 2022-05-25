@@ -121,7 +121,7 @@ module.exports = {
             'php/applications/moodle',
             'php/applications/neos',
             'php/applications/nextcloud',
-            'php/applications/oro-commerce',
+            'php/applications/owncloud',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
