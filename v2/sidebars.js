@@ -122,6 +122,7 @@ module.exports = {
             'php/applications/neos',
             'php/applications/nextcloud',
             'php/applications/owncloud',
+            'php/applications/prestashop',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
