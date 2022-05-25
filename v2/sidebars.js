@@ -119,6 +119,8 @@ module.exports = {
             'php/applications/matomo',
             'php/applications/mautic',
             'php/applications/moodle',
+            'php/applications/neos',
+            'php/applications/nextcloud',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
