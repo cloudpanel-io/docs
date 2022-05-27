@@ -125,8 +125,8 @@ module.exports = {
             'php/applications/prestashop',
             'php/applications/shopware',
             'php/applications/slim',
+            'php/applications/symfony',
             'php/applications/wordpress',
-            //'php/applications/symfony',
           ],
         },
         {
