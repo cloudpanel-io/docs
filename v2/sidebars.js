@@ -126,7 +126,11 @@ module.exports = {
             'php/applications/shopware',
             'php/applications/slim',
             'php/applications/symfony',
+            'php/applications/typo3',
+            'php/applications/woocommerce',
             'php/applications/wordpress',
+            'php/applications/yii',
+            'php/applications/other',
           ],
         },
         {
