@@ -123,6 +123,8 @@ module.exports = {
             'php/applications/nextcloud',
             'php/applications/owncloud',
             'php/applications/prestashop',
+            'php/applications/shopware',
+            'php/applications/slim',
             'php/applications/wordpress',
             //'php/applications/symfony',
           ],
