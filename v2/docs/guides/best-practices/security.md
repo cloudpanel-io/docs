@@ -6,5 +6,5 @@ sidebar_label: Security
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Security
+Coming soon
 

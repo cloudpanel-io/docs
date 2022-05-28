@@ -151,7 +151,7 @@ module.exports = {
           type: 'category',
           label: 'Guides',
           items: [
-            'python/guides/add-a-python-version',
+            'python/guides/adding-a-python-version',
           ],
         },
       ],
