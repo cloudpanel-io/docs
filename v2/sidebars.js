@@ -147,6 +147,13 @@ module.exports = {
       label: 'Python',
       items: [
         'python/deployment',
+        {
+          type: 'category',
+          label: 'Guides',
+          items: [
+            'python/guides/add-a-python-version',
+          ],
+        },
       ],
     },
     {
