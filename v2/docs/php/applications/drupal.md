@@ -16,7 +16,7 @@ On this site, you find a guide to install [Drupal](https://www.drupal.org/) on *
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **Drupal**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Drupal 9**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
 <img class="border" alt="Create a Drupal Site" src={useBaseUrl('img/php/applications/drupal/create-site-form.png')} />
 

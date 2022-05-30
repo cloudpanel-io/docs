@@ -16,7 +16,7 @@ On this site, you find a guide to install [Laravel](https://laravel.com/) on **C
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **Laravel**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Laravel 9**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
 <img class="border" alt="Create a Laravel Site" src={useBaseUrl('img/php/applications/laravel/create-site-form.png')} />
 

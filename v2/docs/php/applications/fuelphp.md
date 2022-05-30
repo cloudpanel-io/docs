@@ -16,7 +16,7 @@ On this site, you find a guide to install [FuelPHP](https://fuelphp.com/) on **C
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **FuelPHP**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **FuelPHP 1.8**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
 <img class="border" alt="Create a FuelPHP Site" src={useBaseUrl('img/php/applications/fuelphp/create-site-form.png')} />
 

@@ -16,7 +16,7 @@ On this site, you find a guide to install [Joomla](https://www.joomla.org/) on *
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **Joomla**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Joomla 4**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
 <img class="border" alt="Create a Joomla Site" src={useBaseUrl('img/php/applications/joomla/create-site-form.png')} />
 

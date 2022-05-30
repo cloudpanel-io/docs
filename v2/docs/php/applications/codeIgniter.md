@@ -16,7 +16,7 @@ On this site, you find a guide to install [CodeIgniter](https://codeigniter.com/
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **CodeIgniter**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **CodeIgniter 4**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
 <img class="border" alt="Create a CodeIgniter Site" src={useBaseUrl('img/php/applications/codeigniter/create-site-form.png')} />
 
