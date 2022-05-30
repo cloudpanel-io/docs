@@ -146,7 +146,7 @@ module.exports = {
       type: 'category',
       label: 'Python',
       items: [
-        'python/deployment',
+        'python/deployment-with-uwsgi',
         {
           type: 'category',
           label: 'Guides',
