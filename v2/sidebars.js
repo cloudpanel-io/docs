@@ -21,7 +21,14 @@ module.exports = {
           type: 'category',
           label: 'Installation',
           items: [
-            'getting-started/installation-aws',
+            {
+              type: 'category',
+              label: 'Amazon Web Services',
+              items: [
+                'getting-started/amazon-web-services/installation/ami',
+              ]
+            },
+            /*
             {
               type: 'category',
               label: 'Digital Ocean',
@@ -35,6 +42,7 @@ module.exports = {
             'getting-started/installation-microsoft-azure',
             'getting-started/installation-vultr',
             'getting-started/installation-other',
+            */
           ]
         }
       ],

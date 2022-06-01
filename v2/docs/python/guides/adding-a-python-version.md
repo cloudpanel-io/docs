@@ -42,7 +42,7 @@ apt update && apt -y install python3.8
 First, we need to install the required dependencies to be able to build **Python 3.8** from the source.
 
 ```bash
-apt update && apt -y install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
+apt update && apt -y install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev
 ```
 
 ### Compiling from Source
@@ -93,3 +93,7 @@ rm -rf Python-3.8.13 Python-3.8.13.tgz
 <img class="border" src={useBaseUrl('img/python/guides/add-a-python-version/cloudpanel-python-version.png')} />
 
 ### Remove Dependencies
+
+```bash
+apt --purge remove zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev
+```
