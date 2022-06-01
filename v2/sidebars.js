@@ -29,6 +29,14 @@ module.exports = {
                 'getting-started/amazon-web-services/installation/installer',
               ]
             },
+            {
+              type: 'category',
+              label: 'Digital Ocean',
+              items: [
+                'getting-started/digital-ocean/installation/marketplace',
+                'getting-started/digital-ocean/installation/installer',
+              ]
+            },
             /*
             {
               type: 'category',
