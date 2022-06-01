@@ -10,6 +10,10 @@ import TabItem from '@theme/TabItem';
 
 On this page, we explain step by step how to run **CloudPanel** on an EC2 instance on [Amazon Web Services](https://aws.amazon.com/).
 
+:::warning MySQL 8.0
+The provided **AMIS** have **MySQL 8.0** installed. If you need **MariaDB**, you need to use the [Installer](../installer).
+:::
+
 ## Launching an EC2 Instance
 
 ### Choose AMI 
