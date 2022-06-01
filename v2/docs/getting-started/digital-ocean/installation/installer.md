@@ -12,3 +12,6 @@ On this page, we explain step by step how to install **CloudPanel** on [Digital 
 
 ## Launching a Droplet
 
+1. Login into your [Digital Ocean](https://cloud.digitalocean.com/login) account. 
+
+2. dfsdfsdf

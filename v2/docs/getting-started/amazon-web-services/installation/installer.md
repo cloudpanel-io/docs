@@ -12,6 +12,12 @@ On this page, we explain step by step how to install **CloudPanel** on an EC2 in
 
 ## Launching an EC2 Instance
 
+1. Log in to the [AWS Management Console](https://console.aws.amazon.com/ec2/). 
+
+2. Go to the **EC2 Service**, and click on **Launch Instances**.
+
+<img class="border" alt="Click on the Launch Instances Button" src={useBaseUrl('img/getting-started/amazon-web-services/click-on-launch-instance-button.png')} />
+
 ### Name and tags
 
 Enter the name of your **EC2 Instance**, e.g., **my-cloudpanel-instance**.

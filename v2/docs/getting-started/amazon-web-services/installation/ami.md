@@ -18,7 +18,7 @@ The provided **AMIS** have **MySQL 8.0** installed. If you need **MariaDB**, you
 
 ### Choose AMI 
 
-1. Log in to the [AWS Management Console](https://console.aws.amazon.com/ec2/). <br />
+1. Log in to the [AWS Management Console](https://console.aws.amazon.com/ec2/). 
 
 2. Select an **Operating System** and click on **Launch** to start a **CloudPanel** instance.
 
