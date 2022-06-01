@@ -26,6 +26,7 @@ module.exports = {
               label: 'Amazon Web Services',
               items: [
                 'getting-started/amazon-web-services/installation/ami',
+                'getting-started/amazon-web-services/installation/installer',
               ]
             },
             /*
