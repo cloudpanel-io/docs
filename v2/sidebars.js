@@ -44,21 +44,14 @@ module.exports = {
                 'getting-started/hetzner-cloud/installation/installer',
               ]
             },
-            /*
             {
               type: 'category',
-              label: 'Digital Ocean',
+              label: 'Vultr',
               items: [
-                'getting-started/installation-digital-ocean-marketplace',
-                'getting-started/installation-digital-ocean-installer',
+                'getting-started/vultr/installation/marketplace',
+                'getting-started/vultr/installation/installer',
               ]
             },
-            'getting-started/installation-hetzner-cloud',
-            'getting-started/installation-google-cloud',
-            'getting-started/installation-microsoft-azure',
-            'getting-started/installation-vultr',
-            'getting-started/installation-other',
-            */
           ]
         }
       ],
