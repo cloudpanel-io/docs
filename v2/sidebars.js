@@ -37,6 +37,13 @@ module.exports = {
                 'getting-started/digital-ocean/installation/installer',
               ]
             },
+            {
+              type: 'category',
+              label: 'Hetzner Cloud',
+              items: [
+                'getting-started/hetzner-cloud/installation/installer',
+              ]
+            },
             /*
             {
               type: 'category',
