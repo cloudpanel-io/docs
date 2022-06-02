@@ -42,7 +42,9 @@ Select the **Server Type** you want to deploy. We recommend at least **1 vCPU** 
 
 ### Launch Server
 
-Enter the **Server Name** and click on the button **CREATE & BUY NOW** to launch the server.
+1. Select an **SSH Key** or receive the **root password** via e-mail.
+
+2. Enter the **Server Name** and click on the button **CREATE & BUY NOW** to launch the server.
 
 <img class="border" alt="Launch Server" src={useBaseUrl('img/getting-started/hetzner-cloud/create-buy-now.png')} />
 
