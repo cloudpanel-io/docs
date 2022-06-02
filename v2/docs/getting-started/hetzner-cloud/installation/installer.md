@@ -12,7 +12,7 @@ On this page, we explain step by step how to install **CloudPanel** on [Hetzner 
 
 ## Create a Server
 
-1. Login into your [Hetzner Cloud Console](https://console.hetzner.cloud/) account. <br />
+1. Login to your [Hetzner Cloud Console](https://console.hetzner.cloud/) account. <br />
 
 2. Go to a **project** and click on the button **ADD SERVER**.
 
@@ -50,7 +50,7 @@ Select the **Server Type** you want to deploy. We recommend at least **1 vCPU** 
 
 ## Install CloudPanel
 
-After launching the **EC2 Instance**, log in with **SSH** and run the installer script.
+After launching the **Server**, log in with **SSH** and run the installer script.
 
 <Tabs
 defaultValue="ubuntu-22.04"
@@ -93,7 +93,7 @@ curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=hetzner 
 </TabItem>
 <TabItem value="debian-11">
 
-1. Login via **SSH** to the **EC2 Instance**.
+1. Login via **SSH** to the **Server**.
 
 ```bash
 ssh -i path_to_your_private_key root@serverIpAddress

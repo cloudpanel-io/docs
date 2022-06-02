@@ -12,7 +12,7 @@ On this page, we explain step by step how to install **CloudPanel** on [Digital 
 
 ## Launching a Droplet
 
-1. Login into your [Digital Ocean](https://cloud.digitalocean.com/login) account. 
+1. Login to your [Digital Ocean](https://cloud.digitalocean.com/login) account. 
 
 2. In the left navigation, click on **Droplets** and then on **Create Droplet**.
 
@@ -61,7 +61,7 @@ To create a **Floating IP**, do the following steps:
 
 ## Install CloudPanel
 
-After launching the **EC2 Instance**, log in with **SSH** and run the installer script.
+After launching the **Droplet**, log in with **SSH** and run the installer script.
 
 <Tabs
 defaultValue="ubuntu-22.04"
@@ -71,7 +71,7 @@ values={[
 ]}>
 <TabItem value="ubuntu-22.04">
 
-1. Login via **SSH** to the **EC2 Instance**.
+1. Login via **SSH** to the **Droplet**.
 
 ```bash
 ssh -i path_to_your_private_key root@yourFloatingIpAddress
