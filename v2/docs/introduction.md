@@ -12,13 +12,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Run **PHP**, **Node.js**, **Static Websites**, and **Python** applications in no time on a **high-performance technology stack**.
 
-Quick launch support for [Amazon Web Service](../getting-started/amazon-web-services/installation/ami/), 
-[Digital Ocean](../getting-started/digital-ocean/installation/installer/), 
-[Hetzner Cloud](../getting-started/hetzner-cloud/installation/installer/), 
-[Vultr](../getting-started/vultr/installation/installer/),
-[Google Compute Engine](#), 
-[Microsoft Azure](#), <br />
-and [others](#).
+Quick launch support for:
+
+- [Amazon Web Services](../getting-started/amazon-web-services/installation/ami/)
+- [Digital Ocean](../getting-started/digital-ocean/installation/installer/)
+- [Hetzner Cloud](../getting-started/hetzner-cloud/installation/installer/)
+- [Google Compute Engine](../getting-started/google-compute-engine/installation/installer/)
+- [Microsoft Azure](../getting-started/microsoft-azure/installation/installer/)
+- [Vultr](../getting-started/vultr/installation/installer/)
+- [Other](../getting-started/other/)
 
 <img alt="CloudPanel" class="border" src={useBaseUrl('img/cloudpanel.png')} />
 

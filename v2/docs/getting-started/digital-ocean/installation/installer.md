@@ -104,7 +104,7 @@ curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=do DB_EN
 </TabItem>
 <TabItem value="debian-11">
 
-1. Login via **SSH** to the **EC2 Instance**.
+1. Login via **SSH** to the **Droplet**.
 
 ```bash
 ssh -i path_to_your_private_key root@yourFloatingIpAddress

@@ -66,6 +66,7 @@ module.exports = {
                 'getting-started/vultr/installation/installer',
               ]
             },
+            'getting-started/other',
           ]
         }
       ],
