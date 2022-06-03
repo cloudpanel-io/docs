@@ -47,7 +47,7 @@ values={[
 <TabItem value="ubuntu-mysql-8.0">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | bash
+curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo bash
 ```
 
 </TabItem>
