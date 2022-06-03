@@ -46,6 +46,13 @@ module.exports = {
             },
             {
               type: 'category',
+              label: 'Google Compute Engine',
+              items: [
+                'getting-started/google-compute-engine/installation/installer',
+              ]
+            },
+            {
+              type: 'category',
               label: 'Vultr',
               items: [
                 'getting-started/vultr/installation/marketplace',
