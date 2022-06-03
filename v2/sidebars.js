@@ -53,6 +53,13 @@ module.exports = {
             },
             {
               type: 'category',
+              label: 'Microsoft Azure',
+              items: [
+                'getting-started/microsoft-azure/installation/installer',
+              ]
+            },
+            {
+              type: 'category',
               label: 'Vultr',
               items: [
                 'getting-started/vultr/installation/marketplace',
