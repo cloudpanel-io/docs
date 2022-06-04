@@ -1,7 +1,7 @@
 ---
-id: deployment-with-uwsgi
+id: uwsgi
 title: Deployment with uwsgi
-sidebar_label: Deployment with uwsgi
+sidebar_label: With uwsgi
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -122,7 +122,13 @@ module.exports = {
       type: 'category',
       label: 'Node.js',
       items: [
-        'nodejs/deployment',
+        {
+          type: 'category',
+          label: 'Deployment',
+          items: [
+            'nodejs/deployment/pm2',
+          ],
+        },
         {
           type: 'category',
           label: 'Applications',
@@ -178,7 +184,13 @@ module.exports = {
       type: 'category',
       label: 'Python',
       items: [
-        'python/deployment-with-uwsgi',
+        {
+          type: 'category',
+          label: 'Deployment',
+          items: [
+            'python/deployment/uwsgi',
+          ],
+        },
         {
           type: 'category',
           label: 'Guides',

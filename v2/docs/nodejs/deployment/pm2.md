@@ -1,7 +1,7 @@
 ---
-id: deployment
-title: Deployment
-sidebar_label: Deployment
+id: pm2
+title: Deployment with pm2
+sidebar_label: With pm2
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
