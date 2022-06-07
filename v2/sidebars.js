@@ -33,7 +33,7 @@ module.exports = {
               type: 'category',
               label: 'Digital Ocean',
               items: [
-                'getting-started/digital-ocean/installation/marketplace',
+                //'getting-started/digital-ocean/installation/marketplace',
                 'getting-started/digital-ocean/installation/installer',
               ]
             },
@@ -62,7 +62,7 @@ module.exports = {
               type: 'category',
               label: 'Vultr',
               items: [
-                'getting-started/vultr/installation/marketplace',
+                //'getting-started/vultr/installation/marketplace',
                 'getting-started/vultr/installation/installer',
               ]
             },
