@@ -152,3 +152,17 @@ table thead tr {
     height: 30px !important;
   }
 }
+
+.join-us-on-discord {
+  display: none;
+}
+
+@media (min-width: 997px) {
+  .join-us-on-discord {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+  }
+}
+

@@ -10,11 +10,9 @@ module.exports = {
   organizationName: 'CloudPanel',
   projectName: 'CloudPanel',
   trailingSlash: true,
-  /*
   scripts: [
-    'https://www.cloudpanel.io/docs/cloudpanel-ce/js/feedback.js',
+    '/docs/v2/static/js/discord.js',
   ],
-  */
   themeConfig: {
     colorMode: {
       disableSwitch: true
