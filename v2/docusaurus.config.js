@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'CloudPanel',
   trailingSlash: true,
   scripts: [
-    '/docs/v2/static/js/discord.js',
+    'https://www.cloudpanel.io/docs/v2/js/discord.js',
   ],
   themeConfig: {
     colorMode: {
