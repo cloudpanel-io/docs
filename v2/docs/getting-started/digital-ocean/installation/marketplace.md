@@ -1,6 +1,6 @@
 ---
 id: marketplace
-title: Marketplace
+title: Digital Ocean Marketplace
 sidebar_label: Marketplace
 ---
 

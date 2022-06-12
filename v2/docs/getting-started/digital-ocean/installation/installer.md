@@ -1,6 +1,6 @@
 ---
 id: installer
-title: Installer
+title: Digital Ocean Installer
 sidebar_label: Installer
 ---
 

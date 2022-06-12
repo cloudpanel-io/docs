@@ -1,6 +1,6 @@
 ---
 id: installer
-title: Installer
+title: Hetzner Installer
 sidebar_label: Installer
 ---
 

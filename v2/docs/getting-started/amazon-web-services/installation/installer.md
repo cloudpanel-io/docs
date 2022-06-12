@@ -1,6 +1,6 @@
 ---
 id: installer
-title: Installer
+title: Amazon Web Services Installer
 sidebar_label: Installer
 ---
 

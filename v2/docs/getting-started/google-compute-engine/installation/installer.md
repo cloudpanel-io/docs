@@ -1,6 +1,6 @@
 ---
 id: installer
-title: Installer
+title: Google Compute Engine Installer
 sidebar_label: Installer
 ---
 

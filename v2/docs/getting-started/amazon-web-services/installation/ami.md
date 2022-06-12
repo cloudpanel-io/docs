@@ -1,6 +1,6 @@
 ---
 id: ami
-title: AMI
+title: Amazon Web Services AMI
 sidebar_label: AMI
 ---
 

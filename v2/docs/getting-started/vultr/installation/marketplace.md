@@ -1,6 +1,6 @@
 ---
 id: marketplace
-title: Marketplace
+title: Vultr Marketplace
 sidebar_label: Marketplace
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: security
-title: Security
+title: Best Practices - Security
 sidebar_label: Security
 ---
 

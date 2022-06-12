@@ -1,6 +1,6 @@
 ---
 id: uwsgi
-title: Deployment with uwsgi
+title: Python deployment with uwsgi
 sidebar_label: With uwsgi
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: installer
-title: Installer
+title: Microsoft Azure Installer
 sidebar_label: Installer
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: pm2
-title: Deployment with pm2
+title: Node.js deployment with pm2
 sidebar_label: With pm2
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: installer
-title: Installer
+title: Vultr Installer
 sidebar_label: Installer
 ---
 
