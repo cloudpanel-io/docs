@@ -12,7 +12,7 @@ Our [Discord Server](https://discord.cloudpanel.io/) serves as our virtual Headq
 
 **Learn, share** and **discuss** with other community members your questions.
 
-<img src={useBaseUrl('img/discord.svg')} /> <br />
+<img width="600" src={useBaseUrl('img/discord.svg')} /> <br />
 
 ## Support CloudPanel
 

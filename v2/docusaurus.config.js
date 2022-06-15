@@ -59,16 +59,20 @@ module.exports = {
           title: 'Product',
           items: [
             {
-              label: 'Overview',
-              href: 'https://www.cloudpanel.io/product/',
-            },
-            {
-              label: 'Technology',
-              href: 'https://www.cloudpanel.io/product/#technology-stack',
-            },
-            {
               label: 'Features',
-              href: 'https://www.cloudpanel.io/product/#features',
+              href: 'https://www.cloudpanel.io/features/',
+            },
+            {
+              label: 'Technology Stack',
+              href: 'https://www.cloudpanel.io/technology-stack/',
+            },
+            {
+              label: 'Supported Applications',
+              href: 'https://www.cloudpanel.io/supported-applications/',
+            },
+            {
+              label: 'Supported Clouds',
+              href: 'https://www.cloudpanel.io/supported-clouds/',
             },
           ],
         },
@@ -77,11 +81,19 @@ module.exports = {
           items: [
             {
               label: 'Documentation',
-              href: 'https://www.cloudpanel.io/docs/',
+              href: 'https://www.cloudpanel.io/docs/v2/',
             },
             {
               label: 'Discord',
               href: 'https://discord.cloudpanel.io',
+            },
+            {
+              label: 'Blog',
+              href: 'https://www.cloudpanel.io/blog/',
+            },
+            {
+              label: 'Tutorials',
+              href: 'https://www.cloudpanel.io/tutorials/',
             },
           ],
         },
@@ -89,12 +101,12 @@ module.exports = {
           title: 'Connect',
           items: [
             {
-              label: 'Github',
-              href: 'https://github.com/cloudpanel-io/'
-            },
-            {
               label: 'Discord',
               href: 'https://discord.cloudpanel.io/',
+            },
+            {
+              label: 'Github',
+              href: 'https://github.com/cloudpanel-io/'
             },
             {
               label: 'Linkedin',
@@ -119,11 +131,7 @@ module.exports = {
             },
             {
               label: 'Feedback',
-              href: 'https://www.cloudpanel.io/feedback/',
-            },
-            {
-              label: 'Blog',
-              href: 'https://www.cloudpanel.io/blog/',
+              href: 'https://www.cloudpanel.io/contact/',
             },
           ],
         },
