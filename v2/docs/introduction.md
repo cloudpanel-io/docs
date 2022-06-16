@@ -15,11 +15,11 @@ Run **PHP**, **Node.js**, **Static Websites**, and **Python** applications in no
 Quick launch support for:
 
 - [Amazon Web Services](../getting-started/amazon-web-services/installation/ami/)
-- [Digital Ocean](../getting-started/digital-ocean/installation/installer/)
+- [Digital Ocean](../getting-started/digital-ocean/installation/marketplace/)
 - [Hetzner Cloud](../getting-started/hetzner-cloud/installation/installer/)
 - [Google Compute Engine](../getting-started/google-compute-engine/installation/installer/)
 - [Microsoft Azure](../getting-started/microsoft-azure/installation/installer/)
-- [Vultr](../getting-started/vultr/installation/installer/)
+- [Vultr](../getting-started/vultr/installation/marketplace/)
 - [Other](../getting-started/other/)
 
 <img alt="CloudPanel" class="border" src={useBaseUrl('img/cloudpanel.png')} />
