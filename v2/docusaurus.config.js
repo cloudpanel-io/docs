@@ -27,7 +27,7 @@ module.exports = {
       logo: {
         alt: 'CloudPanel | Documentation',
         src: 'img/logo.svg',
-        href: 'https://www.cloudpanel.io/docs/v2/introduction',
+        href: 'https://www.cloudpanel.io/',
         target: '_self'
       },
       items: [

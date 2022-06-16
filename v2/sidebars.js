@@ -80,6 +80,7 @@ module.exports = {
         'frontend-area/settings',
         'frontend-area/vhost',
         'frontend-area/databases',
+        'frontend-area/e-mail',
         'frontend-area/tls',
         'frontend-area/security',
         'frontend-area/ssh-ftp',
