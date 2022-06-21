@@ -27,7 +27,7 @@ Make sure to have a **valid DNS** record for the domains you want to create a ce
 You don't need to issue a **Let's Encrypt Certificate** if you use [Cloudflare](https://www.cloudflare.com).
 
 :::warning Recommendation
-For higher security, it's recommended to enable [Allow traffic from Cloudflare only](security#cloudflare) for your site so that attackers cannot bypass the traffic.
+For higher security, it's recommended to enable [Allow traffic from Cloudflare only](../security#cloudflare) for your site so that attackers cannot bypass the traffic.
 :::
 
 To use the free certificates from **Cloudflare**, do the following:

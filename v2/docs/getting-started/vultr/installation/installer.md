@@ -51,7 +51,6 @@ Select the **Server Size** you want to deploy. We recommend at least **1 vCPU** 
 
 <img class="border" alt="Deploy Now" src={useBaseUrl('img/getting-started/vultr/deploy-now.png')} />
 
-
 ## Install CloudPanel
 
 After launching the **Instance**, log in with **SSH** and run the installer script.
@@ -70,7 +69,13 @@ values={[
 ssh -i path_to_your_private_key root@serverIpAddress
 ```
 
-2. Run the installer with your preferred **Database Engine**.
+2. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+3. Run the installer with your preferred **Database Engine**.
 
 <Tabs
 defaultValue="ubuntu-mysql-8.0"
@@ -103,7 +108,13 @@ curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr DB
 ssh -i path_to_your_private_key root@serverIpAddress
 ```
 
-2. Run the installer with your preferred **Database Engine**.
+2. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+3. Run the installer with your preferred **Database Engine**.
 
 <Tabs
 defaultValue="debian-mysql-8.0"

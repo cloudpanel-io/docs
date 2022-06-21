@@ -77,7 +77,13 @@ values={[
 ssh -i path_to_your_private_key root@yourFloatingIpAddress
 ```
 
-2. Run the installer with your preferred **Database Engine**.
+2. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+3. Run the installer with your preferred **Database Engine**.
 
 <Tabs
 defaultValue="ubuntu-mysql-8.0"
@@ -110,7 +116,13 @@ curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=do DB_EN
 ssh -i path_to_your_private_key root@yourFloatingIpAddress
 ```
 
-2. Run the installer with your preferred **Database Engine**.
+2. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+3. Run the installer with your preferred **Database Engine**.
 
 <Tabs
 defaultValue="debian-mysql-8.0"

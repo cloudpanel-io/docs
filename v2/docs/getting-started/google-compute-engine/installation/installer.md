@@ -120,7 +120,13 @@ ssh -i path_to_your_private_key username@yourIpAddress
 sudo su root
 ```
 
-3. Run the installer with your preferred **Database Engine**.
+3. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+4. Run the installer with your preferred **Database Engine**.
 
 <Tabs
 defaultValue="ubuntu-mysql-8.0"
@@ -164,7 +170,13 @@ ssh -i path_to_your_private_key username@yourIpAddress
 sudo su root
 ```
 
-3. Run the installer with your preferred **Database Engine**.
+3. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+4. Run the installer with your preferred **Database Engine**.
 
 <Tabs
 defaultValue="debian-mysql-8.0"

@@ -28,6 +28,12 @@ If you are using a **password** to login, the **SSH command** would be:
 ssh root@yourIpAddress
 ```
 
+Before running the installer, we need to update the sources and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
 <Tabs
 defaultValue="ubuntu-22.04"
 values={[
