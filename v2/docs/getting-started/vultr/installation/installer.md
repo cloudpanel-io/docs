@@ -10,7 +10,6 @@ import TabItem from '@theme/TabItem';
 
 On this page, we explain step by step how to install **CloudPanel** on [VULTR](https://www.vultr.com/).
 
-
 ## Launch an Instance
 
 1. Login nto your [VULTR](https://my.vultr.com/) account. 
