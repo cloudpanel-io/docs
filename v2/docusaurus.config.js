@@ -12,16 +12,12 @@ module.exports = {
   trailingSlash: true,
   scripts: [
     'https://www.cloudpanel.io/docs/v2/js/discord.js',
+    'https://www.cloudpanel.io/docs/v2/js/gtag.js',
   ],
   themeConfig: {
     colorMode: {
       disableSwitch: true
     },
-    /*
-    gtag: {
-      trackingID: 'UA-168148528-1',
-    },
-    */
     prism: {
       theme: require('prism-react-renderer/themes/github'),
     },
