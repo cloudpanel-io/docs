@@ -14,7 +14,7 @@ On this page, we explain step by step how to run **CloudPanel** on [VULTR](https
 
 2) Click on the button **Deploy CloudPanel Instance**.
 
-[![Deploy CloudPanel Instance](/img/v1/getting_started/vultr_installation/create_cloudpanel_instance_one_click.png)](https://my.vultr.com/deploy?marketplace_app=cloudpanel1&marketplace_vendor_username=cloudpanel&ref=6879286)
+[![Deploy CloudPanel Instance](/img/v1/getting_started/vultr_installation/create_cloudpanel_instance_one_click.png)](https://my.vultr.com/deploy?marketplace_app=cloudpanel2-ubuntu-2204&marketplace_vendor_username=cloudpanel&ref=6879286)
 
 ### Choose Server Type
 
