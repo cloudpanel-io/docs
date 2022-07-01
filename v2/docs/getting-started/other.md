@@ -48,12 +48,20 @@ Run the installer with your preferred **Database Engine**.
 defaultValue="ubuntu-mysql-8.0"
 values={[
 { label: 'MySQL 8.0', value: 'ubuntu-mysql-8.0', },
+{ label: 'MariaDB 10.8', value: 'ubuntu-mariadb-10.8', },
 { label: 'MariaDB 10.6', value: 'ubuntu-mariadb-10.6', },
 ]}>
 <TabItem value="ubuntu-mysql-8.0">
 
 ```bash
 curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo bash
+```
+
+</TabItem>
+<TabItem value="ubuntu-mariadb-10.8">
+
+```bash
+curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo DB_ENGINE=MARIADB_10.8 bash
 ```
 
 </TabItem>
@@ -76,6 +84,7 @@ defaultValue="debian-mysql-8.0"
 values={[
 { label: 'MySQL 8.0', value: 'debian-mysql-8.0', },
 { label: 'MySQL 5.7', value: 'debian-mysql-5.7', },
+{ label: 'MariaDB 10.8', value: 'debian-mariadb-10.8', },
 { label: 'MariaDB 10.7', value: 'debian-mariadb-10.7', },
 ]}>
 <TabItem value="debian-mysql-8.0">
@@ -89,6 +98,13 @@ curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo bash
 
 ```bash
 curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo DB_ENGINE=MYSQL_5.7 bash
+```
+
+</TabItem>
+<TabItem value="debian-mariadb-10.8">
+
+```bash
+curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo DB_ENGINE=MARIADB_10.8 bash
 ```
 
 </TabItem>
