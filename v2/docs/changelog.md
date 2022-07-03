@@ -6,11 +6,12 @@ sidebar_label: Changelog
 
 ## v2.0.1 - [2022-07-04]
 
-**Updates:**
+**New**
 - Added Portuguese (Brasil) translation
+- Added Turkish translation
 - MariaDB 10.8 support for Ubuntu and Debian
 
-**Bug Fixes:**
+**Bug Fixes**
 - Site User Name generation didn't work with a two-level subdomain like wp.blog.eu.org
 - Translations fixes
 
