@@ -4,6 +4,11 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.0.2 - [2022-07-04]
+
+**Bug Fixes**
+- Remove FS_CHMOD_FILE and FS_CHMOD_DIR from default WP settings
+
 ## v2.0.1 - [2022-07-04]
 
 **New**
