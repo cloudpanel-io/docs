@@ -59,21 +59,21 @@ Enter a **hostname**, and click on the button **Create Droplet** to launch your 
 
 <img class="border" alt="Finalize and Create" src={useBaseUrl('img/getting-started/digital-ocean/finalize-and-create.png')} />
 
-## Assigning a Floating IP
+## Assigning a Reserved IP
 
-A **Floating IP** (static ip) is highly recommended to have the same IP after changing the size of your **Droplet**.
+A **Reserved IP** (static ip) is highly recommended to have the same IP after changing the size of your **Droplet**.
 
-To create a **Floating IP**, do the following steps:
+To create a **Reserved IP**, do the following steps:
 
 1. In the left navigation, click on **Networking**.
 
-2. Select your **Droplet** and click on the button **Assign Floating IP**.
+2. Select your **Droplet** and click on the button **Assign Reserved IP**.
 
-<img class="border" alt="Assigning a Floating IP" src={useBaseUrl('img/getting-started/digital-ocean/assigning-a-floating-ip.png')} />
+<img class="border" alt="Assigning a Reserved IP" src={useBaseUrl('img/getting-started/digital-ocean/assigning-a-reserved-ip.png')} />
 
 ## Access CloudPanel
 
-You can now access **CloudPanel** via Browser: **https://yourFloatingIpAddress:8443**
+You can now access **CloudPanel** via Browser: **https://yourIpAddress:8443**
 
 Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to **CloudPanel**.
 
