@@ -31,6 +31,10 @@ A [Basic Auth](../../../admin-area/security/#basic-auth) in front of **CloudPane
 Enable [Two-Factor Authentication](../../../frontend-area/account/#two-factor-authentication) for your users, providing a second layer of security 
 in case a user is using a weak password or the password is stolen.
 
+### Constant Updates
+
+Software may have security vulnerabilities, therefore is important to constantly [Update CloudPanel](../../../update).
+
 ## Site Security
 
 ## Server Security
