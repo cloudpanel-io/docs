@@ -210,6 +210,7 @@ module.exports = {
           label: 'Best Practices',
           items: [
             'guides/best-practices/security',
+            'guides/best-practices/performance',
           ],
         },
       ],
