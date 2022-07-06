@@ -18,7 +18,7 @@ In the next section, you will find some **services** that can be used for handli
 ## E-Mail Service Providers
 
 - [Zoho Mail](https://www.zoho.com/mail/) (**FREE** but limited, **POP3** and **IMAP** only in paid version)
-- [Google G Suite](https://gsuite.google.com/) (Our **recommendation**)
+- [Google Workspace](https://workspace.google.com/) (Our **recommendation**)
 - [Amazon WorkMail](https://aws.amazon.com/workmail/)
 - [Microsoft 365](https://www.microsoft.com/microsoft-365)
 - [GoDaddy](https://www.godaddy.com/email/professional-business-email)
