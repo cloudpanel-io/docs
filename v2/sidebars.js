@@ -177,6 +177,7 @@ module.exports = {
           label: 'Guides',
           items: [
             'php/guides/building-a-php-extension',
+            'php/guides/installing-ioncube',
           ],
         },
       ],
