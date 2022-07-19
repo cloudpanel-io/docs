@@ -5,6 +5,7 @@ sidebar_label: How to install ionCube
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
 In this guide, you will find a **step-by-step guide** on how to install **ionCube** for PHP. At the time of writing this article ionCube only supports PHP versions up to PHP 7.4.x. Anything higher will not work. This guide is for PHP 7.4.
 
 ## Downloading and installing ionCube
