@@ -6,6 +6,10 @@ sidebar_label: OroCommerce 4.2
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 On this page, we explain step by step how to setup **[OroCommerce 4.2](https://oroinc.com/b2b-ecommerce/)** with **CloudPanel**.
 
 ## Installation

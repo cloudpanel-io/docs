@@ -6,6 +6,10 @@ sidebar_label: Symfony 5
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 On this page, we explain step by step how to setup **[Symfony 5](https://symfony.com/)** with **CloudPanel**.
 
 ## Installation

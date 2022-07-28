@@ -6,6 +6,10 @@ sidebar_label: Marketplace
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 On this page, we explain step by step how to run **CloudPanel** on [Digital Ocean](https://www.digitalocean.com/) via Marketplace.
 
 ## Launching a Droplet

@@ -6,6 +6,10 @@ sidebar_label: Commands
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 The **CloudPanel CLI** is a command-line application that offers commands for backing up databases, restoring databases,
 showing database credentials,  disabling two-factor authentification, resetting passwords, and resetting permissions.
 

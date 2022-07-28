@@ -6,6 +6,10 @@ sidebar_label: Action Log
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 ## Action Log
 
 The **Action Log** gives you an overview of all recently made changes.

@@ -8,6 +8,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 [Cloudflare](https://www.cloudflare.com/) is a content delivery network (CDN). A CDN is a distributed network of servers that provides several advantages for a web site:
 
 - **Caching:** By caching web site content, Cloudflare helps improve page load speeds, reduce bandwidth usage, and reduce CPU usage on the server.

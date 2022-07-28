@@ -6,6 +6,10 @@ sidebar_label: Google Cloud
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 ## Service Account Keys
 
 To enable all **cloud functionalities**, you need to enter [Service Account Keys](https://cloud.google.com/iam/docs/creating-managing-service-account-keys),

@@ -6,6 +6,10 @@ sidebar_label: Technology Stack
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 The technology stack of CloudPanel consists of modern and lightweight components for maximum performance for PHP applications.
 
 ## Components

@@ -4,6 +4,10 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 ## v1.0.7 - [2021-11-25]
 
 **Updates:**

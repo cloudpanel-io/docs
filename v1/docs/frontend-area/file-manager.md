@@ -6,6 +6,10 @@ sidebar_label: File Manager
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 **CloudPanel** doesn't provide a **File Manager** because there are plenty of good tools for all operating systems.
 
 With the following tools, you can upload and manage files via **FTP** or encrypted via **SFTP**.

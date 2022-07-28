@@ -6,6 +6,10 @@ sidebar_label: Databases
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 ## Adding a Database
 
 To add a new **Database**, click on the button **Add Database** top right.

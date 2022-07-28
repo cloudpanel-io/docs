@@ -6,6 +6,10 @@ sidebar_label: Vhost Templates
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 ## Application
 
 The right **Vhost Template** for your **Application** is essential. For managing the **CloudPanel Vhost Templates** we 

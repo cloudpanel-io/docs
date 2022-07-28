@@ -8,6 +8,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 Using ionCube encoded and secured PHP files requires a file called the [ionCube Loader](https://www.ioncube.com/) to be installed on the web server and made available to PHP.
 
 ## Enable Loader

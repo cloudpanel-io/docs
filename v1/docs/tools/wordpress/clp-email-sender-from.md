@@ -8,6 +8,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
 
 [CLP E-Mail Sender From](https://github.com/cloudpanel-io/clp-email-sender-from) is a **WordPress plugin** to change the **E-Mail** from **Name** and **Address**.
 

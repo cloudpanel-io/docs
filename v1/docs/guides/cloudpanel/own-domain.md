@@ -8,6 +8,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 On this page, you will find a guide on how to run **CloudPanel** under its own domain with a **Let's Encrypt certificate**.
 
 1. [Add the Domain](../../frontend-area/domains#adding-a-domain) **cp.domain.com** and select the **Generic Vhost Template**.

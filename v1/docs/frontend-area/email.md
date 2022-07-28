@@ -6,6 +6,10 @@ sidebar_label: E-Mail
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 **CloudPanel** doesn't provide **E-Mail** because of **performance**. We want to keep it **clean** and **lightweight**.
 
 **E-Mail** is very **complex** and shouldn't be handled by the server that runs your **PHP Apps**.

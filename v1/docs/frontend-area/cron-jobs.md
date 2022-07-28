@@ -6,6 +6,10 @@ sidebar_label: Cron Jobs
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 **Cron** is one of the most useful utility that you can find in any Unix-like operating system.  <br />
 It is used to schedule commands at a specific time. These scheduled commands or tasks are known as **Cron Jobs**. 
 

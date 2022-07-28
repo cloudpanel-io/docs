@@ -6,6 +6,10 @@ sidebar_label: Database Servers
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 ## Database Servers
 
 Using a separate **Database Server** to handle all database queries has advantages like better **performance** and the possibility to **restore** to a specific time.

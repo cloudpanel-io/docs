@@ -4,6 +4,10 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
+:::warning CloudPanel v1 is obsolete
+CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cloudpanel.io/docs/v2/introduction/).
+:::
+
 For using CloudPanel, the only requirement is the operating system Debian 10.
 For all common clouds like Amazon Web Services, Digital Ocean, Google Cloud, and Microsoft Azure, we have prepared an image for a quick launch.
 
