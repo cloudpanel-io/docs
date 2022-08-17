@@ -103,9 +103,9 @@ Enter a new strong **Password** or click on **Generate new password** and click 
 
 To login via FTP to the server, you need a client like [FileZilla](https://filezilla-project.org/).
 
-1. Ensure the [Proftpd MasqueradeAddress](../admin-area/instance#proftpd-settings) is correctly set.
+1. Ensure the [Proftpd MasqueradeAddress](../../admin-area/instance#proftpd-settings) is correctly set.
 
-2. Go to the [Firewall](../admin-area/security#adding-a-rule) in the **Admin Area** and add the following rule.
+2. Go to the [Firewall](../../admin-area/security#adding-a-rule) in the **Admin Area** and add the following rule.
 
 <img alt="Add FTP Firewall Rule" class="border" src={useBaseUrl('img/frontend-area/ssh-ftp/add-ftp-firewall-rule.png')} />
 
