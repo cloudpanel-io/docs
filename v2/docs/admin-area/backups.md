@@ -26,7 +26,7 @@ Select the **Storage Provider** of your choice and click on **Continue**.
 ### Configuration
 
 <Tabs
-defaultValue="sftp" values={[
+defaultValue="custom-rclone-config" values={[
   { label: 'Amazon S3', value: 'amazon-s3', }, 
   { label: 'Wasabi', value: 'wasabi', },
   { label: 'Digital Ocean Spaces', value: 'digital-ocean-spaces', },
