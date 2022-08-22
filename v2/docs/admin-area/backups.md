@@ -26,7 +26,7 @@ Select the **Storage Provider** of your choice and click on **Continue**.
 ### Configuration
 
 <Tabs
-defaultValue="google-drive" values={[
+defaultValue="sftp" values={[
   { label: 'Amazon S3', value: 'amazon-s3', }, 
   { label: 'Wasabi', value: 'wasabi', },
   { label: 'Digital Ocean Spaces', value: 'digital-ocean-spaces', },
@@ -119,7 +119,19 @@ All backups are stored in **Apps/CloudPanel/** in your **Dropbox**.
 </TabItem>
 <TabItem value="sftp">
 
-SFTP
+:::warning Remote Server Connection Test
+Test the connection to the remote server by login into the **CloudPanel** instance via SSH as root user and try to establish an **SSH/SFTP** connection.
+:::
+
+1. Test the connection to the remote server from the **CloudPanel Instance**.
+
+2. Fill out the form and click on the button **Save**.
+
+<img class="border" alt="SFTP" src={useBaseUrl('img/admin-area/backups/sftp.png')} />
+
+3. Click on the button **Create Button** top right to create the first backup and to check if everything is working as expected.
+
+<img class="border" alt="SFTP - Create Backup" src={useBaseUrl('img/admin-area/backups/sftp-create-backup.png')} />
 
 </TabItem>
 <TabItem value="custom-rclone-config">
