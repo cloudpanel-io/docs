@@ -96,6 +96,7 @@ module.exports = {
         'admin-area/users',
         'admin-area/events',
         'admin-area/instance',
+        'admin-area/backups',
         'admin-area/security',
         'admin-area/settings',
         {
