@@ -4,6 +4,17 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.0.3 - [2022-08-26]
+
+**New**
+- Remote Backup
+- Added Languages: Italian, Indonesian, Spanish, Romanian, Polish, Vietnamese
+
+**Bug Fixes**
+- [#115 Using " in the additional directives configuration breaks CloudPanel](https://github.com/cloudpanel-io/cloudpanel-ce/issues/115)
+- [#122 Numeral in Domain Name Can't Install Wordpress](https://github.com/cloudpanel-io/cloudpanel-ce/issues/122)
+- [#132 413 Request Entity Too Large, File Manager file upload over 512MB with custom domain](https://github.com/cloudpanel-io/cloudpanel-ce/issues/132)
+
 ## v2.0.2 - [2022-07-04]
 
 **Bug Fixes**
