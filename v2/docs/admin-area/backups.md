@@ -5,6 +5,8 @@ sidebar_label: Backups
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 With **Remote Backups**, also known as **off-site backup**, you can store copies of your sites to services like **Amazon S3**, **Wasabi**, **Digital Ocean Spaces**, **Dropbox**,
 **Google Drive**, **SFTP**, or any other storage provider supported by [Rclone](https://rclone.org/).
@@ -23,6 +25,102 @@ Select the **Storage Provider** of your choice and click on **Continue**.
 
 ### Configuration
 
-sdfsdf
+<Tabs
+defaultValue="dropbox" values={[
+  { label: 'Amazon S3', value: 'amazon-s3', }, 
+  { label: 'Wasabi', value: 'wasabi', },
+  { label: 'Digital Ocean Spaces', value: 'digital-ocean-spaces', },
+  { label: 'Dropbox', value: 'dropbox', },
+  { label: 'Google Drive', value: 'google-drive', },
+  { label: 'SFTP', value: 'sftp', },
+  { label: 'Custom Rclone Config', value: 'custom-rclone-config', },
+]}>
+<TabItem value="amazon-s3">
 
-## Restore
+1. Log in to the [AWS Management Console](https://console.aws.amazon.com/ec2/).
+
+2. Create an [S3 Bucket](https://aws.amazon.com/aws/s3) and create an [AWS Access Key and Secret Access Key](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html) 
+with restricted permissions to **S3**.
+
+3. Fill out the form and click on the button **Save**.
+
+<img class="border" alt="Amazon S3" src={useBaseUrl('img/admin-area/backups/amazon-s3.png')} />
+
+4. Click on the button **Create Button** top right to create the first backup and to check if everything is working as expected.
+
+<img class="border" alt="Amazon S3 - Create Backup" src={useBaseUrl('img/admin-area/backups/amazon-s3-create-backup.png')} />
+
+</TabItem>
+<TabItem value="wasabi">
+
+1. Log in to the [Wasabi Console](https://console.wasabisys.com/).
+
+2. Create a **Bucket** and generate [Access Keys](https://console.wasabisys.com/#/access_keys).
+
+3. Fill out the form and click on the button **Save**.
+
+<img class="border" alt="Wasabi" src={useBaseUrl('img/admin-area/backups/wasabi.png')} />
+
+4. Click on the button **Create Button** top right to create the first backup and to check if everything is working as expected.
+
+<img class="border" alt="Wasabi - Create Backup" src={useBaseUrl('img/admin-area/backups/wasabi-create-backup.png')} />
+
+</TabItem>
+<TabItem value="digital-ocean-spaces">
+
+1. Login to your [Digital Ocean](https://cloud.digitalocean.com/login) account and go to [Spaces](https://cloud.digitalocean.com/spaces).
+
+2. Go to [API](https://cloud.digitalocean.com/account/api/tokens), scroll down to **Spaces access keys**, and generate **Access Keys**
+
+3. Fill out the form and click on the button **Save**.
+
+The **Space Endpoint** can be found in your **Space Settings** in your **Digital Ocean Account**.
+
+<img class="border" alt="Digital Ocean Spaces" src={useBaseUrl('img/admin-area/backups/digital-ocean-spaces.png')} />
+
+4. Click on the button **Create Button** top right to create the first backup and to check if everything is working as expected.
+
+<img class="border" alt="Digital Ocean Spaces - Create Backup" src={useBaseUrl('img/admin-area/backups/digital-ocean-spaces-create-backup.png')} />
+
+</TabItem>
+<TabItem value="dropbox">
+
+:::tip Security
+**CloudPanel** has no access to your **Dropbox Files** other than **Apps/CloudPanel/**.
+
+All backups are stored in **Apps/CloudPanel/** in your **Dropbox**.
+:::
+
+1. Click on **Request Access Code** to authorize access to your **Dropbox**.
+
+<img class="border" alt="Dropbox" src={useBaseUrl('img/admin-area/backups/dropbox.png')} />
+
+2. Click on the button **Create Button** top right to create the first backup and to check if everything is working as expected.
+
+<img class="border" alt="Dropbox - Create Backup" src={useBaseUrl('img/admin-area/backups/dropbox-create-backup.png')} />
+
+</TabItem>
+<TabItem value="google-drive">
+
+Google Drive
+
+</TabItem>
+<TabItem value="sftp">
+
+SFTP
+
+</TabItem>
+<TabItem value="custom-rclone-config">
+
+Custom Rclone Config
+
+</TabItem>
+</Tabs>
+
+### Excludes
+
+sdfsdfsdf
+
+## Restoring Files
+
+dfsfsdf

@@ -157,7 +157,7 @@ server {
 2. Replace the default vhost with the following one, replacing the **location /** to forward all requests to the **uWSGI Service**.
 
 :::warning server_name
-Replace the **server_name** with your domain.
+Replace the value of **server_name** with your domain.
 :::
 
 ```
