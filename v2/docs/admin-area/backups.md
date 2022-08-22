@@ -26,7 +26,7 @@ Select the **Storage Provider** of your choice and click on **Continue**.
 ### Configuration
 
 <Tabs
-defaultValue="dropbox" values={[
+defaultValue="google-drive" values={[
   { label: 'Amazon S3', value: 'amazon-s3', }, 
   { label: 'Wasabi', value: 'wasabi', },
   { label: 'Digital Ocean Spaces', value: 'digital-ocean-spaces', },
@@ -102,7 +102,19 @@ All backups are stored in **Apps/CloudPanel/** in your **Dropbox**.
 </TabItem>
 <TabItem value="google-drive">
 
-Google Drive
+:::warning Only for Google Workspace Users
+**Google Drive** as storage provider can only be used if you use the paid **Google Workspace** service.
+:::
+
+1. To create an **Service Account**, follow the steps on the following site [https://rclone.org/drive/](https://rclone.org/drive/#use-case-google-apps-g-suite-account-and-individual-drive).
+
+2. Fill out the form and click on the button **Save**.
+
+<img class="border" alt="Google Drive" src={useBaseUrl('img/admin-area/backups/google-drive.png')} />
+
+3. Click on the button **Create Button** top right to create the first backup and to check if everything is working as expected.
+
+<img class="border" alt="Google Drive - Create Backup" src={useBaseUrl('img/admin-area/backups/google-drive-create-backup.png')} />
 
 </TabItem>
 <TabItem value="sftp">
