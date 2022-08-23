@@ -8,7 +8,7 @@ sidebar_label: Changelog
 
 **New**
 - Remote Backup (Amazon S3, Wasabi, Digital Ocean Spaces, Dropbox, Google Drive, SFTP and Custom Rclone Config)
-- Added Languages: Italian, Indonesian, Spanish, Romanian, Polish, Vietnamese
+- Added Languages: Italian, Indonesian, Spanish, Romanian, Russian, Polish, Vietnamese
 
 **Bug Fixes**
 - [#115 Using " in the additional directives configuration breaks CloudPanel](https://github.com/cloudpanel-io/cloudpanel-ce/issues/115)
