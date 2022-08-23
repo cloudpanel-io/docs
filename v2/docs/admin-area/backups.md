@@ -153,7 +153,7 @@ rclone config
 
 4. Create your config by using the **Rclone Wizard**. The configuration is being stored at: **/root/.config/rclone/rclone.conf**
 
-Our **Backblaze** configuration looks like that:
+Our example **Backblaze** configuration looks like that:
 
 ```bash
 [remote]
@@ -171,7 +171,7 @@ touch /tmp/test-file
 
 6. Upload the **test file** via **rclone**.
 
-For **S3 Compatible Endpoints** like **Backblaze** which uses **buckets** use the following command:
+For **S3 Compatible Endpoints** like **Backblaze** use the following command:
 
 ```bash
 rclone copy /tmp/test-file remote:my-bucket-name/backups/
