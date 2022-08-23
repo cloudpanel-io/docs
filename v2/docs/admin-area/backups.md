@@ -200,9 +200,35 @@ rclone copy /tmp/test-file remote:backups/
 
 By default, all sites are backed up.
 The vhost and the entire home directory of each site, excluding the **.ssh**, **logs**, and **tmp** directory, are included in the backup.
-In the **Excludes** textarea, you can exclude directories and files. <br />
+In the **Excludes** field, you can exclude directories and files. <br />
 If you want to exclude a site from the backup, put **/home/$site-user/** in the excludes.
 
 ## Restoring Files
 
-dfsfsdf
+To restore **files** or **directories**, go to your storage provider and download the backup file **backup.tar** of your site.
+
+### Via File Manager
+
+Restoring files via **File Manager** is recommended for backup files smaller than **2 GB**.
+
+1. Go to the [File Manager](../../frontend-area/file-manager/) of your site and upload the backup file **backup.tar** to the **tmp** directory.
+
+2. Make right-click on the file **backup.tar** and extract the file.
+
+<img class="border" alt="Extract Backup File" src={useBaseUrl('img/admin-area/backups/file-manager-extract-file.png')} />
+
+3. Copy and replace the files you need.
+
+### Via SFTP/SSH
+
+This method is recommended for backup files bigger than **2 GB** which cannot be uploaded via **File Manager**.
+
+2. Upload the **backup.tar** file via **SFTP** into your **tmp** directory or your site.
+
+3. Login via **SSH** to the **instance** with your **site user** and extract the backup file.
+
+```bash
+tar xf ~/tmp/backup.tar
+```
+
+4. Copy and replace the files you need.
