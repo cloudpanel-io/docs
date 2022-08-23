@@ -198,7 +198,10 @@ rclone copy /tmp/test-file remote:backups/
 
 ### Excludes
 
-sdfsdfsdf
+By default, all sites are backed up.
+The vhost and the entire home directory of each site, excluding the **.ssh**, **logs**, and **tmp** directory, are included in the backup.
+In the **Excludes** textarea, you can exclude directories and files. <br />
+If you want to exclude a site from the backup, put **/home/$site-user/** in the excludes.
 
 ## Restoring Files
 
