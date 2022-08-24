@@ -4,10 +4,10 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
-## v2.0.3 - [2022-08-26]
+## v2.0.3 - [2022-08-24]
 
 **New**
-- Remote Backup (Amazon S3, Wasabi, Digital Ocean Spaces, Dropbox, Google Drive, SFTP and Custom Rclone Config)
+- [Remote Backup](../admin-area/backups/) (Amazon S3, Wasabi, Digital Ocean Spaces, Dropbox, Google Drive, SFTP and Custom Rclone Config)
 - Added Languages: Italian, Indonesian, Spanish, Romanian, Russian, Polish, Vietnamese
 
 **Bug Fixes**
