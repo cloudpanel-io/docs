@@ -24,7 +24,7 @@ values={[
 ]}>
 <TabItem value="ubuntu-22.04">
 
-[![Create CloudPanel Droplet](/img/getting-started/digital-ocean/create-droplet-one-click.png)](https://cloud.digitalocean.com/droplets/new?onboarding_origin=marketplace&appId=110971909&image=mgtcommercegmbh-cloudpanel2ubunt&activation_redirect=%2Fdroplets%2Fnew%3FappId%3D110971909%26image%3Dmgtcommercegmbh-cloudpanel2ubunt)
+[![Create CloudPanel Droplet](/img/getting-started/digital-ocean/create-droplet-one-click.png)](https://cloud.digitalocean.com/droplets/new?onboarding_origin=marketplace&appId=115473678&image=mgtcommercegmbh-cloudpanel2ubunt&activation_redirect=%2Fdroplets%2Fnew%3FappId%3D115473678%26image%3Dmgtcommercegmbh-cloudpanel2ubunt)
 
 </TabItem>
 <TabItem value="debian-11">

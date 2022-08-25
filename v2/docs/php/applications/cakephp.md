@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **CakePHP Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project --prefer-dist cakephp/app:~4.3 www.domain.com
+php8.1 /usr/local/bin/composer create-project --prefer-dist cakephp/app:~4.4 www.domain.com
 ```
 
 4. **Done!** You can now open your site in your browser to see the **Welcome to CakePHP 4** page.

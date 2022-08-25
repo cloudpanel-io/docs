@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the [latest Joomla 4](https://downloads.joomla.org/) version.
 
 ```
-mkdir ~/tmp/joomla && curl -sL https://downloads.joomla.org/cms/joomla4/4-1-3/Joomla_4-1-3-Stable-Full_Package.tar.gz | tar xfz - -C ~/tmp/joomla/
+mkdir ~/tmp/joomla && curl -sL https://downloads.joomla.org/cms/joomla4/4-2-0/Joomla_4-2-0-Stable-Full_Package.tar.gz | tar xfz - -C ~/tmp/joomla/
 ```
 
 4. Copy files to the **root directory** of your site:

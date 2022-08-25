@@ -47,10 +47,10 @@ for our customers. **AWS** basically creates one full backup and performs increm
 
 With **CloudPanel**, you can enable automatic backups; see the available [Cloud Features](../../../admin-area/cloud-features/amazon-web-services/).
 
-### Offsite Backups
+### Remote Backups
 
-Using the cloud to create images or snapshots is a good backup strategy, but the cloud can also fail and create corrupted backups. 
-Syncing all files and database backups, e.g., once daily, to an external server is recommended.
+With the integrated [Remote Backups](../../../admin-area/backups/), you can store copies of your sites to services like **Amazon S3**, **Wasabi**, 
+**Digital Ocean Spaces**, **Dropbox**, **SFTP**, and other storage providers.
 
 ### Test your Backups
 
