@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the latest **Shopware 6** version.
 
 ```bash
-curl -sLo shopware6.zip https://www.shopware.com/en/Download/redirect/version/sw6/file/install_v6.4.11.1_4acac2b5012d6a03377ae5881590aec8cda0196b.zip && unzip shopware6.zip -d shopware6
+curl -sLo shopware6.zip https://www.shopware.com/en/Download/redirect/version/sw6/file/install_v6.4.14.0_812d867f6f77d6d5b0475ba9dd540c97550ac108.zip && unzip shopware6.zip -d shopware6
 ```
 
 :::caution Latest Version

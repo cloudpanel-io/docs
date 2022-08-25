@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the latest **PrestaShop 1.7** version.
 
 ```bash
-curl -sL https://github.com/PrestaShop/PrestaShop/archive/1.7.8.6.tar.gz | tar xfz -
+curl -sL https://github.com/PrestaShop/PrestaShop/archive/1.7.8.7.tar.gz | tar xfz -
 ```
 
 :::caution Latest Version
@@ -55,7 +55,7 @@ You find the latest version on github: [https://github.com/PrestaShop/PrestaShop
 4. Copy files to the **root directory** of your site:
 
 ```
-cp -R PrestaShop-1.7.8.6/*  ~/htdocs/www.domain.com/
+cp -R PrestaShop-1.7.8.7/*  ~/htdocs/www.domain.com/
 ```
 
 5. Install the project via **composer**:
