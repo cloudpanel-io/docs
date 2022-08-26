@@ -10,7 +10,7 @@ On this site, you will find a **step-by-step guide** on deploying a **Python App
 
 ## Creating a Python Site
 
-[Create a Python Site](../../frontend-area/add-site/#create-a-python-site) with the right **Python Version** and ensure the **App Port** is correct.
+[Create a Python Site](../../../frontend-area/add-site/#create-a-python-site) with the right **Python Version** and ensure the **App Port** is correct.
 
 ## Creating a uWSGI Config
 
