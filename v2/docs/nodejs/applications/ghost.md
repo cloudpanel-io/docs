@@ -97,6 +97,8 @@ Modify the **--dir** value and save the **start script**:
 
 ```bash
 #!/bin/bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ghost run --dir $HOME/htdocs/www.domain.com/ > $HOME/logs/ghost.log &
 ```
 
