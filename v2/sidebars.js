@@ -135,6 +135,7 @@ module.exports = {
           type: 'category',
           label: 'Applications',
           items: [
+            'nodejs/applications/ghost',
             'nodejs/applications/strapi',
           ],
         },
