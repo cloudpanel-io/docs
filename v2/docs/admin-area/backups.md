@@ -26,12 +26,13 @@ Select the **Storage Provider** of your choice and click on **Continue**.
 ### Configuration
 
 <Tabs
-defaultValue="custom-rclone-config" values={[
+defaultValue="amazon-s3" values={[
   { label: 'Amazon S3', value: 'amazon-s3', }, 
   { label: 'Wasabi', value: 'wasabi', },
   { label: 'Digital Ocean Spaces', value: 'digital-ocean-spaces', },
   { label: 'Dropbox', value: 'dropbox', },
   { label: 'Google Drive', value: 'google-drive', },
+  { label: 'Hetzner Storage Box', value: 'hetzner-storage-box', },
   { label: 'SFTP', value: 'sftp', },
   { label: 'Custom Rclone Config', value: 'custom-rclone-config', },
 ]}>
@@ -98,6 +99,40 @@ All backups are stored in **Apps/CloudPanel/** in your **Dropbox**.
 2. Click on the button **Create Button** top right to create the first backup, and check your **Dropbox** to see if everything is working as expected.
 
 <img class="border" alt="Dropbox - Create Backup" src={useBaseUrl('img/admin-area/backups/dropbox-create-backup.png')} />
+
+</TabItem>
+<TabItem value="hetzner-storage-box">
+
+1. Log in to the [Hetzner Robot](https://robot.your-server.de/).
+
+2. Go to your [Storage Box](https://robot.your-server.de/storage) and enable **SSH Support**.
+
+<img class="border" alt="Hetzner Storage Box - Enable SSH" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-enable-ssh.png')} />
+
+3. Login via **SSH (Port 23)** to the **Storage Box**:
+
+```bash
+ssh u315698@u315698.your-storagebox.de -p23
+```
+
+4. Create **backups** directory:
+
+```bash
+mkdir backups
+```
+
+<img class="border" alt="Hetzner Storage Box - Create Backups Directory" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-create-backups-directory.png')} />
+
+5. Go to **CloudPanel** and select **SFTP** as **Storage Provider**.
+
+6. Fill out the form, use Port **23** and **/home/backups**/ as **Remote Server Path**.
+
+<img class="border" alt="Hetzner Storage Box - Fill Form Fields" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-form.png')} />
+
+7. Click on the button **Create Button** top right to create the first backup, and check your **Storage Box** to see if everything is working as expected.
+
+<img class="border" alt="Hetzner Storage Box - Create Backup" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-create-backup.png')} />
+
 
 </TabItem>
 <TabItem value="google-drive">
