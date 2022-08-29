@@ -213,7 +213,13 @@ module.exports = {
           label: 'Best Practices',
           items: [
             'guides/best-practices/security',
-            'guides/best-practices/performance',
+            {
+              type: 'category',
+              label: 'Performance',
+              items: [
+                'guides/best-practices/performance/server-benchmarks',
+              ]
+            },
           ],
         },
       ],
