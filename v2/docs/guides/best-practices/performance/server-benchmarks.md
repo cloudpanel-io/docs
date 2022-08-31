@@ -34,7 +34,7 @@ curl -sL yabs.sh | bash -s -- -i
 
 3. Check and compare the **Geekbench 5 Benchmark Test Result**:
 
-<img alt="Select Storage Provider" src={useBaseUrl('img/guides/best-practies/performance/server-benchmarks/geekbench-benchmark-result.png')} />
+<img alt="Select Storage Provider" src={useBaseUrl('img/guides/best-practices/performance/server-benchmarks/geekbench-benchmark-result.png')} />
 
 ## The 10 Fastest Server Types
 
@@ -62,3 +62,24 @@ Did you find a fast server that we should add to the list?
 1. Run the benchmark script above and make sure that the result is reproducible.
 
 2. Join our [Discord Server](https://discord.cloudpanel.io/) and let us know which cloud/provider and server type you tested.
+
+## Real World Example
+
+In the following **Real World Example**, you see how fast **CloudPanel** runs on a **High-Performance Server**. <br />
+If **CloudPanel** (**Lightweight PHP Application**) isn't running fast, then don't expect high performance for other applications.
+
+1. To check the **CloudPanel** performance, use the **Google Chrome Browser**, log into **CloudPanel** and click on **Sites**.
+
+2. Make a right-click and click on **Inspect** to open the **Chrome Developer Toolbar**.
+
+<img class="border" alt="Inspect Site" src={useBaseUrl('img/guides/best-practices/performance/server-benchmarks/real-world-inspect.png')} />
+
+3. Go to **Network** and click on **Doc** and reload 3-4 times to get the best result. <br />
+In our example below, you see **41ms** rendering time, which is very fast. If you see a value **>= 150ms,** 
+you may think about switching to a faster server.
+
+<img class="border" alt="First-Byte-Request" src={useBaseUrl('img/guides/best-practices/performance/server-benchmarks/real-world-first-byte-request-time.png')} />
+
+
+
+
