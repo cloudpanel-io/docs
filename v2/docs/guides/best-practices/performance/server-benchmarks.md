@@ -66,7 +66,7 @@ Did you find a fast server that we should add to the list?
 ## Real World Example
 
 In the following **Real World Example**, you see how fast **CloudPanel** runs on a **High-Performance Server**. <br />
-If **CloudPanel** (**Lightweight PHP Application**) isn't running fast, then don't expect high performance for other applications.
+If **CloudPanel** (**Lightweight PHP Application**) isn't running fast, then don't expect **High-Performance** for other applications.
 
 1. To check the **CloudPanel** performance, use the **Google Chrome Browser**, log into **CloudPanel** and click on **Sites**.
 
