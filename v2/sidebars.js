@@ -212,6 +212,13 @@ module.exports = {
           type: 'category',
           label: 'Best Practices',
           items: [
+            {
+              type: 'category',
+              label: 'Migration',
+              items: [
+                'guides/best-practices/migration/php-site',
+              ]
+            },
             'guides/best-practices/security',
             {
               type: 'category',

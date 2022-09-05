@@ -27,6 +27,10 @@ The **Site User** is an **SSH User**. All files will be stored in his home direc
 
 ## Create a PHP Site
 
+:::tip Best Practices - PHP Site Migration
+Before you start, please read the [best practices for migrating PHP Sites](../../guides/best-practices/migration/php-site/).
+:::
+
 1. Select the **Application**, the **Domain Name**, and the **PHP Version**. The **PHP Version** can be changed later if needed.
 
 :::caution Redirection
