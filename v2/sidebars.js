@@ -231,5 +231,18 @@ module.exports = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'Tools',
+      items: [
+        {
+          type: 'category',
+          label: 'WordPress',
+          items: [
+            'tools/wordpress/clp-email-sender-from',
+          ],
+        },
+      ],
+    },
   ]
 };
