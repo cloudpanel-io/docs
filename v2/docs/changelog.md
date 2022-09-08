@@ -13,6 +13,7 @@ sidebar_label: Changelog
 - [#137 Remote backups don't get deleted after configured retention period, it affects only the SFTP storage provider](https://github.com/cloudpanel-io/cloudpanel-ce/issues/137)
 - [#138 WordPress Admin login doesn't work with passwords which contains special characters like](https://github.com/cloudpanel-io/cloudpanel-ce/issues/138)
 - Translation Fixes
+- MariaDB 10.9 Support
 
 ## v2.0.3 - [2022-08-24]
 
