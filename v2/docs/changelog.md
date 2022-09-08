@@ -4,6 +4,16 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.0.4 - [2022-09-08]
+
+**New**
+- Added Languages: Arabic, Ukrainian
+
+**Bug Fixes**
+- [#137 Remote backups don't get deleted after configured retention period, it affects only the SFTP storage provider](https://github.com/cloudpanel-io/cloudpanel-ce/issues/137)
+- [#138 WordPress Admin login doesn't work with passwords which contains special characters like](https://github.com/cloudpanel-io/cloudpanel-ce/issues/138)
+- Translation Fixes
+
 ## v2.0.3 - [2022-08-24]
 
 **New**
