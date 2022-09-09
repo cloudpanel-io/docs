@@ -25,7 +25,7 @@ On this site, you find a guide to install [PrestaShop](https://www.prestashop.co
 If you like the command line, you can create a **PrestaShop Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=7.4 --vhostTemplate='PrestaShop 1.7' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=7.3 --vhostTemplate='PrestaShop 1.7' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a PrestaShop Project
@@ -62,7 +62,7 @@ cp -R PrestaShop-1.7.8.7/*  ~/htdocs/www.domain.com/
 
 ```
 cd ~/htdocs/www.domain.com/
-php7.4 /usr/local/bin/composer install
+php7.3 /usr/local/bin/composer install
 ```
 
 6. Clean up the **tmp** directory.
