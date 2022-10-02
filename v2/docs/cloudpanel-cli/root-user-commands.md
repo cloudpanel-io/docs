@@ -154,6 +154,22 @@ If you are using **Ubuntu 22.04**, you need to use the version **3.10** as it's 
 clpctl site:add:python --domainName=www.domain.com --pythonVersion=3.9 --appPort=8080 --siteUser=john --siteUserPassword='!secretPassword!'
 ```
 
+### Removing a site
+
+To remove a site (any type), just the following command:
+
+```bash
+clpctl site:delete --domainName=www.domain.com 
+``` 
+
+You need confirm typing "yes", but you can force delete this way 
+
+```bash
+clpctl site:delete --domainName=www.domain.com --force
+``` 
+
+
+
 ## User
 
 ### Password Reset
