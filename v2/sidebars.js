@@ -80,6 +80,16 @@ module.exports = {
         'frontend-area/settings',
         'frontend-area/vhost',
         'frontend-area/databases',
+        {
+          type: 'category',
+          label: 'Varnish Cache',
+          items: [
+            'frontend-area/varnish-cache/introduction',
+            'frontend-area/varnish-cache/settings',
+            'frontend-area/varnish-cache/developer-guide',
+            'frontend-area/varnish-cache/migration',
+          ]
+        },
         'frontend-area/e-mail',
         'frontend-area/tls',
         'frontend-area/security',

@@ -6,7 +6,6 @@ sidebar_label: E-Mail
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
 **CloudPanel** doesn't provide **E-Mail** because of **performance**. We want to keep it **clean** and **lightweight**.
 
 **E-Mail** is very **complex** and shouldn't be handled by the server that runs your **PHP Apps**.
