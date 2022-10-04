@@ -36,6 +36,8 @@ Right now, the following **PHP Applications** can use **Varnish Cache**:
 
 * WordPress
 * WooCommerce
+* Codeigniter
 * Laravel
 * Symfony
 * Generic
+* Slim
