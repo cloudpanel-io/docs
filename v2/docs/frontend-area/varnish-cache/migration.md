@@ -22,7 +22,7 @@ curl -sSL https://raw.githubusercontent.com/cloudpanel-io/scripts/master/varnish
 
 3. Run the command to enable **Varnish Cache** for your site. 
 
-The first parameter is your **Domain Name** and the second one is the **Application**.
+Copy the command below and replace **www.domain.com** with your **Domain Name**.
 
 <Tabs
 defaultValue="wordpress"
