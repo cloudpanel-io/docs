@@ -23,16 +23,14 @@ A copy of your page is stored in memory after the first time a user visits the p
 
 ## Benefits
 
-* Blazing Fast Page Loads
+* Blazing Fast Page Loads - Up to 1000x faster
 * Up to 80% savings in Infrastructure
 * Improved User Experience
 * Better Search Ranking
 
 ## Supported Applications
 
-We constantly work to support more Applications to benefit from **Varnish Cache**.
-
-Join us in [Discord](https://discord.cloudpanel.io) and help us support more **Applications**.
+We constantly work to support more Applications, join us in [Discord](https://discord.cloudpanel.io) and help us support more **Applications**.
 
 Right now, the following **PHP Applications** can use **Varnish Cache**:
 
