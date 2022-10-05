@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 ## Service Settings
 
-By default, **512MB** of compressed data can be stored in the memory. You should consider increasing the value if you have many sites on the server or sites with many pages.
+By default, **512MB** of data can be stored in the memory. You should consider increasing the value if you have many sites on the server or sites with many pages.
 
 To give **Varnish Cache** more memory, do the following:
 
@@ -63,6 +63,4 @@ After making changes, you need to reload the configuration.
 ```bash
 varnishreload
 ```
-
-## Service Actions
 
