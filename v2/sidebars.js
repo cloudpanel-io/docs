@@ -88,6 +88,7 @@ module.exports = {
             'frontend-area/varnish-cache/settings',
             'frontend-area/varnish-cache/developer-guide',
             'frontend-area/varnish-cache/migration',
+            'frontend-area/varnish-cache/service',
           ]
         },
         'frontend-area/e-mail',
