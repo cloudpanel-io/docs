@@ -155,12 +155,6 @@ server {
     fastcgi_param PHP_VALUE "{{php_settings}}";
   }
 
-  location ~* ^.+\.(css|js|jpg|jpeg|gif|png|ico|gz|svg|svgz|ttf|otf|woff|woff2|eot|mp4|ogg|ogv|webm|webp|zip|swf|map)$ {
-    add_header Access-Control-Allow-Origin "*";
-    expires max;
-    access_log off;
-  }
-
   if (-f $request_filename) {
     break;
   }
@@ -262,12 +256,6 @@ server {
     fastcgi_param PHP_VALUE "{{php_settings}}";
   }
 
-  location ~* ^.+\.(css|js|jpg|jpeg|gif|png|ico|gz|svg|svgz|ttf|otf|woff|woff2|eot|mp4|ogg|ogv|webm|webp|zip|swf|map)$ {
-    add_header Access-Control-Allow-Origin "*";
-    expires max;
-    access_log off;
-  }
-
   if (-f $request_filename) {
     break;
   }
@@ -351,12 +339,6 @@ server {
     fastcgi_param HTTPS "on";
     fastcgi_pass 127.0.0.1:{{php_fpm_port}};
     fastcgi_param PHP_VALUE "{{php_settings}}";
-  }
-
-  location ~* ^.+\.(css|js|jpg|jpeg|gif|png|ico|gz|svg|svgz|ttf|otf|woff|woff2|eot|mp4|ogg|ogv|webm|webp|zip|swf|map)$ {
-    add_header Access-Control-Allow-Origin "*";
-    expires max;
-    access_log off;
   }
 
   if (-f $request_filename) {
@@ -444,12 +426,6 @@ server {
     fastcgi_param PHP_VALUE "{{php_settings}}";
   }
 
-  location ~* ^.+\.(css|js|jpg|jpeg|gif|png|ico|gz|svg|svgz|ttf|otf|woff|woff2|eot|mp4|ogg|ogv|webm|webp|zip|swf|map)$ {
-    add_header Access-Control-Allow-Origin "*";
-    expires max;
-    access_log off;
-  }
-
   if (-f $request_filename) {
     break;
   }
@@ -535,12 +511,6 @@ server {
     fastcgi_param PHP_VALUE "{{php_settings}}";
   }
 
-  location ~* ^.+\.(css|js|jpg|jpeg|gif|png|ico|gz|svg|svgz|ttf|otf|woff|woff2|eot|mp4|ogg|ogv|webm|webp|zip|swf|map)$ {
-    add_header Access-Control-Allow-Origin "*";
-    expires max;
-    access_log off;
-  }
-
   if (-f $request_filename) {
     break;
   }
@@ -624,12 +594,6 @@ server {
     fastcgi_param HTTPS "on";
     fastcgi_pass 127.0.0.1:{{php_fpm_port}};
     fastcgi_param PHP_VALUE "{{php_settings}}";
-  }
-
-  location ~* ^.+\.(css|js|jpg|jpeg|gif|png|ico|gz|svg|svgz|ttf|otf|woff|woff2|eot|mp4|ogg|ogv|webm|webp|zip|swf|map)$ {
-    add_header Access-Control-Allow-Origin "*";
-    expires max;
-    access_log off;
   }
 
   if (-f $request_filename) {
