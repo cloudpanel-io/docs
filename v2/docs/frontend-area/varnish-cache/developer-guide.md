@@ -56,4 +56,4 @@ where they get processed by the **PHP Application** via **PHP-FPM**.
 
 ## Varnish PHP Controller
 
-dfsfsdf
+In the **Varnish
