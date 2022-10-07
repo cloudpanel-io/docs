@@ -57,4 +57,6 @@ The controller decides if a page can be cached and is sending headers to **Varni
 
 By checking the response headers of a page, you will find **x-cache-age**, **x-cache-lifetime**, and **x-cache-tags**.
 
+The value of **x-cache-age** returns the age of the page in seconds stored in **Varnish Cache** and remains until **x-cache-lifetime** before expiring.
+
 <iframe width="100%" frameborder="0" height="4000" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/fc38c8ca468e4348747dbaa897edde89.js'></script></body>"></iframe>
