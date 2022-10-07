@@ -86,7 +86,14 @@ module.exports = {
           items: [
             'frontend-area/varnish-cache/introduction',
             'frontend-area/varnish-cache/settings',
-            'frontend-area/varnish-cache/developer-guide',
+            {
+              type: 'category',
+              label: 'Developer Guide',
+              items: [
+                'frontend-area/varnish-cache/developer-guide/vhost',
+                'frontend-area/varnish-cache/developer-guide/php-controller',
+              ]
+            },
             'frontend-area/varnish-cache/migration',
             'frontend-area/varnish-cache/service',
           ]
