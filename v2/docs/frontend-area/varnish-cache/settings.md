@@ -54,4 +54,4 @@ You can purge more specifically by entering a single url or tags separated by a 
 
 ## Developer Guide
 
-Check out the [Developer Guide](../developer-guide) for a detailed guide on how **Varnish Cache** works and how it's integrated into **CloudPanel**.
+Check out the [Developer Guide](../developer-guide/vhost) for a detailed guide on how **Varnish Cache** works and how it's integrated into **CloudPanel**.
