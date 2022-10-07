@@ -90,6 +90,7 @@ module.exports = {
               type: 'category',
               label: 'Developer Guide',
               items: [
+                'frontend-area/varnish-cache/developer-guide/basics',
                 'frontend-area/varnish-cache/developer-guide/vhost',
                 'frontend-area/varnish-cache/developer-guide/php-controller',
               ]

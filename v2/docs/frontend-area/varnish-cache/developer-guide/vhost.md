@@ -15,11 +15,11 @@ Static files like **CSS, JS,** and **Images** are **NOT** being stored in **Varn
 
 When you open your site, e.g., **https://www.domain.com**, the request goes to **NGINX**, where **SSL/TLS** gets terminated. <br />
 If the request is a static file like a **Stylesheet**, **Javascript**, or an **Image**, it gets delivered immediately by **NGINX**. <br />
-All other requests are forwarded to **Varnish Cache** (Port **6081**). 
+All other requests are forwarded to **Varnish Cache** (Port **6081**).
 
 If **Varnish Cache** has a cache entry for a request, the page source gets immediately returned from memory without being processed by **PHP-FPM**.
 
-If no cache entry exists, the request gets forwarded 
+If no cache entry exists, the request gets forwarded
 by **Varnish Cache** to **NGINX** port **8080**, where it gets processed by the **PHP Application** via **PHP-FPM**.
 
 ## Vhost Explanation
@@ -49,3 +49,5 @@ Lines **63-67** are special for **WordPress/WooCommerce**.
 
 All requests to **/wp-admin/** and **wp-login.php** are bypassed, meaning they are **NOT** going through **Varnish Cache**; they are forwarded to port **8080** (see lines **12-37**),
 where they get processed by the **PHP Application** via **PHP-FPM**.
+
+<iframe width="100%" frameborder="0" height="2400" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/c62ce0f06b0521c05ec940c436b614bd.js'></script></body>"></iframe>
