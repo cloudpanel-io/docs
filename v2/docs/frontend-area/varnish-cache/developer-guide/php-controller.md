@@ -80,6 +80,19 @@ If a specific action is happening, e.g., someone is editing a post in the admin 
 
 <iframe width="100%" frameborder="0" height="7200" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/fc38c8ca468e4348747dbaa897edde89.js'></script></body>"></iframe>
 
-## Development
+## Custom Applications
 
-dfsdfsfsd
+You can set the caching lifetime to your needs for custom **PHP Applications** based on **Laravel**, **Symfony**, or other **PHP frameworks**.
+
+For example, if you have a page that should only be cached for 10 minutes, you can call the static method **setCacheLifetime**.
+
+```php
+ClpVarnish::setCacheLifetime(600);
+```
+
+For enriching cache tags, e.g., a list of product ids, you can call the static method **addCacheTag**. <br />
+Make sure that you use the cache-tag prefix in front.
+
+```php
+ClpVarnish::addCacheTag('your-cache-tag');
+```
