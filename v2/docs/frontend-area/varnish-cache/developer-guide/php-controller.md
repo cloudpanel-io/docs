@@ -59,4 +59,27 @@ By checking the response headers of a page, you will find **x-cache-age**, **x-c
 
 The value of **x-cache-age** returns the age of the page in seconds stored in **Varnish Cache** and remains until **x-cache-lifetime** before expiring.
 
-<iframe width="100%" frameborder="0" height="4000" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/fc38c8ca468e4348747dbaa897edde89.js'></script></body>"></iframe>
+The controller's main function is to check if a page can be cached and to enrich the **X-Cache-Tags** before sending the headers.
+
+### header_register_callback
+
+At line **321**, you see the callback **$headerRegisterCallback** registered.
+
+The [header_register_callback](https://www.php.net/manual/en/function.header-register-callback.php) will be called when PHP starts sending output.
+
+```php
+header_register_callback($headerRegisterCallback);
+```
+
+In this callback, additional tags are added and required for specific purge operations.
+
+### register_shutdown_function
+
+The [register_shutdown_function](https://www.php.net/manual/en/function.register-shutdown-function.php) callback **$registerShutdownCallback** is responsible for purge operations. <br />
+If a specific action is happening, e.g., someone is editing a post in the admin area, all pages for a specific cache tag get purged.
+
+<iframe width="100%" frameborder="0" height="7200" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/fc38c8ca468e4348747dbaa897edde89.js'></script></body>"></iframe>
+
+## Development
+
+dfsdfsfsd
