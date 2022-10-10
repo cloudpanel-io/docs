@@ -18,17 +18,18 @@ values={[
 ]}>
 <TabItem value="ubuntu-22.04">
 
-| Service                           | Version(s)                   |                       |
-|:----------------------------------|:-----------------------------|:----------------------|
-| [NGINX](https://nginx.org)        | **1.21**                     | with PageSpeed Module |
-| [MySQL](https://www.mysql.com/)   | **8.0**                      |                       |
-| [MariaDB](https://mariadb.org/)   | **10.6**, **10.8**, **10.9** |                       |
-| [PHP](https://www.php.net)        | **7.1-8.1**                  |                       |
-| [Redis](https://redis.io)         | **6**                        |                       |
-| [ProFTPD](http://www.proftpd.org) | **1.3**                      |                       |
-| [Node.js](https://nodejs.org)     | **12, 14, 16**               | LTS Versions          |
-| [Yarn](https://yarnpkg.com)       | **1.22**                     |                       |
-| [Python](https://www.python.org/) | **3.10**                     |                       |
+| Service                                    | Version(s)                    |                       |
+|:-------------------------------------------|:------------------------------|:----------------------|
+| [NGINX](https://nginx.org)                 | **1.21**                      | with PageSpeed Module |
+| [MySQL](https://www.mysql.com/)            | **8.0**                       |                       |
+| [MariaDB](https://mariadb.org/)            | **10.6**, **10.8**, **10.9**  |                       |
+| [PHP](https://www.php.net)                 | **7.1-8.1**                   |                       |
+| [Redis](https://redis.io)                  | **6**                         |                       |
+| [ProFTPD](http://www.proftpd.org)          | **1.3**                       |                       |
+| [Node.js](https://nodejs.org)              | **12, 14, 16**                | LTS Versions          |
+| [Yarn](https://yarnpkg.com)                | **1.22**                      |                       |
+| [Python](https://www.python.org/)          | **3.10**                      |                       |
+| [Varnish Cache](http://varnish-cache.org/) | **7.1**                       |                       |
 
 </TabItem>
 <TabItem value="debian-11">
@@ -45,6 +46,7 @@ values={[
 | [Node.js](https://nodejs.org)     | **12, 14, 16**                         | LTS Versions          |
 | [Yarn](https://yarnpkg.com)       | **1.22**                               |                       |
 | [Python](https://www.python.org/) | **3.9**                                |                       |
+| [Varnish Cache](http://varnish-cache.org/) | **7.1**                       |                       |
 
 </TabItem>
 </Tabs>

@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 Varnish Cache is under development and will be released with **2.1** in **November 2022**.
 :::
 
-[Varnish Cache](http://varnish-cache.org/intro/index.html#intro) is a caching HTTP reverse proxy that speeds up your sites with a factor of **300 - 1000x**. <br />
+[Varnish Cache](http://varnish-cache.org/intro/index.html#intro) is a caching HTTP reverse proxy that speeds up your sites with a factor of **100 - 250x**. <br />
 A copy of your page is stored in memory after the first time a user visits the page. 
 
 **Varnish Cache** is integrated into **CloudPanel** as a turn-key solution. Enable **Varnish Cache**, and your sites will fly.
@@ -23,7 +23,7 @@ A copy of your page is stored in memory after the first time a user visits the p
 
 ## Benefits
 
-* Blazing Fast Page Loads - Up to 1000x faster
+* Blazing Fast Page Loads - Up to 250x faster
 * Up to 80% savings in Infrastructure
 * Improved User Experience
 * Better Search Ranking

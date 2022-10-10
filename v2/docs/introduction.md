@@ -29,7 +29,7 @@ Quick launch support for:
 - **Free**
 - **Easy to use**
 - **Community Driven**
-- **Modern**
+- **Blazing Fast Page Loads - Up to 250x faster**
 - **Secure (free SSL/TLS certificates)**
 - **Cloudflare integration**
 - **High Performance**
