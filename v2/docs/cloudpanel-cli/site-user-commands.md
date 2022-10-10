@@ -39,3 +39,27 @@ To import a database, go to the **database dump's directory** and use the follow
 ```bash
 clpctl db:import --databaseName=my-database --file=dump.sql.gz
 ```
+
+## Varnish Cache
+
+### Purge
+
+With the command **varnish-cache:purge**, you can **purge** everything, specific cache tags or a single url.
+
+To purge the entire cache, use the following command:
+
+```bash
+clpctl varnish-cache:purge --purge=all
+```
+
+Specific **cache tags**, separated by a comma, can be purged with the following command:
+
+```bash
+clpctl varnish-cache:purge --purge='tag1,tag2'
+```
+
+In case you want to purge a **single url** only:
+
+```bash
+clpctl varnish-cache:purge --purge='https://www.domain.com/site.html'
+```
