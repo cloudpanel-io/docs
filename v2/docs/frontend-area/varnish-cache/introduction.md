@@ -32,7 +32,7 @@ A copy of your page is stored in memory after the first time a user visits the p
 
 We constantly work to support more Applications, join us in [Discord](https://discord.cloudpanel.io) and help us support more **Applications**.
 
-Right now, the following **PHP Applications** can use **Varnish Cache**:
+Right now, the following **PHP Applications** have support for **Varnish Cache**:
 
 * WordPress
 * WooCommerce

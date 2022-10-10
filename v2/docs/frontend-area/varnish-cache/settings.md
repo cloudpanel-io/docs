@@ -15,7 +15,7 @@ Change the **Cache Lifetime**, **Excluded Params**, and **Excludes** to your nee
 
 ## Cache Tag Prefix
 
-The **Cache Tag Prefix** is the main cache tag used on every page. Other cache tags are using this prefix in front.
+The **Cache Tag Prefix** is the main cache tag used on every page. Other cache tags use this prefix in front.
 
 ## Excluded Params
 
