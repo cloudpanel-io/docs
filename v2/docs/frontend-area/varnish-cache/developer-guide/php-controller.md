@@ -78,7 +78,7 @@ In this callback, additional tags are added and required for specific purge oper
 The [register_shutdown_function](https://www.php.net/manual/en/function.register-shutdown-function.php) callback **$registerShutdownCallback** is responsible for purge operations. <br />
 If a specific action is happening, e.g., someone is editing a post in the admin area, all pages for a specific cache tag get purged.
 
-<iframe width="100%" frameborder="0" height="7200" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/fc38c8ca468e4348747dbaa897edde89.js'></script></body>"></iframe>
+<iframe width="100%" frameborder="0" height="7150" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/fc38c8ca468e4348747dbaa897edde89.js'></script></body>"></iframe>
 
 ## Custom Applications
 
@@ -94,5 +94,38 @@ For enriching cache tags, e.g., a list of product ids, you can call the static m
 Make sure that you use the cache-tag prefix in front.
 
 ```php
-ClpVarnish::addCacheTag('your-cache-tag');
+<?php
+$cacheTagPrefix = ClpVarnish::getCacheTagPrefix();
+$cacheTag = sprintf('%s-%s', $cacheTagPrefix, 'my-cache-tag');
+ClpVarnish::addCacheTag($cacheTag);
+```
+
+## Developer Mode
+
+When the developer mode is enabled, all purge requests are logged into the following log file:
+
+```
+/home/$siteUser/logs/varnish-cache/purge.log
+```
+
+To enable the developer mode, do the following:
+
+1. Login via **SSH** with the site user.
+
+2. Open the **controller.php** file:
+
+```
+nano ~/.varnish-cache/controller.php
+```
+
+3. Set **VARNISH_DEVELOPER_MODE** to **true**:
+
+```php
+define('VARNISH_DEVELOPER_MODE', true);
+```
+
+4. Tail the **purge.log** to see the **purges**:
+
+```
+tail -f ~/logs/varnish-cache/purge.log -n1000
 ```
