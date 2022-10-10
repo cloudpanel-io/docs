@@ -78,7 +78,7 @@ In this callback, additional tags are added and required for specific purge oper
 The [register_shutdown_function](https://www.php.net/manual/en/function.register-shutdown-function.php) callback **$registerShutdownCallback** is responsible for purge operations. <br />
 If a specific action is happening, e.g., someone is editing a post in the admin area, all pages for a specific cache tag get purged.
 
-<iframe width="100%" frameborder="0" height="7150" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/fc38c8ca468e4348747dbaa897edde89.js'></script></body>"></iframe>
+<iframe width="100%" frameborder="0" height="7200" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/fc38c8ca468e4348747dbaa897edde89.js'></script></body>"></iframe>
 
 ## Custom Applications
 
