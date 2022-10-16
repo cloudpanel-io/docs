@@ -156,14 +156,12 @@ clpctl site:add:python --domainName=www.domain.com --pythonVersion=3.9 --appPort
 
 ### Removing a site
 
-To remove a site (any type), just the following command:
-
+To remove a site of any type, you can use the following command:
 ```bash
 clpctl site:delete --domainName=www.domain.com 
 ``` 
 
-You need confirm typing "yes", but you can force delete this way 
-
+You can confirm your action by entering "yes". It's also possible to force the deletion by adding the "--force" parameter as seen below:
 ```bash
 clpctl site:delete --domainName=www.domain.com --force
 ``` 
