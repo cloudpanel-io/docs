@@ -27,10 +27,10 @@ With the plugin [**CLP Varnish Cache Plugin**](https://github.com/cloudpanel-io/
 ## Update
 
 To update the plugin, follow the steps from the **Installation**.
-After the upload, **WordPress** will ask you if you want to replace the plugin with the newly uploaded one.
+After the upload, **WordPress** will ask you if you want to replace the current version with the newly uploaded one.
 
 Confirm by clicking on the button **Replace current with uploaded**.
 
 ## Bug Reporting
 
-sdfsdfsdf
+If you find a bug, please create a [New issue](https://github.com/cloudpanel-io/clp-wp-varnish-cache/issues/new/choose) on github.
