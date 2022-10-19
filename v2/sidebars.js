@@ -96,6 +96,13 @@ module.exports = {
             },
             'frontend-area/varnish-cache/migration',
             'frontend-area/varnish-cache/service',
+            {
+              type: 'category',
+              label: 'WordPress',
+              items: [
+                'frontend-area/varnish-cache/wordpress/plugin',
+              ]
+            },
           ]
         },
         'frontend-area/e-mail',
