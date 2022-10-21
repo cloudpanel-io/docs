@@ -37,7 +37,7 @@ On the [Django Documentation](https://docs.djangoproject.com/en/4.0/howto/deploy
 plugins       = python3
 master        = true
 protocol      = uwsgi
-socket        = 127.0.0.1:8080
+socket        = 127.0.0.1:8090
 wsgi-file     = /home/site-user/htdocs/python-project/wsgi.py
 
 # In case you're using virtualenv uncomment this:
@@ -216,7 +216,7 @@ systemctl restart uwsgi
 
 ## Service Check
 
-To check if **uwsgi** is listening on our requested port e.g., **8080**, we use **netstat**:
+To check if **uwsgi** is listening on our requested port e.g., **8090**, we use **netstat**:
 
 ```bash
 netstat -tulpn |grep uwsgi
@@ -225,7 +225,7 @@ netstat -tulpn |grep uwsgi
 If everything is correct, you should see an output like this:
 
 ```bash
-tcp 16 0 127.0.0.1:8080 0.0.0.0:* LISTEN 8872/uwsgi
+tcp 16 0 127.0.0.1:8090 0.0.0.0:* LISTEN 8872/uwsgi
 ```
 
 **Reboot** your instance to confirm that your application is working as expected.
