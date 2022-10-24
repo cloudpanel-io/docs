@@ -205,6 +205,7 @@ module.exports = {
           items: [
             'php/guides/building-a-php-extension',
             'php/guides/ioncube-loader',
+            'php/guides/nodejs',
           ],
         },
       ],
