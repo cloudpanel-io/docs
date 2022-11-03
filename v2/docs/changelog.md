@@ -4,6 +4,20 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.1.0 - [2022-11-03]
+
+**New**
+- [Varnish Cache Support](../frontend-area/varnish-cache/introduction/)
+
+**Improvements**
+ - Generate Password Link for Site User Password Update
+
+**Bug Fixes**
+- [#138 WordPress Admin login doesn't work with passwords which contains special characters like](https://github.com/cloudpanel-io/cloudpanel-ce/issues/138)
+- [#150 Cron Job PHP version issue](https://github.com/cloudpanel-io/cloudpanel-ce/issues/150)
+- [#153 Backup Custom Rclone Config Time](https://github.com/cloudpanel-io/cloudpanel-ce/issues/153)
+- Translation Fixes
+
 ## v2.0.4 - [2022-09-08]
 
 **New**
