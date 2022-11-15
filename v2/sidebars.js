@@ -255,6 +255,13 @@ module.exports = {
             },
           ],
         },
+        {
+          type: 'category',
+          label: 'WordPress',
+          items: [
+            'guides/wordpress/multisite',
+          ],
+        },
       ],
     },
     {

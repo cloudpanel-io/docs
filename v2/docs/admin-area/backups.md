@@ -158,6 +158,10 @@ mkdir backups
 Test the connection to the remote server by login into the **CloudPanel** instance via SSH as root user and try to establish an **SSH/SFTP** connection.
 :::
 
+:::warning SSH Key
+If you use the **Key Authentification Method**, generate a strong key pair with the **ED25519** algorithm: <br /><br /> ssh-keygen -t ed25519 -f my-private-key
+:::
+
 1. Test the connection to the remote server from the **CloudPanel Instance**.
 
 2. Fill out the form and click on the button **Save**.
