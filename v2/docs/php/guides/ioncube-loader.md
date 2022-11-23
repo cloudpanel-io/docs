@@ -9,7 +9,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 :::warning Attention
-There is currently no **ionCube Loader** for **PHP 8.0** and **PHP 8.1 ARM64** available.
+There is currently no **ionCube Loader** for **PHP 8.0** available.
 :::
 
 Using ionCube encoded and secured PHP files requires a file called the [ionCube Loader](https://www.ioncube.com/) to be installed on the web server and made available to PHP.
