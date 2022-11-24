@@ -87,28 +87,36 @@ values={[
 <TabItem value="ubuntu-mysql-8.0">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr bash install.sh
 ```
 
 </TabItem>
 <TabItem value="ubuntu-mariadb-10.9">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr DB_ENGINE=MARIADB_10.9 bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.9 bash install.sh
 ```
 
 </TabItem>
 <TabItem value="ubuntu-mariadb-10.8">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr DB_ENGINE=MARIADB_10.8 bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.8 bash install.sh
 ```
 
 </TabItem>
 <TabItem value="ubuntu-mariadb-10.6">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr DB_ENGINE=MARIADB_10.6 bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.6 bash install.sh
 ```
 
 </TabItem>
@@ -143,35 +151,45 @@ values={[
 <TabItem value="debian-mysql-8.0">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr bash install.sh
 ```
 
 </TabItem>
 <TabItem value="debian-mysql-5.7">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr DB_ENGINE=MYSQL_5.7 bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MYSQL_5.7 bash install.sh
 ```
 
 </TabItem>
 <TabItem value="debian-mariadb-10.9">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr DB_ENGINE=MARIADB_10.9 bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.9 bash install.sh
 ```
 
 </TabItem>
 <TabItem value="debian-mariadb-10.8">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr DB_ENGINE=MARIADB_10.8 bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.8 bash install.sh
 ```
 
 </TabItem>
 <TabItem value="debian-mariadb-10.7">
 
 ```bash
-curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo CLOUD=vultr DB_ENGINE=MARIADB_10.7 bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2a10a444dabfae98a8a5330db15d57cea11d406f725603af7662a4b146c27634  install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.7 bash install.sh
 ```
 
 </TabItem>
