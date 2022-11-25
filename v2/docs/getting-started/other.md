@@ -156,6 +156,11 @@ sha256sum -c && sudo DB_ENGINE=MARIADB_10.7 bash install.sh
 
 ## Access CloudPanel
 
+:::warning Security
+For security reasons, access **CloudPanel** as fast as possible to create the admin user. There is a small time window where bots can create the user.
+If possible, open port **8443** only for your IP via **firewall**.
+:::
+
 You can now access **CloudPanel** via Browser: **https://yourIpAddress:8443**
 
 Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to **CloudPanel**.

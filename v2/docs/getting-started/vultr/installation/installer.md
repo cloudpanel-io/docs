@@ -200,6 +200,11 @@ sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.7 bash install.sh
 
 ## Access CloudPanel
 
+:::warning Security
+For security reasons, access **CloudPanel** as fast as possible to create the admin user. There is a small time window where bots can create the user.
+It's highly recommended to open port **8443** only for your IP via [firewall](https://www.vultr.com/docs/vultr-firewall/).
+:::
+
 You can now access **CloudPanel** via Browser: **https://serverIpAddress:8443**
 
 Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to **CloudPanel**.

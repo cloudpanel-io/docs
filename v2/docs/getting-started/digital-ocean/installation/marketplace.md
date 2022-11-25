@@ -73,6 +73,11 @@ To create a **Reserved IP**, do the following steps:
 
 ## Access CloudPanel
 
+:::warning Security
+For security reasons, access **CloudPanel** as fast as possible to create the admin user. There is a small time window where bots can create the user.
+It's highly recommended to open port **8443** only for your IP via [firewall](https://docs.digitalocean.com/products/networking/firewalls/how-to/configure-rules/).
+:::
+
 You can now access **CloudPanel** via Browser: **https://yourIpAddress:8443**
 
 Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to **CloudPanel**.

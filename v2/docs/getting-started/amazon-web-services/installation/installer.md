@@ -255,6 +255,11 @@ sha256sum -c && sudo CLOUD=aws DB_ENGINE=MARIADB_10.7 bash install.sh
 
 ## Access CloudPanel
 
+:::warning Security
+For security reasons, access **CloudPanel** as fast as possible to create the admin user. There is a small time window where bots can create the user.
+It's highly recommended to open port **8443** only for your IP via [security group](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-security-groups.html#updating-security-group-rules).
+:::
+
 You can now access **CloudPanel** via Browser: **https://yourElasticIpAddress:8443**
 
 Ignore the self-signed certificate warning and click on **Advanced** and **Proceed** to continue to **CloudPanel**.
