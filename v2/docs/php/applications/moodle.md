@@ -25,7 +25,7 @@ On this site, you find a guide to install [Moodle](https://moodle.org/) on **Clo
 If you like the command line, you can create a **Moodle Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=7.3 --vhostTemplate='Moodle 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=7.4 --vhostTemplate='Moodle 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Moodle Project
@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the latest [Moodle 4](https://download.moodle.org/releases/latest/) version.
 
 ```
-curl -sL https://download.moodle.org/download.php/direct/stable400/moodle-latest-400.tgz | tar xfz -
+curl -sL https://download.moodle.org/download.php/direct/stable401/moodle-4.1.tgz | tar xfz -
 ```
 
 4. Copy files to the **root directory** of your site:
