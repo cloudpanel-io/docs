@@ -4,6 +4,20 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.2.0 - [2022-12-08]
+
+**New**
+- [Add PHP 8.2 Support](https://feature-requests.cloudpanel.io/posts/15/support-for-php-8-2)
+- [Dark Mode](https://feature-requests.cloudpanel.io/posts/1/add-dark-theme)
+- Node.js 18 LTS Support
+
+**Improvements**
+- [File Manager order Directories before Files](https://feature-requests.cloudpanel.io/posts/30/file-manager-order-directories-before-files)
+
+**Bug Fixes**
+- [#208 Unable to create a WordPress site with a database server that doesn't use the default port 3306](https://github.com/cloudpanel-io/cloudpanel-ce/issues/208)
+- Translation Fixes
+
 ## v2.1.0 - [2022-11-03]
 
 **New**

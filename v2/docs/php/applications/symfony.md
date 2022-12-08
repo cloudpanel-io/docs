@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Symfony Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project symfony/website-skeleton:^6 www.domain.com
+php8.1 /usr/local/bin/composer create-project symfony/skeleton:^6 www.domain.com
 ```
 
 4. Done! **Symfony** has been installed.
