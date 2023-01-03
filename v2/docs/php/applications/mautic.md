@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Clone the latest version from the [Mautic Git Repository](https://github.com/mautic/mautic):
 
 ```
-git clone -b 4.4.1 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
+git clone -b 4.4.5 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
 ```
 
 :::caution Latest Version
