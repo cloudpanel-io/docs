@@ -8,6 +8,11 @@ module.exports = {
         'requirements',
         'technology-stack',
         'changelog',
+        {
+          type: 'link',
+          label: 'Live Demo',
+          href: 'https://demo.cloudpanel.io',
+        },
         'update',
         'support',
       ],

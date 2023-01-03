@@ -88,4 +88,4 @@ To create a user, you can now open your **Strapi Installation** in the browser *
 
 For running **Strapi** in production, it's essential to have an **process manager** like **pm2** who takes care of the node processes.
 
-Follow the [Node.js Deployment](../../../nodejs/deployment) for a step-by-step guide.
+Follow the [Node.js Deployment](../../../nodejs/deployment/pm2/) for a step-by-step guide.
