@@ -86,7 +86,7 @@ values={[
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner bash install.sh
 ```
 
@@ -95,7 +95,7 @@ sha256sum -c && sudo CLOUD=hetzner bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.9 bash install.sh
 ```
 
@@ -104,7 +104,7 @@ sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.9 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.8 bash install.sh
 ```
 
@@ -113,7 +113,7 @@ sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.8 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.6 bash install.sh
 ```
 
@@ -150,7 +150,7 @@ values={[
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner bash install.sh
 ```
 
@@ -159,7 +159,7 @@ sha256sum -c && sudo CLOUD=hetzner bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MYSQL_5.7 bash install.sh
 ```
 
@@ -168,7 +168,7 @@ sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MYSQL_5.7 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.9 bash install.sh
 ```
 
@@ -177,7 +177,7 @@ sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.9 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.8 bash install.sh
 ```
 
@@ -186,7 +186,7 @@ sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.8 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "d67e37c0fb0f3dd7f642f2c21e621e1532cadefb428bb0e3af56467d9690b713  install.sh" | \
+echo "2d3812327d8229c372f599156515c4639d18badd5c6a972616affbf86960c24f  install.sh" | \
 sha256sum -c && sudo CLOUD=hetzner DB_ENGINE=MARIADB_10.7 bash install.sh
 ```
 
