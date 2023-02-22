@@ -7,7 +7,8 @@ sidebar_label: Add Site
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 With **CloudPanel**, you can [Create a WordPress Site](#create-a-wordpress-site), [Create a PHP Site](#create-a-php-site),
-[Create a Node.js Site](#create-a-nodejs-site), [Create a Static HTML Site](#create-a-static-html-site) or [Create a Python Site](#create-a-python-site).
+[Create a Node.js Site](#create-a-nodejs-site), [Create a Static HTML Site](#create-a-static-html-site), [Create a Python Site](#create-a-python-site) 
+or [Create a Reverse Proxy](#create-a-reverse-proxy).
 
 <img alt="Select Application" class="border" src={useBaseUrl('img/frontend-area/add-site/add-site.png')} />
 
@@ -85,4 +86,14 @@ All **HTTP** requests are redirected to **HTTPS** by default.
 
 2. You can now use the **Site User** to log in via **SSH** to upload the application files.
 
+## Create a Reverse Proxy
+
+1. Enter the **Domain Name**, **Reverse Proxy Url**, **Site User**, and **Site User Password**.
+
+:::caution Redirection
+When you enter the **Domain Name** with **www**, a redirection from non-www to www will be created automatically and vice versa.
+All **HTTP** requests are redirected to **HTTPS** by default.
+:::
+
+<img alt="Create a Reverse Proxy" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-reverse-proxy.png')} />
 

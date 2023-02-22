@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **CloudPanel** is a free and modern server control panel to configure and manage a server with an obsessive focus on simplicity. 
 
-Run **PHP**, **Node.js**, **Static Websites**, and **Python** applications in no time on a **High-Performance Technology Stack**.
+Run **PHP**, **Node.js**, **Static Websites**, **Reverse Proxies**, and **Python** **Applications** in no time on a **High-Performance Technology Stack**.
 
 Quick launch support for:
 
