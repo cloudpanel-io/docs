@@ -20,7 +20,7 @@ In the **Site User Settings**, you can reset the password for the primary **SSH 
 
 <img alt="Site User Settings" class="border" src={useBaseUrl('img/frontend-area/settings/site-user-settings.png')} />
 
-## PHP/Node.js/Python Settings
+## PHP/Node.js/Python/Reverse Proxy Settings
 
 <Tabs
 defaultValue="php-settings"
@@ -28,6 +28,7 @@ values={[
 { label: 'PHP Settings', value: 'php-settings', },
 { label: 'Node.js Settings', value: 'nodejs-settings', },
 { label: 'Python Settings', value: 'python-settings', },
+{ label: 'Reverse Proxy Settings', value: 'reverse-proxy-settings', },
 ]}>
 <TabItem value="php-settings">
 
@@ -76,6 +77,13 @@ Type: **python --version** to see the new version.
 :::
 
 <img alt="Python Settings" class="border" src={useBaseUrl('img/frontend-area/settings/python-settings.png')} />
+
+</TabItem>
+<TabItem value="reverse-proxy-settings">
+
+In the **Reverse Proxy Settings**, you can change the **Reverse Proxy Url**.
+
+<img alt="Reverse Proxy Settings" class="border" src={useBaseUrl('img/frontend-area/settings/reverse-proxy-settings.png')} />
 
 </TabItem>
 </Tabs>
