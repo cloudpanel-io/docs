@@ -154,6 +154,14 @@ If you are using **Ubuntu 22.04**, you need to use the version **3.10** as it's 
 clpctl site:add:python --domainName=www.domain.com --pythonVersion=3.9 --appPort=8080 --siteUser=john --siteUserPassword='!secretPassword!'
 ```
 
+### Adding a Reverse Proxy
+
+To add a **Reverse Proxy**, use the following command:
+
+```bash
+clpctl site:add:reverse-proxy --domainName=www.domain.com --reverseProxyUrl='http://127.0.0.1:8000' --siteUser=john --siteUserPassword='!secretPassword!'
+```
+
 ### Deleting a Site
 
 To delete a Site, use the following command:

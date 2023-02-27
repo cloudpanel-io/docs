@@ -4,6 +4,18 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.2.1 - [2023-02-27]
+
+**New**
+- [Reverse Proxy](../frontend-area/add-site/#create-a-reverse-proxy)
+- Chinese (Simplified)
+- Chinese (Taiwan)
+
+**Bug Fixes**
+- [#210 Dark mode: Separating table borders missing](https://github.com/cloudpanel-io/cloudpanel-ce/issues/210)
+- [#220 Hetzner Snapshot cleanup throws an exception when delete protection is enabled on a snapshot](https://github.com/cloudpanel-io/cloudpanel-ce/issues/220)
+- Translation Fixes
+
 ## v2.2.0 - [2022-12-08]
 
 **New**
