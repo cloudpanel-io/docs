@@ -22,6 +22,19 @@ A **DNS Record** pointing to this server is required to issue a **Let's Encrypt 
 
 2. Click on **Save** and wait seconds before the **Let's Encrypt Certificate** can be issued.
 
+### CloudPanel Custom Domain via Reverse Proxy
+
+An alternative way to run **CloudPanel** under your **Custom Domain** is to use a [Reverse Proxy](../../frontend-area/add-site/#create-a-reverse-proxy), e.g.,
+if you want to use your own **SSL/TLS Certificate**, which  is useful where **Let's Encrypt** can't be used.
+
+1. Go to **Sites** and create a [Reverse Proxy](../../frontend-area/add-site/#create-a-reverse-proxy).
+
+2. Enter the **Domain Name**, enter **https://127.0.0.1:8443** as **Reverse Proxy Url**.
+
+<img class="border" alt="CloudPanel Custom Domain via Reverse Proxy" src={useBaseUrl('img/admin-area/settings/cloudpanel-custom-domain-reverse-proxy.png')} />
+
+3. Go to the [SSL/TLS Settings](../../frontend-area/tls/#import-certificate) and import your **Certificate**.
+
 ## Database Servers
 
 Using a separate **Database Server** to handle database queries has advantages like **better performance** and the possibility to restore to a specific time. 
