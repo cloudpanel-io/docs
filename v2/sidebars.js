@@ -241,6 +241,13 @@ module.exports = {
       items: [
         {
           type: 'category',
+          label: 'Applications',
+          items: [
+            'guides/applications/mailcow'
+          ],
+        },
+        {
+          type: 'category',
           label: 'Best Practices',
           items: [
             {
@@ -260,14 +267,6 @@ module.exports = {
             },
           ],
         },
-        /*
-        {
-          type: 'category',
-          label: 'WordPress',
-          items: [
-          ],
-        },
-        */
       ],
     },
     {
