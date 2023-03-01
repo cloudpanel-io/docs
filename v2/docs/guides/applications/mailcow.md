@@ -39,7 +39,7 @@ curl -sSL https://get.docker.com/ | CHANNEL=stable sh && apt install docker-comp
 
 ## Mailcow Installation
 
-1. Clone the [mailcow git repository](https://github.com/mailcow/mailcow-dockerized) to **/opt/mailcow-dockerized**:
+1. Clone the [Mailcow Git Pepository](https://github.com/mailcow/mailcow-dockerized) to **/opt/mailcow-dockerized**:
 
 ```bash
 git clone https://github.com/mailcow/mailcow-dockerized /opt/mailcow-dockerized
