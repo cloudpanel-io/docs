@@ -12,7 +12,7 @@ CloudPanel v1 is **obsolete**; check out the [CloudPanel v2 Docs](https://www.cl
 
 ## What is CloudPanel?
 
-CloudPanel is a modern server control panel with lightweight components for PHP applications with specific features for all major clouds.
+CloudPanel is a [modern server control panel](https://www.cloudpanel.io/) with lightweight components for PHP applications with specific features for all major clouds.
 It has been developed with more than ten years of Magento hosting experience in the AWS cloud.
 
 With CloudPanel, you can run your favorite PHP application in any cloud or dedicated server within minutes.

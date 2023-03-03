@@ -5,6 +5,8 @@ sidebar_label: Mailcow
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 On this site, you will find a **step-by-step guide** on how to run the mail server [Mailcow](https://mailcow.email/) on **CloudPanel**. <br />
 The mail server [Mailcow](https://mailcow.email/) is a dockerized application that is addressed via **Reverse Proxy**.
@@ -33,13 +35,41 @@ ssh root@instance-ip-address
 
 2. Install **Docker** with **Docker Compose** with the following command:
 
+<Tabs
+defaultValue="ubuntu-22.04"
+values={[
+{ label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
+{ label: 'Debian 11 LTS', value: 'debian-11', },
+]}>
+<TabItem value="ubuntu-22.04">
+
+Install **docker** and the **docker compose plugin**:
+
 ```bash
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh && apt install docker-compose-plugin
 ```
 
+</TabItem>
+<TabItem value="debian-11">
+
+1. Install **apparmor** first as a workaround for the following [issue](https://github.com/mailcow/mailcow-dockerized/issues/5057).
+
+```bash
+apt update && apt -y install apparmor
+```
+
+2. Install **docker** and the **docker compose plugin**:
+
+```bash
+curl -sSL https://get.docker.com/ | CHANNEL=stable sh && apt install docker-compose-plugin
+```
+
+</TabItem>
+</Tabs>
+
 ## Mailcow Installation
 
-1. Clone the [Mailcow Git Pepository](https://github.com/mailcow/mailcow-dockerized) to **/opt/mailcow-dockerized**:
+1. Clone the [Mailcow Git Repository](https://github.com/mailcow/mailcow-dockerized) to **/opt/mailcow-dockerized**:
 
 ```bash
 git clone https://github.com/mailcow/mailcow-dockerized /opt/mailcow-dockerized
