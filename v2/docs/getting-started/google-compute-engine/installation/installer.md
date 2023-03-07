@@ -140,7 +140,7 @@ values={[
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce bash install.sh
 ```
 
@@ -149,7 +149,7 @@ sha256sum -c && sudo CLOUD=gce bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.9 bash install.sh
 ```
 
@@ -158,7 +158,7 @@ sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.9 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.8 bash install.sh
 ```
 
@@ -167,7 +167,7 @@ sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.8 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.6 bash install.sh
 ```
 
@@ -215,7 +215,7 @@ values={[
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce bash install.sh
 ```
 
@@ -224,7 +224,7 @@ sha256sum -c && sudo CLOUD=gce bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce DB_ENGINE=MYSQL_5.7 bash install.sh
 ```
 
@@ -233,7 +233,7 @@ sha256sum -c && sudo CLOUD=gce DB_ENGINE=MYSQL_5.7 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.9 bash install.sh
 ```
 
@@ -242,7 +242,7 @@ sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.9 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.8 bash install.sh
 ```
 
@@ -251,7 +251,7 @@ sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.8 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "eddff7944a111a0d68eab513a58ffeb2ade63a85b448c36c32ad581c647c7a6f install.sh" | \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.7 bash install.sh
 ```
 
