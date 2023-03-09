@@ -65,6 +65,13 @@ module.exports = {
             },
             {
               type: 'category',
+              label: 'Oracle Cloud',
+              items: [
+                'getting-started/oracle-cloud/installation/installer',
+              ]
+            },
+            {
+              type: 'category',
               label: 'Vultr',
               items: [
                 'getting-started/vultr/installation/marketplace',

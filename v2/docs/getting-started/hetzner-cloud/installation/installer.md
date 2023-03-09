@@ -60,7 +60,7 @@ values={[
 ]}>
 <TabItem value="ubuntu-22.04">
 
-1. Login via **SSH** to the **EC2 Instance**.
+1. Login via **SSH** to the **Server**.
 
 ```bash
 ssh -i path_to_your_private_key root@serverIpAddress

@@ -11,5 +11,6 @@ Choose a favorite **cloud platform** or **dedicated server** and run **CloudPane
 - [Installation on Hetzner Cloud](../getting-started/hetzner-cloud/installation/installer/)
 - [Installation on Google Compute Engine](../getting-started/google-compute-engine/installation/installer/)
 - [Installation on Microsoft Azure](../getting-started/microsoft-azure/installation/installer/)
+- [Installation on Oracle Cloud](../getting-started/oracle-cloud/installation/installer/)
 - [Installation on Vultr](../getting-started/vultr/installation/marketplace/)
 - [Installation on Other](../getting-started/other/)
