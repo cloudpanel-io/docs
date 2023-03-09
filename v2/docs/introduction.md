@@ -19,6 +19,7 @@ Quick launch support for:
 - [Hetzner Cloud](../getting-started/hetzner-cloud/installation/installer/)
 - [Google Compute Engine](../getting-started/google-compute-engine/installation/installer/)
 - [Microsoft Azure](../getting-started/microsoft-azure/installation/installer/)
+- [Oracle Cloud](../getting-started/oracle-cloud/installation/installer/)
 - [Vultr](../getting-started/vultr/installation/marketplace/)
 - [Other](../getting-started/other/)
 
