@@ -101,7 +101,7 @@ sudo su root
 3. Update the system and install the required packages.
 
 ```bash
-apt update && apt -y upgrade && apt -y install curl wget sudo
+apt update && apt -y upgrade && apt -y install curl wget sudo cron
 ```
 
 4. Run the installer with your preferred **Database Engine**.
