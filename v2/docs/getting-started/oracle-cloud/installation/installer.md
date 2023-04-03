@@ -110,6 +110,7 @@ apt update && apt -y upgrade && apt -y install curl wget sudo cron
 defaultValue="ubuntu-mysql-8.0"
 values={[
 { label: 'MySQL 8.0', value: 'ubuntu-mysql-8.0', },
+{ label: 'MariaDB 10.11', value: 'ubuntu-mariadb-10.11', },
 { label: 'MariaDB 10.6', value: 'ubuntu-mariadb-10.6', },
 ]}>
 <TabItem value="ubuntu-mysql-8.0">
@@ -118,6 +119,15 @@ values={[
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
 echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
 sha256sum -c && sudo CLOUD=oci bash install.sh
+```
+
+</TabItem>
+<TabItem value="ubuntu-mariadb-10.11">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "e0838864b7376b0390b4855d8d5c1425d83edffb38d2c980cf5b1c1a71d105bc install.sh" | \
+sha256sum -c && sudo CLOUD=oci DB_ENGINE=MARIADB_10.11 bash install.sh
 ```
 
 </TabItem>
