@@ -4,6 +4,18 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.2.2 - [2023-04-03]
+
+**New**
+- [MariaDB 10.11 LTS Support](https://mariadb.com/kb/en/changes-improvements-in-mariadb-1011/)
+- Hebrew
+- Japanese
+
+**Bug Fixes**
+- [#245 New Reverse Proxy | root folder permission in htdocs www.site.com folders](https://github.com/cloudpanel-io/cloudpanel-ce/issues/245)
+- [#254 Site path / copy and paste issues](https://github.com/cloudpanel-io/cloudpanel-ce/issues/254)
+- Translation Fixes
+
 ## v2.2.1 - [2023-02-27]
 
 **New**
