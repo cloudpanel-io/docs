@@ -244,6 +244,15 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'DPLOY',
+      items: [
+        'dploy/introduction',
+        'dploy/installation',
+        'dploy/changelog',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Guides',
       items: [
         {
