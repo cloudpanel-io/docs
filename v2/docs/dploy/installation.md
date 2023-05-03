@@ -18,7 +18,7 @@ On this page, we explain step by step how to install and use **DPLOY** on **Clou
 
 1. Login via **SSH** as root user.
 
-2. Download **DPLOY** and save it to **/usr/local/bin/dploy**.
+2. Download **DPLOY**, save it to **/usr/local/bin/dploy** and make it executable.
 
 ```bash
 curl -sS https://dploy.cloudpanel.io/dploy -o /usr/local/bin/dploy && chmod +x /usr/local/bin/dploy
@@ -134,14 +134,64 @@ Make sure to reload the right php-fpm service in the **after_commands**.
 nano ~/.dploy/config.yml
 ```
 
-## Sudoers Permissions
+### Sudoers File
 
 For security reasons, the site users cannot reload the **PHP-FPM Service**, which is needed to clear the **realpath** cache after switching the current symlink to the latest release.
 
 To allow site users to reload only the **PHP-FPM Service**, we create a **sudoers file**.
 
-Replace **moby** with your **site user** and execute the following command as root:
+Replace **john-doe** with your **site user** and execute the following command as root:
 
 ```bash
-echo 'moby ALL = NOPASSWD: systemctl reload php*-fpm' >> /etc/sudoers.d/dploy
+echo 'john-doe ALL = NOPASSWD: systemctl reload php*-fpm' >> /etc/sudoers.d/dploy
 ```
+
+### SSH Config
+
+To clone a private git repository, we need to create an ssh key pair and add the public key to the git repository.
+
+1. Login via **SSH** as the **site user**.
+
+2. Go to the **SSH** directory of your **site user**:
+
+```bash
+cd ~/.ssh/
+```
+
+3. Create an **SSH Key Pair**.
+
+:::warning No passphrase
+Create the private key without a passphrase.
+:::
+
+```bash
+ssh-keygen -f dploy-git
+```
+
+4. Copy the **public key** and add it to your git hosting provider like **github.com**.
+
+```bash
+cat ~/.ssh/dploy-git.pub
+```
+
+On **github.com**, go to **Settings** and then click on **Deploy keys** bottom left.
+
+<img alt="Github Deploy Keys" class="border" src={useBaseUrl('img/dploy/github-deploy-keys.png')} />
+
+5. Create a **SSH Config File** to define the private key that is being used to clone the git repository:
+
+```bash
+nano ~/.ssh/config
+```
+
+Open the **config** file, modify the **Host** and **User** and save it.
+
+```bash
+Host github.com
+User git
+IdentityFile ~/.ssh/dploy-git
+```
+
+## Overlays
+
+## Deploy
