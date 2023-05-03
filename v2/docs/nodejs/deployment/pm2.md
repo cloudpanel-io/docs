@@ -58,38 +58,13 @@ To save the **pm2** configuration, execute the **save** command:
 pm2 save
 ```
 
-### Adding a Cron Job
+### Adding to Startup
 
-To ensure, that your **application** is running after a reboot of your instance, you need to configure a cron job.
-
-1. First copy the output of the **PATH** variable:
+To ensure, that your **application** is running after a reboot of your instance, you need to execute following script.
 
 ```bash
-echo $PATH
+pm2 startup
 ```
-
-The output will look similar to this:
-
-```bash
-/home/john-doe/.nvm/versions/node/v14.19.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-```
-
-2. Edit the **crontab** for the **site user**.
-
-```bash
-crontab -e
-```
-
-3. Add the following lines to it:
-
-```bash
-PATH=$PASTE_THE_OUTPUT_OF_$PATH
-@reboot pm2 resurrect &> /dev/null
-```
-
-**Example configuration**
-
-<img alt="PM2 Cronjob Example" src={useBaseUrl('img/nodejs/applications/strapi/cronjob-example.png')} />
 
 4. Reboot your **instance** and check if the application is **running**:
 
