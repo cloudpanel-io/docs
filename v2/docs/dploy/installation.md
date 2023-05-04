@@ -34,14 +34,14 @@ With the **dploy init** command, the config file and the project directory struc
  |- overlays       // Overlay files that get copied into the release
    |  - .env       // For example .env file which contains sensitive information
 
-~/htdocs/www.domain.com               // The deploy_directory
- |- current -> releases/1             // Symlink to the current release.
+~/htdocs/www.domain.com                    // The deploy_directory
+ |- current -> releases/2023-05...-v1.0.1  // Symlink to the current release.
  |- releases                   
    |- 2023-05-04-08-08-08-v1.0.1    
-     |- var/logs -> shared/var/logs   // Symlink to shared var/logs directory
+     |- var/logs -> shared/var/logs        // Symlink to the shared directory shared/var/logs 
    |- 2023-05-03-08-08-08-v1.0.0    
    ...
- |- shared                            // Directory for shared files between releases
+ |- shared                                 // Directory for shared files between releases
    |- var/logs
 ```
 
@@ -209,4 +209,51 @@ User git
 IdentityFile ~/.ssh/dploy-git
 ```
 
+## Site Root Directory
+
+Go to your site and change the **Root Directory** to **current**.
+
+<img alt="CloudPanel Site Root Directory" class="border" src={useBaseUrl('img/dploy/root-directory-change.png')} />
+
 ## Deploy
+
+With the command **dploy deploy**, you can deploy a **branch** or **tag**. 
+For deploying to **production**, it's recommended to deploy **tags** to roll back to a previous version if needed.
+
+1. Login via **SSH** as the **site user**.
+
+2. Run the **dploy deploy** command:
+
+Deploying a branch like **main**:
+
+```bash
+dploy deploy main
+```
+
+Deploying a tag:
+
+```bash
+dploy deploy v1.0.0
+```
+
+### Process Description
+
+When you execute the command **dploy deploy**, the following steps are being executed:
+
+1. Cloning the git repository into a new release directory.
+
+2. Copying the overlay files from **~/.dploy/overlays** into the release directory.
+
+3. Settings shared directories symlinks.
+
+4. Setting Directory and File permissions.
+
+5. Executing the **before_commands** commands.
+
+6. Setting the **current** symlink to the newest release.
+
+7. Executing the **after_commands** like reloading **PHP-FPM** to clear the realpath cache.
+
+8. Cleaning old releases.
+
+<img alt="DPLOY" class="border" src={useBaseUrl('img/dploy/video.gif')} />
