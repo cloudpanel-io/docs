@@ -28,6 +28,23 @@ curl -sS https://dploy.cloudpanel.io/dploy -o /usr/local/bin/dploy && chmod +x /
 
 With the **dploy init** command, the config file and the project directory structure gets created.
 
+```bash
+~/.dploy           // dploy directory
+ |- config.yml     // dploy config file
+ |- overlays       // Overlay files that get copied into the release
+   |  - .env       // For example .env file which contains sensitive information
+
+~/htdocs/www.domain.com               // The deploy_directory
+ |- current -> releases/1             // Symlink to the current release.
+ |- releases                   
+   |- 2023-05-04-08-08-08-v1.0.1    
+     |- var/logs -> shared/var/logs   // Symlink to shared var/logs directory
+   |- 2023-05-03-08-08-08-v1.0.0    
+   ...
+ |- shared                            // Directory for shared files between releases
+   |- var/logs
+```
+
 1. Login via **SSH** as the **site user**.
 
 2. Run **dploy init**, to initialize the project. A pre-configured config file is downloaded from the [templates repository](https://github.com/cloudpanel-io/dploy-application-templates), and the project directory structure is created.
@@ -100,7 +117,7 @@ dploy init woocommerce
 <TabItem value="ghost">
 
 ```bash
-dploy init ghost
+Coming soon
 ```
 
 </TabItem>
@@ -191,7 +208,5 @@ Host github.com
 User git
 IdentityFile ~/.ssh/dploy-git
 ```
-
-## Overlays
 
 ## Deploy
