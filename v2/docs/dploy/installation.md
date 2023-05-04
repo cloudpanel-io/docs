@@ -9,20 +9,24 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 :::warning Under Development
-**DPLOY** is currently in the testing phase and has not yet been officially released.
+**dploy** is currently in the testing phase and has not yet been officially released.
 :::
 
-On this page, we explain step by step how to install and use **DPLOY** on **CloudPanel**.
+On this page, we explain step by step how to install and use **dploy** on **CloudPanel**.
 
 ## Download
 
 1. Login via **SSH** as root user.
 
-2. Download **DPLOY**, save it to **/usr/local/bin/dploy** and make it executable.
+2. Download **dploy**, save it to **/usr/local/bin/dploy** and make it executable.
 
 ```bash
 curl -sS https://dploy.cloudpanel.io/dploy -o /usr/local/bin/dploy && chmod +x /usr/local/bin/dploy
 ```
+
+2. Enter **dploy** to see the available commands.
+
+<img alt="DPLOY Command List" src={useBaseUrl('img/dploy/dploy-list-commands.png')} />
 
 ## Initialize
 
@@ -139,7 +143,7 @@ dploy init static-html-site
 
 ## Configuration
 
-The **dploy init** command creates the **dploy** configuration file **config.yml**.
+The **dploy init** command creates the configuration file **config.yml**.
 
 Open the **config.yml** and change the **shared directories**, **before and after commands**, if needed.
 
@@ -209,11 +213,35 @@ User git
 IdentityFile ~/.ssh/dploy-git
 ```
 
+6. Go to the **tmp directory** of your site, and test if cloning the git repository works as expected.
+
+```bash
+cd ~/tmp/
+```
+
+Clone git repository:
+
+```bash
+git clone git@github.com:cloudpanel-io/dploy-dploy-repo.git
+```
+
 ## Site Root Directory
 
 Go to your site and change the **Root Directory** to **current**.
 
 <img alt="CloudPanel Site Root Directory" class="border" src={useBaseUrl('img/dploy/root-directory-change.png')} />
+
+## Overlays
+
+Overlays are mostly environment-specific files copied into the release directory after cloning the repository.
+
+For **Laravel** or **Symfony** applications, you would put the **.env** file in this directory. 
+
+For **Magento 2**, you would put the **app/etc/env.php** file in the same structure.
+
+```bash
+cd ~/.dploy/overlays
+```
 
 ## Deploy
 
@@ -230,7 +258,7 @@ Deploying a branch like **main**:
 dploy deploy main
 ```
 
-Deploying a tag:
+Deploying a **tag**:
 
 ```bash
 dploy deploy v1.0.0
@@ -257,3 +285,15 @@ When you execute the command **dploy deploy**, the following steps are being exe
 8. Cleaning old releases.
 
 <img alt="DPLOY" class="border" src={useBaseUrl('img/dploy/video.gif')} />
+
+## Update
+
+**dploy** is shipped with a **self-update** command to make the update process easy.
+
+1. Login via **SSH** as root user.
+
+2. Run **dploy self-update** to get the latest version.
+
+```bash
+dploy self-update
+```
