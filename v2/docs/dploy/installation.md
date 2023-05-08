@@ -164,7 +164,7 @@ To allow site users to reload only the **PHP-FPM Service**, we create a **sudoer
 Replace **john-doe** with your **site user** and execute the following command as root:
 
 ```bash
-echo 'john-doe ALL = NOPASSWD: systemctl reload php*-fpm' >> /etc/sudoers.d/dploy
+echo 'john-doe ALL = NOPASSWD: /usr/bin/systemctl reload php*-fpm' >> /etc/sudoers.d/dploy
 ```
 
 ### SSH Config
@@ -264,7 +264,7 @@ Deploying a **tag**:
 dploy deploy v1.0.0
 ```
 
-### Process Description
+#### Process Description
 
 When you execute the command **dploy deploy**, the following steps are being executed:
 

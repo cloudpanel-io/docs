@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the latest [Moodle 4](https://download.moodle.org/releases/latest/) version.
 
 ```
-curl -sL https://download.moodle.org/download.php/direct/stable401/moodle-4.1.tgz | tar xfz -
+curl -sL https://download.moodle.org/download.php/direct/stable402/moodle-latest-402.tgz | tar xfz -
 ```
 
 4. Copy files to the **root directory** of your site:

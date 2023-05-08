@@ -25,7 +25,7 @@ On this site, you find a guide to install [Laravel](https://laravel.com/) on **C
 If you like the command line, you can create a **Laravel Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.1 --vhostTemplate='Laravel 10' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Laravel 10' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Laravel Project

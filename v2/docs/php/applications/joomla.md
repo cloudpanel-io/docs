@@ -25,7 +25,7 @@ On this site, you find a guide to install [Joomla](https://www.joomla.org/) on *
 If you like the command line, you can create a **Joomla Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=7.4 --vhostTemplate='Joomla 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate='Joomla 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Joomla Project
@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the [latest Joomla 4](https://downloads.joomla.org/) version.
 
 ```
-mkdir ~/tmp/joomla && curl -sL https://downloads.joomla.org/cms/joomla4/4-2-6/Joomla_4-2-6-Stable-Full_Package.tar.gz | tar xfz - -C ~/tmp/joomla/
+mkdir ~/tmp/joomla && curl -sL https://downloads.joomla.org/cms/joomla4/4-3-1/Joomla_4-3-1-Stable-Full_Package.tar.gz | tar xfz - -C ~/tmp/joomla/
 ```
 
 4. Copy files to the **root directory** of your site:

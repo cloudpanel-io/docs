@@ -25,7 +25,7 @@ On this site, you find a guide to install [Neos](https://www.neos.io/) on **Clou
 If you like the command line, you can create a **Neos Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.1 --vhostTemplate='Neos 8' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Neos 8' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Neos Project
