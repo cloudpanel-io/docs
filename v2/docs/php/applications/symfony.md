@@ -25,7 +25,7 @@ On this site, you find a guide to install [Symfony](https://symfony.com/) on **C
 If you like the command line, you can create a **Symfony Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.1 --vhostTemplate='Symfony 6' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Symfony 6' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Symfony Project
@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Symfony Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project symfony/skeleton:^6 www.domain.com
+php8.2< /usr/local/bin/composer create-project symfony/skeleton:^6 www.domain.com
 ```
 
 4. Done! **Symfony** has been installed.
