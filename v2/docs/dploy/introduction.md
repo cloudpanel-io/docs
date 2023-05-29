@@ -22,6 +22,6 @@ Whether deploying a small website or a complex web application, **dploy** makes 
 
 - [Open Source (MIT License)](https://github.com/cloudpanel-io/dploy)
 - Setup done in less than 60 seconds
+- Solution for **PHP**, **Node.js**, **Static HTML Sites** and **Python**
 - Zero Downtime Deployment
-- Support for popular frameworks
 - Continuous Deployment

@@ -249,6 +249,11 @@ module.exports = {
         'dploy/introduction',
         'dploy/installation',
         'dploy/changelog',
+        {
+          type: 'link',
+          label: 'Issues',
+          href: 'https://github.com/cloudpanel-io/dploy/issues',
+        },
       ],
     },
     {
