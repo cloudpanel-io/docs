@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Laravel Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project --prefer-dist laravel/laravel:^10 -n www.domain.com
+php8.2 /usr/local/bin/composer create-project --prefer-dist laravel/laravel:^10 -n www.domain.com
 ```
 
 4. Done! You can now open your **site** in your browser to see the **welcome page**.
