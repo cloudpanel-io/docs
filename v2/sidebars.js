@@ -247,6 +247,11 @@ module.exports = {
           label: 'Deployment',
           items: [
             'python/deployment/uwsgi',
+            {
+              type: 'link',
+              label: 'DPLOY', // The link label
+              href: '/dploy/introduction', // The internal path
+            },
           ],
         },
         {

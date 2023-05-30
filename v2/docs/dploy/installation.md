@@ -39,9 +39,9 @@ With the **dploy init** command, the config file and the project directory struc
 ~/htdocs/www.domain.com                    // The deploy_directory
  |- current -> releases/2023-05...-v1.0.1  // Symlink to the current release.
  |- releases                   
-   |- 2023-05-04-08-08-08-v1.0.1    
+   |- 2023-06-01-08-08-08-v1.0.1    
      |- var/logs -> shared/var/logs        // Symlink to the shared directory shared/var/logs 
-   |- 2023-05-03-08-08-08-v1.0.0    
+   |- 2023-06-01-08-08-08-v1.0.0    
    ...
  |- shared                                 // Directory for shared files between releases
    |- var/logs
@@ -120,7 +120,7 @@ dploy init woocommerce
 <TabItem value="ghost">
 
 ```bash
-Coming soon
+dploy init ghost
 ```
 
 </TabItem>
