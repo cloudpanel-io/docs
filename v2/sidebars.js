@@ -166,6 +166,11 @@ module.exports = {
           label: 'Deployment',
           items: [
             'nodejs/deployment/pm2',
+            {
+              type: 'link',
+              label: 'DPLOY', // The link label
+              href: '/dploy/introduction', // The internal path
+            },
           ],
         },
         {
@@ -209,6 +214,17 @@ module.exports = {
             'php/applications/wordpress',
             'php/applications/yii',
             'php/applications/other',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Deployment',
+          items: [
+            {
+              type: 'link',
+              label: 'DPLOY', // The link label
+              href: '/dploy/introduction', // The internal path
+            },
           ],
         },
         {

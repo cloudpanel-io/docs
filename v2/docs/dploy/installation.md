@@ -8,10 +8,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::warning Under Development
-**dploy** is currently in the testing phase and has not yet been officially released.
-:::
-
 On this page, we explain step by step how to install and use **dploy** on **CloudPanel**.
 
 ## Download
@@ -21,7 +17,9 @@ On this page, we explain step by step how to install and use **dploy** on **Clou
 2. Download **dploy**, save it to **/usr/local/bin/dploy** and make it executable.
 
 ```bash
-curl -sS https://dploy.cloudpanel.io/dploy -o /usr/local/bin/dploy && chmod +x /usr/local/bin/dploy
+curl -sS https://dploy.cloudpanel.io/dploy -o /usr/local/bin/dploy; \
+echo "8809e9eb63483487f16b0a2e4075a8b18350a02470405e2f786bf82fd7e5fb53 /usr/local/bin/dploy" | \
+sha256sum -c && chmod +x /usr/local/bin/dploy
 ```
 
 2. Enter **dploy** to see the available commands.
@@ -57,6 +55,7 @@ With the **dploy init** command, the config file and the project directory struc
 { label: 'PHP Applications', value: 'php-applications', },
 { label: 'Node.js Applications', value: 'node-js-applications', },
 { label: 'Static HTML Sites', value: 'static-html-sites', },
+{ label: 'Python', value: 'python', },
 ]}>
 <TabItem value="php-applications">
 
@@ -135,6 +134,13 @@ dploy init static-html-site
 ```
 
 </TabItem>
+<TabItem value="python">
+
+```bash
+dploy init python
+```
+
+</TabItem>
 </Tabs>
 
 3. Enter your **Git Repository SSH URL** and the **Deploy Directory**.
@@ -156,6 +162,10 @@ nano ~/.dploy/config.yml
 ```
 
 ### Sudoers File
+
+:::important PHP Applications Only
+This step is only needed for **PHP Applications**; skip it if you are deploying a **Node.js** or **Static HTML** site.
+:::
 
 For security reasons, the site users cannot reload the **PHP-FPM Service**, which is needed to clear the **realpath** cache after switching the current symlink to the latest release.
 
@@ -274,15 +284,13 @@ When you execute the command **dploy deploy**, the following steps are being exe
 
 3. Settings shared directories symlinks.
 
-4. Setting Directory and File permissions.
+4. Executing the **before_commands** commands.
 
-5. Executing the **before_commands** commands.
+5. Setting the **current** symlink to the newest release.
 
-6. Setting the **current** symlink to the newest release.
+6. Executing the **after_commands** like reloading **PHP-FPM** to clear the realpath cache.
 
-7. Executing the **after_commands** like reloading **PHP-FPM** to clear the realpath cache.
-
-8. Cleaning old releases.
+7. Cleaning old releases.
 
 <img alt="DPLOY" class="border" src={useBaseUrl('img/dploy/video.gif')} />
 
