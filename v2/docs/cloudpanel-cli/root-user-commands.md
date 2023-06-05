@@ -188,7 +188,7 @@ clpctl site:delete --domainName=www.domain.com --force
 
 ### Adding a User
 
-To add a **User**, see the following commands as example:
+To add a **User**, see the following commands as example.
 
 To add an **admin user**, use the following command:
 
