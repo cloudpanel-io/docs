@@ -6,7 +6,7 @@ sidebar_label: Root User Commands
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img alt="Root User Commands" src={useBaseUrl('img/cli-commands/root-user-commands.png')} />
+<img alt="Root User Commands" src={useBaseUrl('img/cli-commands/root-user-commands.png?v=0.0.2')} />
 
 ## Cloudflare
 
@@ -162,6 +162,14 @@ To add a **Reverse Proxy**, use the following command:
 clpctl site:add:reverse-proxy --domainName=www.domain.com --reverseProxyUrl='http://127.0.0.1:8000' --siteUser=john --siteUserPassword='!secretPassword!'
 ```
 
+### Installing a Certificate
+
+To install a certificate for a site, use the following command below. The **certificateChain** argument is optional.
+
+```bash
+clpctl site:install:certificate --domainName=www.domain.com --privateKey=/path/to/private.key --certificate=/path/to/certificate.crt --certificateChain=/path/to/chain.crt
+```
+
 ### Deleting a Site
 
 To delete a Site, use the following command:
@@ -177,6 +185,42 @@ clpctl site:delete --domainName=www.domain.com --force
 ``` 
 
 ## User
+
+### Adding a User
+
+To add a **User**, see the following commands as example:
+
+To add an **admin user**, use the following command:
+
+```bash
+clpctl user:add --userName='john.doe' --email='john.doe@domain.com' --firstName='John' --lastName='Doe' --password='!password!' --role='admin' --timezone='UTC' --status='1'
+``` 
+
+To add a **site manager**, use the following command:
+
+```bash
+clpctl user:add --userName='john.doe' --email='john.doe@domain.com' --firstName='John' --lastName='Doe' --password='!password!' --role='site-manager' --timezone='UTC' --status='1'
+``` 
+
+To add a **user** who is restricted to specific sites, use the following command:
+
+```bash
+clpctl user:add --userName='john.doe' --email='john.doe@domain.com' --firstName='John' --lastName='Doe' --password='!password!' --role='user' --sites='domain.com,domain.io' --timezone='UTC' --status='1'
+``` 
+
+### Deleting a user
+
+```bash
+clpctl user:delete --userName='john.doe'
+```
+
+### List Users
+
+To list all users, use the following command:
+
+```bash
+clpctl user:list
+```
 
 ### Password Reset
 

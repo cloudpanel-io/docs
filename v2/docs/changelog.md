@@ -4,6 +4,30 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.3.0 - [2023-06-06]
+
+**New**
+- Translation: Bulgarian
+- New CloudPanel CLI Root Commands:
+  - User:
+    - [user:add](/cloudpanel-cli/root-user-commands/#adding-a-user)
+    - [user:delete](/cloudpanel-cli/root-user-commands/#deleting-a-user)
+    - [user:list](/cloudpanel-cli/root-user-commands/#list-users)
+  - Site:
+    - [site:install:certificate](/cloudpanel-cli/root-user-commands/#installing-a-certificate)
+
+**Enhancements**
+- The site user name and password can be entered manually for new WordPress sites.
+
+**Bug Fixes**
+- [#278 CLI need normalize domain name field](https://github.com/cloudpanel-io/cloudpanel-ce/issues/278)
+- [#284 CLPCTL - Problem with special characters in password result false error](https://github.com/cloudpanel-io/cloudpanel-ce/issues/284)
+- Translation Fixes
+
+**Security**
+- Critical (CVE-2023-33747): Privilege Escalation to root from user. Big thanks to Muhammad (datack.my, host.sabily.info) for reporting and testing
+- OS Command Injection. Big thanks to Laurence from crowdsec.net for reporting and testing
+
 ## v2.2.2 - [2023-04-03]
 
 **New**
