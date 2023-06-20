@@ -4,6 +4,18 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.3.1 - [2023-06-20]
+
+**Bug Fixes**
+- [#287 Colon in remote cloud backup breaks most filesystems](https://github.com/cloudpanel-io/cloudpanel-ce/issues/287)
+- [#290 File Manager Extract not working since v2.3.0](https://github.com/cloudpanel-io/cloudpanel-ce/issues/290)
+- [#293 Strange \n\n inside the certificate file used for custom domain.](https://github.com/cloudpanel-io/cloudpanel-ce/issues/293)
+- Translation Fixes
+
+**Security**
+- Critical (CVE-2023-35885): Insecure file manager cookie authentication (Muhammad Aizat, datack.my)
+- Insecure File Upload leads to Privilege Escalation and Authentication Bypass (Muhammad Zulfiqar)
+
 ## v2.3.0 - [2023-06-06]
 
 **New**
