@@ -14,7 +14,7 @@ sidebar_label: Changelog
 
 **Security**
 - Critical (CVE-2023-35885): Insecure file manager cookie authentication (Muhammad Aizat, datack.my)
-- Insecure File Upload leads to Privilege Escalation and Authentication Bypass (Muhammad Zulfiqar)
+- Critical (CVE-2023-36630): Insecure File Upload leads to Privilege Escalation and Authentication Bypass (Mohammad Zulfiqar)
 
 ## v2.3.0 - [2023-06-06]
 
