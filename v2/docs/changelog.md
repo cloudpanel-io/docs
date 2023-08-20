@@ -4,6 +4,22 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.3.2 - [2023-08-21]
+
+**New**
+- Translation: Koran, Persian
+
+**Bug Fixes**
+- Translation Fixes
+
+Enhancements:
+- Vietnamese, Chinese Translation
+- RTL stylesheet improvements
+
+**Security**
+- [MySQL Root Password Leak from site user (Thanks to Yell Phone Naing)](https://github.com/cloudpanel-io/cloudpanel-ce/issues/298)
+- Privilege Escalation to root from user (Thanks to Yell Phone Naing)
+
 ## v2.3.1 - [2023-06-20]
 
 **Bug Fixes**
