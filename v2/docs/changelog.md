@@ -17,8 +17,8 @@ Enhancements:
 - RTL stylesheet improvements
 
 **Security**
-- [MySQL Root Password Leak from site user (Thanks to Yell Phone Naing)](https://github.com/cloudpanel-io/cloudpanel-ce/issues/298)
-- Privilege Escalation to root from user (Thanks to Yell Phone Naing)
+- [#298 MySQL Root Password Leak from site user (Thanks to Yell Phone Naing)](https://github.com/cloudpanel-io/cloudpanel-ce/issues/298)
+- Critical: Privilege Escalation to root from user (Thanks to Yell Phone Naing)
 
 ## v2.3.1 - [2023-06-20]
 
