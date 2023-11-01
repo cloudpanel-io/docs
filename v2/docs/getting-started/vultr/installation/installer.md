@@ -87,7 +87,7 @@ values={[
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "3c30168958264ced81ca9b58dbc55b4d28585d9066b9da085f2b130ae91c50f6 install.sh" | \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
 sha256sum -c && sudo CLOUD=vultr bash install.sh
 ```
 
@@ -96,7 +96,7 @@ sha256sum -c && sudo CLOUD=vultr bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "3c30168958264ced81ca9b58dbc55b4d28585d9066b9da085f2b130ae91c50f6 install.sh" | \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
 sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.11 bash install.sh
 ```
 
@@ -105,7 +105,7 @@ sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.11 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "3c30168958264ced81ca9b58dbc55b4d28585d9066b9da085f2b130ae91c50f6 install.sh" | \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
 sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.6 bash install.sh
 ```
 
@@ -141,7 +141,7 @@ values={[
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "3c30168958264ced81ca9b58dbc55b4d28585d9066b9da085f2b130ae91c50f6 install.sh" | \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
 sha256sum -c && sudo CLOUD=vultr bash install.sh
 ```
 
@@ -150,7 +150,7 @@ sha256sum -c && sudo CLOUD=vultr bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "3c30168958264ced81ca9b58dbc55b4d28585d9066b9da085f2b130ae91c50f6 install.sh" | \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
 sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MYSQL_5.7 bash install.sh
 ```
 
@@ -159,7 +159,7 @@ sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MYSQL_5.7 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "3c30168958264ced81ca9b58dbc55b4d28585d9066b9da085f2b130ae91c50f6 install.sh" | \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
 sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.11 bash install.sh
 ```
 
@@ -168,7 +168,7 @@ sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.11 bash install.sh
 
 ```bash
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "3c30168958264ced81ca9b58dbc55b4d28585d9066b9da085f2b130ae91c50f6 install.sh" | \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
 sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.6 bash install.sh
 ```
 
