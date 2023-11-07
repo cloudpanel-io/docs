@@ -18,14 +18,14 @@ On this site, you find a guide to install and configure [Strapi 4](https://strap
 
 2. Enter the **Domain Name**, **Node.js Version**, and the **App Port**, and click on **Create**.
 
-<img alt="Add Node.js Site Form" class="border" src={useBaseUrl('img/nodejs/applications/strapi/add-site-form.png')} />
+<img alt="Add Node.js Site Form" class="border" src={useBaseUrl('img/nodejs/applications/strapi/add-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
 You can create a **Node.js Site** with the following command as **root user** if you like the command line.
 
 ```bash
-clpctl site:add:nodejs --domainName=www.domain.com --nodejsVersion=14 --appPort=1337 --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:nodejs --domainName=www.domain.com --nodejsVersion=18 --appPort=1337 --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Strapi project
