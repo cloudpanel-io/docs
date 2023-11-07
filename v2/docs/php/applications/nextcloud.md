@@ -18,7 +18,7 @@ On this site, you find a guide to install [Nextcloud](https://nextcloud.com/) on
 
 2. Select the Application **Nextcloud 25**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Nextcloud Site" src={useBaseUrl('img/php/applications/nextcloud/create-site-form.png')} />
+<img class="border" alt="Create a Nextcloud Site" src={useBaseUrl('img/php/applications/nextcloud/create-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
@@ -62,8 +62,8 @@ rm -rf ~/tmp/*
 
 6. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Nextcloud Installer**.
 
-<img class="border" alt="Nextcloud Installer" src={useBaseUrl('img/php/applications/nextcloud/nextcloud-installer.png')} />
+<img class="border" alt="Nextcloud Installer" src={useBaseUrl('img/php/applications/nextcloud/nextcloud-installer.png?v=0.0.2')} />
 
 7. Done. **Nextcloud** has been installed.
 
-<img class="border" alt="Nextcloud Installed" src={useBaseUrl('img/php/applications/nextcloud/nextcloud-installed.png')} />
+<img class="border" alt="Nextcloud Installed" src={useBaseUrl('img/php/applications/nextcloud/nextcloud-installed.png?v=0.0.2')} />
