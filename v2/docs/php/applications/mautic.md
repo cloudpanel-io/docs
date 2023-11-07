@@ -18,14 +18,14 @@ On this site, you find a guide to install [Mautic](https://www.mautic.org/) on *
 
 2. Select the Application **Mautic 4**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Mautic Site" src={useBaseUrl('img/php/applications/mautic/create-site-form.png')} />
+<img class="border" alt="Create a Mautic Site" src={useBaseUrl('img/php/applications/mautic/create-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Mautic Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=7.4 --vhostTemplate='Mautic 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate='Mautic 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Mautic Project
@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Clone the latest version from the [Mautic Git Repository](https://github.com/mautic/mautic):
 
 ```
-git clone -b 4.4.8 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
+git clone -b 4.4.10 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
 ```
 
 :::caution Latest Version
@@ -56,7 +56,7 @@ You find the latest version on github: [https://github.com/mautic/mautic/release
 
 ```bash
 cd ~/htdocs/www.domain.com/
-php7.4 /usr/local/bin/composer install
+php8.0 /usr/local/bin/composer install
 ```
 
 5. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Mautic Installer**.
@@ -65,4 +65,4 @@ php7.4 /usr/local/bin/composer install
 
 6. Done. **Mautic** has been installed.
 
-<img class="border" alt="Mautic Installed" src={useBaseUrl('img/php/applications/mautic/mautic-installed.png')} />
+<img class="border" alt="Mautic Installed" src={useBaseUrl('img/php/applications/mautic/mautic-installed.png?v=0.0.2')} />
