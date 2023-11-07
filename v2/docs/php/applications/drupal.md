@@ -18,7 +18,7 @@ On this site, you find a guide to install [Drupal](https://www.drupal.org/) on *
 
 2. Select the Application **Drupal 10**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Drupal Site" src={useBaseUrl('img/php/applications/drupal/create-site-form.png?v=10')} />
+<img class="border" alt="Create a Drupal Site" src={useBaseUrl('img/php/applications/drupal/create-site-form.png?v=10.1')} />
 
 ### Via CloudPanel CLI
 
@@ -50,8 +50,8 @@ php8.2 /usr/local/bin/composer create-project drupal/recommended-project:^10 -n 
 
 4. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Drupal Installer**.
 
-<img alt="Drupal Installer" src={useBaseUrl('img/php/applications/drupal/drupal-installer.png?v=10')} />
+<img alt="Drupal Installer" src={useBaseUrl('img/php/applications/drupal/drupal-installer.png?v=10.1')} />
 
 5. Done! **Drupal** has been installed.
 
-<img class="border" alt="Welcome to Drupal Site" src={useBaseUrl('img/php/applications/drupal/welcome-to-drupal-site.png?v=10')} />
+<img class="border" alt="Welcome to Drupal Site" src={useBaseUrl('img/php/applications/drupal/welcome-to-drupal-site.png?v=10.1')} />
