@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Laminas Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project -s dev laminas/laminas-mvc-skeleton www.domain.com
+php8.2 /usr/local/bin/composer create-project -s dev laminas/laminas-mvc-skeleton www.domain.com
 ```
 
 4. Done! You can now open your **site** in your browser to see the **welcome page**.

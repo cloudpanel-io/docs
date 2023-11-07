@@ -24,14 +24,14 @@ Follow the guide [https://www.elastic.co/guide/en/elasticsearch/reference/7.9/de
 
 2. Select the Application **Magento 2**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Magento Site" src={useBaseUrl('img/php/applications/magento/create-site-form.png')} />
+<img class="border" alt="Create a Magento Site" src={useBaseUrl('img/php/applications/magento/create-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Magento Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.1 --vhostTemplate='Magento 2' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Magento 2' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Magento 2 Project
