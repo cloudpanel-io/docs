@@ -18,14 +18,14 @@ On this site, you find a guide to install [CakePHP](https://cakephp.org/) on **C
 
 2. Select the Application **CakePHP**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a CakePHP Site" src={useBaseUrl('img/php/applications/cakephp/create-site-form.png')} />
+<img class="border" alt="Create a CakePHP Site" src={useBaseUrl('img/php/applications/cakephp/create-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **CakePHP Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.1 --vhostTemplate='CakePHP 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='CakePHP 5' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a CakePHP Project
@@ -45,9 +45,9 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **CakePHP Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project --prefer-dist cakephp/app:~4.4 www.domain.com
+php8.2 /usr/local/bin/composer create-project --prefer-dist cakephp/app:~5.0 www.domain.com
 ```
 
-4. **Done!** You can now open your site in your browser to see the **Welcome to CakePHP 4** page.
+4. **Done!** You can now open your site in your browser to see the **Welcome to CakePHP 5** page.
 
-<img class="border" alt="Welcome to CakePHP" src={useBaseUrl('img/php/applications/cakephp/welcome-to-cake.png')} />
+<img class="border" alt="Welcome to CakePHP" src={useBaseUrl('img/php/applications/cakephp/welcome-to-cake.png?v=0.0.2')} />
