@@ -18,14 +18,14 @@ On this site, you find a guide to install [TYPO3](https://typo3.org/) on **Cloud
 
 2. Select the Application **TYPO3 v12**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a TYPO3 Site" src={useBaseUrl('img/php/applications/typo3/create-site-form.png')} />
+<img class="border" alt="Create a TYPO3 Site" src={useBaseUrl('img/php/applications/typo3/create-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **TYPO3 Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.1 --vhostTemplate='TYPO3 12' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='TYPO3 12' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a TYPO3 Project
@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **TYPO3 Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project typo3/cms-base-distribution:~12 www.domain.com
+php8.2 /usr/local/bin/composer create-project typo3/cms-base-distribution:~12 www.domain.com
 ```
 
 4. Open your site in your browser and go through the **installation wizard**:
