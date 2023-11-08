@@ -6,7 +6,7 @@ sidebar_label: Root User Commands
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img alt="Root User Commands" src={useBaseUrl('img/cli-commands/root-user-commands.png?v=0.0.2')} />
+<img alt="Root User Commands" src={useBaseUrl('img/cli-commands/root-user-commands.png?v=0.0.3')} />
 
 ## Cloudflare
 
@@ -106,14 +106,14 @@ clpctl lets-encrypt:install:certificate --domainName=www.domain.com --subjectAlt
 
 ### Adding a Node.js site
 
-**Node 16 LTS**, **Node 14 LTS**, **Node 12 LTS** are available. The **Node.js Versions** are managed via [Node Version Manager](https://github.com/nvm-sh/nvm).
+**Node 20 LTS**, **Node 18 LTS**, **Node 16 LTS**, **Node 14 LTS**, **Node 12 LTS** are available. The **Node.js Versions** are managed via [Node Version Manager](https://github.com/nvm-sh/nvm).
 
 If you need another version, you can change the version afterward.
 
 To add a **Node.js Site**, use the following command.
 
 ```bash
-clpctl site:add:nodejs --domainName=www.domain.com --nodejsVersion=16 --appPort=3000 --siteUser=john --siteUserPassword='!secretPassword!'
+clpctl site:add:nodejs --domainName=www.domain.com --nodejsVersion=18 --appPort=3000 --siteUser=john --siteUserPassword='!secretPassword!'
 ```
 
 ### Adding a Static HTML Site
@@ -139,7 +139,7 @@ The **vhost templates** can be found on [Github](https://github.com/cloudpanel-i
 Copy the name of the template and use the following command to create a **PHP Site**:
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.1 --vhostTemplate='Generic' --siteUser=john --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Generic' --siteUser=john --siteUserPassword='!secretPassword!'
 ```
 
 ### Adding a Python Site
