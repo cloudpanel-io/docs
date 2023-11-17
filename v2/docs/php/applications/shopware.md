@@ -18,14 +18,14 @@ On this site, you find a guide to install [Shopware](https://www.shopware.com/) 
 
 2. Select the Application **Shopware 6**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Shopware Site" src={useBaseUrl('img/php/applications/shopware/create-site-form.png')} />
+<img class="border" alt="Create a Shopware Site" src={useBaseUrl('img/php/applications/shopware/create-site-form.png?v=2')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Shopware Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate='Shopware 6' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Shopware 6' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Shopware Project
@@ -36,41 +36,25 @@ clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate
 ssh john-doe@server-ip-address
 ```
 
-2. Go to the **tmp** directory:
-
-```
-cd ~/tmp
-```
-
-3. Download and extract the latest **Shopware 6** version.
+2. Go to **htdocs** and delete the directory which **CloudPanel** has created:
 
 ```bash
-curl -sLo shopware6.zip https://releases.shopware.com/sw6/install_v6.4.18.0_e21804c46503240c951ead31057152724aea068e.zip && unzip shopware6.zip -d shopware6
+cd htdocs && rm -rf www.domain.com
 ```
 
-:::caution Latest Version
-You find the latest version on github: [https://www.shopware.com/en/download/#shopware-6](https://www.shopware.com/en/download/#shopware-6)
-:::
+3. Create a **Symfony Project** via **Composer**:
 
-4. Copy files to the **root directory** of your site:
-
-```
-cp -R shopware6/*  ~/htdocs/www.domain.com/
+```bash
+php8.2 /usr/local/bin/composer create-project shopware/production www.domain.com
 ```
 
-5. Clean up the **tmp** directory.
-
-```
-rm -rf ~/tmp/*
-```
-
-6. Ensure to have a valid [TLS Certificate](../../../frontend-area/tls/) installed for your domain.
+4. Ensure to have a valid [TLS Certificate](../../../frontend-area/tls/) installed for your domain.
  
-7. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Shopware Installer**.
+5. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Shopware Installer**.
 
-<img class="border" alt="Shopware Installer" src={useBaseUrl('img/php/applications/shopware/shopware-installer.png')} />
+<img class="border" alt="Shopware Installer" src={useBaseUrl('img/php/applications/shopware/shopware-installer.png?v=2')} />
 
-8. Done! **Shopware** is now installed.
+6. Done! **Shopware** is now installed.
 
 <img class="border" alt="Shopware Installed" src={useBaseUrl('img/php/applications/shopware/shopware-installed.png')} />
 
