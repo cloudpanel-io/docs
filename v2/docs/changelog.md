@@ -26,7 +26,7 @@ sidebar_label: Changelog
 
 **Security**
 - File Manager: New file chown issue (CVE-2023-43880)
-- File Manager: Zip symlink (BSDTAR) (CVE-2023-43881)
+- File Manager: Zip symlink (BSDTAR) (CVE-2023-43881) 
 - Command Injection (Yell Phone Naing)
 
 ## v2.3.1 - [2023-06-20]
