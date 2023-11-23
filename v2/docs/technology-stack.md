@@ -23,10 +23,10 @@ values={[
 | [NGINX](https://nginx.org)                 | **1.21**               | with PageSpeed Module |
 | [MySQL](https://www.mysql.com/)            | **8.0**                |                       |
 | [MariaDB](https://mariadb.org/)            | **10.6**, **10.11**    |                       |
-| [PHP](https://www.php.net)                 | **7.1-8.2**            |                       |
+| [PHP](https://www.php.net)                 | **7.1-8.3**            |                       |
 | [Redis](https://redis.io)                  | **6**                  |                       |
 | [ProFTPD](http://www.proftpd.org)          | **1.3**                |                       |
-| [Node.js](https://nodejs.org)              | **12, 14, 16**, **18** | LTS Versions          |
+| [Node.js](https://nodejs.org)              | **12, 14, 16, 18, 20** | LTS Versions          |
 | [Yarn](https://yarnpkg.com)                | **1.22**               |                       |
 | [Python](https://www.python.org/)          | **3.10**               |                       |
 | [Varnish Cache](http://varnish-cache.org/) | **7.1**                |                       |
@@ -40,10 +40,10 @@ values={[
 | [NGINX](https://nginx.org)        | **1.21**               | with PageSpeed Module |
 | [MySQL](https://www.percona.com/software/mysql-database/percona-server)   | **5.7, 8.0**           |                       |
 | [MariaDB](https://mariadb.org/)   | **10.6**, **10.11**    |                       |
-| [PHP](https://www.php.net)        | **7.1-8.2**            |                       |
+| [PHP](https://www.php.net)        | **7.1-8.3**            |                       |
 | [Redis](https://redis.io)         | **6**                  |                       |
 | [ProFTPD](http://www.proftpd.org) | **1.3**                |                       |
-| [Node.js](https://nodejs.org)     | **12, 14, 16**, **18** | LTS Versions          |
+| [Node.js](https://nodejs.org)     | **12, 14, 16, 18, 20** | LTS Versions          |
 | [Yarn](https://yarnpkg.com)       | **1.22**               |                       |
 | [Python](https://www.python.org/) | **3.9**                |                       |
 | [Varnish Cache](http://varnish-cache.org/) | **7.1**                |                       |

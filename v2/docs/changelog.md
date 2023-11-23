@@ -4,6 +4,43 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.4.0 - [2023-11-28] (NOT GA)
+
+**New**
+- PHP 8.3 Support
+- Node.js 20 LTS Support
+- Translations: Danish, Czech
+
+**Enhancements:**
+- The databases are backed up prior to executing remote backup
+- The site settings and vhost are being included in the remote backup file
+- Updated phpMyAdmin to 5.2.1
+
+**Bug Fixes**
+- [#329 duplicate settings key in file-manager.conf](https://github.com/cloudpanel-io/cloudpanel-ce/issues/329)
+- [#338 The original certificate is not removed when you delete a web application](https://github.com/cloudpanel-io/cloudpanel-ce/issues/338)
+- [#355 Login Page Autocomplete/Password Manager Issue](https://github.com/cloudpanel-io/cloudpanel-ce/issues/355)
+- [#359 When you delete a website the nodejs app started with PM2 is not deleted](https://github.com/cloudpanel-io/cloudpanel-ce/issues/359)
+- [#363 Custom v2-varnish vhost templates cause a 403 page and missing Varnish settings](https://github.com/cloudpanel-io/cloudpanel-ce/issues/363)
+- [#367 phpMyAdmin basic auth doesn't work when CloudPanel basic auth is enabled](https://github.com/cloudpanel-io/cloudpanel-ce/issues/367)
+
+**Security**
+- File Manager: New file chown issue (CVE-2023-43880)
+- File Manager: Zip symlink (BSDTAR) (CVE-2023-43881)
+- Command Injection (Yell Phone Naing)
+
+## v2.3.1 - [2023-06-20]
+
+**Bug Fixes**
+- [#287 Colon in remote cloud backup breaks most filesystems](https://github.com/cloudpanel-io/cloudpanel-ce/issues/287)
+- [#290 File Manager Extract not working since v2.3.0](https://github.com/cloudpanel-io/cloudpanel-ce/issues/290)
+- [#293 Strange \n\n inside the certificate file used for custom domain.](https://github.com/cloudpanel-io/cloudpanel-ce/issues/293)
+- Translation Fixes
+
+**Security**
+- Critical (CVE-2023-35885): Insecure file manager cookie authentication (Muhammad Aizat, datack.my)
+- Critical (CVE-2023-36630): Insecure File Upload leads to Privilege Escalation and Authentication Bypass (Mohammad Zulfiqar)
+
 ## v2.3.2 - [2023-08-21]
 
 **New**
