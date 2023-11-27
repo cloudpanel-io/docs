@@ -4,7 +4,7 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
-## v2.4.0 - [2023-11-28] (NOT GA)
+## v2.4.0 - [2023-11-27]
 
 **New**
 - PHP 8.3 Support
