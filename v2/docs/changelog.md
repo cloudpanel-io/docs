@@ -27,6 +27,7 @@ sidebar_label: Changelog
 **Security**
 - File Manager: New file chown issue (CVE-2023-43880)
 - File Manager: Zip symlink (BSDTAR) (CVE-2023-43881) 
+- OS Command Injection from chmod file (CVE-2023-46157, Muhammad Aizat, datack.my) 
 - Command Injection (Yell Phone Naing)
 
 ## v2.3.1 - [2023-06-20]
