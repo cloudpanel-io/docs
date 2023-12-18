@@ -27,7 +27,7 @@ class DependencyTemplates {
 
 	/**
 	 * @param {DependencyConstructor} dependency Constructor of Dependency
-	 * @returns {DependencyTemplate} template for this dependency
+	 * @returns {DependencyTemplate | undefined} template for this dependency
 	 */
 	get(dependency) {
 		return this._map.get(dependency);
@@ -57,7 +57,7 @@ class DependencyTemplates {
 	}
 
 	clone() {
-		const newInstance = new DependencyTemplates();
+		const newInstance = new DependencyTemplates(this._hashFunction);
 		newInstance._map = new Map(this._map);
 		newInstance._hash = this._hash;
 		return newInstance;
