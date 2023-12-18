@@ -55,7 +55,7 @@ Get [Magento Authentication Keys](https://devdocs.magento.com/guides/v2.3/instal
 :::
 
 ```bash
-php8.1 /usr/local/bin/composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition www.domain.com
+php8.2 /usr/local/bin/composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition www.domain.com
 ```
 
 4. [Create a Database](../../../frontend-area/databases/#adding-a-database) and copy the **Database Name**, **Database User Name**, and **Database User Password**.
@@ -71,7 +71,7 @@ Edit the parameters like **key**, **db-host**, **db-name** to your needs.
 :::
 
 ```bash
-php8.1 bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='magento2' --db-user='magento2' --db-password='magento2' --base-url='https://www.domain.com/' --base-url-secure='https://www.domain.com/' --admin-user='admin' --admin-password='!admin123!' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe'
+php8.2 bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='magento2' --db-user='magento2' --db-password='magento2' --base-url='https://www.domain.com/' --base-url-secure='https://www.domain.com/' --admin-user='admin' --admin-password='!admin123!' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe'
 ```
 
 6. Done. **Magento 2** has been installed.
