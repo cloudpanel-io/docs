@@ -15,7 +15,7 @@ On this site, you find a **step-by-step guide** on how to build a **PHP Extensio
 2. Install the **dev** package for the **PHP Version**.
 
 ```
-apt update && apt -y install php8.1-dev
+apt update && apt -y install php8.2-dev
 ```
 
 3. Go to [https://pecl.php.net/](https://pecl.php.net/) and search for the extension like [ssh2](https://pecl.php.net/package/ssh2):
@@ -25,26 +25,26 @@ apt update && apt -y install php8.1-dev
 4. Download the **tgz** via **cURL**:
 
 ```
-curl -O https://pecl.php.net/get/ssh2-1.3.1.tgz
+curl -O https://pecl.php.net/get/ssh2-1.4.tgz
 ```
 
 5. Extract the **tgz**:
 
 ```
-tar xf ssh2-1.3.1.tgz
+tar xf ssh2-1.4.tgz
 ```
 
 6. **phpize** the extension:
 
 ```
-cd ssh2-1.3.1
-phpize8.1
+cd ssh2-1.4
+phpize8.2
 ```
 
 7. **Compile** and **build** the extension:
 
 ```
-./configure
+./configure --with-php-config=/usr/bin/php-config8.2
 make
 make install
 ```
@@ -54,7 +54,7 @@ make install
 **CLI**
 
 ```
-nano /etc/php/8.1/cli/php.ini
+nano /etc/php/8.2/cli/php.ini
 ```
 
 **Add the following line at the end:**
@@ -66,7 +66,7 @@ extension=ssh2.so
 **FPM**
 
 ```
-nano /etc/php/8.1/fpm/php.ini
+nano /etc/php/8.2/fpm/php.ini
 ```
 
 **Add the following line at the end:**
@@ -78,7 +78,7 @@ extension=ssh2.so
 9. Restart the **PHP-FPM** service:
 
 ```
-systemctl restart php8.1-fpm
+systemctl restart php8.2-fpm
 ```
 
 ## Testing
@@ -90,7 +90,7 @@ After registering the **PHP Extension**, you can check if the extension is loade
 You can use **grep** to check if the extension is loaded:
 
 ```
-php8.1 -m |grep 'ssh2' 
+php8.2 -m |grep 'ssh2' 
 ```
 
 If you don't get an output, then the extension is **NOT** loaded.
