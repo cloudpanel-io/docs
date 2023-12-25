@@ -31,13 +31,13 @@ source ~/.bashrc
 4. Install your required **Node.js** version e.g. **18**:
 
 ```bash
-nvm install 18
+nvm install 20
 ```
 
 5. Activate the installed **Node.js** version:
 
 ```bash
-nvm use 18
+nvm use 20
 ```
 
 6. Done! Check the **Node.js** version:
