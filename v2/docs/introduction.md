@@ -17,6 +17,7 @@ Quick launch support for:
 - [Amazon Web Services](../getting-started/amazon-web-services/installation/ami/)
 - [Digital Ocean](../getting-started/digital-ocean/installation/marketplace/)
 - [Hetzner Cloud](../getting-started/hetzner-cloud/installation/installer/)
+- [Hostinger](../getting-started/hostinger/installation/wizard/)
 - [Google Compute Engine](../getting-started/google-compute-engine/installation/installer/)
 - [Microsoft Azure](../getting-started/microsoft-azure/installation/installer/)
 - [Oracle Cloud](../getting-started/oracle-cloud/installation/installer/)

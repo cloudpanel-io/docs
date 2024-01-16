@@ -51,6 +51,13 @@ module.exports = {
             },
             {
               type: 'category',
+              label: 'Hostinger',
+              items: [
+                'getting-started/hostinger/installation/wizard',
+              ]
+            },
+            {
+              type: 'category',
               label: 'Google Compute Engine',
               items: [
                 'getting-started/google-compute-engine/installation/installer',
