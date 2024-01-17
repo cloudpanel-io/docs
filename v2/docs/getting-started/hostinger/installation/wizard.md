@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-On this page, we explain step by step how to run **CloudPanel** on [Hostinger](https://www.hostinger.com/).
+On this page, we explain step by step how to run **CloudPanel** on [Hostinger](https://www.hostinger.com/vps-hosting).
 
 ## Choose a VPS Hosting Plan
 
