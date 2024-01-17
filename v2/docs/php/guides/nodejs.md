@@ -16,7 +16,7 @@ On this site, you will find a guide on installing [Node.js](https://nodejs.org/e
 ssh john-doe@server-ip-address
 ```
 
-2. Install [nvm]((https://github.com/nvm-sh/nvm)) with the following command:
+2. Install [nvm](https://github.com/nvm-sh/nvm) with the following command:
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
