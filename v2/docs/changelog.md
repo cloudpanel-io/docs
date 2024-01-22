@@ -4,6 +4,24 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.4.1 - [2024-01-22]
+
+**New**
+- Translations: Bosnian
+
+**Enhancements:**
+- The issuance of Let's Encrypt certificates is being tested against the staging environment first to avoid rate limit errors
+- The performance of creating sites, especially Node.js sites, has been enhanced
+
+**Bug Fixes**
+- [#382 phpMyAdmin sorting not working](https://github.com/cloudpanel-io/cloudpanel-ce/issues/382)
+- [#383 Instance Reboot at Admin/Instance/Setting doesn't reboot and block auto login from login pages](https://github.com/cloudpanel-io/cloudpanel-ce/issues/383)
+- [#406 CloudPanel Dashboard doesn't when using the AWS EC2 installer.](https://github.com/cloudpanel-io/cloudpanel-ce/issues/406)
+- Translation Fixes
+
+**Security**
+- Vulnerability that allows a user with the lowest privilege to conduct a session hijacking, subsequently gaining unauthorized access to the admin and other user accounts. (Muhammad Aizat, datack.my)
+
 ## v2.4.0 - [2023-11-27]
 
 **New**
