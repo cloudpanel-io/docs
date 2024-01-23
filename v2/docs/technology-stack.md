@@ -8,6 +8,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::warning No Linux Container Support
+**CloudPanel** supports only virtual machines, no support for Linux containers like **lxc**, **lxd**, **openvz** or others.
+:::
+
 Next generation **Technology Stack** for maximum performance and security to run **PHP**, **Node.js**, **Static Websites**, **Reverse Proxies** and **Python Applications**.
 
 <Tabs
