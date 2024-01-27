@@ -17,6 +17,10 @@ The mail server [Mailcow](https://mailcow.email/) is a dockerized application th
  - **>= 20 GB Disk**
 :::
 
+## Configure Firewall
+Mailcow uses several ports including default ports for **IMAP**, **POP**, **SMTP**, etc.
+Add the [Default mailcow Ports](https://docs.mailcow.email/getstarted/prerequisite-system/#default-ports) to your [CloudPanel firewall](/docs/v2/admin-area/security/#firewall) and your host's firewall (if applicable).
+
 ## Disable Postfix 
 
 Login via **SSH** as **root** and stop and disable the **postfix** service:
