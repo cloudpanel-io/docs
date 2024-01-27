@@ -17,6 +17,11 @@ The mail server [Mailcow](https://mailcow.email/) is a dockerized application th
  - **>= 20 GB Disk**
 :::
 
+:::note Oracle Cloud Users
+**For users of OCI:** Tenancies made after June 23, 2021 are by default not allowed to send e-mail via outbound TCP port 25 to the internet.
+[OCI Docs – Outbound SMTP is blocked](https://docs.oracle.com/en-us/iaas/releasenotes/changes/f7e95770-9844-43db-916c-6ccbaf2cfe24/)
+:::
+
 ## Configure Firewall
 Mailcow uses several ports including default ports for **IMAP**, **POP**, **SMTP**, etc.
 Add the [Default mailcow Ports](https://docs.mailcow.email/getstarted/prerequisite-system/#default-ports) to your [CloudPanel firewall](/docs/v2/admin-area/security/#firewall) and your host's firewall (if applicable).
