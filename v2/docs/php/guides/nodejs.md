@@ -28,16 +28,16 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.bashrc
 ```
 
-4. Install your required **Node.js** version e.g. **18**:
+4. Install your required **Node.js** version e.g. **22**:
 
 ```bash
-nvm install 20
+nvm install 22
 ```
 
 5. Activate the installed **Node.js** version:
 
 ```bash
-nvm use 20
+nvm use 22
 ```
 
 6. Done! Check the **Node.js** version:
