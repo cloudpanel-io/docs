@@ -26,15 +26,16 @@ Enter the name of your **EC2 Instance**, e.g., **my-cloudpanel-instance**.
 
 ### Choose Operating System
 
-1. Select **Ubuntu 22.04** or **Debian 11** as **OS Image**. Both **Architectures** **x86** and **ARM** are supported by **CloudPanel**.
+1. Select **Ubuntu 24.04 or 22.04** or **Debian 12 or 11** as **OS Image**. <br />
+Both **Architectures** **x86** and **ARM** are supported by **CloudPanel**.
 
-<img class="border" alt="OS Image" src={useBaseUrl('img/getting-started/amazon-web-services/os-image.png')} />
+<img class="border" alt="OS Image" src={useBaseUrl('img/getting-started/amazon-web-services/os-image.png?v=1')} />
 
 ### Instance Type
 
 Choose an **instance type** and ensure that it fits the [minimum requirements](../../../../requirements).
 
-<img alt="Instance Type" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/instance-type.png')} />
+<img alt="Instance Type" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/instance-type.png?v=1')} />
 
 ### Key pair (login)
 
@@ -65,6 +66,7 @@ Create a **Security Group** with the following rules:
 - **SSH (22)** - For your IP only
 - **HTTP (80)** - For everyone
 - **HTTPS (443)** - For everyone
+- **UDP (443)** - For everyone (Required for HTTP3)
 - **CloudPanel (8443)** - For your IP only
 
 <img alt="Inbound security groups rules" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-inbound-rules.png')} />
