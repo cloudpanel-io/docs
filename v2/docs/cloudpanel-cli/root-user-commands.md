@@ -6,7 +6,7 @@ sidebar_label: Root User Commands
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img alt="Root User Commands" src={useBaseUrl('img/cli-commands/root-user-commands.png?v=0.0.3')} />
+<img alt="Root User Commands" src={useBaseUrl('img/cli-commands/root-user-commands.png?v=0.0.4')} />
 
 ## Cloudflare
 
