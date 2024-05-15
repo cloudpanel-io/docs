@@ -98,7 +98,7 @@ Enter the name of your **EC2 Instance**, e.g., **my-cloudpanel-instance**.
 
 Choose an **instance type** and ensure that it fits the [minimum requirements](../../../../requirements).
 
-<img alt="Instance Type" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/instance-type.png')} />
+<img alt="Instance Type" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/instance-type.png?v=1')} />
 
 ### Key pair (login)
 
@@ -129,9 +129,10 @@ Create a **Security Group** with the following rules:
 - **SSH (22)** - For your IP only
 - **HTTP (80)** - For everyone
 - **HTTPS (443)** - For everyone
+- **UDP (443)** - For everyone (Required for HTTP3)
 - **CloudPanel (8443)** - For your IP only
 
-<img alt="Inbound security groups rules" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-inbound-rules.png')} />
+<img alt="Inbound security groups rules" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-inbound-rules.png?v=1')} />
 
 ### Configure Storage
 
@@ -173,12 +174,12 @@ With your previously created private key, you can connect to the instance via **
 Make sure that the private key has read-only (chmod 400) permissions.
 
 <Tabs
-defaultValue="ubuntu-22.04"
+defaultValue="ubuntu"
 values={[
-{ label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
-{ label: 'Debian 11 LTS', value: 'debian-11', },
+{ label: 'Ubuntu', value: 'ubuntu', },
+{ label: 'Debian', value: 'debian', },
 ]}>
-<TabItem value="ubuntu-22.04">
+<TabItem value="ubuntu">
 
 ```bash
 ssh -i path_to_your_private_key.pem ubuntu@yourElasticIpAddress
@@ -191,7 +192,7 @@ sudo su root
 ```
 
 </TabItem>
-<TabItem value="debian-11">
+<TabItem value="debian">
 
 ```bash
 ssh -i path_to_your_private_key.pem admin@yourElasticIpAddress
