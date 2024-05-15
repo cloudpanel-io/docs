@@ -16,36 +16,36 @@ On this page, we explain step by step how to install **CloudPanel** on [Digital 
 
 2. In the left navigation, click on **Droplets** and then on **Create Droplet**.
 
+### Choose Region
+
+Choose the **Region** where you want to run your **Droplet**.
+
+<img class="border" alt="Datacenter Region" src={useBaseUrl('img/getting-started/digital-ocean/datacenter-region.png?v=1')} />
+
 ### Choose an image
 
-Select **Ubuntu 22.04** or **Debian 11** as **OS Image**.
+Select **Ubuntu 24.04 or 22.04** or **Debian 12 or 11** as **OS Image**.
 
-<img class="border" alt="Choose an image" src={useBaseUrl('img/getting-started/digital-ocean/choose-image.png')} />
+<img class="border" alt="Choose an image" src={useBaseUrl('img/getting-started/digital-ocean/choose-image.png?v=1')} />
 
 ### Droplet Size
 
 Choose the size of your **Droplet**, e.g., **Premium AMD with NVMe SSD**.
 
-<img class="border" alt="Droplet Size" src={useBaseUrl('img/getting-started/digital-ocean/droplet-size.png')} />
-
-### Datacenter Region
-
-Choose the **Datacenter Region** where you want to run your **Droplet**.
-
-<img class="border" alt="Datacenter Region" src={useBaseUrl('img/getting-started/digital-ocean/datacenter-region.png')} />
+<img class="border" alt="Droplet Size" src={useBaseUrl('img/getting-started/digital-ocean/droplet-size.png?v=1')} />
 
 ### Authentication Method
 
 Select your **Authentication Method**, **SSH keys** or **Password**. <br />
 How to create an SSH Key, is explained on the site: [How-to Add SSH Keys to New or Existing Droplets](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/)
 
-<img class="border" alt="Authentication Method" src={useBaseUrl('img/getting-started/digital-ocean/authentication-method.png')} />
+<img class="border" alt="Authentication Method" src={useBaseUrl('img/getting-started/digital-ocean/authentication-method.png?v=1')} />
 
 ### Finalize and Create
 
-Enter a **hostname**, and click on the button **Create Droplet** to launch your **Droplet**.
+Enter a **Hostname**, and click on the button **Create Droplet** to launch your **Droplet**.
 
-<img class="border" alt="Finalize and Create" src={useBaseUrl('img/getting-started/digital-ocean/finalize-and-create.png')} />
+<img class="border" alt="Finalize and Create" src={useBaseUrl('img/getting-started/digital-ocean/finalize-and-create.png?v=1')} />
 
 ## Assigning a Reserved IP
 
@@ -64,11 +64,57 @@ To create a **Reserved IP**, do the following steps:
 After launching the **Droplet**, log in with **SSH** and run the installer script.
 
 <Tabs
-defaultValue="ubuntu-22.04"
+defaultValue="ubuntu-24.04"
 values={[
+{ label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
 { label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
+{ label: 'Debian 12 LTS', value: 'debian-12', },
 { label: 'Debian 11 LTS', value: 'debian-11', },
 ]}>
+<TabItem value="ubuntu-24.04">
+
+1. Login via **SSH** to the **Droplet**.
+
+```bash
+ssh -i path_to_your_private_key root@yourIpAddress
+```
+
+2. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+3. Run the installer with your preferred **Database Engine**.
+
+<Tabs
+defaultValue="ubuntu-mysql-8.0"
+values={[
+{ label: 'MySQL 8.0', value: 'ubuntu-mysql-8.0', },
+{ label: 'MariaDB 10.11', value: 'ubuntu-mariadb-10.11', },
+]}>
+<TabItem value="ubuntu-mysql-8.0">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
+sha256sum -c && sudo CLOUD=do bash install.sh
+```
+
+</TabItem>
+<TabItem value="ubuntu-mariadb-10.11">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
+sha256sum -c && sudo CLOUD=do DB_ENGINE=MARIADB_10.11 bash install.sh
+```
+
+</TabItem>
+</Tabs>
+
+</TabItem>
+
 <TabItem value="ubuntu-22.04">
 
 1. Login via **SSH** to the **Droplet**.
@@ -122,6 +168,51 @@ sha256sum -c && sudo CLOUD=do DB_ENGINE=MARIADB_10.6 bash install.sh
 </Tabs>
 
 </TabItem>
+
+<TabItem value="debian-12">
+
+1. Login via **SSH** to the **Droplet**.
+
+```bash
+ssh -i path_to_your_private_key root@yourIpAddress
+```
+
+2. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+3. Run the installer with your preferred **Database Engine**.
+
+<Tabs
+defaultValue="debian-mysql-8.0"
+values={[
+{ label: 'MySQL 8.0', value: 'debian-mysql-8.0', },
+{ label: 'MariaDB 10.11', value: 'debian-mariadb-10.11', },
+]}>
+<TabItem value="debian-mysql-8.0">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
+sha256sum -c && sudo CLOUD=do bash install.sh
+```
+
+</TabItem>
+<TabItem value="debian-mariadb-10.11">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
+sha256sum -c && sudo CLOUD=do DB_ENGINE=MARIADB_10.11 bash install.sh
+```
+
+</TabItem>
+</Tabs>
+
+</TabItem>
+
 <TabItem value="debian-11">
 
 1. Login via **SSH** to the **Droplet**.
@@ -185,6 +276,7 @@ sha256sum -c && sudo CLOUD=do DB_ENGINE=MARIADB_10.6 bash install.sh
 </Tabs>
 
 </TabItem>
+
 </Tabs>
 
 ## Access CloudPanel
