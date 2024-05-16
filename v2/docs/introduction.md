@@ -24,7 +24,7 @@ Quick launch support for:
 - [Vultr](../getting-started/vultr/installation/marketplace/)
 - [Other](../getting-started/other/)
 
-<img alt="CloudPanel" class="border" src={useBaseUrl('img/cloudpanel.png')} />
+<img alt="CloudPanel" class="border" src={useBaseUrl('img/cloudpanel.png?v=0.0.1')} />
 
 ## Benefits
 

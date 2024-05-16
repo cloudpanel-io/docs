@@ -4,6 +4,18 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.4.2 - [2024-05-20]
+**New**
+ - Debian 12 and Ubuntu 24.04 Support
+ - Node.js 22 LTS Support
+ - Translations: Serbian, Georgian
+
+**Bug Fixes**
+- [#427 Cannot rename files in file manager](https://github.com/cloudpanel-io/cloudpanel-ce/issues/427)
+- [#430 Comma in cron jobs minute](https://github.com/cloudpanel-io/cloudpanel-ce/issues/430)
+- [#434 I think this should be a bug.](https://github.com/cloudpanel-io/cloudpanel-ce/issues/434)
+- Translation Fixes
+
 ## v2.4.1 - [2024-01-22]
 
 **New**
