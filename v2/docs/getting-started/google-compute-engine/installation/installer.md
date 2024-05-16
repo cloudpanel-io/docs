@@ -22,39 +22,39 @@ On this page, we explain step by step how to install **CloudPanel** on [Google C
 
 Enter the **Name** of the instance and select a **Region** to deploy.
 
-<img class="border" alt="Name and Region" src={useBaseUrl('img/getting-started/google-compute-engine/name-and-region.png')} />
+<img class="border" alt="Name and Region" src={useBaseUrl('img/getting-started/google-compute-engine/name-and-region.png?v=0.0.1')} />
 
 ### Machine Configuration
 
 Select the **Machine Family**, **Series** and **Machine Type**.
 
-<img class="border" alt="Machine Type" src={useBaseUrl('img/getting-started/google-compute-engine/machine-type.png')} />
+<img class="border" alt="Machine Type" src={useBaseUrl('img/getting-started/google-compute-engine/machine-type.png?v=0.0.1')} />
 
 ### Boot Disk
 
-Select **Ubuntu 22.04** or **Debian 11** as **Boot Disk Image**.
+Select **Ubuntu 24.04 or 22.04** or **Debian 12 or 11** as **Boot Disk Image**.
 
 :::warning Minimum Size
 Configure as minimum **10 GB Boot Disk Image** and select **SSD persistent disk** as **Boot Disk Type**.
 :::
 
-<img class="border" alt="Boot Disk" src={useBaseUrl('img/getting-started/google-compute-engine/boot-disk.png')} />
+<img class="border" alt="Boot Disk" src={useBaseUrl('img/getting-started/google-compute-engine/boot-disk.png?v=0.0.1')} />
 
 ### Firewall
 
 Allow **HTTP** and **HTTPS** Traffic.
 
-<img class="border" alt="Firewall" src={useBaseUrl('img/getting-started/google-compute-engine/firewall.png')} />
+<img class="border" alt="Firewall" src={useBaseUrl('img/getting-started/google-compute-engine/firewall.png?v=0.0.1')} />
 
 ### Networking
 
 1. Add **cloudpanel** in **Network tags**.
 
-<img class="border" alt="Network Tags" src={useBaseUrl('img/getting-started/google-compute-engine/network-tags.png')} />
+<img class="border" alt="Network Tags" src={useBaseUrl('img/getting-started/google-compute-engine/network-tags.png?v=0.0.1')} />
 
-2. Click on **External IPv4 address** and then on **CREATE IP ADDRESS**.
+2. Click on **External IPv4 address** and then on **RESERVE STATIC EXTERNAL IP ADDRESS**.
 
-<img class="border" alt="Create IP Address" src={useBaseUrl('img/getting-started/google-compute-engine/create-ip-address.png')} />
+<img class="border" alt="Create IP Address" src={useBaseUrl('img/getting-started/google-compute-engine/create-ip-address.png?v=0.0.1')} />
 
 Enter a **Name** for the **Static IP Address** and click on **Reserve**.
 
@@ -85,7 +85,8 @@ Click on the button **Create** to launch the **VM Instance**.
 This firewall rule opens **ALL** ports.
 **CloudPanel** has an integrated [Firewall](../../../../admin-area/security/#firewall) which takes care of the **ports**.
 
-If you want to use the **Firewall Rules** from **Google**, you need to open the ports: **22**, **80**, **443**, and **8443 (CloudPanel)**.
+If you want to use the **Firewall Rules** from **Google**, you need to open the TCP ports: **22**, **80**, **443**, and **8443 (CloudPanel)**. <br />
+Also, open port **443 for UDP** to allow **HTTP3** connections. <br />
 Don't forget to remove all **rules** in the admin area of **CloudPanel** to disable the **UFW Firewall**.
 :::
 
