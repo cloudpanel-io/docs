@@ -17,8 +17,8 @@ Next generation **Technology Stack** for maximum performance and security to run
 <Tabs
 defaultValue="ubuntu-24.04"
 values={[
-{ label: 'Ubuntu 24.04 LTS (Coming Soon)', value: 'ubuntu-24.04', },
-{ label: 'Debian 12 LTS (Coming Soon)', value: 'debian-12', },
+{ label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
+{ label: 'Debian 12 LTS', value: 'debian-12', },
 ]}>
 <TabItem value="ubuntu-24.04">
 
