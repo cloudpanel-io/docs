@@ -22,13 +22,13 @@ On this page, we explain step by step how to install **CloudPanel** on [Hetzner 
 
 Choose the **Server Location** where you want to run your **Server**.
 
-<img class="border" alt="Create s Server" src={useBaseUrl('img/getting-started/hetzner-cloud/select-location.png')} />
+<img class="border" alt="Create s Server" src={useBaseUrl('img/getting-started/hetzner-cloud/select-location.png?v=0.0.1')} />
 
 ### OS Image
 
-Select **Ubuntu 22.04** or **Debian 11** as **OS Image**.
+Select **Ubuntu 24.04 or 22.04** or **Debian 12 or 11** as **OS Image**.
 
-<img class="border" alt="Select OS Image" src={useBaseUrl('img/getting-started/hetzner-cloud/os-image.png')} />
+<img class="border" alt="Select OS Image" src={useBaseUrl('img/getting-started/hetzner-cloud/os-image.png?v=0.0.1')} />
 
 ### Server Type
 
@@ -38,15 +38,17 @@ In our benchmarks, the **CPX (AMD EPYC 2nd Gen processors)** servers were the fa
 
 Select the **Server Type** you want to deploy. We recommend at least **1 vCPU** with **2 GB of Memory**.
 
-<img class="border" alt="Create s Server" src={useBaseUrl('img/getting-started/hetzner-cloud/server-type.png')} />
+<img class="border" alt="Create s Server" src={useBaseUrl('img/getting-started/hetzner-cloud/server-type.png?v=0.0.1')} />
 
 ### Launch Server
 
-1. Select an **SSH Key** or receive the **root password** via e-mail.
+Select an **SSH Key**, which will be used for **SSH authentication**.
 
-2. Enter the **Server Name** and click on the button **CREATE & BUY NOW** to launch the server.
+<img class="border" alt="Select SSH Key" src={useBaseUrl('img/getting-started/hetzner-cloud/select-ssh-key.png?v=0.0.1')} />
 
-<img class="border" alt="Launch Server" src={useBaseUrl('img/getting-started/hetzner-cloud/create-buy-now.png')} />
+Enter the **Server Name** and click on the button **CREATE & BUY NOW** to launch the server.
+
+<img class="border" alt="Launch Server" src={useBaseUrl('img/getting-started/hetzner-cloud/create-buy-now.png?v=0.0.1')} />
 
 ## Install CloudPanel
 
