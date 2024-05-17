@@ -10,33 +10,33 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 1. Click on **Add Database** to create a new database.
 
-<img alt="Adding a Database" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database.png')} />
+<img alt="Adding a Database" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database.png?v=0.0.1')} />
 
 2. Enter the **Database Name**, **Database User Name**, and **Database User Password** and click on the button **Add Database**.
 
-<img alt="Add Database Form" class="border" src={useBaseUrl('img/frontend-area/databases/add-database-form.png')} />
+<img alt="Add Database Form" class="border" src={useBaseUrl('img/frontend-area/databases/add-database-form.png?v=0.0.1')} />
 
 ## Deleting a Database
 
 To delete a database, click on **Delete** and confirm your action.
 
-<img alt="Deleting a Database" class="border" src={useBaseUrl('img/frontend-area/databases/deleting-a-database.png')} />
+<img alt="Deleting a Database" class="border" src={useBaseUrl('img/frontend-area/databases/deleting-a-database.png?v=0.0.1')} />
 
 ## Adding a Database User
 
 1. Click on **Add Database User** to add a new user to your database.
 
-<img alt="Adding a Database User" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database-user.png')} />
+<img alt="Adding a Database User" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database-user.png?v=0.0.1')} />
 
 2. Enter the **Database User Name**, **Database User Password**, and select the **Database** and the **Permissions**.
 
-<img alt="Adding a Database User Form" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database-user-form.png')} />
+<img alt="Adding a Database User Form" class="border" src={useBaseUrl('img/frontend-area/databases/adding-a-database-user-form.png?v=0.0.1')} />
 
 ## Deleting a Database User
 
 To delete a database user, click on **Delete** and confirm your action.
 
-<img alt="Deleting a Database User" class="border" src={useBaseUrl('img/frontend-area/databases/deleting-a-database-user.png')} />
+<img alt="Deleting a Database User" class="border" src={useBaseUrl('img/frontend-area/databases/deleting-a-database-user.png?v=0.0.1')} />
 
 ## phpMyAdmin
 
@@ -47,7 +47,7 @@ Do not use **phpMyAdmin** to export and import databases; it can destroy your da
 Use **export** and **import** guide from below.
 :::
 
-<img alt="phpMyAdmin" class="border" src={useBaseUrl('img/frontend-area/databases/phpmyadmin.png')} />
+<img alt="phpMyAdmin" class="border" src={useBaseUrl('img/frontend-area/databases/phpmyadmin.png?v=0.0.1')} />
 
 ## Exporting a Database
 

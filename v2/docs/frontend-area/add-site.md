@@ -16,7 +16,7 @@ or [Create a Reverse Proxy](#create-a-reverse-proxy).
 
 1. Fill out all fields and click on **Create** to **Create a WordPress Site**.
 
-<img alt="Create a WordPress Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-wordpress-site.png?v=0.0.2')} />
+<img alt="Create a WordPress Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-wordpress-site.png?v=0.0.3')} />
 
 2. Copy the credentials for your created WordPress site in a secure place.
 
