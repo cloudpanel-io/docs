@@ -14,11 +14,11 @@ On this page, we explain step by step how to install **CloudPanel** on [Oracle C
 
 1. Go to [Virtual Cloud Networks](https://cloud.oracle.com/networking/vcns) and click on **Start VNC Wizard**.
 
-<img class="border" alt="Start VNC Wizard" src={useBaseUrl('img/getting-started/oracle-cloud/create-virtual-cloud-network-start-wizard.png')} />
+<img class="border" alt="Start VNC Wizard" src={useBaseUrl('img/getting-started/oracle-cloud/create-virtual-cloud-network-start-wizard.png?v=0.0.1')} />
 
 2. Enter a **VCN Name** and click on the button **Next** bottom left.
 
-<img class="border" alt="Virtual Cloud Network Form" src={useBaseUrl('img/getting-started/oracle-cloud/virtual-cloud-network-form.png')} />
+<img class="border" alt="Virtual Cloud Network Form" src={useBaseUrl('img/getting-started/oracle-cloud/virtual-cloud-network-form.png?v=0.0.1')} />
 
 3. Review and click on **Create**.
 
@@ -26,19 +26,15 @@ On this page, we explain step by step how to install **CloudPanel** on [Oracle C
 
 1. Click on your created **VCN**, and then click on the **public subnet**.
 
-<img class="border" alt="Public Subnet" src={useBaseUrl('img/getting-started/oracle-cloud/virtual-cloud-network-details.png')} />
+<img class="border" alt="Public Subnet" src={useBaseUrl('img/getting-started/oracle-cloud/virtual-cloud-network-details.png?v=0.0.1')} />
 
 2. Click on **Default Security List for cloudpanel** for whitelisting ports.
 
-<img class="border" alt="Public Subnet" src={useBaseUrl('img/getting-started/oracle-cloud/public-subnet-default-security-list.png')} />
+<img class="border" alt="Public Subnet" src={useBaseUrl('img/getting-started/oracle-cloud/public-subnet-default-security-list.png?v=0.0.1')} />
 
 3. Click on **Add Ingress Rules**  and create a rule for **80**, **443**, and **8443**.
 
-<img class="border" alt="Ingress Rules" src={useBaseUrl('img/getting-started/oracle-cloud/ingress-rules.png')} />
-
-4. The **Ingress Rules** should look like the following table now.
-
-<img class="border" alt="Ingress Rules Table" src={useBaseUrl('img/getting-started/oracle-cloud/ingress-rules-table.png')} />
+<img class="border" alt="Ingress Rules" src={useBaseUrl('img/getting-started/oracle-cloud/ingress-rules.png?v=0.0.1')} />
 
 ## Create Instance
 
@@ -81,9 +77,17 @@ After launching the **Instance**, log in with **SSH** and run the installer scri
 <Tabs
 defaultValue="ubuntu-22.04"
 values={[
+{ label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
 { label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
+{ label: 'Debian 12 LTS', value: 'debian-12', },
 { label: 'Debian 11 LTS', value: 'debian-11', },
 ]}>
+<TabItem value="ubuntu-24.04">
+
+Not yet supported by the **Oracle Cloud**.
+
+</TabItem>
+
 <TabItem value="ubuntu-22.04">
 
 1. Login via **SSH** to the **Instance**.
@@ -143,6 +147,13 @@ sha256sum -c && sudo CLOUD=oci DB_ENGINE=MARIADB_10.6 bash install.sh
 </Tabs>
 
 </TabItem>
+
+<TabItem value="debian-12">
+
+Not yet supported by the **Oracle Cloud**.
+
+</TabItem>
+
 <TabItem value="debian-11">
 
 Not yet supported by the **Oracle Cloud**.
