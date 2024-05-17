@@ -15,7 +15,7 @@ It is used to schedule commands at a specific time. These scheduled commands or 
 
 To add a **Cron Job**, click on the **Cron Jobs** tab, select a **Template** and enter the **Command** you want to execute.
 
-<img alt="Adding a Cron Job" class="border" src={useBaseUrl('img/frontend-area/cron-jobs/adding-a-cron-job.png')} />
+<img alt="Adding a Cron Job" class="border" src={useBaseUrl('img/frontend-area/cron-jobs/adding-a-cron-job.png?v=0.0.1')} />
 
 ### Via Command Line
 
