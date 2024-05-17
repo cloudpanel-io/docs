@@ -10,7 +10,7 @@ With **CloudPanel**, you can [Create a WordPress Site](#create-a-wordpress-site)
 [Create a Node.js Site](#create-a-nodejs-site), [Create a Static HTML Site](#create-a-static-html-site), [Create a Python Site](#create-a-python-site) 
 or [Create a Reverse Proxy](#create-a-reverse-proxy).
 
-<img alt="Select Application" class="border" src={useBaseUrl('img/frontend-area/add-site/add-site.png')} />
+<img alt="Select Application" class="border" src={useBaseUrl('img/frontend-area/add-site/add-site.png?v=0.0.1')} />
 
 ## Create a WordPress Site
 
