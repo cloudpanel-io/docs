@@ -16,50 +16,98 @@ On this page, we explain step by step how to install **CloudPanel** on [VULTR](h
 
 2. In the left navigation, click on **Products** and then on **Deploy Server**.
 
-### Server Type
+### Choose Type
 
-Choose the **Server Type** you want to run the **Instance** on.
+Choose the **Type** like **Optimized Cloud Compute - Dedicated CPU** or **Cloud Compute - Shared CPU**.
 
-<img class="border" alt="Server Type" src={useBaseUrl('img/getting-started/vultr/server-type.png')} />
+<img class="border" alt="Server Type" src={useBaseUrl('img/getting-started/vultr/choose-type.png?v=0.0.1')} />
 
-### Server Location
+### Choose Location
 
-Choose the **Server Location** closest to your visitors.
+Choose the **Instance Location** closest to your visitors.
 
-<img class="border" alt="Server Location" src={useBaseUrl('img/getting-started/vultr/server-location.png')} />
+<img class="border" alt="Server Location" src={useBaseUrl('img/getting-started/vultr/choose-location.png?v=0.0.1')} />
 
-### Server Image
+### Choose Image
 
-Select **Ubuntu 22.04** or **Debian 11** as **Server Image**.
+Select **Ubuntu 24.04 or 22.04** or **Debian 12 or 11** as **OS Image**.
 
-<img class="border" alt="Server Image" src={useBaseUrl('img/getting-started/vultr/server-image.png')} />
+<img class="border" alt="Choose Image" src={useBaseUrl('img/getting-started/vultr/choose-image.png?v=0.0.1')} />
 
-### Server Size
+### Choose Plan
 
-Select the **Server Size** you want to deploy. We recommend at least **1 vCPU** with **2 GB of Memory**.
+Select the **Instance Size** you want to deploy. We recommend the **AMD High Performance** with at least **1 vCPU** with **2 GB of Memory**.
 
-<img class="border" alt="Server Size" src={useBaseUrl('img/getting-started/vultr/server-size.png')} />
+<img class="border" alt="Choose Plan" src={useBaseUrl('img/getting-started/vultr/choose-plan.png?v=0.0.1')} />
 
-### Finalize and Deploy
+### Server Settings
 
-1. Select an **SSH Key** or receive the **root password** via e-mail.
+Choose an **SSH Key** to connect via **SSH** after deploying the instance.
 
-<img class="border" alt="SSH Keys" src={useBaseUrl('img/getting-started/vultr/ssh-keys.png')} />
+<img class="border" alt="Server Settings" src={useBaseUrl('img/getting-started/vultr/server-settings.png?v=0.0.1')} />
 
-2. Enter the **Server Hostname & Label** and click on the button **Deploy Now** to launch the instance.
+### Server Hostname & Deploy Now
 
-<img class="border" alt="Deploy Now" src={useBaseUrl('img/getting-started/vultr/deploy-now.png')} />
+Enter a **server hostname** and click on the button **Deploy Now**.
+
+<img class="border" alt="Server Settings" src={useBaseUrl('img/getting-started/vultr/server-hostname.png?v=0.0.1')} />
 
 ## Install CloudPanel
 
 After launching the **Instance**, log in with **SSH** and run the installer script.
 
 <Tabs
-defaultValue="ubuntu-22.04"
+defaultValue="ubuntu-24.04"
 values={[
+{ label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
 { label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
+{ label: 'Debian 12 LTS', value: 'debian-12', },
 { label: 'Debian 11 LTS', value: 'debian-11', },
 ]}>
+<TabItem value="ubuntu-24.04">
+
+1. Login via **SSH** to the **Instance**.
+
+```bash
+ssh -i path_to_your_private_key root@serverIpAddress
+```
+
+2. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+3. Run the installer with your preferred **Database Engine**.
+
+<Tabs
+defaultValue="ubuntu-mysql-8.0"
+values={[
+{ label: 'MySQL 8.0', value: 'ubuntu-mysql-8.0', },
+{ label: 'MariaDB 10.11', value: 'ubuntu-mariadb-10.11', },
+]}>
+<TabItem value="ubuntu-mysql-8.0">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
+sha256sum -c && sudo CLOUD=vultr bash install.sh
+```
+
+</TabItem>
+<TabItem value="ubuntu-mariadb-10.11">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.11 bash install.sh
+```
+
+</TabItem>
+</Tabs>
+
+</TabItem>
+
 <TabItem value="ubuntu-22.04">
 
 1. Login via **SSH** to the **Instance**.
@@ -113,6 +161,51 @@ sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.6 bash install.sh
 </Tabs>
 
 </TabItem>
+
+<TabItem value="debian-12">
+
+1. Login via **SSH** to the **Instance**.
+
+```bash
+ssh -i path_to_your_private_key root@serverIpAddress
+```
+
+2. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+3. Run the installer with your preferred **Database Engine**.
+
+<Tabs
+defaultValue="debian-mysql-8.0"
+values={[
+{ label: 'MySQL 8.0', value: 'debian-mysql-8.0', },
+{ label: 'MariaDB 10.11', value: 'debian-mariadb-10.11', },
+]}>
+<TabItem value="debian-mysql-8.0">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
+sha256sum -c && sudo CLOUD=vultr bash install.sh
+```
+
+</TabItem>
+<TabItem value="debian-mariadb-10.11">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | \
+sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.11 bash install.sh
+```
+
+</TabItem>
+</Tabs>
+
+</TabItem>
+
 <TabItem value="debian-11">
 
 1. Login via **SSH** to the **Instance**.
@@ -176,6 +269,7 @@ sha256sum -c && sudo CLOUD=vultr DB_ENGINE=MARIADB_10.6 bash install.sh
 </Tabs>
 
 </TabItem>
+
 </Tabs>
 
 ## Access CloudPanel
