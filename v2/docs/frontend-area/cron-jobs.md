@@ -42,4 +42,4 @@ examples of how to configure them.
 
 To delete a **Cron Job**, click on the **Cron Jobs** tab and click on **Delete** and confirm your action.
 
-<img alt="Deleting a Cron Job" class="border" src={useBaseUrl('img/frontend-area/cron-jobs/deleting-a-cron-job.png')} />
+<img alt="Deleting a Cron Job" class="border" src={useBaseUrl('img/frontend-area/cron-jobs/deleting-a-cron-job.png?v=0.0.1')} />
