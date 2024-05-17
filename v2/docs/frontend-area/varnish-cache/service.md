@@ -27,7 +27,6 @@ nano /lib/systemd/system/varnish.service
 ```bash
 ExecStart=/usr/sbin/varnishd \
           -a :6081 \
-          -a localhost:8444,PROXY \
           -f /etc/varnish/default.vcl \
           -P %t/%N/varnishd.pid \
           -p feature=+http2 \
