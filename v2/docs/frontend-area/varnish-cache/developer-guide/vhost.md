@@ -26,12 +26,12 @@ by **Varnish Cache** to **NGINX** port **8080**, where it gets processed by the 
 
 The **Vhost** below is being used for **WordPress/WooCommerce**.
 
-In line **1-10** a redirect for **domain.com** takes place. All requests from **http** and **https** are redirected via **301** to **https://www.domain.com**. 
+In line **1-14** a redirect for **domain.com** takes place. All requests from **http** and **https** are redirected via **301** to **https://www.domain.com**. 
 
-The static files like **CSS, JS**, and **Images** are delivered at line **97-101**. <br />
-All other requests are going through the **location /**, line **79-95**.
+The static files like **CSS, JS**, and **Images** are delivered at line **84-92**. <br />
+All other requests are going through the **location /**, line **66-82**.
 
-At line **80**, you see the placeholder **{{varnish_proxy_pass}}**.
+At line **67**, you see the placeholder **{{varnish_proxy_pass}}**.
 
 When **Varnish Cache** is disabled, the rendered value for this placeholder is:
 
@@ -45,9 +45,9 @@ When **Varnish Cache** is enabled, it uses the value of **Varnish Server** from 
 proxy_pass http://127.0.0.1:6081;
 ```
 
-Lines **63-67** are special for **WordPress/WooCommerce**. 
+Lines **48-64** are special for **WordPress/WooCommerce**. 
 
-All requests to **/wp-admin/** and **wp-login.php** are bypassed, meaning they are **NOT** going through **Varnish Cache**; they are forwarded to port **8080** (see lines **12-37**),
+All requests to **/wp-admin/** and **wp-login.php** are bypassed, meaning they are **NOT** going through **Varnish Cache**; they are forwarded to port **8080** (see lines **99-134**),
 where they get processed by the **PHP Application** via **PHP-FPM**.
 
-<iframe width="100%" frameborder="0" height="2400" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/c62ce0f06b0521c05ec940c436b614bd.js'></script></body>"></iframe>
+<iframe width="100%" frameborder="0" height="3400" src="data:text/html;charset=utf-8, <head><base target='_blank' /></head><body><script src='https://gist.github.com/cloudpanel-io/5921a28790f2718cc66b3f0c670a57a5.js'></script></body>"></iframe>

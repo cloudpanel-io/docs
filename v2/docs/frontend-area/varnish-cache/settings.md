@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 **Varnish Cache** is integrated into **CloudPanel** as a turn-key solution. Enable **Varnish Cache** to get blazing fast page loads, **up to 250 times faster**.
 Change the **Cache Lifetime**, **Excluded Params**, and **Excludes** to your needs.
 
-<img alt="Varnish Cache Settings" class="border" src={useBaseUrl('img/frontend-area/varnish-cache/settings.png')} />
+<img alt="Varnish Cache Settings" class="border" src={useBaseUrl('img/frontend-area/varnish-cache/settings.png?v=0.0.1')} />
 
 ## Cache Tag Prefix
 
