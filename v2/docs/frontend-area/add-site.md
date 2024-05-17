@@ -39,7 +39,7 @@ When you enter the **Domain Name** with **www**, a redirection from non-www to w
 All **HTTP** requests are redirected to **HTTPS** by default.
 :::
 
-<img alt="New PHP Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-php-site.png')} />
+<img alt="New PHP Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-php-site.png?v=0.0.1')} />
 
 2. Click on **Create** to create the **PHP Site**.
 
@@ -56,7 +56,7 @@ When you enter the **Domain Name** with **www**, a redirection from non-www to w
 All **HTTP** requests are redirected to **HTTPS** by default.
 :::
 
-<img alt="New Node.js Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-nodejs-site.png')} />
+<img alt="New Node.js Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-nodejs-site.png?v=0.0.1')} />
 
 2. You can now use the **Site User** to log in via **SSH** to upload the application files.
 
@@ -69,7 +69,7 @@ When you enter the **Domain Name** with **www**, a redirection from non-www to w
 All **HTTP** requests are redirected to **HTTPS** by default.
 :::
 
-<img alt="Create a Static HTML Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-static-html-site.png')} />
+<img alt="Create a Static HTML Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-static-html-site.png?v=0.0.1')} />
 
 2. You can now use the **Site User** to log in via **SSH** to upload the HTML files.
 
@@ -82,7 +82,7 @@ When you enter the **Domain Name** with **www**, a redirection from non-www to w
 All **HTTP** requests are redirected to **HTTPS** by default.
 :::
 
-<img alt="Create a Python Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-python-site.png')} />
+<img alt="Create a Python Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-python-site.png?v=0.0.1')} />
 
 2. You can now use the **Site User** to log in via **SSH** to upload the application files.
 
@@ -95,5 +95,5 @@ When you enter the **Domain Name** with **www**, a redirection from non-www to w
 All **HTTP** requests are redirected to **HTTPS** by default.
 :::
 
-<img alt="Create a Reverse Proxy" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-reverse-proxy.png')} />
+<img alt="Create a Reverse Proxy" class="border" src={useBaseUrl('img/frontend-area/add-site/create-a-reverse-proxy.png?v=0.0.1')} />
 
