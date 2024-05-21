@@ -4,7 +4,7 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
-## v2.4.2 - [2024-05-20]
+## v2.4.2 - [2024-05-21]
 **New**
  - Debian 12 and Ubuntu 24.04 Support
  - Node.js 22 LTS Support
