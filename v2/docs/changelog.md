@@ -6,7 +6,7 @@ sidebar_label: Changelog
 
 ## v2.4.2 - [2024-05-21]
 **New**
- - Debian 12 and Ubuntu 24.04 Support with HTTP/3
+ - Debian 12 and Ubuntu 24.04 with [HTTP/3](../frontend-area/vhost/#http3) Support
  - Node.js 22 LTS Support
  - Translations: Serbian, Georgian
 
