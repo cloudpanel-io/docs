@@ -18,19 +18,19 @@ On this page, we explain step by step how to run **CloudPanel** on [VULTR](https
 2. Click on the button **Deploy CloudPanel Instance**.
 
 <Tabs
-defaultValue="ubuntu-22.04"
+defaultValue="ubuntu-24.04"
 values={[
-{ label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
-{ label: 'Debian 11 LTS', value: 'debian-11', },
+{ label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
+{ label: 'Debian 12 LTS', value: 'debian-12', },
 ]}>
-<TabItem value="ubuntu-22.04">
+<TabItem value="ubuntu-24.04">
 
-[![Deploy CloudPanel Instance](/img/getting-started/vultr/deploy-cloudpanel-instance-one-click.png)](https://my.vultr.com/deploy?marketplace_app=cloudpanel2-ubuntu-2204&marketplace_vendor_username=cloudpanel&ref=6879286)
+  [![Deploy CloudPanel Instance](/img/getting-started/vultr/deploy-cloudpanel-instance-one-click.png)](#)
 
 </TabItem>
-<TabItem value="debian-11">
+<TabItem value="debian-12">
 
-[![Deploy CloudPanel Instance](/img/getting-started/vultr/deploy-cloudpanel-instance-one-click.png)](https://my.vultr.com/deploy?marketplace_app=cloudpanel2-debian-11&marketplace_vendor_username=cloudpanel&ref=6879286)
+[![Deploy CloudPanel Instance](/img/getting-started/vultr/deploy-cloudpanel-instance-one-click.png)](#)
 
 </TabItem>
 </Tabs>
