@@ -20,14 +20,14 @@ On this page, we explain step by step how to run **CloudPanel** on [Digital Ocea
 defaultValue="ubuntu-22.04"
 values={[
 { label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
-{ label: 'Debian 11 LTS', value: 'debian-11', },
+{ label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
 ]}>
 <TabItem value="ubuntu-22.04">
 
 [![Create CloudPanel Droplet](/img/getting-started/digital-ocean/create-droplet-one-click.png)](https://marketplace.digitalocean.com/apps/cloudpanel-2-ubuntu-22.04)
 
 </TabItem>
-<TabItem value="debian-11">
+<TabItem value="ubuntu-24.04">
 
 Coming Soon
 
