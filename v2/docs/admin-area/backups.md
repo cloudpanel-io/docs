@@ -21,7 +21,7 @@ Ensure that the [Timezone](../instance/#instance-settings) of your instance is c
 
 Select the **Storage Provider** of your choice and click on **Continue**.
 
-<img class="border" alt="Select Storage Provider" src={useBaseUrl('img/admin-area/backups/select-storage-provider.png')} />
+<img class="border" alt="Select Storage Provider" src={useBaseUrl('img/admin-area/backups/select-storage-provider.png?v=0.0.1')} />
 
 ### Configuration
 
@@ -45,11 +45,11 @@ with restricted permissions to **S3**.
 
 3. Fill out the form and click on the button **Save**.
 
-<img class="border" alt="Amazon S3" src={useBaseUrl('img/admin-area/backups/amazon-s3.png')} />
+<img class="border" alt="Amazon S3" src={useBaseUrl('img/admin-area/backups/amazon-s3.png?v=0.0.1')} />
 
 4. Click on the button **Create Button** top right to create the first backup, and go to **S3** to check if it's working as expected.
 
-<img class="border" alt="Amazon S3 - Create Backup" src={useBaseUrl('img/admin-area/backups/amazon-s3-create-backup.png')} />
+<img class="border" alt="Amazon S3 - Create Backup" src={useBaseUrl('img/admin-area/backups/amazon-s3-create-backup.png?v=0.0.1')} />
 
 </TabItem>
 <TabItem value="wasabi">
@@ -60,7 +60,7 @@ with restricted permissions to **S3**.
 
 3. Fill out the form and click on the button **Save**.
 
-<img class="border" alt="Wasabi" src={useBaseUrl('img/admin-area/backups/wasabi.png')} />
+<img class="border" alt="Wasabi" src={useBaseUrl('img/admin-area/backups/wasabi.png?v=0.0.1')} />
 
 4. Click on the button **Create Button** top right to create the first backup, and go to **Wasabi** to check if it's working as expected.
 
@@ -77,11 +77,11 @@ with restricted permissions to **S3**.
 
 The **Space Endpoint** can be found in your **Space Settings** in your **Digital Ocean Account**.
 
-<img class="border" alt="Digital Ocean Spaces" src={useBaseUrl('img/admin-area/backups/digital-ocean-spaces.png')} />
+<img class="border" alt="Digital Ocean Spaces" src={useBaseUrl('img/admin-area/backups/digital-ocean-spaces.png?v=0.0.1')} />
 
 4. Click on the button **Create Button** top right to create the first backup, and go to **Spaces** to check if it's working as expected.
 
-<img class="border" alt="Digital Ocean Spaces - Create Backup" src={useBaseUrl('img/admin-area/backups/digital-ocean-spaces-create-backup.png')} />
+<img class="border" alt="Digital Ocean Spaces - Create Backup" src={useBaseUrl('img/admin-area/backups/digital-ocean-spaces-create-backup.png?v=0.0.1')} />
 
 </TabItem>
 <TabItem value="dropbox">
@@ -94,11 +94,11 @@ All backups are stored in **Apps/CloudPanel/** in your **Dropbox**.
 
 1. Click on **Request Access Code** to authorize access to your **Dropbox**.
 
-<img class="border" alt="Dropbox" src={useBaseUrl('img/admin-area/backups/dropbox.png')} />
+<img class="border" alt="Dropbox" src={useBaseUrl('img/admin-area/backups/dropbox.png?v=0.0.1')} />
 
 2. Click on the button **Create Button** top right to create the first backup, and check your **Dropbox** to see if everything is working as expected.
 
-<img class="border" alt="Dropbox - Create Backup" src={useBaseUrl('img/admin-area/backups/dropbox-create-backup.png')} />
+<img class="border" alt="Dropbox - Create Backup" src={useBaseUrl('img/admin-area/backups/dropbox-create-backup.png?v=0.0.1')} />
 
 </TabItem>
 <TabItem value="hetzner-storage-box">
@@ -107,7 +107,7 @@ All backups are stored in **Apps/CloudPanel/** in your **Dropbox**.
 
 2. Go to your [Storage Box](https://robot.your-server.de/storage) and enable **SSH Support**.
 
-<img class="border" alt="Hetzner Storage Box - Enable SSH" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-enable-ssh.png')} />
+<img class="border" alt="Hetzner Storage Box - Enable SSH" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-enable-ssh.png?v=0.0.1')} />
 
 3. Login via **SSH (Port 23)** to the **Storage Box**:
 
@@ -121,17 +121,17 @@ ssh u315698@u315698.your-storagebox.de -p23
 mkdir backups
 ```
 
-<img class="border" alt="Hetzner Storage Box - Create Backups Directory" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-create-backups-directory.png')} />
+<img class="border" alt="Hetzner Storage Box - Create Backups Directory" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-create-backups-directory.png?v=0.0.1')} />
 
 5. Go to **CloudPanel** and select **SFTP** as **Storage Provider**.
 
 6. Fill out the form, use Port **23** and **/home/backups**/ as **Remote Server Path**.
 
-<img class="border" alt="Hetzner Storage Box - Fill Form Fields" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-form.png')} />
+<img class="border" alt="Hetzner Storage Box - Fill Form Fields" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-form.png?v=0.0.1')} />
 
 7. Click on the button **Create Button** top right to create the first backup, and check your **Storage Box** to see if everything is working as expected.
 
-<img class="border" alt="Hetzner Storage Box - Create Backup" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-create-backup.png')} />
+<img class="border" alt="Hetzner Storage Box - Create Backup" src={useBaseUrl('img/admin-area/backups/hetzner-storage-box-create-backup.png?v=0.0.1')} />
 
 
 </TabItem>
@@ -145,11 +145,11 @@ mkdir backups
 
 2. Fill out the form and click on the button **Save**.
 
-<img class="border" alt="Google Drive" src={useBaseUrl('img/admin-area/backups/google-drive.png')} />
+<img class="border" alt="Google Drive" src={useBaseUrl('img/admin-area/backups/google-drive.png?v=0.0.1')} />
 
 3. Click on the button **Create Button** top right to create the first backup, and check your **Google Drive** to see if everything is working as expected.
 
-<img class="border" alt="Google Drive - Create Backup" src={useBaseUrl('img/admin-area/backups/google-drive-create-backup.png')} />
+<img class="border" alt="Google Drive - Create Backup" src={useBaseUrl('img/admin-area/backups/google-drive-create-backup.png?v=0.0.1')} />
 
 </TabItem>
 <TabItem value="sftp">
@@ -166,11 +166,11 @@ If you use the **Key Authentification Method**, generate a strong key pair with 
 
 2. Fill out the form and click on the button **Save**.
 
-<img class="border" alt="SFTP" src={useBaseUrl('img/admin-area/backups/sftp.png')} />
+<img class="border" alt="SFTP" src={useBaseUrl('img/admin-area/backups/sftp.png?v=0.0.1')} />
 
 3. Click on the button **Create Button** top right to create the first backup, and check your **SFTP Server** to see if everything is working as expected.
 
-<img class="border" alt="SFTP - Create Backup" src={useBaseUrl('img/admin-area/backups/sftp-create-backup.png')} />
+<img class="border" alt="SFTP - Create Backup" src={useBaseUrl('img/admin-area/backups/sftp-create-backup.png?v=0.0.1')} />
 
 </TabItem>
 <TabItem value="custom-rclone-config">
