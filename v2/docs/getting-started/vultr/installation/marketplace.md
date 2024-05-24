@@ -25,12 +25,12 @@ values={[
 ]}>
 <TabItem value="ubuntu-24.04">
 
-  [![Deploy CloudPanel Instance](/img/getting-started/vultr/deploy-cloudpanel-instance-one-click.png)](https://www.vultr.com/marketplace/apps/cloudpanel2-ubuntu)
+  [![Deploy CloudPanel Instance](/img/getting-started/vultr/deploy-cloudpanel-instance-one-click.png)](https://my.vultr.com/deploy?marketplace_app=cloudpanel2-ubuntu&marketplace_vendor_username=cloudpanel)
 
 </TabItem>
 <TabItem value="debian-12">
 
-[![Deploy CloudPanel Instance](/img/getting-started/vultr/deploy-cloudpanel-instance-one-click.png)](https://www.vultr.com/marketplace/apps/cloudpanel2-debian)
+[![Deploy CloudPanel Instance](/img/getting-started/vultr/deploy-cloudpanel-instance-one-click.png)](https://my.vultr.com/deploy?marketplace_app=cloudpanel2-debian&marketplace_vendor_username=cloudpanel)
 
 </TabItem>
 </Tabs>
