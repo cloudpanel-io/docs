@@ -18,14 +18,14 @@ On this site, you find a guide to install [Yii](https://www.yiiframework.com/) o
 
 2. Select the Application **Yii 2**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Yii Site" src={useBaseUrl('img/php/applications/yii/create-site-form.png')} />
+<img class="border" alt="Create a Yii Site" src={useBaseUrl('img/php/applications/yii/create-site-form.png?v=0.0.1')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Yii Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=7.4 --vhostTemplate='Yii 2' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Yii 2' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Yii Project
@@ -45,9 +45,9 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Yii Project** via **Composer**:
 
 ```bash
-php7.4 /usr/local/bin/composer create-project --prefer-dist yiisoft/yii2-app-basic www.domain.com
+php8.3 /usr/local/bin/composer create-project --prefer-dist yiisoft/yii2-app-basic www.domain.com
 ```
 
 4. Done! **Yii** has been installed.
 
-<img class="border" alt="Welcome to Yii Site" src={useBaseUrl('img/php/applications/yii/yii-installed.png')} />
+<img class="border" alt="Welcome to Yii Site" src={useBaseUrl('img/php/applications/yii/yii-installed.png?v=0.0.1')} />
