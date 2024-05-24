@@ -17,8 +17,8 @@ The installation takes less than one minute.
 
 2. Enter the **Domain Name**, **Site Title**, **Admin User Name**, **Admin Password**, and **Admin E-Mail** and click on **Create**.
 
-<img class="border" alt="Add WordPress Site Form" src={useBaseUrl('img/php/applications/wordpress/add-site-form.png')} />
+<img class="border" alt="Add WordPress Site Form" src={useBaseUrl('img/php/applications/wordpress/add-site-form.png?v=0.0.1')} />
 
 3. Done. The **WordPress Site** has been created.
 
-<img class="border" alt="WordPress Installed" src={useBaseUrl('img/php/applications/wordpress/wordpress-installed.png')} />
+<img class="border" alt="WordPress Installed" src={useBaseUrl('img/php/applications/wordpress/wordpress-installed.png?v=0.0.1')} />
