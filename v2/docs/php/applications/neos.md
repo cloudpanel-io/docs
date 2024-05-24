@@ -18,14 +18,14 @@ On this site, you find a guide to install [Neos](https://www.neos.io/) on **Clou
 
 2. Select the Application **Neos 8**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Neos Site" src={useBaseUrl('img/php/applications/neos/create-site-form.png')} />
+<img class="border" alt="Create a Neos Site" src={useBaseUrl('img/php/applications/neos/create-site-form.png?v=0.0.1')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Neos Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Neos 8' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Neos 8' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Neos Project
@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Neos Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project neos/neos-base-distribution:~8 www.domain.com
+php8.3 /usr/local/bin/composer create-project neos/neos-base-distribution:~8 www.domain.com
 ```
 
 4. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Neos Installer**.
