@@ -18,14 +18,14 @@ On this site, you find a guide to install [Shopware](https://www.shopware.com/) 
 
 2. Select the Application **Shopware 6**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Shopware Site" src={useBaseUrl('img/php/applications/shopware/create-site-form.png?v=2')} />
+<img class="border" alt="Create a Shopware Site" src={useBaseUrl('img/php/applications/shopware/create-site-form.png?v=0.0.1')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Shopware Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Shopware 6' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Shopware 6' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Shopware Project
@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Symfony Project** via **Composer**:
 
 ```bash
-php8.2 /usr/local/bin/composer create-project shopware/production www.domain.com
+php8.3 /usr/local/bin/composer create-project shopware/production www.domain.com
 ```
 
 4. Ensure to have a valid [TLS Certificate](../../../frontend-area/tls/) installed for your domain.
