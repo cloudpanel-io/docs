@@ -18,14 +18,14 @@ On this site, you find a guide to install [Laminas](https://getlaminas.org/) on 
 
 2. Select the Application **Laminas**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Laminas Site" src={useBaseUrl('img/php/applications/laminas/create-site-form.png')} />
+<img class="border" alt="Create a Laminas Site" src={useBaseUrl('img/php/applications/laminas/create-site-form.png?v=0.0.1')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Laminas Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Laminas' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Laminas' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Laminas Project
@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Laminas Project** via **Composer**:
 
 ```bash
-php8.2 /usr/local/bin/composer create-project -s dev laminas/laminas-mvc-skeleton www.domain.com
+php8.3 /usr/local/bin/composer create-project -s dev laminas/laminas-mvc-skeleton www.domain.com
 ```
 
 4. Done! You can now open your **site** in your browser to see the **welcome page**.
