@@ -16,16 +16,16 @@ On this site, you find a guide to install [Matomo](https://matomo.org/) on **Clo
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **Matomo 4**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Matomo 5**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Matomo Site" src={useBaseUrl('img/php/applications/matomo/create-site-form.png')} />
+<img class="border" alt="Create a Matomo Site" src={useBaseUrl('img/php/applications/matomo/create-site-form.png?v=0.0.1')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Matomo Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate='Matomo 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate='Matomo 5' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Matomo Project
@@ -42,7 +42,7 @@ ssh john-doe@server-ip-address
 cd ~/tmp
 ```
 
-3. Download and extract the latest **Matomo 4** version.
+3. Download and extract the latest **Matomo 5** version.
 
 ```
 curl -sL https://builds.matomo.org/matomo-latest.tar.gz | tar xfz -
