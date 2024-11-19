@@ -44,7 +44,7 @@ In the **PHP Settings**, you can change the **PHP Version** and change other set
 The most common settings can be modified to your needs, but you can overwrite them in the <br />
 **Additional Configuration Directives** if you need to change other parameter values.
 
-<img alt="PHP Settings" class="border" src={useBaseUrl('img/frontend-area/settings/php-settings.png?v=0.0.1')} />
+<img alt="PHP Settings" class="border" src={useBaseUrl('img/frontend-area/settings/php-settings.png?v=0.0.2')} />
 
 </TabItem>
 <TabItem value="nodejs-settings">

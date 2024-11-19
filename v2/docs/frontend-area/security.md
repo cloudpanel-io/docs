@@ -10,14 +10,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 To block an **IP**, click on the tab **Security** and on the button **Add IP** top right.
 
-<img alt="IP Blocking" class="border" src={useBaseUrl('img/frontend-area/security/ip-blocking.png?v=0.0.1')} />
+<img alt="IP Blocking" class="border" src={useBaseUrl('img/frontend-area/security/ip-blocking.png?v=0.0.2')} />
 
 The IP to block can be entered as **ipv4** or **ipv6** format. Click on the button **Add IP** to save.
 
 **Examples:**
 
 - **8.8.8.8** (ipv4)
-- **192.168.0.1/32** (ipv4 CIDR Format)
 - **2400:6180:100:d0::99b:5001** (ipv6)
 
 ## Bots Blocking

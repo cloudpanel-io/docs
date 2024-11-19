@@ -39,7 +39,7 @@ When you enter the **Domain Name** with **www**, a redirection from non-www to w
 All **HTTP** requests are redirected to **HTTPS** by default.
 :::
 
-<img alt="New PHP Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-php-site.png?v=0.0.1')} />
+<img alt="New PHP Site" class="border" src={useBaseUrl('img/frontend-area/add-site/create-php-site.png?v=0.0.2')} />
 
 2. Click on **Create** to create the **PHP Site**.
 
