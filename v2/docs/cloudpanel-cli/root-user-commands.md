@@ -139,7 +139,7 @@ The **vhost templates** can be found on [Github](https://github.com/cloudpanel-i
 Copy the name of the template and use the following command to create a **PHP Site**:
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Generic' --siteUser=john --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='Generic' --siteUser=john --siteUserPassword='!secretPassword!'
 ```
 
 ### Adding a Python Site
@@ -263,7 +263,7 @@ If you need a custom **Vhost Template** for your **PHP Application**, you can do
 1. Copy a vhost template from our [Github Repository](https://github.com/cloudpanel-io/vhost-templates/tree/master/v2), e.g., the [Generic](https://raw.githubusercontent.com/cloudpanel-io/vhost-templates/master/v2/Generic/Generic) one:
 
 ```bash
-#{"rootDirectory":"public","phpVersion":"8.1"}
+#{"rootDirectory":"public","phpVersion":"8.4"}
 server {
   listen 80;
   listen [::]:80;
@@ -319,7 +319,7 @@ server {
 2. In the first line, you see the following command:
 
 ```bash
-#{"rootDirectory":"public","phpVersion":"8.1"}
+#{"rootDirectory":"public","phpVersion":"8.4"}
 ```
 
 Setting the **rootDirectory** and **phpVersion** is very important to prefill the site wizard form. <br />
