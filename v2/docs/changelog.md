@@ -4,6 +4,33 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.5.0 - [2024-11-25]
+**New**
+ - PHP 8.4 Support
+ - MariaDB 11.4 Support
+ - Translations: Hungarian, Slovak, Thai
+
+**Bug Fixes**
+- [#471 username error](https://github.com/cloudpanel-io/cloudpanel-ce/issues/471)
+- [#476 Shebang incorrect in /usr/bin/clpctl](https://github.com/cloudpanel-io/cloudpanel-ce/issues/476)
+- [#484 Unexpected brackets at the beginning of files](https://github.com/cloudpanel-io/cloudpanel-ce/issues/484)
+- [#500 Custom cron commands are not working](https://github.com/cloudpanel-io/cloudpanel-ce/issues/500)
+- [#505 Web based File Manager does not upload files](https://github.com/cloudpanel-io/cloudpanel-ce/issues/505)
+- [#511 .well-known directory deleted after certificate renew](https://github.com/cloudpanel-io/cloudpanel-ce/issues/511)
+- [#527 Unable to login with site user via ssh key when ftp user is created (Thanks to ccMatrix)](https://github.com/cloudpanel-io/cloudpanel-ce/issues/527)
+- [#530 File permissions revert to 0770 after file modification](https://github.com/cloudpanel-io/cloudpanel-ce/issues/530)
+- [#535 "Additional Configuration Directives" doesn't allow for spaces in value](https://github.com/cloudpanel-io/cloudpanel-ce/issues/535)
+- [#540 S3 backup - Region - Middle East (UAE) me-central-1 missing](https://github.com/cloudpanel-io/cloudpanel-ce/issues/540)
+- Translation Fixes
+
+**Enhancements:**
+- New AWS regions for S3 remote backup
+
+**Security:**
+- Privilege Escalation from clpctlWrapper command (Yell Phone Naing) (HIGH)
+- Privilege Escalation: Site User Access Allows Linux Password Changes (HIGH) (Yell Phone Naing)
+- Server IP disclosure despite using Cloudflare (Yell Phone Naing)
+
 ## v2.4.2 - [2024-05-21]
 **New**
  - Debian 12 and Ubuntu 24.04 with [HTTP/3](../frontend-area/vhost/#http3) Support
