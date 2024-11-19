@@ -135,6 +135,7 @@ apt update && apt -y upgrade && apt -y install curl wget sudo
 defaultValue="ubuntu-mysql-8.0"
 values={[
 { label: 'MySQL 8.0', value: 'ubuntu-mysql-8.0', },
+{ label: 'MariaDB 11.4', value: 'ubuntu-mariadb-11.4', },
 { label: 'MariaDB 10.11', value: 'ubuntu-mariadb-10.11', },
 ]}>
 <TabItem value="ubuntu-mysql-8.0">
@@ -143,6 +144,15 @@ values={[
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
 echo "2aefee646f988877a31198e0d84ed30e2ef7a454857b606608a1f0b8eb6ec6b6 install.sh" | \
 sha256sum -c && sudo CLOUD=gce bash install.sh
+```
+
+</TabItem>
+<TabItem value="ubuntu-mariadb-11.4">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2aefee646f988877a31198e0d84ed30e2ef7a454857b606608a1f0b8eb6ec6b6 install.sh" | \
+sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_11.4 bash install.sh
 ```
 
 </TabItem>
@@ -189,6 +199,7 @@ apt update && apt -y upgrade && apt -y install curl wget sudo
 defaultValue="ubuntu-mysql-8.0"
 values={[
 { label: 'MySQL 8.0', value: 'ubuntu-mysql-8.0', },
+{ label: 'MariaDB 11.4', value: 'ubuntu-mariadb-11.4', },
 { label: 'MariaDB 10.11', value: 'ubuntu-mariadb-10.11', },
 { label: 'MariaDB 10.6', value: 'ubuntu-mariadb-10.6', },
 ]}>
@@ -198,6 +209,15 @@ values={[
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
 echo "2aefee646f988877a31198e0d84ed30e2ef7a454857b606608a1f0b8eb6ec6b6 install.sh" | \
 sha256sum -c && sudo CLOUD=gce bash install.sh
+```
+
+</TabItem>
+<TabItem value="ubuntu-mariadb-11.4">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2aefee646f988877a31198e0d84ed30e2ef7a454857b606608a1f0b8eb6ec6b6 install.sh" | \
+sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_11.4 bash install.sh
 ```
 
 </TabItem>
@@ -253,6 +273,7 @@ apt update && apt -y upgrade && apt -y install curl wget sudo
 defaultValue="debian-mysql-8.0"
 values={[
 { label: 'MySQL 8.0', value: 'debian-mysql-8.0', },
+{ label: 'MariaDB 11.4', value: 'debian-mariadb-11.4', },
 { label: 'MariaDB 10.11', value: 'debian-mariadb-10.11', },
 ]}>
 <TabItem value="debian-mysql-8.0">
@@ -261,6 +282,15 @@ values={[
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
 echo "2aefee646f988877a31198e0d84ed30e2ef7a454857b606608a1f0b8eb6ec6b6 install.sh" | \
 sha256sum -c && sudo CLOUD=gce bash install.sh
+```
+
+</TabItem>
+<TabItem value="debian-mariadb-11.4">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2aefee646f988877a31198e0d84ed30e2ef7a454857b606608a1f0b8eb6ec6b6 install.sh" | \
+sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_11.4 bash install.sh
 ```
 
 </TabItem>
@@ -309,6 +339,7 @@ defaultValue="debian-mysql-8.0"
 values={[
 { label: 'MySQL 8.0', value: 'debian-mysql-8.0', },
 { label: 'MySQL 5.7', value: 'debian-mysql-5.7', },
+{ label: 'MariaDB 11.4', value: 'debian-mariadb-11.4', },
 { label: 'MariaDB 10.11', value: 'debian-mariadb-10.11', },
 { label: 'MariaDB 10.6', value: 'debian-mariadb-10.6', },
 ]}>
@@ -327,6 +358,15 @@ sha256sum -c && sudo CLOUD=gce bash install.sh
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
 echo "2aefee646f988877a31198e0d84ed30e2ef7a454857b606608a1f0b8eb6ec6b6 install.sh" | \
 sha256sum -c && sudo CLOUD=gce DB_ENGINE=MYSQL_5.7 bash install.sh
+```
+
+</TabItem>
+<TabItem value="debian-mariadb-11.4">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "2aefee646f988877a31198e0d84ed30e2ef7a454857b606608a1f0b8eb6ec6b6 install.sh" | \
+sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_11.4 bash install.sh
 ```
 
 </TabItem>
