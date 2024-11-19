@@ -109,10 +109,10 @@ sudo nano /etc/hosts
 </TabItem>
 </Tabs>
 
-7. Open your browser and do a final testing of **https://www.domain.com**.
+5. Open your browser and do a final testing of **https://www.domain.com**.
 
-8. Change the DNS records for **domain.com** and **www.domain.com** to the server ip.
+6. Change the DNS records for **domain.com** and **www.domain.com** to the server ip.
 
-9. Disable [Basic Authentication](../../../../frontend-area/security/#basic-authentication).
+7. Disable [Basic Authentication](../../../../frontend-area/security/#basic-authentication).
 
-10. Remove the **host file entry** from **step 6**.
+8.  Remove the **host file entry** from **step 6**.
