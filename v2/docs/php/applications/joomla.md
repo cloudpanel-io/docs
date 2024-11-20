@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the [latest Joomla 5](https://downloads.joomla.org/latest) version.
 
 ```
-mkdir ~/tmp/joomla && curl -Lso joomla.tar.gz https://downloads.joomla.org/cms/joomla5/5-1-0/Joomla_5-1-0-Stable-Full_Package.tar.gz?format=gz && gunzip joomla.tar.gz && tar xfz joomla.tar -C ~/tmp/joomla/
+mkdir ~/tmp/joomla && curl -Lso joomla.tar.gz https://downloads.joomla.org/cms/joomla5/5-2-1/Joomla_5-2-1-Stable-Full_Package.tar.gz?format=gz && gunzip joomla.tar.gz && tar xf joomla.tar -C ~/tmp/joomla/
 ```
 
 4. Copy files to the **root directory** of your site:
@@ -64,4 +64,4 @@ rm -rf ~/tmp/*
 
 7. Done! **Joomla** is now installed. 
 
-<img class="border" alt="Joomla is now installed" src={useBaseUrl('img/php/applications/joomla/joomla-installed.png?v=0.0.1')} />
+<img class="border" alt="Joomla is now installed" src={useBaseUrl('img/php/applications/joomla/joomla-installed.png?v=0.0.2')} />
