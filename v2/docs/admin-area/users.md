@@ -31,11 +31,11 @@ To add a new **User** do the following steps:
 
 1. In the left menu, click on **Users** and click on the button **Add User**.
 
-<img class="border" alt="Users" src={useBaseUrl('img/admin-area/users/users.png?v=0.0.1')} />
+<img class="border" alt="Users" src={useBaseUrl('img/admin-area/users/users.png?v=0.0.2')} />
 
 2. Fill the form and click on the button **Add User**.
 
-<img class="border" alt="Add User" src={useBaseUrl('img/admin-area/users/add_user.png?v=0.0.1')} />
+<img class="border" alt="Add User" src={useBaseUrl('img/admin-area/users/add_user.png?v=0.0.2')} />
 
 :::important Timezone
 The **Timezone** is essential for showing the right time in the monitoring graphs on the dashboard in the frontend area.
@@ -46,8 +46,8 @@ The **Timezone** is essential for showing the right time in the monitoring graph
 
 1. In the left menu, click on **Users** and click on the **User Name** you want to delete.
 
-<img class="border" alt="Add User" src={useBaseUrl('img/admin-area/users/user_list.png?v=0.0.1')} />
+<img class="border" alt="Add User" src={useBaseUrl('img/admin-area/users/user_list.png?v=0.0.2')} />
 
 2. To delete the user, click on the button **Delete** bottom left.
 
-<img class="border" alt="Add User" src={useBaseUrl('img/admin-area/users/delete_user.png?v=0.0.1')} />
+<img class="border" alt="Add User" src={useBaseUrl('img/admin-area/users/delete_user.png?v=0.0.2')} />

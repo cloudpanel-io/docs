@@ -19,7 +19,7 @@ On [Github](https://github.com/cloudpanel-io/vhost-templates/tree/master/v2), yo
 ## HTTP/3
 
 :::warning HTTP/3 support 
-**Ubuntu 24.04** and **Debian 12** are being shipped with **nginx 1.26.0**, which has experimental support for **HTTP/3**. <br />
+**Ubuntu 24.04** and **Debian 12** are being shipped with **nginx 1.26**, which has experimental support for **HTTP/3**. <br />
 If you are using a custom firewall, make sure to have **UDP Port 443** open, as it's required for **HTTP/3**. <br />
 **HTTP/3** requires a valid **SSL/TLS Certificate** and does not work with a self-signed certificate.
 :::
