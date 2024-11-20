@@ -25,7 +25,7 @@ On this site, you find a guide to install [Mautic](https://www.mautic.org/) on *
 If you like the command line, you can create a **Mautic Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.0 --vhostTemplate='Mautic 5' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Mautic 5' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Mautic Project
@@ -47,7 +47,7 @@ cd htdocs && rm -rf www.domain.com
 4. Clone the latest version from the [Mautic Git Repository](https://github.com/mautic/mautic):
 
 ```
-git clone -b 5.0.2 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
+git clone -b 5.1.1 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
 ```
 
 :::caution Latest Version
@@ -58,7 +58,7 @@ You find the latest version on github: [https://github.com/mautic/mautic/release
 
 ```bash
 cd ~/htdocs/www.domain.com/
-php8.0 /usr/local/bin/composer install
+php8.2 /usr/local/bin/composer install
 ```
 
 6. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Mautic Installer**.

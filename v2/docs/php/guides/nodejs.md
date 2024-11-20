@@ -19,7 +19,7 @@ ssh john-doe@server-ip-address
 2. Install [nvm](https://github.com/nvm-sh/nvm) with the following command:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 3. Update the current shell environment:
