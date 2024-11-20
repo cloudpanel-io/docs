@@ -45,9 +45,9 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **CodeIgniter Project** via **Composer**:
 
 ```bash
-php8.1 /usr/local/bin/composer create-project codeigniter4/appstarter www.domain.com
+php8.2 /usr/local/bin/composer create-project codeigniter4/appstarter www.domain.com
 ```
 
 4. **Done!** You can now open your site in your browser to see the **Welcome to CodeIgniter** page.
 
-<img class="border" alt="Welcome to CodeIgniter" src={useBaseUrl('img/php/applications/codeigniter/welcome-to-codeigniter.png')} />
+<img class="border" alt="Welcome to CodeIgniter" src={useBaseUrl('img/php/applications/codeigniter/welcome-to-codeigniter.png?v=0.0.2')} />

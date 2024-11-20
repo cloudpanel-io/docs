@@ -106,14 +106,14 @@ clpctl lets-encrypt:install:certificate --domainName=www.domain.com --subjectAlt
 
 ### Adding a Node.js site
 
-**Node 20 LTS**, **Node 18 LTS**, **Node 16 LTS**, **Node 14 LTS**, **Node 12 LTS** are available. The **Node.js Versions** are managed via [Node Version Manager](https://github.com/nvm-sh/nvm).
+**Node 22 LTS**, **Node 20 LTS**, **Node 18 LTS**, **Node 16 LTS**, **Node 14 LTS**, **Node 12 LTS** are available. The **Node.js Versions** are managed via [Node Version Manager](https://github.com/nvm-sh/nvm).
 
 If you need another version, you can change the version afterward.
 
 To add a **Node.js Site**, use the following command.
 
 ```bash
-clpctl site:add:nodejs --domainName=www.domain.com --nodejsVersion=18 --appPort=3000 --siteUser=john --siteUserPassword='!secretPassword!'
+clpctl site:add:nodejs --domainName=www.domain.com --nodejsVersion=22 --appPort=3000 --siteUser=john --siteUserPassword='!secretPassword!'
 ```
 
 ### Adding a Static HTML Site

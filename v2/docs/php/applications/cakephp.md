@@ -50,4 +50,4 @@ php8.2 /usr/local/bin/composer create-project --prefer-dist cakephp/app:~5.0 www
 
 4. **Done!** You can now open your site in your browser to see the **Welcome to CakePHP 5** page.
 
-<img class="border" alt="Welcome to CakePHP" src={useBaseUrl('img/php/applications/cakephp/welcome-to-cake.png?v=0.0.2')} />
+<img class="border" alt="Welcome to CakePHP" src={useBaseUrl('img/php/applications/cakephp/welcome-to-cake.png?v=0.0.3')} />
