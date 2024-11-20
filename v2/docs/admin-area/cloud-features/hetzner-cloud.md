@@ -14,7 +14,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 For the communication with the **Hetzner Cloud** interface, you need to enter an **API Token**.
 
-<img class="border" alt="Hetzner Cloud Settings" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/settings.png?v=0.0.1')} />
+<img class="border" alt="Hetzner Cloud Settings" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/settings.png?v=0.0.2')} />
 
 To create an **API Token**, do the following steps:
 
@@ -22,7 +22,7 @@ To create an **API Token**, do the following steps:
 
 2. In the left menu, click on **Security** and then **Generate API Token**. 
 
-<img class="border" alt="Generate API Token" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/generate-api-token.png?v=0.0.1')} />
+<img class="border" alt="Generate API Token" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/generate-api-token.png?v=0.0.2')} />
 
 Enter a description e.g., **CloudPanel** and give **Read & Write** permissions.
 
@@ -30,7 +30,7 @@ Enter a description e.g., **CloudPanel** and give **Read & Write** permissions.
 
 1. To enable **Automatic Snapshots**, click in the left menu on **Hetzner** and then on the tab **Settings**.
 
-<img class="border" alt="Enable Automatic Snapshots" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/enable-automatic-snapshots.png?v=0.0.1')} />
+<img class="border" alt="Enable Automatic Snapshots" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/enable-automatic-snapshots.png?v=0.0.2')} />
 
 2. Select the **Frequency** and **Retention Period** and click on the button **Save**.
 
@@ -47,12 +47,12 @@ The **server** will not be stopped when taking a snapshot; modern file systems a
 
 2. Click on the button **Create Snapshot** top right.
 
-<img class="border" alt="Create Snapshot" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/create-snapshot-1.png?v=0.0.1')} />
+<img class="border" alt="Create Snapshot" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/create-snapshot-1.png?v=0.0.2')} />
 
 3. Enter the **Snapshot Name** and click on **Create**.
 
-<img class="border" alt="Create Image" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/create-snapshot-2.png?v=0.0.1')} />
+<img class="border" alt="Create Image" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/create-snapshot-2.png?v=0.0.2')} />
 
 4. The **Snapshot** is now being created by the **Hetzner Cloud**.
 
-<img class="border" alt="Snapshot Created" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/snapshot-created.png?v=0.0.1')} />
+<img class="border" alt="Snapshot Created" src={useBaseUrl('img/admin-area/cloud-features/hetzner-cloud/snapshot-created.png?v=0.0.2')} />
