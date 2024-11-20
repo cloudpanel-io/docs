@@ -18,7 +18,7 @@ On this site, you find a guide to install [Mautic](https://www.mautic.org/) on *
 
 2. Select the Application **Mautic 5**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Mautic Site" src={useBaseUrl('img/php/applications/mautic/create-site-form.png?v=0.0.3')} />
+<img class="border" alt="Create a Mautic Site" src={useBaseUrl('img/php/applications/mautic/create-site-form.png?v=0.0.4')} />
 
 ### Via CloudPanel CLI
 
@@ -54,7 +54,7 @@ git clone -b 5.1.1 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
 You find the latest version on github: [https://github.com/mautic/mautic/releases](https://github.com/mautic/mautic/releases)
 :::
 
-5. Install the **project** via **Composer**:
+5.Install the **project** via **Composer**:
 
 ```bash
 cd ~/htdocs/www.domain.com/
