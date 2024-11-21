@@ -15,7 +15,7 @@ To get the **best server performance** for your money, run the benchmark script 
 We are using the [Yet-Another-Bench-Script](https://github.com/masonr/yet-another-bench-script) to benchmark the server performance.
 
 :::warning Blank Server
-To benchmark the **server performance**, spin up a blank server with **Ubuntu 22.04** or **Debian 11** and execute the script below.
+To benchmark the **server performance**, spin up a blank server with **Ubuntu 24.04** or **Debian 12** and execute the script below.
 :::
 
 ### How to run
@@ -32,9 +32,9 @@ ssh root@instance-ip-address
 curl -sL yabs.sh | bash -s -- -i
 ```
 
-3. Check and compare the **Geekbench 5 Benchmark Test Result**:
+3. Check and compare the **Geekbench 6 Benchmark Test Result**:
 
-<img alt="Select Storage Provider" src={useBaseUrl('img/guides/best-practices/performance/server-benchmarks/geekbench-benchmark-result.png')} />
+<img alt="Select Storage Provider" src={useBaseUrl('img/guides/best-practices/performance/server-benchmarks/geekbench-benchmark-result.png?v=0.0.2')} />
 
 ## The 10 Fastest Server Types
 
@@ -44,14 +44,14 @@ The **Single-Core Performance** is important for **Node.js and PHP Applications*
 
 |         | Infrastructure Provider | Server Type                                                              | Architecture | Single Core                                               | Monthly Price                                                               |
 |:--------|:------------------------|:-------------------------------------------------------------------------|:-------------|:----------------------------------------------------------|:----------------------------------------------------------------------------|
-| **1.**  | Amazon Web Services     | c7i.large (2 vCPU, 4 GB RAM), <br /> **Intel(R) Xeon(R) Platinum 8488C** | **X86_64**   | [**1974**](https://browser.geekbench.com/v6/cpu/8970305)  | [~ 43 € RI](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) |
-| **2.**  | Amazon Web Services     | m8g.large (2 vCPU, 8 GB RAM), <br /> **AWS Graviton 4**                  | **ARM64**    | [**1913**](https://browser.geekbench.com/v6/cpu/8970151)  | [~ 43 € RI](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) |
-| **3.**  | Hetzner Cloud           | CCX13 (2 vCPU, 8 GB RAM), <br /> **AMD EPYC**                            | **X86_64**   | [**1855**](https://browser.geekbench.com/v6/cpu/8970901)  | [~ 12 €](https://www.hetzner.com/cloud#pricing)                             |
-| **4.**  | Amazon Web Services     | c8g.large (2 vCPU, 8 GB RAM), <br /> **AWS Graviton 4**                  | **ARM64**    | [**1798**](https://browser.geekbench.com/v6/cpu/8970993)  | [~ 38 € RI](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) |
-| **5.**  | Hetzner Cloud           | CPX11 (2 vCPU, 2 GB RAM), <br /> **AMD EPYC**                    | **X86_64**   | [**1251**](https://browser.geekbench.com/v6/cpu/8970895)  | [~ 5 €](https://www.hetzner.com/cloud#pricing)                              |
-| **6.**  | VULTR                   | CPU Optimized (2 vCPU, 4 GB RAM), <br /> **AMD EPYC-Rome**               | **X86_64**   | [**1168**](https://browser.geekbench.com/v5/cpu/16960835) | [~ 40 €](https://www.vultr.com/products/optimized-cloud-compute/)           |
-| **7.**  | VULTR                   | Cloud High Frequency (2 vCPU, 2 GB RAM), **Intel Skylake Core**          | **X86_64**   | [**1152**](https://browser.geekbench.com/v5/cpu/16968212) | [~ 18 €](https://www.vultr.com/pricing/#cloud-compute/)                     
-| **8.**  | Amazon Web Services     | c6a.large (2 vCPU, 4 GB RAM), <br /> **AMD EPYC 7R13**                   | **X86_64**   | [**1134**](https://browser.geekbench.com/v5/cpu/16964163) | [~ 37 € RI](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) | |
+| **1.**  | Amazon Web Services     | c7a.large (2 vCPU, 4 GB RAM), <br /> **AMD EPYC**                        | **X86_64**   | [**2004**](https://browser.geekbench.com/v6/cpu/8988256)  | [~ 50 € RI](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) |
+| **2.**  | VULTR                   | CPU Compute - Dedicated (2 vCPU, 4 GB RAM), <br /> **AMD EPYC-Milan**    | **X86_64**   | [**1960**](https://browser.geekbench.com/v6/cpu/8988721)  | [~ 40 €](https://www.vultr.com/pricing/#cloud-compute)                      |
+| **3.**  | Amazon Web Services     | c7i.large (2 vCPU, 4 GB RAM), <br /> **Intel(R) Xeon(R) Platinum 8488C** | **X86_64**   | [**1974**](https://browser.geekbench.com/v6/cpu/8970305)  | [~ 43 € RI](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) |
+| **4.**  | Amazon Web Services     | m8g.large (2 vCPU, 8 GB RAM), <br /> **AWS Graviton 4**                  | **ARM64**    | [**1913**](https://browser.geekbench.com/v6/cpu/8970151)  | [~ 43 € RI](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) |
+| **5.**  | Hetzner Cloud           | CCX13 (2 vCPU, 8 GB RAM), <br /> **AMD EPYC**                            | **X86_64**   | [**1855**](https://browser.geekbench.com/v6/cpu/8970901)  | [~ 12 €](https://www.hetzner.com/cloud#pricing)                             |
+| **6.**  | Amazon Web Services     | c8g.large (2 vCPU, 8 GB RAM), <br /> **AWS Graviton 4**                  | **ARM64**    | [**1798**](https://browser.geekbench.com/v6/cpu/8970993)  | [~ 38 € RI](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) |
+| **7.**  | VULTR                   | CPU Compute - Shared (1 vCPU, 2 GB RAM), <br /> **AMD EPYC-Rome**       | **X86_64**   | [**1406**](https://browser.geekbench.com/v6/cpu/8989093)  | [~ 12 €](https://www.vultr.com/pricing/#cloud-compute)                      |
+| **8.**  | Hetzner Cloud           | CPX11 (2 vCPU, 2 GB RAM), <br /> **AMD EPYC**                            | **X86_64**   | [**1251**](https://browser.geekbench.com/v6/cpu/8970895)  | [~ 5 €](https://www.hetzner.com/cloud#pricing)                              |
 | **9.**  | Digital Ocean           | CPU Optimized (2 vCPU, 4 GB RAM), <br /> **Intel Xeon Platinum 8358**    | **X86_64**   | [**1103**](https://browser.geekbench.com/v5/cpu/16960567) | [~ 42 €](https://www.digitalocean.com/products/droplets)                    |
 | **10.** | Digital Ocean           | Basic Premium Intel (2 vCPU, 2 GB RAM), <br /> **Do-Premium-Intel**      | **X86_64**   | [**1003**](https://browser.geekbench.com/v5/cpu/16960667) | [~ 21 €](https://www.digitalocean.com/products/droplets)                    |
 
