@@ -14,7 +14,7 @@ With the plugin [**CLP Varnish Cache Plugin**](https://wordpress.org/plugins/clp
 
 1. Login into **WordPress** and click in the admin area in the left menu on **Plugins** --> **Add New** and search for **CLP Varnish Cache**.
 
-<img alt="Search CLP Varnish Cache Plugin for WordPress" src={useBaseUrl('img/frontend-area/varnish-cache/wordpress/search-plugin.png')} />
+<img alt="Search CLP Varnish Cache Plugin for WordPress" src={useBaseUrl('img/frontend-area/varnish-cache/wordpress/search-plugin.png?v=0.0.1')} />
 
 2. Click on the button **Install Now** and then on **Activate** to finish the installation.
 
