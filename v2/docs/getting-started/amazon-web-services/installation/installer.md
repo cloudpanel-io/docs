@@ -16,42 +16,42 @@ On this page, we explain step by step how to install **CloudPanel** on an EC2 in
 
 2. Go to the **EC2 Service**, and click on **Launch Instances**.
 
-<img class="border" alt="Click on the Launch Instances Button" src={useBaseUrl('img/getting-started/amazon-web-services/click-on-launch-instance-button.png')} />
+<img class="border" alt="Click on the Launch Instances Button" src={useBaseUrl('img/getting-started/amazon-web-services/click-on-launch-instance-button.png?v=0.0.1')} />
 
 ### Name and tags
 
 Enter the name of your **EC2 Instance**, e.g., **my-cloudpanel-instance**.
 
-<img class="border" alt="Name and Tags" src={useBaseUrl('img/getting-started/amazon-web-services/name-and-tags.png')} />
+<img alt="Name and Tags" src={useBaseUrl('img/getting-started/amazon-web-services/name-and-tags.png?v=0.0.2')} />
 
 ### Choose Operating System
 
 1. Select **Ubuntu 24.04 or 22.04** or **Debian 12 or 11** as **OS Image**. <br />
 Both **Architectures** **x86** and **ARM** are supported by **CloudPanel**.
 
-<img class="border" alt="OS Image" src={useBaseUrl('img/getting-started/amazon-web-services/os-image.png?v=1')} />
+<img alt="OS Image" src={useBaseUrl('img/getting-started/amazon-web-services/os-image.png?v=0.0.2')} />
 
 ### Instance Type
 
 Choose an **instance type** and ensure that it fits the [minimum requirements](../../../../requirements).
 
-<img alt="Instance Type" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/instance-type.png?v=1')} />
+<img alt="Instance Type" src={useBaseUrl('img/getting-started/amazon-web-services/instance-type.png?v=1')} />
 
 ### Key pair (login)
 
 Select a **Key pair** or [Create a new key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html?icmpid=docs_ec2_console) to log in via **SSH** after launching the **instance**.
 
-<img alt="Key Pair" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/key-pair.png')} />
+<img alt="Key Pair" src={useBaseUrl('img/getting-started/amazon-web-services/key-pair.png?v=0.0.2')} />
 
 ### Network settings
 
 1. Click on **Edit** to make changes on the **Network Settings**.
 
-<img alt="Edit Network Settings" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-edit.png')} />
+<img alt="Edit Network Settings" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-edit.png?v=0.0.2')} />
 
 2. Select the **VPC**, **Subnet**, and enter a **Security Group Name** and **Description**.
 
-<img alt="Edit Network Settings" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-security-group-name.png')} />
+<img alt="Edit Network Settings" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-security-group-name.png?v=0.0.2')} />
 
 #### Inbound security groups rules
 
@@ -69,19 +69,19 @@ Create a **Security Group** with the following rules:
 - **UDP (443)** - For everyone (Required for HTTP3)
 - **CloudPanel (8443)** - For your IP only
 
-<img alt="Inbound security groups rules" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-inbound-rules.png')} />
+<img alt="Inbound security groups rules" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/network-settings-inbound-rules.png?v=0.0.2')} />
 
 ### Configure Storage
 
 Configure as minimum **10 GB** disk size and select **gp3** (Latest SSD generation).
 
-<img alt="Configure Storage" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/installer-configure-storage.png')} />
+<img alt="Configure Storage" src={useBaseUrl('img/getting-started/amazon-web-services/installer-configure-storage.png?v=0.0.2')} />
 
 ### Launch Instance
 
 Click on the button **Launch Instance** to launch the **instance**.
 
-<img alt="Launch Instance" class="border" src={useBaseUrl('img/getting-started/amazon-web-services/launch-instance.png')} />
+<img alt="Launch Instance" src={useBaseUrl('img/getting-started/amazon-web-services/launch-instance.png?v=0.0.2')} />
 
 ## Create Elastic IP Address
 
