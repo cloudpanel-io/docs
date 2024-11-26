@@ -4,7 +4,7 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
-## v2.5.0 - [2024-11-25]
+## v2.5.0 - [2024-11-26]
 **New**
  - PHP 8.4 Support
  - MariaDB 11.4 Support
