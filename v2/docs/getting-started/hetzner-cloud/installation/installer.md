@@ -22,7 +22,7 @@ On this page, we explain step by step how to install **CloudPanel** on [Hetzner 
 
 Choose the **Server Location** where you want to run your **Server**.
 
-<img class="border" alt="Create s Server" src={useBaseUrl('img/getting-started/hetzner-cloud/select-location.png?v=0.0.1')} />
+<img class="border" alt="Create s Server" src={useBaseUrl('img/getting-started/hetzner-cloud/select-location.png?v=0.0.2')} />
 
 ### OS Image
 

@@ -35,17 +35,17 @@ values={[
 
 </Tabs>
 
+### Choose Region
+
+Choose the **Region** where you want to run your **Droplet**.
+
+<img class="border" alt="Datacenter Region" src={useBaseUrl('img/getting-started/digital-ocean/datacenter-region.png')} />
+
 ### Droplet Size
 
 Choose the size of your **Droplet**, e.g., **Premium AMD with NVMe SSD**.
 
 <img class="border" alt="Droplet Size" src={useBaseUrl('img/getting-started/digital-ocean/droplet-size.png')} />
-
-### Datacenter Region
-
-Choose the **Datacenter Region** where you want to run your **Droplet**.
-
-<img class="border" alt="Datacenter Region" src={useBaseUrl('img/getting-started/digital-ocean/datacenter-region.png')} />
 
 ### Authentication Method
 
@@ -70,7 +70,7 @@ To create a **Reserved IP**, do the following steps:
 
 2. Select your **Droplet** and click on the button **Assign Reserved IP**.
 
-<img class="border" alt="Assigning a Reserved IP" src={useBaseUrl('img/getting-started/digital-ocean/assigning-a-reserved-ip.png')} />
+<img class="border" alt="Assigning a Reserved IP" src={useBaseUrl('img/getting-started/digital-ocean/assigning-a-reserved-ip.png?v=0.0.1')} />
 
 ## Access CloudPanel
 
