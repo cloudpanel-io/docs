@@ -50,9 +50,9 @@ On this page, we explain step by step how to install **CloudPanel** on [Oracle C
 
 ### Image and Shape
 
-Change the image to **Ubuntu 22.04** or **Debian 11** and select your **Shape**.
+Change the image to **Ubuntu 24.04** or **Debian 12** and select your **Shape**.
 
-<img class="border" alt="Change shape to Ubuntu 22.04 or Debian 11" src={useBaseUrl('img/getting-started/oracle-cloud/select-image.png')} />
+<img class="border" alt="Change shape to Ubuntu 24.04 or Debian 12" src={useBaseUrl('img/getting-started/oracle-cloud/select-image.png?v=0.0.1')} />
 
 ### Networking
 
@@ -75,7 +75,7 @@ Click on **Create** to provision the instance, it may take some minutes.
 After launching the **Instance**, log in with **SSH** and run the installer script.
 
 <Tabs
-defaultValue="ubuntu-22.04"
+defaultValue="ubuntu-24.04"
 values={[
 { label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
 { label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
@@ -84,7 +84,63 @@ values={[
 ]}>
 <TabItem value="ubuntu-24.04">
 
-Not yet supported by the **Oracle Cloud**.
+
+1. Login via **SSH** to the **Instance**.
+
+```bash
+ssh -i path_to_your_private_key ubuntu@serverIpAddress
+```
+
+2. Switch from the user **ubuntu** to **root**:
+
+```bash
+sudo su root
+```
+
+3. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo cron
+```
+
+4. Run the installer with your preferred **Database Engine**.
+
+
+<Tabs
+defaultValue="ubuntu-mysql-8.0"
+values={[
+{ label: 'MySQL 8.0', value: 'ubuntu-mysql-8.0', },
+{ label: 'MariaDB 11.4', value: 'ubuntu-mariadb-11.4', },
+{ label: 'MariaDB 10.11', value: 'ubuntu-mariadb-10.11', },
+]}>
+<TabItem value="ubuntu-mysql-8.0">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "a3ba69a8102345127b4ae0e28cfe89daca675cbc63cd39225133cdd2fa02ad36 install.sh" | \
+sha256sum -c && sudo CLOUD=oci bash install.sh
+```
+
+</TabItem>
+<TabItem value="ubuntu-mariadb-11.4">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "a3ba69a8102345127b4ae0e28cfe89daca675cbc63cd39225133cdd2fa02ad36 install.sh" | \
+sha256sum -c && sudo CLOUD=oci DB_ENGINE=MARIADB_11.4 bash install.sh
+```
+
+</TabItem>
+<TabItem value="ubuntu-mariadb-10.11">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "a3ba69a8102345127b4ae0e28cfe89daca675cbc63cd39225133cdd2fa02ad36 install.sh" | \
+sha256sum -c && sudo CLOUD=oci DB_ENGINE=MARIADB_10.11 bash install.sh
+```
+
+</TabItem>
+</Tabs>
 
 </TabItem>
 
