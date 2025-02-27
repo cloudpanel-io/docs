@@ -4,6 +4,19 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.5.1 - [2025-03-03]
+**Bug Fixes**
+- [#542 Issue deleting subfolder named '0' causes browser freeze and deletes parent folder](https://github.com/cloudpanel-io/cloudpanel-ce/issues/542)
+- [#558 Incorrect file permissions on new sites](https://github.com/cloudpanel-io/cloudpanel-ce/issues/558)
+- [#582 Cron refuses a command which contains 'admin'](https://github.com/cloudpanel-io/cloudpanel-ce/issues/582)
+- Translation Fixes
+
+**Enhancements:**
+- Updated phpMyAdmin to 5.2.1
+
+**Security:**
+- Security improvements (Yell Phone Naing)
+
 ## v2.5.0 - [2024-11-26]
 **New**
  - PHP 8.4 Support
