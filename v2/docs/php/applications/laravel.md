@@ -16,16 +16,16 @@ On this site, you find a guide to install [Laravel](https://laravel.com/) on **C
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **Laravel 11**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Laravel 12**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Laravel Site" src={useBaseUrl('img/php/applications/laravel/create-site-form.png?v=0.0.1')} />
+<img class="border" alt="Create a Laravel Site" src={useBaseUrl('img/php/applications/laravel/create-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Laravel Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Laravel 11' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='Laravel 12' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Laravel Project
@@ -45,9 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Laravel Project** via **Composer**:
 
 ```bash
-php8.3 /usr/local/bin/composer create-project --prefer-dist laravel/laravel:^11 -n www.domain.com
+php8.4 /usr/local/bin/composer create-project --prefer-dist laravel/laravel:^12 -n www.domain.com
 ```
 
 4. Done! You can now open your **site** in your browser to see the **welcome page**.
-
-<img class="border" alt="Laravel Installed" src={useBaseUrl('img/php/applications/laravel/laravel-installed.png?v=0.0.1')} />
