@@ -16,7 +16,7 @@ On this site, you find a guide to install [Joomla](https://www.joomla.org/) on *
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png?v=0.0.1')} />
 
-2. Select the Application **Joomla 4**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Joomla 5**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
 <img class="border" alt="Create a Joomla Site" src={useBaseUrl('img/php/applications/joomla/create-site-form.png?v=0.0.1')} />
 
@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the [latest Joomla 5](https://downloads.joomla.org/latest) version.
 
 ```
-mkdir ~/tmp/joomla && curl -Lso joomla.tar.gz https://downloads.joomla.org/cms/joomla5/5-2-1/Joomla_5-2-1-Stable-Full_Package.tar.gz?format=gz && gunzip joomla.tar.gz && tar xf joomla.tar -C ~/tmp/joomla/
+mkdir ~/tmp/joomla && curl -Lso joomla.tar.gz https://downloads.joomla.org/cms/joomla5/5-2-4/Joomla_5-2-4-Stable-Full_Package.tar.gz?format=gz && gunzip joomla.tar.gz && tar xf joomla.tar -C ~/tmp/joomla/
 ```
 
 4. Copy files to the **root directory** of your site:

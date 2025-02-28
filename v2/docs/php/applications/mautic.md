@@ -47,7 +47,7 @@ cd htdocs && rm -rf www.domain.com
 4. Clone the latest version from the [Mautic Git Repository](https://github.com/mautic/mautic):
 
 ```
-git clone -b 5.1.1 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
+git clone -b 5.2.3 https://github.com/mautic/mautic.git ~/htdocs/www.domain.com/
 ```
 
 :::caution Latest Version
@@ -63,8 +63,8 @@ php8.2 /usr/local/bin/composer install
 
 6. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Mautic Installer**.
 
-<img class="border" alt="Mautic Installer" src={useBaseUrl('img/php/applications/mautic/mautic-installer.png')} />
+<img class="border" alt="Mautic Installer" src={useBaseUrl('img/php/applications/mautic/mautic-installer.png?v=0.0.4')} />
 
 7. Done. **Mautic** has been installed.
 
-<img class="border" alt="Mautic Installed" src={useBaseUrl('img/php/applications/mautic/mautic-installed.png?v=0.0.3')} />
+<img class="border" alt="Mautic Installed" src={useBaseUrl('img/php/applications/mautic/mautic-installed.png?v=0.0.4')} />
