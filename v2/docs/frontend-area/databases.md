@@ -171,5 +171,5 @@ Copy the **Connect Command** to get connected to your **database server**.
 
 ## Remote Database Access
 
-For a remote connection to your **database**, go to [Firewall](../admin-area/security#adding-a-rule) in the **Admin Area** and whitelist your IP for the MySQL port **3306** in the **Firewall**.
+For a remote connection to your **database**, go to [Firewall](../../admin-area/security#adding-a-rule) in the **Admin Area** and whitelist your IP for the MySQL port **3306** in the **Firewall**.
 
