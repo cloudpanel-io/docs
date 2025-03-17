@@ -50,11 +50,9 @@ module.exports = {
               ]
             },
             {
-              type: 'category',
+              type: 'link',
               label: 'Hostinger',
-              items: [
-                'getting-started/hostinger/installation/wizard',
-              ]
+              href: 'https://www.hostinger.com/vps/cloudpanel-hosting',
             },
             {
               type: 'category',
