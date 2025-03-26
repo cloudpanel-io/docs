@@ -51,7 +51,7 @@ curl -sLo nextcloud.zip https://download.nextcloud.com/server/releases/latest.zi
 4. Copy files to the **root directory** of your site:
 
 ```
-cp -R nextcloud/nextcloud/* ~/htdocs/www.domain.com/
+cp -R nextcloud/nextcloud/{*,.*} ~/htdocs/www.domain.com/
 ```
 
 5. Clean up the **tmp** directory.
