@@ -43,6 +43,11 @@ module.exports = {
               ]
             },
             {
+              type: 'link',
+              label: 'Donweb Cloud',
+              href: 'https://donweb.com/es-int/cloud-cloudpanel-hosting',
+            },
+            {
               type: 'category',
               label: 'Hetzner Cloud',
               items: [

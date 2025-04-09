@@ -16,6 +16,7 @@ Quick launch support for:
 
 - [Amazon Web Services](../getting-started/amazon-web-services/installation/ami/)
 - [Digital Ocean](../getting-started/digital-ocean/installation/marketplace/)
+- [Donweb Cloud](https://donweb.com/es-int/cloud-cloudpanel-hosting)
 - [Hetzner Cloud](../getting-started/hetzner-cloud/installation/installer/)
 - [Hostinger](https://www.hostinger.com/vps/cloudpanel-hosting)
 - [Google Compute Engine](../getting-started/google-compute-engine/installation/installer/)

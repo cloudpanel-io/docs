@@ -8,6 +8,7 @@ Choose a favorite **cloud platform** or **dedicated server** and run **CloudPane
 
 - [Installation on Amazon Web Services](../getting-started/amazon-web-services/installation/ami/)
 - [Installation on Digital Ocean](../getting-started/digital-ocean/installation/marketplace/)
+- [Installation on Donweb Cloud](https://donweb.com/es-int/cloud-cloudpanel-hosting)
 - [Installation on Hetzner Cloud](../getting-started/hetzner-cloud/installation/installer/)
 - [Installation on Hostinger](https://www.hostinger.com/vps/cloudpanel-hosting)
 - [Installation on Google Compute Engine](../getting-started/google-compute-engine/installation/installer/)
