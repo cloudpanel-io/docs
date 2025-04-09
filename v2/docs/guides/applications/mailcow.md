@@ -117,7 +117,7 @@ To access **Mailcow** via our domain **https://mail.domain.com**, we create a [R
 
 2. Go to your **Reverse Proxy** and issue an [SSL/TLS Certificate](../../../frontend-area/tls/).
 
-3. Done. You can now login [https://mail.domain.com](https://mail.domain.com) with the username **admin** and password **moohoo**.
+3. Done. You can now login [https://mail.domain.com/admin](https://mail.domain.com/admin) with the username **admin** and password **moohoo**.
 
 <img alt="Mailcow Login" src={useBaseUrl('img/guides/applications/mailcow/mailcow-login.png')} />
 
