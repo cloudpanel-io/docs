@@ -10,9 +10,12 @@ On this site, you find a guide to install [Magento 2](https://business.adobe.com
 
 ## Prerequirements
 
-**Magento 2** requires to have [Elasticsearch 8.x](https://www.elastic.co/guide/en/elasticsearch/reference/8.11/deb.html) installed.
+**Magento 2** requires either **Elasticsearch 8.x** or **OpenSearch 2.x** to be installed.
 
-Follow the guide [https://www.elastic.co/guide/en/elasticsearch/reference/8.11/deb.html](https://www.elastic.co/guide/en/elasticsearch/reference/7.9/deb.html) to learn how to install **Elasticsearch 8.x*.
+For detailed instructions on how to install one of these search engines, click on the respective links below:
+
+- [**Elasticsearch 8.x**](https://www.elastic.co/guide/en/elasticsearch/reference/7.9/deb.html)
+- [**OpenSearch 2.x**](https://opensearch.org/docs/latest/install-and-configure/install-opensearch/debian/#install-opensearch-from-an-apt-repository)
 
 ## Creating a Magento Site
 
@@ -24,14 +27,14 @@ Follow the guide [https://www.elastic.co/guide/en/elasticsearch/reference/8.11/d
 
 2. Select the Application **Magento 2**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Magento Site" src={useBaseUrl('img/php/applications/magento/create-site-form.png?v=0.0.3')} />
+<img class="border" alt="Create a Magento Site" src={useBaseUrl('img/php/applications/magento/create-site-form.png?v=0.0.4')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Magento Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Magento 2' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='Magento 2' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Magento 2 Project
@@ -55,7 +58,7 @@ Get [Magento Authentication Keys](https://devdocs.magento.com/guides/v2.3/instal
 :::
 
 ```bash
-php8.3 /usr/local/bin/composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition www.domain.com
+php8.4 /usr/local/bin/composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition www.domain.com
 ```
 
 4. [Create a Database](../../../frontend-area/databases/#adding-a-database) and copy the **Database Name**, **Database User Name**, and **Database User Password**.
@@ -71,7 +74,7 @@ Edit the parameters like **key**, **db-host**, **db-name** to your needs.
 :::
 
 ```bash
-php8.3 bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='magento2' --db-user='magento2' --db-password='magento2' --base-url='https://www.domain.com/' --base-url-secure='https://www.domain.com/' --admin-user='admin' --admin-password='!admin123!' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe'
+php8.4 bin/magento setup:install --backend-frontname='admin' --key='18Av6ITivOZG3gwY1DhMDWtlLfx1spLP' --session-save='files' --db-host='127.0.0.1' --db-name='magento2' --db-user='magento2' --db-password='magento2' --base-url='https://www.domain.com/' --base-url-secure='https://www.domain.com/' --admin-user='admin' --admin-password='!admin123!' --admin-email='john@doe.com' --admin-firstname='John' --admin-lastname='Doe'
 ```
 
 6. Done. **Magento 2** has been installed.

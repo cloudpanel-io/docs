@@ -23,18 +23,18 @@ To enable **ionCube Loader** for a specific **PHP Version**, you need to enable 
 1. Open the **php.ini** for the **CLI** and **FPM**:
 
 ```
-nano /etc/php/8.3/cli/php.ini
-nano /etc/php/8.3/fpm/php.ini
+nano /etc/php/8.4/cli/php.ini
+nano /etc/php/8.4/fpm/php.ini
 ```
 
 2. Go to the end of the file and remove the semicolon in the beginning.
 
 ```
-;zend_extension=ioncube_loader_lin_8.3.so
+;zend_extension=ioncube_loader_lin_8.4.so
 ```
 
 3. Restart the **PHP-FPM** service:
 
 ```
-systemctl restart php8.3-fpm
+systemctl restart php8.4-fpm
 ```
