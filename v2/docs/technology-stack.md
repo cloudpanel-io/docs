@@ -24,7 +24,7 @@ values={[
 
 | Service                                    | Version(s)                 |                             |
 |:-------------------------------------------|:---------------------------|:----------------------------|
-| [NGINX](https://nginx.org)                 | **1.26**                   | HTTP3 with PageSpeed Module |
+| [NGINX](https://nginx.org)                 | **1.28**                   | HTTP3 with PageSpeed Module |
 | [MySQL](https://www.mysql.com/)            | **8.0**                    |                             |
 | [MariaDB](https://mariadb.org/)            | **10.11**, **11.4**        |                             |
 | [PHP](https://www.php.net)                 | **7.1-8.4**                |                             |
@@ -39,9 +39,9 @@ values={[
 
 | Service                                       | Version(s)                 |                             |
 |:----------------------------------------------|:---------------------------|:----------------------------|
-| [NGINX](https://nginx.org)            | **1.26**                   | HTTP3 with PageSpeed Module |
+| [NGINX](https://nginx.org)            | **1.28**                   | HTTP3 with PageSpeed Module |
 | [MySQL](https://www.mysql.com/)            | **8.0**                    |                             |
-| [MariaDB](https://mariadb.org/)          | **10.11**, **11.4**       |                             |
+| [MariaDB](https://mariadb.org/)          | **10.11**, **11.4**        |                             |
 | [PHP](https://www.php.net)              | **7.1-8.4**                |                             |
 | [Redis](https://redis.io)            | **7**                      |                             |
 | [ProFTPD](http://www.proftpd.org)          | **1.3**                    |                             |
