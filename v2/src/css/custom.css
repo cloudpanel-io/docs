@@ -221,3 +221,7 @@ table thead tr {
 .btn-blue:hover {
   color: #ffffff;
 }
+
+a[href="https://www.mgt.io/"] {
+  color: #f9265c;
+}

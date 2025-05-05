@@ -18,6 +18,11 @@ module.exports = {
       ],
     },
     {
+      type: 'link',
+      label: 'Managed CloudPanel Hosting',
+      href: 'https://www.mgt.io/',
+    },
+    {
       type: 'category',
       label: 'Getting Started',
       items: [
