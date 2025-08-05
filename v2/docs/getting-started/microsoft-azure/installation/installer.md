@@ -123,12 +123,22 @@ apt update && apt -y upgrade && apt -y install curl wget sudo
 4. Run the installer with your preferred **Database Engine**.
 
 <Tabs
-defaultValue="ubuntu-mysql-8.0"
+defaultValue="ubuntu-mysql-8.4"
 values={[
+{ label: 'MySQL 8.4', value: 'ubuntu-mysql-8.4', },
 { label: 'MySQL 8.0', value: 'ubuntu-mysql-8.0', },
 { label: 'MariaDB 11.4', value: 'ubuntu-mariadb-11.4', },
 { label: 'MariaDB 10.11', value: 'ubuntu-mariadb-10.11', },
 ]}>
+<TabItem value="ubuntu-mysql-8.4">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "a3ba69a8102345127b4ae0e28cfe89daca675cbc63cd39225133cdd2fa02ad36 install.sh" | \
+sha256sum -c && sudo CLOUD=msa DB_ENGINE=MYSQL_8.4 bash install.sh
+```
+
+</TabItem>
 <TabItem value="ubuntu-mysql-8.0">
 
 ```bash
@@ -254,12 +264,22 @@ apt update && apt -y upgrade && apt -y install curl wget sudo
 4. Run the installer with your preferred **Database Engine**.
 
 <Tabs
-defaultValue="debian-mysql-8.0"
+defaultValue="debian-mysql-8.4"
 values={[
+{ label: 'MySQL 8.4', value: 'debian-mysql-8.4', },
 { label: 'MySQL 8.0', value: 'debian-mysql-8.0', },
 { label: 'MariaDB 11.4', value: 'debian-mariadb-11.4', },
 { label: 'MariaDB 10.11', value: 'debian-mariadb-10.11', },
 ]}>
+<TabItem value="debian-mysql-8.4">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "a3ba69a8102345127b4ae0e28cfe89daca675cbc63cd39225133cdd2fa02ad36 install.sh" | \
+sha256sum -c && sudo CLOUD=msa DB_ENGINE=MYSQL_8.4 bash install.sh
+```
+
+</TabItem>
 <TabItem value="debian-mysql-8.0">
 
 ```bash
