@@ -29,7 +29,7 @@ sidebar_label: Changelog
 - Translation Fixes
 
 **Enhancements:**
-- Updated phpMyAdmin to 5.2.1
+- Updated phpMyAdmin to 5.2.2
 
 **Security:**
 - Security improvements (Yell Phone Naing)
