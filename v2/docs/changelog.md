@@ -4,6 +4,23 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.5.2 - [2025-08-05]
+**New**
+- MySQL 8.4 Support
+- Translations: Finnish
+
+**Bug Fixes**
+- [#621 Manage link returns a 404 for .zip domains](https://github.com/cloudpanel-io/cloudpanel-ce/issues/621)
+- [#638 Amazon S3 Backup Permissions Bug](https://github.com/cloudpanel-io/cloudpanel-ce/issues/638)
+- [#661 File editing isn't working through File Manager in Cloudpanel UI](https://github.com/cloudpanel-io/cloudpanel-ce/issues/661)
+- [#662 Hetzner Snapshot creation issues](https://github.com/cloudpanel-io/cloudpanel-ce/issues/662)
+- [#669 Custom rule in Firewall adds ProFTPD rule at same time](https://github.com/cloudpanel-io/cloudpanel-ce/issues/669)
+- Translation Fixes
+
+**Security:**
+- CloudPanel's PHP-FPM Socket Misconfiguration (Aizat)
+- Security improvements (Yell Phone Naing)
+
 ## v2.5.1 - [2025-03-03]
 **Bug Fixes**
 - [#542 Issue deleting subfolder named '0' causes browser freeze and deletes parent folder](https://github.com/cloudpanel-io/cloudpanel-ce/issues/542)
