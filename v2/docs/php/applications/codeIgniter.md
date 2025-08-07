@@ -18,14 +18,14 @@ On this site, you find a guide to install [CodeIgniter](https://codeigniter.com/
 
 2. Select the Application **CodeIgniter 4**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a CodeIgniter Site" src={useBaseUrl('img/php/applications/codeigniter/create-site-form.png')} />
+<img class="border" alt="Create a CodeIgniter Site" src={useBaseUrl('img/php/applications/codeigniter/create-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **CodeIgniter Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='CodeIgniter 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='CodeIgniter 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a CodeIgniter Project
@@ -45,9 +45,9 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **CodeIgniter Project** via **Composer**:
 
 ```bash
-php8.2 /usr/local/bin/composer create-project codeigniter4/appstarter www.domain.com
+php8.4 /usr/local/bin/composer create-project codeigniter4/appstarter www.domain.com
 ```
 
 4. **Done!** You can now open your site in your browser to see the **Welcome to CodeIgniter** page.
 
-<img class="border" alt="Welcome to CodeIgniter" src={useBaseUrl('img/php/applications/codeigniter/welcome-to-codeigniter.png?v=0.0.2')} />
+<img class="border" alt="Welcome to CodeIgniter" src={useBaseUrl('img/php/applications/codeigniter/welcome-to-codeigniter.png?v=0.0.3')} />

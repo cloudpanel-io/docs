@@ -18,14 +18,14 @@ On this site, you find a guide to install [Drupal](https://www.drupal.org/) on *
 
 2. Select the Application **Drupal 11**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Drupal Site" src={useBaseUrl('img/php/applications/drupal/create-site-form.png?v=0.0.2')} />
+<img class="border" alt="Create a Drupal Site" src={useBaseUrl('img/php/applications/drupal/create-site-form.png?v=0.0.3')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Drupal Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Drupal 11' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='Drupal 11' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Drupal Project
@@ -45,12 +45,12 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **Drupal Project** via **Composer**:
 
 ```bash
-php8.3 /usr/local/bin/composer create-project drupal/recommended-project:^11 -n www.domain.com
+php8.4 /usr/local/bin/composer create-project drupal/recommended-project:^11 -n www.domain.com
 ```
 
 4. [Create a Database](../../../frontend-area/databases/#adding-a-database), open your **site** in the browser, and go through the **Drupal Installer**.
 
-<img alt="Drupal Installer" src={useBaseUrl('img/php/applications/drupal/drupal-installer.png?v=0.0.2')} />
+<img alt="Drupal Installer" src={useBaseUrl('img/php/applications/drupal/drupal-installer.png?v=0.0.3')} />
 
 5. Done! **Drupal** has been installed.
 

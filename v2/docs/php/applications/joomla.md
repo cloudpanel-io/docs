@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the [latest Joomla 5](https://downloads.joomla.org/latest) version.
 
 ```
-mkdir ~/tmp/joomla && curl -Lso joomla.tar.gz https://downloads.joomla.org/cms/joomla5/5-2-4/Joomla_5-2-4-Stable-Full_Package.tar.gz?format=gz && gunzip joomla.tar.gz && tar xf joomla.tar -C ~/tmp/joomla/
+mkdir ~/tmp/joomla && curl -Lso joomla.tar.gz https://downloads.joomla.org/cms/joomla5/5-3-2/Joomla_5-3-2-Stable-Full_Package.tar.gz?format=gz && gunzip joomla.tar.gz && tar xf joomla.tar -C ~/tmp/joomla/
 ```
 
 4. Copy files to the **root directory** of your site:

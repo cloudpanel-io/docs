@@ -16,7 +16,7 @@ On this site, you find a guide to install [Moodle](https://moodle.org/) on **Clo
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png')} />
 
-2. Select the Application **Moodle 4**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Moodle 5**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
 <img class="border" alt="Create a Moodle Site" src={useBaseUrl('img/php/applications/moodle/create-site-form.png?v=0.0.3')} />
 
@@ -25,7 +25,7 @@ On this site, you find a guide to install [Moodle](https://moodle.org/) on **Clo
 If you like the command line, you can create a **Moodle Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.1 --vhostTemplate='Moodle 4' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.2 --vhostTemplate='Moodle 5' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Moodle Project
@@ -45,7 +45,7 @@ cd ~/tmp
 3. Download and extract the latest [Moodle 4](https://download.moodle.org/releases/latest/) version.
 
 ```
-curl -sL https://download.moodle.org/download.php/direct/stable405/moodle-latest-405.tgz | tar xfz -
+curl -sL https://download.moodle.org/download.php/direct/stable500/moodle-latest-500.tgz | tar xfz -
 ```
 
 4. Copy files to the **root directory** of your site:
