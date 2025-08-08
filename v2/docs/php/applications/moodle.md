@@ -42,7 +42,7 @@ ssh john-doe@server-ip-address
 cd ~/tmp
 ```
 
-3. Download and extract the latest [Moodle 4](https://download.moodle.org/releases/latest/) version.
+3. Download and extract the latest [Moodle 5](https://download.moodle.org/releases/latest/) version.
 
 ```
 curl -sL https://download.moodle.org/download.php/direct/stable500/moodle-latest-500.tgz | tar xfz -
