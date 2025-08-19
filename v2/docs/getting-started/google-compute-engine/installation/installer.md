@@ -72,7 +72,7 @@ Click on the button **Create** to launch the **VM Instance**.
 
 1. To access **CloudPanel** later, we need to create a **Firewall Rule**.
 
-2. Click on **CREATE FIREWALL RULE** and create the following rule:
+2. Click on **CREATE FIREWALL RULE** (can be found under _VPC network_) and create the following rule:
 
 **Name:** allow-cloudpanel-all <br />
 **Targets:** Specified target tags <br />
