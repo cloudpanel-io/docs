@@ -39,6 +39,7 @@ defaultValue="ubuntu-24.04"
 values={[
 { label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
 { label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
+{ label: 'Debian 13 LTS', value: 'debian-13', },
 { label: 'Debian 12 LTS', value: 'debian-12', },
 { label: 'Debian 11 LTS', value: 'debian-11', },
 ]}>
@@ -139,6 +140,47 @@ sha256sum -c && sudo DB_ENGINE=MARIADB_10.11 bash install.sh
 curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
 echo "19cfa702e7936a79e47812ff57d9859175ea902c62a68b2c15ccd1ebaf36caeb install.sh" | \
 sha256sum -c && sudo DB_ENGINE=MARIADB_10.6 bash install.sh
+```
+
+</TabItem>
+</Tabs>
+
+</TabItem>
+
+
+<TabItem value="debian-13">
+
+Run the installer with your preferred **Database Engine**.
+
+<Tabs
+defaultValue="debian-mysql-8.0"
+values={[
+{ label: 'MySQL 8.4', value: 'debian-mysql-8.4', },
+{ label: 'MySQL 8.0', value: 'debian-mysql-8.0', },
+{ label: 'MariaDB 11.8', value: 'debian-mariadb-11.8', },
+]}>
+<TabItem value="debian-mysql-8.4">
+
+```bash
+Not yet available
+```
+
+</TabItem>
+<TabItem value="debian-mysql-8.0">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "19cfa702e7936a79e47812ff57d9859175ea902c62a68b2c15ccd1ebaf36caeb install.sh" | \
+sha256sum -c && sudo DB_ENGINE=MYSQL_8.0 bash install.sh
+```
+
+</TabItem>
+<TabItem value="debian-mariadb-11.8">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "19cfa702e7936a79e47812ff57d9859175ea902c62a68b2c15ccd1ebaf36caeb install.sh" | \
+sha256sum -c && sudo DB_ENGINE=MARIADB_11.8 bash install.sh
 ```
 
 </TabItem>

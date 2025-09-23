@@ -101,6 +101,7 @@ defaultValue="ubuntu-24.04"
 values={[
 { label: 'Ubuntu 24.04 LTS', value: 'ubuntu-24.04', },
 { label: 'Ubuntu 22.04 LTS', value: 'ubuntu-22.04', },
+{ label: 'Debian 13 LTS', value: 'debian-13', },
 { label: 'Debian 12 LTS', value: 'debian-12', },
 { label: 'Debian 11 LTS', value: 'debian-11', },
 ]}>
@@ -250,6 +251,69 @@ sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_10.6 bash install.sh
 
 </TabItem>
 </Tabs>
+</TabItem>
+
+<TabItem value="debian-13">
+
+1. Login via **SSH** to the **Instance**. <br />
+
+The **UserName** is either the **UserName** you specified when you [created the SSH key](https://cloud.google.com/compute/docs/connect/create-ssh-keys)
+or the one defined in your [Google Profile](https://cloud.google.com/compute/docs/connect/add-ssh-keys#os-login).
+
+Check the following site [https://cloud.google.com/compute/docs/connect/ssh-using-third-party-tools](https://cloud.google.com/compute/docs/connect/ssh-using-third-party-tools) for a step-by-step guide.
+
+```bash
+ssh -i path_to_your_private_key username@yourIpAddress
+```
+
+2. Switch to the **root** user:
+
+```bash
+sudo su root
+```
+
+3. Update the system and install the required packages.
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
+
+4. Run the installer with your preferred **Database Engine**.
+
+<Tabs
+defaultValue="debian-mysql-8.0"
+values={[
+{ label: 'MySQL 8.4', value: 'debian-mysql-8.4', },
+{ label: 'MySQL 8.0', value: 'debian-mysql-8.0', },
+{ label: 'MariaDB 11.8', value: 'debian-mariadb-11.8', },
+]}>
+<TabItem value="debian-mysql-8.4">
+
+```bash
+Not yet available
+```
+
+</TabItem>
+<TabItem value="debian-mysql-8.0">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "19cfa702e7936a79e47812ff57d9859175ea902c62a68b2c15ccd1ebaf36caeb install.sh" | \
+sha256sum -c && sudo CLOUD=gce DB_ENGINE=MYSQL_8.0 bash install.sh
+```
+
+</TabItem>
+<TabItem value="debian-mariadb-11.8">
+
+```bash
+curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
+echo "19cfa702e7936a79e47812ff57d9859175ea902c62a68b2c15ccd1ebaf36caeb install.sh" | \
+sha256sum -c && sudo CLOUD=gce DB_ENGINE=MARIADB_11.8 bash install.sh
+```
+
+</TabItem>
+</Tabs>
+
 </TabItem>
 
 <TabItem value="debian-12">
