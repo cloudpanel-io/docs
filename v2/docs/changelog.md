@@ -4,6 +4,22 @@ title: Changelog
 sidebar_label: Changelog
 ---
 
+## v2.5.3 - [2025-12-04]
+**New**
+- PHP 8.5 Support
+
+**Bug Fixes**
+- [#684 Cron Jobs interface do not accept a range of months](https://github.com/cloudpanel-io/cloudpanel-ce/issues/684)
+- [#693 Unfortunately, there are problems installing from the cloud on Debian 13.](https://github.com/cloudpanel-io/cloudpanel-ce/issues/693)
+- Translation Fixes
+
+**Enhancements:**
+- Updated phpMyAdmin to 5.2.3
+- Updated WP-CLI to 2.12.0
+
+**Security:**
+- Security improvements (Yell Phone Naing)
+
 ## v2.5.2 - [2025-08-05]
 **New**
 - MySQL 8.4 Support
