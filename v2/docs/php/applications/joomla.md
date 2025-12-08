@@ -16,16 +16,16 @@ On this site, you find a guide to install [Joomla](https://www.joomla.org/) on *
 
 <img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png?v=0.0.1')} />
 
-2. Select the Application **Joomla 5**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
+2. Select the Application **Joomla 6**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Joomla Site" src={useBaseUrl('img/php/applications/joomla/create-site-form.png?v=0.0.1')} />
+<img class="border" alt="Create a Joomla Site" src={useBaseUrl('img/php/applications/joomla/create-site-form.png?v=0.0.2')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Joomla Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Joomla 5' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.3 --vhostTemplate='Joomla 6' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Joomla Project
@@ -42,10 +42,10 @@ ssh john-doe@server-ip-address
 cd ~/tmp
 ```
 
-3. Download and extract the [latest Joomla 5](https://downloads.joomla.org/latest) version.
+3. Download and extract the [latest Joomla 6](https://downloads.joomla.org/latest) version.
 
 ```
-mkdir ~/tmp/joomla && curl -Lso joomla.tar.gz https://downloads.joomla.org/cms/joomla5/5-3-2/Joomla_5-3-2-Stable-Full_Package.tar.gz?format=gz && gunzip joomla.tar.gz && tar xf joomla.tar -C ~/tmp/joomla/
+mkdir ~/tmp/joomla && curl -Lso joomla.tar.gz https://downloads.joomla.org/cms/joomla6/6-0-1/Joomla_6-0-1-Stable-Full_Package.tar.gz?format=gz && gunzip joomla.tar.gz && tar xf joomla.tar -C ~/tmp/joomla/
 ```
 
 4. Copy files to the **root directory** of your site:
@@ -64,4 +64,4 @@ rm -rf ~/tmp/*
 
 7. Done! **Joomla** is now installed. 
 
-<img class="border" alt="Joomla is now installed" src={useBaseUrl('img/php/applications/joomla/joomla-installed.png?v=0.0.2')} />
+<img class="border" alt="Joomla is now installed" src={useBaseUrl('img/php/applications/joomla/joomla-installed.png?v=0.0.3')} />
