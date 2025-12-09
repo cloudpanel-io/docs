@@ -18,14 +18,14 @@ On this site, you find a guide to install [ownCloud](https://owncloud.com/) on *
 
 2. Select the Application **OwnCloud 10**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a OwnCloud Site" src={useBaseUrl('img/php/applications/owncloud/create-site-form.png')} />
+<img class="border" alt="Create a OwnCloud Site" src={useBaseUrl('img/php/applications/owncloud/create-site-form.png?v=0.0.1')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **OwnCloud Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=7.4 --vhostTemplate='OwnCloud 10' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=7.4 --vhostTemplate='OwnCloud 12' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a OwnCloud Project

@@ -14,18 +14,18 @@ On this site, you find a guide to install [TYPO3](https://typo3.org/) on **Cloud
 
 1. Click on **+ Add Site** and then click on **Create a PHP Site**.
 
-<img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png?v=13')} />
+<img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/create-php-site.png?v=14')} />
 
 2. Select the Application **TYPO3 v13**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a TYPO3 Site" src={useBaseUrl('img/php/applications/typo3/create-site-form.png?v=0.0.4')} />
+<img class="border" alt="Create a TYPO3 Site" src={useBaseUrl('img/php/applications/typo3/create-site-form.png?v=0.0.5')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **TYPO3 Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='TYPO3 13' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.5 --vhostTemplate='TYPO3 14' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a TYPO3 Project
@@ -45,7 +45,7 @@ cd htdocs && rm -rf www.domain.com
 3. Create a **TYPO3 Project** via **Composer**:
 
 ```bash
-php8.4 /usr/local/bin/composer create-project typo3/cms-base-distribution:~13 www.domain.com
+php8.5 /usr/local/bin/composer create-project typo3/cms-base-distribution:~14 www.domain.com
 ```
 
 4. Open your site in your browser and go through the **installation wizard**:

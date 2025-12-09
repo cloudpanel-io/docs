@@ -18,14 +18,14 @@ On this site, you find a guide to install [Nextcloud](https://nextcloud.com/) on
 
 2. Select the Application **Nextcloud 31**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a Nextcloud Site" src={useBaseUrl('img/php/applications/nextcloud/create-site-form.png?v=0.0.5')} />
+<img class="border" alt="Create a Nextcloud Site" src={useBaseUrl('img/php/applications/nextcloud/create-site-form.png?v=0.0.6')} />
 
 ### Via CloudPanel CLI
 
 If you like the command line, you can create a **Nextcloud Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='Nextcloud 31' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='Nextcloud 32' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Creating a Nextcloud Project

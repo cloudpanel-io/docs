@@ -18,7 +18,7 @@ On this site, you find a guide on setting up other **PHP Applications** with **C
 
 2. Select the Application **Generic**, enter **Domain Name**, **Site User**, **Site User Password**, and click on **Create**.
 
-<img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/other/create-site-form.png?v=0.0.4')} />
+<img class="border" alt="Create a PHP Site" src={useBaseUrl('img/php/applications/other/create-site-form.png?v=0.0.5')} />
 
 :::warning Root Directory
 After creating the site, you may need to change the [Root Directory](../../../frontend-area/settings/), for example, if your **PHP Application** is using **public** as entry point.
@@ -33,7 +33,7 @@ Add **/public** if your **PHP Application** is using the **public** directory as
 If you like the command line, you can create a **PHP Site** with the following command as **root user**.
 
 ```bash
-clpctl site:add:php --domainName=www.domain.com --phpVersion=8.4 --vhostTemplate='Generic' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
+clpctl site:add:php --domainName=www.domain.com --phpVersion=8.5 --vhostTemplate='Generic' --siteUser='john-doe' --siteUserPassword='!secretPassword!'
 ```
 
 ## Uploading Application Files
