@@ -19,7 +19,7 @@ ssh john-doe@server-ip-address
 2. Install [nvm](https://github.com/nvm-sh/nvm) with the following command:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
 3. Update the current shell environment:
@@ -28,16 +28,16 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 source ~/.bashrc
 ```
 
-4. Install your required **Node.js** version e.g. **22**:
+4. Install your required **Node.js** version e.g. **24**:
 
 ```bash
-nvm install 22
+nvm install 24
 ```
 
 5. Activate the installed **Node.js** version:
 
 ```bash
-nvm use 22
+nvm use 24
 ```
 
 6. Done! Check the **Node.js** version:
